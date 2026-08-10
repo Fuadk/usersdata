@@ -1,0 +1,1088 @@
+{
+	"LIB_Authors_FORM": {
+		"libauthorsLibAuthorsForm": {
+			"id": "Id",
+			"id_Hint": "Please enter Id",
+			"name": "Name",
+			"name_Hint": "Please enter Name",
+			"biography": "Biography",
+			"biography_Hint": "Please enter Biography",
+			"component_title": "Authors"
+		}
+	},
+	"LIB_Books_GRID": {
+		"libbooksLibBooksGrid": {
+			"id": "Id",
+			"id_Hint": "Please enter Id",
+			"title": "Title",
+			"title_Hint": "Please enter Title",
+			"author_id": "Author Id",
+			"author_id_Hint": "Please enter Author Id",
+			"publication_date": "Publication Date",
+			"publication_date_Hint": "Please enter Publication Date",
+			"component_title": "Books"
+		}
+	},
+	"lib_authors_books": {
+		"lib_authors_books": {
+			"component_title": "Authors Books"
+		}
+	},
+	"LIB_Books_FORM": {
+		"libbooksLibBooksForm": {
+			"id": "Id",
+			"id_Hint": "Please enter Id",
+			"title": "Title",
+			"title_Hint": "Please enter Title",
+			"author_id": "Author Id",
+			"author_id_Hint": "Please enter Author Id",
+			"publication_date": "Publication Date",
+			"publication_date_Hint": "Please enter Publication Date",
+			"component_title": "Books"
+		}
+	},
+	"LIB_BorrowedBooks_GRID": {
+		"libborrowedbooksLibBorrowedbooksGrid": {
+			"id": "Id",
+			"id_Hint": "Please enter Id",
+			"patron_id": "Patron Id",
+			"patron_id_Hint": "Please enter Patron Id",
+			"book_id": "Book Id",
+			"book_id_Hint": "Please enter Book Id",
+			"borrow_date": "Borrow Date",
+			"borrow_date_Hint": "Please enter Borrow Date",
+			"due_date": "Due Date",
+			"due_date_Hint": "Please enter Due Date",
+			"return_date": "Return Date",
+			"return_date_Hint": "Please enter Return Date",
+			"component_title": "Borrowedbooks"
+		}
+	},
+	"lib_books_borrowedbooks": {
+		"lib_books_borrowedbooks": {
+			"component_title": "Books Borrowedbooks"
+		}
+	},
+	"LIB_Patrons_FORM": {
+		"libpatronsLibPatronsForm": {
+			"id": "Id",
+			"id_Hint": "Please enter Id",
+			"name": "Name",
+			"name_Hint": "Please enter Name",
+			"email": "Email",
+			"email_Hint": "Please enter Email",
+			"phone_number": "Phone Number",
+			"phone_number_Hint": "Please enter Phone Number",
+			"component_title": "Patrons"
+		}
+	},
+	"lib_patrons_borrowedbooks": {
+		"lib_patrons_borrowedbooks": {
+			"component_title": "Patrons Borrowedbooks"
+		}
+	},
+	"LIB_Reservations_GRID": {
+		"libreservationsLibReservationsGrid": {
+			"id": "Id",
+			"id_Hint": "Please enter Id",
+			"patron_id": "Patron Id",
+			"patron_id_Hint": "Please enter Patron Id",
+			"book_id": "Book Id",
+			"book_id_Hint": "Please enter Book Id",
+			"reservation_date": "Reservation Date",
+			"reservation_date_Hint": "Please enter Reservation Date",
+			"component_title": "Reservations"
+		}
+	},
+	"lib_patrons_reservations": {
+		"lib_patrons_reservations": {
+			"component_title": "Patrons Reservations"
+		}
+	},
+	"lib_books_reservations": {
+		"lib_books_reservations": {
+			"component_title": "Books Reservations"
+		}
+	},
+	"LIB_authors_books": {
+		"LIB_authors_books": {
+			"component_title": "Authors Books",
+			"tab_title1": "Authors",
+			"tab_title2": "Books"
+		}
+	},
+	"LIB_books_borrowedbooks": {
+		"LIB_books_borrowedbooks": {
+			"component_title": "Books Borrowedbooks",
+			"tab_title1": "Books",
+			"tab_title2": "Borrowedbooks"
+		}
+	},
+	"LIB_books_reservations": {
+		"LIB_books_reservations": {
+			"component_title": "Books Reservations",
+			"tab_title1": "Books",
+			"tab_title2": "Reservations"
+		}
+	},
+	"LIB_patrons_borrowedbooks": {
+		"LIB_patrons_borrowedbooks": {
+			"component_title": "Patrons Borrowedbooks",
+			"tab_title1": "Patrons",
+			"tab_title2": "Borrowedbooks"
+		}
+	},
+	"LIB_patrons_reservations": {
+		"LIB_patrons_reservations": {
+			"component_title": "Patrons Reservations",
+			"tab_title1": "Patrons",
+			"tab_title2": "Reservations"
+		}
+	},
+	"MSC_Artists_FORM": {
+		"mscartistsMscArtistsForm": {
+			"artist_id": "Artist Id",
+			"artist_id_Hint": "Please enter Artist Id",
+			"name": "Name",
+			"name_Hint": "Please enter Name",
+			"biography": "Biography",
+			"biography_Hint": "Please enter Biography",
+			"component_title": "Artists"
+		}
+	},
+	"MSC_Albums_GRID": {
+		"mscalbumsMscAlbumsGrid": {
+			"album_id": "Album Id",
+			"album_id_Hint": "Please enter Album Id",
+			"title": "Title",
+			"title_Hint": "Please enter Title",
+			"artist_id": "Artist Id",
+			"artist_id_Hint": "Please enter Artist Id",
+			"release_date": "Release Date",
+			"release_date_Hint": "Please enter Release Date",
+			"inventory_level": "Inventory Level",
+			"inventory_level_Hint": "Please enter Inventory Level",
+			"component_title": "Albums"
+		}
+	},
+	"msc_artists_albums": {
+		"msc_artists_albums": {
+			"component_title": "Artists Albums"
+		}
+	},
+	"MSC_Customers_FORM": {
+		"msccustomersMscCustomersForm": {
+			"customer_id": "Customer Id",
+			"customer_id_Hint": "Please enter Customer Id",
+			"name": "Name",
+			"name_Hint": "Please enter Name",
+			"email": "Email",
+			"email_Hint": "Please enter Email",
+			"phone": "Phone",
+			"phone_Hint": "Please enter Phone",
+			"join_date": "Join Date",
+			"join_date_Hint": "Please enter Join Date",
+			"component_title": "Customers"
+		}
+	},
+	"MSC_Purchases_GRID": {
+		"mscpurchasesMscPurchasesGrid": {
+			"purchase_id": "Purchase Id",
+			"purchase_id_Hint": "Please enter Purchase Id",
+			"customer_id": "Customer Id",
+			"customer_id_Hint": "Please enter Customer Id",
+			"album_id": "Album Id",
+			"album_id_Hint": "Please enter Album Id",
+			"purchase_date": "Purchase Date",
+			"purchase_date_Hint": "Please enter Purchase Date",
+			"quantity": "Quantity",
+			"quantity_Hint": "Please enter Quantity",
+			"component_title": "Purchases"
+		}
+	},
+	"msc_customers_purchases": {
+		"msc_customers_purchases": {
+			"component_title": "Customers Purchases"
+		}
+	},
+	"MSC_artists_albums": {
+		"MSC_artists_albums": {
+			"component_title": "Artists Albums",
+			"tab_title1": "Artists",
+			"tab_title2": "Albums"
+		}
+	},
+	"MSC_customers_purchases": {
+		"MSC_customers_purchases": {
+			"component_title": "Customers Purchases",
+			"tab_title1": "Customers",
+			"tab_title2": "Purchases"
+		}
+	},
+	"MSC2_artists_FORM": {
+		"msc2artistsMsc2ArtistsForm": {
+			"artist_id": "Artist Id",
+			"artist_id_Hint": "Please enter Artist Id",
+			"name": "Name",
+			"name_Hint": "Please enter Name",
+			"biography": "Biography",
+			"biography_Hint": "Please enter Biography",
+			"component_title": "Artists"
+		}
+	},
+	"MSC2_albums_GRID": {
+		"msc2albumsMsc2AlbumsGrid": {
+			"album_id": "Album Id",
+			"album_id_Hint": "Please enter Album Id",
+			"title": "Title",
+			"title_Hint": "Please enter Title",
+			"artist_id": "Artist Id",
+			"artist_id_Hint": "Please enter Artist Id",
+			"inventory_level": "Inventory Level",
+			"inventory_level_Hint": "Please enter Inventory Level",
+			"price": "Price",
+			"price_Hint": "Please enter Price",
+			"release_date": "Release Date",
+			"release_date_Hint": "Please enter Release Date",
+			"component_title": "Albums"
+		}
+	},
+	"msc2_artists_albums": {
+		"msc2_artists_albums": {
+			"component_title": "Artists Albums"
+		}
+	},
+	"MSC2_customers_FORM": {
+		"msc2customersMsc2CustomersForm": {
+			"customer_id": "Customer Id",
+			"customer_id_Hint": "Please enter Customer Id",
+			"first_name": "First Name",
+			"first_name_Hint": "Please enter First Name",
+			"last_name": "Last Name",
+			"last_name_Hint": "Please enter Last Name",
+			"email": "Email",
+			"email_Hint": "Please enter Email",
+			"phone": "Phone",
+			"phone_Hint": "Please enter Phone",
+			"address": "Address",
+			"address_Hint": "Please enter Address",
+			"registration_date": "Registration Date",
+			"registration_date_Hint": "Please enter Registration Date",
+			"component_title": "Customers"
+		}
+	},
+	"MSC2_purchases_GRID": {
+		"msc2purchasesMsc2PurchasesGrid": {
+			"purchase_id": "Purchase Id",
+			"purchase_id_Hint": "Please enter Purchase Id",
+			"customer_id": "Customer Id",
+			"customer_id_Hint": "Please enter Customer Id",
+			"album_id": "Album Id",
+			"album_id_Hint": "Please enter Album Id",
+			"purchase_date": "Purchase Date",
+			"purchase_date_Hint": "Please enter Purchase Date",
+			"quantity": "Quantity",
+			"quantity_Hint": "Please enter Quantity",
+			"component_title": "Purchases"
+		}
+	},
+	"msc2_customers_purchases": {
+		"msc2_customers_purchases": {
+			"component_title": "Customers Purchases"
+		}
+	},
+	"MSC2_albums_FORM": {
+		"msc2albumsMsc2AlbumsForm": {
+			"album_id": "Album Id",
+			"album_id_Hint": "Please enter Album Id",
+			"title": "Title",
+			"title_Hint": "Please enter Title",
+			"artist_id": "Artist Id",
+			"artist_id_Hint": "Please enter Artist Id",
+			"inventory_level": "Inventory Level",
+			"inventory_level_Hint": "Please enter Inventory Level",
+			"price": "Price",
+			"price_Hint": "Please enter Price",
+			"release_date": "Release Date",
+			"release_date_Hint": "Please enter Release Date",
+			"component_title": "Albums"
+		}
+	},
+	"msc2_albums_purchases": {
+		"msc2_albums_purchases": {
+			"component_title": "Albums Purchases"
+		}
+	},
+	"MSC2_albums_purchases": {
+		"MSC2_albums_purchases": {
+			"component_title": "Albums Purchases",
+			"tab_title1": "Albums",
+			"tab_title2": "Purchases"
+		}
+	},
+	"MSC2_artists_albums": {
+		"MSC2_artists_albums": {
+			"component_title": "Artists Albums",
+			"tab_title1": "Artists",
+			"tab_title2": "Albums"
+		}
+	},
+	"MSC2_customers_purchases": {
+		"MSC2_customers_purchases": {
+			"component_title": "Customers Purchases",
+			"tab_title1": "Customers",
+			"tab_title2": "Purchases"
+		}
+	},
+	"MSC_Sales_GRID": {
+		"mscsalesMscSalesGrid": {
+			"sale_id": "Sale Id",
+			"sale_id_Hint": "Please enter Sale Id",
+			"customer_id": "Customer Id",
+			"customer_id_Hint": "Please enter Customer Id",
+			"album_id": "Album Id",
+			"album_id_Hint": "Please enter Album Id",
+			"sale_date": "Sale Date",
+			"sale_date_Hint": "Please enter Sale Date",
+			"quantity": "Quantity",
+			"quantity_Hint": "Please enter Quantity",
+			"component_title": "Sales"
+		}
+	},
+	"msc_customers_sales": {
+		"msc_customers_sales": {
+			"component_title": "Customers Sales"
+		}
+	},
+	"MSC_Albums_FORM": {
+		"mscalbumsMscAlbumsForm": {
+			"album_id": "Album Id",
+			"album_id_Hint": "Please enter Album Id",
+			"title": "Title",
+			"title_Hint": "Please enter Title",
+			"artist_id": "Artist Id",
+			"artist_id_Hint": "Please enter Artist Id",
+			"release_date": "Release Date",
+			"release_date_Hint": "Please enter Release Date",
+			"inventory_level": "Inventory Level",
+			"inventory_level_Hint": "Please enter Inventory Level",
+			"component_title": "Albums"
+		}
+	},
+	"msc_albums_sales": {
+		"msc_albums_sales": {
+			"component_title": "Albums Sales"
+		}
+	},
+	"MSC_albums_sales": {
+		"MSC_albums_sales": {
+			"component_title": "Albums Sales",
+			"tab_title1": "Albums",
+			"tab_title2": "Sales"
+		}
+	},
+	"MSC_customers_sales": {
+		"MSC_customers_sales": {
+			"component_title": "Customers Sales",
+			"tab_title1": "Customers",
+			"tab_title2": "Sales"
+		}
+	},
+	"MSC_artists_FORM": {
+		"mscartistsMscArtistsForm": {
+			"artist_id": "Artist Id",
+			"artist_id_Hint": "Please enter Artist Id",
+			"name": "Name",
+			"name_Hint": "Please enter Name",
+			"biography": "Biography",
+			"biography_Hint": "Please enter Biography",
+			"component_title": "Artists"
+		}
+	},
+	"MSC_albums_GRID": {
+		"mscalbumsMscAlbumsGrid": {
+			"album_id": "Album Id",
+			"album_id_Hint": "Please enter Album Id",
+			"title": "Title",
+			"title_Hint": "Please enter Title",
+			"artist_id": "Artist Id",
+			"artist_id_Hint": "Please enter Artist Id",
+			"inventory_level": "Inventory Level",
+			"inventory_level_Hint": "Please enter Inventory Level",
+			"release_date": "Release Date",
+			"release_date_Hint": "Please enter Release Date",
+			"component_title": "Albums"
+		}
+	},
+	"MSC_customers_FORM": {
+		"msccustomersMscCustomersForm": {
+			"customer_id": "Customer Id",
+			"customer_id_Hint": "Please enter Customer Id",
+			"name": "Name",
+			"name_Hint": "Please enter Name",
+			"email": "Email",
+			"email_Hint": "Please enter Email",
+			"phone": "Phone",
+			"phone_Hint": "Please enter Phone",
+			"address": "Address",
+			"address_Hint": "Please enter Address",
+			"component_title": "Customers"
+		}
+	},
+	"MSC_purchases_GRID": {
+		"mscpurchasesMscPurchasesGrid": {
+			"purchase_id": "Purchase Id",
+			"purchase_id_Hint": "Please enter Purchase Id",
+			"customer_id": "Customer Id",
+			"customer_id_Hint": "Please enter Customer Id",
+			"album_id": "Album Id",
+			"album_id_Hint": "Please enter Album Id",
+			"purchase_date": "Purchase Date",
+			"purchase_date_Hint": "Please enter Purchase Date",
+			"quantity": "Quantity",
+			"quantity_Hint": "Please enter Quantity",
+			"component_title": "Purchases"
+		}
+	},
+	"MSC_albums_FORM": {
+		"mscalbumsMscAlbumsForm": {
+			"album_id": "Album Id",
+			"album_id_Hint": "Please enter Album Id",
+			"title": "Title",
+			"title_Hint": "Please enter Title",
+			"inventory_level": "Inventory Level",
+			"inventory_level_Hint": "Please enter Inventory Level",
+			"artist_id": "Artist Id",
+			"artist_id_Hint": "Please enter Artist Id",
+			"release_date": "Release Date",
+			"release_date_Hint": "Please enter Release Date",
+			"component_title": "Albums"
+		}
+	},
+	"msc_albums_purchases": {
+		"msc_albums_purchases": {
+			"component_title": "Albums Purchases"
+		}
+	},
+	"MSC_albums_purchases": {
+		"MSC_albums_purchases": {
+			"component_title": "Albums Purchases",
+			"tab_title1": "Albums",
+			"tab_title2": "Purchases"
+		}
+	},
+	"WL_observer_FORM": {
+		"wlobserverWlObserverForm": {
+			"id": "Id",
+			"id_Hint": "Please enter Id",
+			"name": "Name",
+			"name_Hint": "Please enter Name",
+			"component_title": "Observer"
+		}
+	},
+	"WL_observations_GRID": {
+		"wlobservationsWlObservationsGrid": {
+			"id": "Id",
+			"id_Hint": "Please enter Id",
+			"observer_id": "Observer Id",
+			"observer_id_Hint": "Please enter Observer Id",
+			"species_id": "Species Id",
+			"species_id_Hint": "Please enter Species Id",
+			"location": "Location",
+			"location_Hint": "Please enter Location",
+			"observation_date": "Observation Date",
+			"observation_date_Hint": "Please enter Observation Date",
+			"lifecycle_stage": "Lifecycle Stage",
+			"lifecycle_stage_Hint": "Please enter Lifecycle Stage",
+			"component_title": "Observations"
+		}
+	},
+	"wl_observer_observations": {
+		"wl_observer_observations": {
+			"component_title": "Observer Observations"
+		}
+	},
+	"WL_species_FORM": {
+		"wlspeciesWlSpeciesForm": {
+			"id": "Id",
+			"id_Hint": "Please enter Id",
+			"common_name": "Common Name",
+			"common_name_Hint": "Please enter Common Name",
+			"scientific_name": "Scientific Name",
+			"scientific_name_Hint": "Please enter Scientific Name",
+			"component_title": "Species"
+		}
+	},
+	"wl_species_observations": {
+		"wl_species_observations": {
+			"component_title": "Species Observations"
+		}
+	},
+	"WL_observations_FORM": {
+		"wlobservationsWlObservationsForm": {
+			"id": "Id",
+			"id_Hint": "Please enter Id",
+			"observer_id": "Observer Id",
+			"observer_id_Hint": "Please enter Observer Id",
+			"species_id": "Species Id",
+			"species_id_Hint": "Please enter Species Id",
+			"location": "Location",
+			"location_Hint": "Please enter Location",
+			"observation_date": "Observation Date",
+			"observation_date_Hint": "Please enter Observation Date",
+			"lifecycle_stage": "Lifecycle Stage",
+			"lifecycle_stage_Hint": "Please enter Lifecycle Stage",
+			"component_title": "Observations"
+		}
+	},
+	"WL_comments_GRID": {
+		"wlcommentsWlCommentsGrid": {
+			"id": "Id",
+			"id_Hint": "Please enter Id",
+			"observation_id": "Observation Id",
+			"observation_id_Hint": "Please enter Observation Id",
+			"comment": "Comment",
+			"comment_Hint": "Please enter Comment",
+			"component_title": "Comments"
+		}
+	},
+	"wl_observations_comments": {
+		"wl_observations_comments": {
+			"component_title": "Observations Comments"
+		}
+	},
+	"WL_observations_comments": {
+		"WL_observations_comments": {
+			"component_title": "Observations Comments",
+			"tab_title1": "Observations",
+			"tab_title2": "Comments"
+		}
+	},
+	"WL_observer_observations": {
+		"WL_observer_observations": {
+			"component_title": "Observer Observations",
+			"tab_title1": "Observer",
+			"tab_title2": "Observations"
+		}
+	},
+	"WL_species_observations": {
+		"WL_species_observations": {
+			"component_title": "Species Observations",
+			"tab_title1": "Species",
+			"tab_title2": "Observations"
+		}
+	},
+	"MED_Patients_FORM": {
+		"medpatientsMedPatientsForm": {
+			"patient_id": "Patient Id",
+			"patient_id_Hint": "Please enter Patient Id",
+			"name": "Name",
+			"name_Hint": "Please enter Name",
+			"date_of_birth": "Date Of Birth",
+			"date_of_birth_Hint": "Please enter Date Of Birth",
+			"contact_info": "Contact Info",
+			"contact_info_Hint": "Please enter Contact Info",
+			"component_title": "Patients"
+		}
+	},
+	"MED_Appointments_GRID": {
+		"medappointmentsMedAppointmentsGrid": {
+			"appointment_id": "Appointment Id",
+			"appointment_id_Hint": "Please enter Appointment Id",
+			"patient_id": "Patient Id",
+			"patient_id_Hint": "Please enter Patient Id",
+			"doctor_id": "Doctor Id",
+			"doctor_id_Hint": "Please enter Doctor Id",
+			"appointment_date": "Appointment Date",
+			"appointment_date_Hint": "Please enter Appointment Date",
+			"details": "Details",
+			"details_Hint": "Please enter Details",
+			"component_title": "Appointments"
+		}
+	},
+	"med_patients_appointments": {
+		"med_patients_appointments": {
+			"component_title": "Patients Appointments"
+		}
+	},
+	"MED_Prescriptions_GRID": {
+		"medprescriptionsMedPrescriptionsGrid": {
+			"prescription_id": "Prescription Id",
+			"prescription_id_Hint": "Please enter Prescription Id",
+			"appointment_id": "Appointment Id",
+			"appointment_id_Hint": "Please enter Appointment Id",
+			"medication_name": "Medication Name",
+			"medication_name_Hint": "Please enter Medication Name",
+			"dosage": "Dosage",
+			"dosage_Hint": "Please enter Dosage",
+			"instructions": "Instructions",
+			"instructions_Hint": "Please enter Instructions",
+			"component_title": "Prescriptions"
+		}
+	},
+	"med_patients_prescriptions": {
+		"med_patients_prescriptions": {
+			"component_title": "Patients Prescriptions"
+		}
+	},
+	"MED_Doctors_FORM": {
+		"meddoctorsMedDoctorsForm": {
+			"doctor_id": "Doctor Id",
+			"doctor_id_Hint": "Please enter Doctor Id",
+			"name": "Name",
+			"name_Hint": "Please enter Name",
+			"specialty": "Specialty",
+			"specialty_Hint": "Please enter Specialty",
+			"contact_info": "Contact Info",
+			"contact_info_Hint": "Please enter Contact Info",
+			"component_title": "Doctors"
+		}
+	},
+	"med_doctors_appointments": {
+		"med_doctors_appointments": {
+			"component_title": "Doctors Appointments"
+		}
+	},
+	"MED_Appointments_FORM": {
+		"medappointmentsMedAppointmentsForm": {
+			"appointment_id": "Appointment Id",
+			"appointment_id_Hint": "Please enter Appointment Id",
+			"patient_id": "Patient Id",
+			"patient_id_Hint": "Please enter Patient Id",
+			"appointment_date": "Appointment Date",
+			"appointment_date_Hint": "Please enter Appointment Date",
+			"doctor_id": "Doctor Id",
+			"doctor_id_Hint": "Please enter Doctor Id",
+			"details": "Details",
+			"details_Hint": "Please enter Details",
+			"component_title": "Appointments"
+		}
+	},
+	"med_appointments_prescriptions": {
+		"med_appointments_prescriptions": {
+			"component_title": "Appointments Prescriptions"
+		}
+	},
+	"MED_appointments_prescriptions": {
+		"MED_appointments_prescriptions": {
+			"component_title": "Appointments Prescriptions",
+			"tab_title1": "Appointments",
+			"tab_title2": "Prescriptions"
+		}
+	},
+	"MED_doctors_appointments": {
+		"MED_doctors_appointments": {
+			"component_title": "Doctors Appointments",
+			"tab_title1": "Doctors",
+			"tab_title2": "Appointments"
+		}
+	},
+	"MED_patients_appointments": {
+		"MED_patients_appointments": {
+			"component_title": "Patients Appointments",
+			"tab_title1": "Patients",
+			"tab_title2": "Appointments"
+		}
+	},
+	"MED_patients_prescriptions": {
+		"MED_patients_prescriptions": {
+			"component_title": "Patients Prescriptions",
+			"tab_title1": "Patients",
+			"tab_title2": "Prescriptions"
+		}
+	},
+	"BOK_Member_FORM": {
+		"bokmemberBokMemberForm": {
+			"MemberID": "Memberid",
+			"MemberID_Hint": "Please enter Memberid",
+			"FirstName": "Firstname",
+			"FirstName_Hint": "Please enter Firstname",
+			"LastName": "Lastname",
+			"LastName_Hint": "Please enter Lastname",
+			"Email": "Email",
+			"Email_Hint": "Please enter Email",
+			"JoinDate": "Joindate",
+			"JoinDate_Hint": "Please enter Joindate",
+			"component_title": "Member"
+		}
+	},
+	"BOK_Loan_GRID": {
+		"bokloanBokLoanGrid": {
+			"LoanID": "Loanid",
+			"LoanID_Hint": "Please enter Loanid",
+			"BookID": "Bookid",
+			"BookID_Hint": "Please enter Bookid",
+			"MemberID": "Memberid",
+			"MemberID_Hint": "Please enter Memberid",
+			"LoanDate": "Loandate",
+			"LoanDate_Hint": "Please enter Loandate",
+			"DueDate": "Duedate",
+			"DueDate_Hint": "Please enter Duedate",
+			"ReturnDate": "Returndate",
+			"ReturnDate_Hint": "Please enter Returndate",
+			"component_title": "Loan"
+		}
+	},
+	"bok_member_loan": {
+		"bok_member_loan": {
+			"component_title": "Member Loan"
+		}
+	},
+	"BOK_Book_FORM": {
+		"bokbookBokBookForm": {
+			"BookID": "Bookid",
+			"BookID_Hint": "Please enter Bookid",
+			"Title": "Title",
+			"Title_Hint": "Please enter Title",
+			"ISBN": "Isbn",
+			"ISBN_Hint": "Please enter Isbn",
+			"Author": "Author",
+			"Author_Hint": "Please enter Author",
+			"PublicationDate": "Publicationdate",
+			"PublicationDate_Hint": "Please enter Publicationdate",
+			"CopiesAvailable": "Copiesavailable",
+			"CopiesAvailable_Hint": "Please enter Copiesavailable",
+			"component_title": "Book"
+		}
+	},
+	"bok_book_loan": {
+		"bok_book_loan": {
+			"component_title": "Book Loan"
+		}
+	},
+	"BOK_DigitalMedia_GRID": {
+		"bokdigitalmediaBokDigitalmediaGrid": {
+			"DigitalMediaID": "Digitalmediaid",
+			"DigitalMediaID_Hint": "Please enter Digitalmediaid",
+			"Title": "Title",
+			"Title_Hint": "Please enter Title",
+			"MediaType": "Mediatype",
+			"MediaType_Hint": "Please enter Mediatype",
+			"Format": "Format",
+			"Format_Hint": "Please enter Format",
+			"AccessLink": "Accesslink",
+			"AccessLink_Hint": "Please enter Accesslink",
+			"UploadDate": "Uploaddate",
+			"UploadDate_Hint": "Please enter Uploaddate",
+			"component_title": "Digitalmedia"
+		}
+	},
+	"bok_member_digitalmedia": {
+		"bok_member_digitalmedia": {
+			"component_title": "Member Digitalmedia"
+		}
+	},
+	"BOK_DigitalMedia_FORM": {
+		"bokdigitalmediaBokDigitalmediaForm": {
+			"DigitalMediaID": "Digitalmediaid",
+			"DigitalMediaID_Hint": "Please enter Digitalmediaid",
+			"Title": "Title",
+			"Title_Hint": "Please enter Title",
+			"MediaType": "Mediatype",
+			"MediaType_Hint": "Please enter Mediatype",
+			"Format": "Format",
+			"Format_Hint": "Please enter Format",
+			"AccessLink": "Accesslink",
+			"AccessLink_Hint": "Please enter Accesslink",
+			"UploadDate": "Uploaddate",
+			"UploadDate_Hint": "Please enter Uploaddate",
+			"component_title": "Digitalmedia"
+		}
+	},
+	"bok_digitalmedia_loan": {
+		"bok_digitalmedia_loan": {
+			"component_title": "Digitalmedia Loan"
+		}
+	},
+	"bok_member_digitalmedia_loan": {
+		"bok_member_digitalmedia_loan": {
+			"component_title": "Member Digitalmedia Loan"
+		}
+	},
+	"BOK_book_loan": {
+		"BOK_book_loan": {
+			"component_title": "Book Loan",
+			"tab_title1": "Book",
+			"tab_title2": "Loan"
+		}
+	},
+	"BOK_digitalmedia_loan": {
+		"BOK_digitalmedia_loan": {
+			"component_title": "Digitalmedia Loan",
+			"tab_title1": "Digitalmedia",
+			"tab_title2": "Loan"
+		}
+	},
+	"BOK_member_digitalmedia": {
+		"BOK_member_digitalmedia": {
+			"component_title": "Member Digitalmedia",
+			"tab_title1": "Member",
+			"tab_title2": "Digitalmedia"
+		}
+	},
+	"BOK_member_digitalmedia_loan": {
+		"BOK_member_digitalmedia_loan": {
+			"component_title": "Member Digitalmedia Loan",
+			"tab_title1": "Member",
+			"tab_title2": "Digitalmedia",
+			"tab_title3": "Loan"
+		}
+	},
+	"BOK_member_loan": {
+		"BOK_member_loan": {
+			"component_title": "Member Loan",
+			"tab_title1": "Member",
+			"tab_title2": "Loan"
+		}
+	},
+	"MED_patient_FORM": {
+		"medpatientMedPatientForm": {
+			"patient_id": "Patient Id",
+			"patient_id_Hint": "Please enter Patient Id",
+			"patient_name": "Patient Name",
+			"patient_name_Hint": "Please enter Patient Name",
+			"patient_email": "Patient Email",
+			"patient_email_Hint": "Please enter Patient Email",
+			"patient_phone": "Patient Phone",
+			"patient_phone_Hint": "Please enter Patient Phone",
+			"component_title": "Patient"
+		}
+	},
+	"MED_appointment_EVENT": {
+		"medappointmentMedAppointmentEvent": {
+			"appointment_id": "Appointment Id",
+			"appointment_id_Hint": "Please enter Appointment Id",
+			"patient_id": "Patient Id",
+			"patient_id_Hint": "Please enter Patient Id",
+			"doctor_id": "Doctor Id",
+			"doctor_id_Hint": "Please enter Doctor Id",
+			"appointment_date": "Appointment Date",
+			"appointment_date_Hint": "Please enter Appointment Date",
+			"description": "Description",
+			"description_Hint": "Please enter Description",
+			"component_title": "Appointment"
+		}
+	},
+	"med_patient_appointment": {
+		"med_patient_appointment": {
+			"component_title": "Patient Appointment"
+		}
+	},
+	"MED_doctor_MAP": {
+		"meddoctorMedDoctorMap": {
+			"doctor_id": "Doctor Id",
+			"doctor_id_Hint": "Please enter Doctor Id",
+			"doctor_name": "Doctor Name",
+			"doctor_name_Hint": "Please enter Doctor Name",
+			"doctor_email": "Doctor Email",
+			"doctor_email_Hint": "Please enter Doctor Email",
+			"doctor_phone": "Doctor Phone",
+			"doctor_phone_Hint": "Please enter Doctor Phone",
+			"doctor_specialization": "Doctor Specialization",
+			"doctor_specialization_Hint": "Please enter Doctor Specialization",
+			"latitude": "Latitude",
+			"latitude_Hint": "Please enter Latitude",
+			"longitude": "Longitude",
+			"longitude_Hint": "Please enter Longitude",
+			"fees": "Fees",
+			"fees_Hint": "Please enter Fees",
+			"component_title": "Doctor"
+		}
+	},
+	"MED_appointment_GRID": {
+		"medappointmentMedAppointmentGrid": {
+			"appointment_id": "Appointment Id",
+			"appointment_id_Hint": "Please enter Appointment Id",
+			"patient_id": "Patient Id",
+			"patient_id_Hint": "Please enter Patient Id",
+			"doctor_id": "Doctor Id",
+			"doctor_id_Hint": "Please enter Doctor Id",
+			"appointment_date": "Appointment Date",
+			"appointment_date_Hint": "Please enter Appointment Date",
+			"description": "Description",
+			"description_Hint": "Please enter Description",
+			"component_title": "Appointment"
+		}
+	},
+	"med_doctor_appointment": {
+		"med_doctor_appointment": {
+			"component_title": "Doctor Appointment"
+		}
+	},
+	"MED_appointment_FORM": {
+		"medappointmentMedAppointmentForm": {
+			"appointment_id": "Appointment Id",
+			"appointment_id_Hint": "Please enter Appointment Id",
+			"patient_id": "Patient Id",
+			"patient_id_Hint": "Please enter Patient Id",
+			"doctor_id": "Doctor Id",
+			"doctor_id_Hint": "Please enter Doctor Id",
+			"appointment_date": "Appointment Date",
+			"appointment_date_Hint": "Please enter Appointment Date",
+			"description": "Description",
+			"description_Hint": "Please enter Description",
+			"component_title": "Appointment"
+		}
+	},
+	"MED_prescription_GRID": {
+		"medprescriptionMedPrescriptionGrid": {
+			"prescription_id": "Prescription Id",
+			"prescription_id_Hint": "Please enter Prescription Id",
+			"appointment_id": "Appointment Id",
+			"appointment_id_Hint": "Please enter Appointment Id",
+			"prescription_date": "Prescription Date",
+			"prescription_date_Hint": "Please enter Prescription Date",
+			"medication": "Medication",
+			"medication_Hint": "Please enter Medication",
+			"dosage": "Dosage",
+			"dosage_Hint": "Please enter Dosage",
+			"component_title": "Prescription"
+		}
+	},
+	"med_appointment_prescription": {
+		"med_appointment_prescription": {
+			"component_title": "Appointment Prescription"
+		}
+	},
+	"med_patient_appointment_prescription": {
+		"med_patient_appointment_prescription": {
+			"component_title": "Patient Appointment Prescription"
+		}
+	},
+	"MED_doctor_FORM": {
+		"meddoctorMedDoctorForm": {
+			"doctor_id": "Doctor Id",
+			"doctor_id_Hint": "Please enter Doctor Id",
+			"doctor_name": "Doctor Name",
+			"doctor_name_Hint": "Please enter Doctor Name",
+			"doctor_email": "Doctor Email",
+			"doctor_email_Hint": "Please enter Doctor Email",
+			"doctor_phone": "Doctor Phone",
+			"doctor_phone_Hint": "Please enter Doctor Phone",
+			"doctor_specialization": "Doctor Specialization",
+			"doctor_specialization_Hint": "Please enter Doctor Specialization",
+			"latitude": "Latitude",
+			"latitude_Hint": "Please enter Latitude",
+			"longitude": "Longitude",
+			"longitude_Hint": "Please enter Longitude",
+			"fees": "Fees",
+			"fees_Hint": "Please enter Fees",
+			"component_title": "Doctor"
+		}
+	},
+	"med_doctor_appointment_prescription": {
+		"med_doctor_appointment_prescription": {
+			"component_title": "Doctor Appointment Prescription"
+		}
+	},
+	"MED_appointment_prescription": {
+		"MED_appointment_prescription": {
+			"component_title": "Appointment Prescription",
+			"tab_title1": "Appointment",
+			"tab_title2": "Prescription"
+		}
+	},
+	"MED_doctor_appointment": {
+		"MED_doctor_appointment": {
+			"component_title": "Doctor Appointment",
+			"tab_title1": "Appointment",
+			"tab_title2": "Doctor"
+		}
+	},
+	"MED_doctor_appointment_prescription": {
+		"MED_doctor_appointment_prescription": {
+			"component_title": "Doctor Appointment Prescription",
+			"tab_title1": "Doctor",
+			"tab_title2": "Appointment",
+			"tab_title3": "Prescription"
+		}
+	},
+	"MED_patient_appointment": {
+		"MED_patient_appointment": {
+			"component_title": "Patient Appointment",
+			"tab_title1": "Patient",
+			"tab_title2": "Appointment"
+		}
+	},
+	"MED_patient_appointment_prescription": {
+		"MED_patient_appointment_prescription": {
+			"component_title": "Patient Appointment Prescription",
+			"tab_title1": "Patient",
+			"tab_title2": "Appointment",
+			"tab_title3": "Prescription"
+		}
+	},
+	"MED_": {
+		"medappointmentMed": {
+			"appointment_id": "Appointment Id",
+			"appointment_id_Hint": "Please enter Appointment Id",
+			"appointment_date": "Appointment Date",
+			"appointment_date_Hint": "Please enter Appointment Date",
+			"appointment_description": "Appointment Description",
+			"appointment_description_Hint": "Please enter Appointment Description",
+			"patient_id": "Patient Id",
+			"patient_id_Hint": "Please enter Patient Id",
+			"doctor_id": "Doctor Id",
+			"doctor_id_Hint": "Please enter Doctor Id",
+			"component_title": "Appointment"
+		}
+	},
+	"MED_appointment_MAP": {
+		"medappointmentMedAppointmentMap": {
+			"appointment_id": "Appointment Id",
+			"appointment_id_Hint": "Please enter Appointment Id",
+			"appointment_date": "Appointment Date",
+			"appointment_date_Hint": "Please enter Appointment Date",
+			"appointment_description": "Appointment Description",
+			"appointment_description_Hint": "Please enter Appointment Description",
+			"patient_id": "Patient Id",
+			"patient_id_Hint": "Please enter Patient Id",
+			"doctor_id": "Doctor Id",
+			"doctor_id_Hint": "Please enter Doctor Id",
+			"component_title": "Appointment"
+		}
+	},
+	"MED_DBM_VOLDISCOUNT_GRID": {
+		"dbmvoldiscountMedDbmVoldiscountGrid": {
+			"PROFILE": "Profile",
+			"PROFILE_Hint": "Please enter Profile",
+			"CATEGORY": "Category",
+			"CATEGORY_Hint": "Please enter Category",
+			"SUBSCR_TYPE": "Subscr Type",
+			"SUBSCR_TYPE_Hint": "Please enter Subscr Type",
+			"CHARGETYPE": "Chargetype",
+			"CHARGETYPE_Hint": "Please enter Chargetype",
+			"BILLCODE": "Billcode",
+			"BILLCODE_Hint": "Please enter Billcode",
+			"STARTDATE": "Startdate",
+			"STARTDATE_Hint": "Please enter Startdate",
+			"VOLFROM": "Volfrom",
+			"VOLFROM_Hint": "Please enter Volfrom",
+			"VOLTO": "Volto",
+			"VOLTO_Hint": "Please enter Volto",
+			"FACTOR": "Factor",
+			"FACTOR_Hint": "Please enter Factor",
+			"FACTOR_INT": "Factor Int",
+			"FACTOR_INT_Hint": "Please enter Factor Int",
+			"TARIFFCLASS": "Tariffclass",
+			"TARIFFCLASS_Hint": "Please enter Tariffclass",
+			"WEIGHT_RATIO": "Weight Ratio",
+			"WEIGHT_RATIO_Hint": "Please enter Weight Ratio",
+			"PEAK_PRICE": "Peak Price",
+			"PEAK_PRICE_Hint": "Please enter Peak Price",
+			"OFF_PEAK_PRICE": "Off Peak Price",
+			"OFF_PEAK_PRICE_Hint": "Please enter Off Peak Price",
+			"FLEX_FLD1": "Flex Fld1",
+			"FLEX_FLD1_Hint": "Please enter Flex Fld1",
+			"FLEX_FLD2": "Flex Fld2",
+			"FLEX_FLD2_Hint": "Please enter Flex Fld2",
+			"FLEX_FLD3": "Flex Fld3",
+			"FLEX_FLD3_Hint": "Please enter Flex Fld3",
+			"FLEX_FLD4": "Flex Fld4",
+			"FLEX_FLD4_Hint": "Please enter Flex Fld4",
+			"FLEX_FLD5": "Flex Fld5",
+			"FLEX_FLD5_Hint": "Please enter Flex Fld5",
+			"component_title": "DBM VOLDISCOUNT GRID"
+		}
+	}
+}

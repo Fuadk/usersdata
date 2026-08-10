@@ -1,0 +1,436 @@
+{
+	"MED_DM_DOCTOR_DETAILS": {
+		"meddoctorMedDmDoctorDetails": {
+			"DOCTOR_ID": "ID e mjekut",
+			"DOCTOR_ID_Hint": "Ju lutemi shkruani Doctor ID",
+			"FIRST_NAME": "Emri",
+			"FIRST_NAME_Hint": "Ju lutemi shkruani emrin",
+			"LAST_NAME": "Mbiemri",
+			"LAST_NAME_Hint": "Ju lutemi shkruani mbiemrin",
+			"SPECIALIZATION": "Specializimi",
+			"SPECIALIZATION_Hint": "Ju lutemi shkruani Specializimi",
+			"PHONE": "Telefoni",
+			"PHONE_Hint": "Ju lutemi shkruani telefonin",
+			"EMAIL": "Email",
+			"EMAIL_Hint": "Ju lutemi shkruani Email",
+			"ADDRESS": "Adresa",
+			"ADDRESS_Hint": "Ju lutemi shkruani adresën",
+			"LATITUDE": "Gjerësia gjeografike",
+			"LATITUDE_Hint": "Ju lutemi shkruani gjerësinë gjeografike",
+			"LONGITUDE": "Gjatësia gjeografike",
+			"LONGITUDE_Hint": "Ju lutemi shkruani gjatësinë e gjatësisë",
+			"FEES": "Tarifat",
+			"FEES_Hint": "Ju lutemi shkruani tarifat",
+			"PHOTO": "Foto",
+			"PHOTO_Hint": "Ju lutemi shkruani foton",
+			"component_title": "Detajet e mjekut"
+		}
+	},
+	"med_doctor_management": {
+		"med_doctor_management": {
+			"component_title": "Menaxhimi i mjekut"
+		}
+	},
+	"ERP_CB_BILL_DETAILS": {
+		"erpbillDetailErpCbBillDetails": {
+			"BILL_DETAIL_ID": "Bill Detail Id",
+			"BILL_DETAIL_ID_Hint": "Please enter Bill Detail Id",
+			"BILL_ID": "Bill Id",
+			"BILL_ID_Hint": "Please enter Bill Id",
+			"ITEM_ID": "Item Id",
+			"ITEM_ID_Hint": "Please enter Item Id",
+			"ITEM_QTY": "Item Qty",
+			"ITEM_QTY_Hint": "Please enter Item Qty",
+			"SUBTOTAL_PER_ITEM": "Subtotal Per Item",
+			"SUBTOTAL_PER_ITEM_Hint": "Please enter Subtotal Per Item",
+			"SPLIT_ID": "Split Id",
+			"SPLIT_ID_Hint": "Please enter Split Id",
+			"SPLIT_PERSONS": "Split Persons",
+			"SPLIT_PERSONS_Hint": "Please enter Split Persons",
+			"MERGE_FROM_TABLE": "Merge From Table",
+			"MERGE_FROM_TABLE_Hint": "Please enter Merge From Table",
+			"component_title": ""
+		}
+	},
+	"erp_customer_bill": {
+		"erp_customer_bill": {
+			"component_title": "Fatura e klientit",
+			"compsTitleID1": "Koka e faturës",
+			"compsTitleID2": "Detajet e faturës",
+			"compsTitleID3": "Bill Footer"
+		}
+	},
+	"ERP_xpoint_of_sale": {
+		"ERP_xpoint_of_sale": {
+			"component_title": "x_Point of Sale",
+			"tab_title1": "Point of Sale_1",
+			"tab_title2": "Point of Sale_2"
+		}
+	},
+	"MED_AM_APPOINTMENT_DETAILS": {
+		"medappointmentMedAmAppointmentDetails": {
+			"APPOINTMENT_ID": "Appointment Id",
+			"APPOINTMENT_ID_Hint": "Please enter Appointment Id",
+			"PATIENT_ID": "Patient Id",
+			"PATIENT_ID_Hint": "Please enter Patient Id",
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id",
+			"APPOINTMENT_DATE": "Appointment Date",
+			"APPOINTMENT_DATE_Hint": "Please enter Appointment Date",
+			"APPOINTMENT_TIME": "Appointment Time",
+			"APPOINTMENT_TIME_Hint": "Please enter Appointment Time",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"DESCRIPTION": "Description",
+			"DESCRIPTION_Hint": "Please enter Description",
+			"component_title": "Appointment Details"
+		}
+	},
+	"MED_MED_APPOINTMENT_CARD": {
+		"medappointmentMedMedAppointmentCard": {
+			"APPOINTMENT_ID": "Appointment Id",
+			"APPOINTMENT_ID_Hint": "Please enter Appointment Id",
+			"PATIENT_ID": "Patient Id",
+			"PATIENT_ID_Hint": "Please enter Patient Id",
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id",
+			"APPOINTMENT_DATE": "Appointment Date",
+			"APPOINTMENT_DATE_Hint": "Please enter Appointment Date",
+			"APPOINTMENT_TIME": "Appointment Time",
+			"APPOINTMENT_TIME_Hint": "Please enter Appointment Time",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"DESCRIPTION": "Description",
+			"DESCRIPTION_Hint": "Please enter Description",
+			"component_title": "MED APPOINTMENT CARD"
+		}
+	},
+	"MED_MED_APPOINTMENT_GRID": {
+		"medappointmentMedMedAppointmentGrid": {
+			"APPOINTMENT_ID": "Appointment Id",
+			"APPOINTMENT_ID_Hint": "Please enter Appointment Id",
+			"PATIENT_ID": "Patient Id",
+			"PATIENT_ID_Hint": "Please enter Patient Id",
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id",
+			"APPOINTMENT_DATE": "Appointment Date",
+			"APPOINTMENT_DATE_Hint": "Please enter Appointment Date",
+			"APPOINTMENT_TIME": "Appointment Time",
+			"APPOINTMENT_TIME_Hint": "Please enter Appointment Time",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"DESCRIPTION": "Description",
+			"DESCRIPTION_Hint": "Please enter Description",
+			"component_title": "MED APPOINTMENT GRID"
+		}
+	},
+	"MED_MED_APPOINTMENT_KANBAN": {
+		"medappointmentMedMedAppointmentKanban": {
+			"APPOINTMENT_ID": "Appointment Id",
+			"APPOINTMENT_ID_Hint": "Please enter Appointment Id",
+			"PATIENT_ID": "Patient Id",
+			"PATIENT_ID_Hint": "Please enter Patient Id",
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id",
+			"APPOINTMENT_DATE": "Appointment Date",
+			"APPOINTMENT_DATE_Hint": "Please enter Appointment Date",
+			"APPOINTMENT_TIME": "Appointment Time",
+			"APPOINTMENT_TIME_Hint": "Please enter Appointment Time",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"DESCRIPTION": "Description",
+			"DESCRIPTION_Hint": "Please enter Description",
+			"component_title": "MED APPOINTMENT KANBAN"
+		}
+	},
+	"MED_MED_APPOINTMENT_LIST": {
+		"medappointmentMedMedAppointmentList": {
+			"APPOINTMENT_ID": "Appointment Id",
+			"APPOINTMENT_ID_Hint": "Please enter Appointment Id",
+			"PATIENT_ID": "Patient Id",
+			"PATIENT_ID_Hint": "Please enter Patient Id",
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id",
+			"APPOINTMENT_DATE": "Appointment Date",
+			"APPOINTMENT_DATE_Hint": "Please enter Appointment Date",
+			"APPOINTMENT_TIME": "Appointment Time",
+			"APPOINTMENT_TIME_Hint": "Please enter Appointment Time",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"DESCRIPTION": "Description",
+			"DESCRIPTION_Hint": "Please enter Description",
+			"component_title": "MED APPOINTMENT LIST"
+		}
+	},
+	"MED_MED_APPOINTMENT_MAP": {
+		"medappointmentMedMedAppointmentMap": {
+			"APPOINTMENT_ID": "Appointment Id",
+			"APPOINTMENT_ID_Hint": "Please enter Appointment Id",
+			"PATIENT_ID": "Patient Id",
+			"PATIENT_ID_Hint": "Please enter Patient Id",
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id",
+			"APPOINTMENT_DATE": "Appointment Date",
+			"APPOINTMENT_DATE_Hint": "Please enter Appointment Date",
+			"APPOINTMENT_TIME": "Appointment Time",
+			"APPOINTMENT_TIME_Hint": "Please enter Appointment Time",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"DESCRIPTION": "Description",
+			"DESCRIPTION_Hint": "Please enter Description",
+			"component_title": "MED APPOINTMENT MAP"
+		}
+	},
+	"MED_MED_APPOINTMENT_FORMSTEPS": {
+		"medappointmentMedMedAppointmentFormsteps": {
+			"APPOINTMENT_ID": "Appointment Id",
+			"APPOINTMENT_ID_Hint": "Please enter Appointment Id",
+			"PATIENT_ID": "Patient Id",
+			"PATIENT_ID_Hint": "Please enter Patient Id",
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id",
+			"APPOINTMENT_DATE": "Appointment Date",
+			"APPOINTMENT_DATE_Hint": "Please enter Appointment Date",
+			"APPOINTMENT_TIME": "Appointment Time",
+			"APPOINTMENT_TIME_Hint": "Please enter Appointment Time",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"DESCRIPTION": "Description",
+			"DESCRIPTION_Hint": "Please enter Description",
+			"component_title": "MED APPOINTMENT FORMSTEPS"
+		}
+	},
+	"MED_MED_APPOINTMENT_FORMSTEPS_2": {
+		"medappointmentMedMedAppointmentFormsteps2": {
+			"APPOINTMENT_ID": "Appointment Id",
+			"APPOINTMENT_ID_Hint": "Please enter Appointment Id",
+			"PATIENT_ID": "Patient Id",
+			"PATIENT_ID_Hint": "Please enter Patient Id",
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id",
+			"APPOINTMENT_DATE": "Appointment Date",
+			"APPOINTMENT_DATE_Hint": "Please enter Appointment Date",
+			"APPOINTMENT_TIME": "Appointment Time",
+			"APPOINTMENT_TIME_Hint": "Please enter Appointment Time",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"DESCRIPTION": "Description",
+			"DESCRIPTION_Hint": "Please enter Description",
+			"component_title": "MED APPOINTMENT FORMSTEPS 2"
+		}
+	},
+	"ERP_inventory_management": {
+		"ERP_inventory_management": {
+			"component_title": "Inventory Management",
+			"tab_title1": "Inventory Items"
+		}
+	},
+	"ERP_inventory_movement": {
+		"ERP_inventory_movement": {
+			"component_title": "Inventory Movement",
+			"tab_title1": "Inventory Movements"
+		}
+	},
+	"erp_kitchen_display": {
+		"erp_kitchen_display": {
+			"component_title": "Ekrani i kuzhinës",
+			"compsTitleID1": "Porositë e kuzhinës",
+			"compsTitleID2": "Artikujt e porositur",
+			"compsTitleID3": "Përmbledhje e porosive të kuzhinës"
+		}
+	},
+	"erp_payment_processing": {
+		"erp_payment_processing": {
+			"component_title": "Përpunimi i pagesave",
+			"compsTitleID1": "Përmbledhje e projektligjit",
+			"compsTitleID2": "Detajet e pagesës"
+		}
+	},
+	"erp_point_of_sale1": {
+		"erp_point_of_sale1": {
+			"component_title": "Pika e Sale_1",
+			"compsTitleID1": "Urdhri kryesor",
+			"compsTitleID2": "Porosit artikujt",
+			"compsTitleID3": "Modifikuesit e artikujve"
+		}
+	},
+	"erp_point_of_sale2": {
+		"erp_point_of_sale2": {
+			"component_title": "Pika e Sale_2",
+			"compsTitleID1": "Kategoritë e artikujve",
+			"compsTitleID2": "Artikujt për të shitur"
+		}
+	},
+	"erp_table_wf": {
+		"erp_table_wf": {
+			"component_title": "Rrjedha e punës TABLE",
+			"compsTitleID1": "Forma e tabelës Tw",
+			"compsTitleID2": "Porosia kryesore e Pos",
+			"compsTitleID3": "Përmbledhje e porosive të kuzhinës Kd",
+			"compsTitleID4": "Koka e faturës Cb",
+			"compsTitleID5": "Detajet e pagesës Pp"
+		}
+	},
+	"ERP_table_management": {
+		"ERP_table_management": {
+			"component_title": "Table Management",
+			"tab_title1": "Restaurant Tables"
+		}
+	},
+	"MED_doctor_management": {
+		"MED_doctor_management": {
+			"component_title": "Menaxhimi i mjekut",
+			"tab_title1": "Detajet e mjekut",
+			"tab_title2": "Orari i mjekut"
+		}
+	},
+	"ERP_ERP_BILL_LIST": {
+		"erpbillErpErpBillList": {
+			"BILL_ID": "Bill Id",
+			"BILL_ID_Hint": "Please enter Bill Id",
+			"CUSTOMER_DETAILS": "Customer Details",
+			"CUSTOMER_DETAILS_Hint": "Please enter Customer Details",
+			"DELIVERY_TAKEAWAY_INFO": "Delivery Takeaway Info",
+			"DELIVERY_TAKEAWAY_INFO_Hint": "Please enter Delivery Takeaway Info",
+			"BILL_STATUS": "Bill Status",
+			"BILL_STATUS_Hint": "Please enter Bill Status",
+			"BILL_DATETIME": "Bill Datetime",
+			"BILL_DATETIME_Hint": "Please enter Bill Datetime",
+			"SPLIT_MODE": "Split Mode",
+			"SPLIT_MODE_Hint": "Please enter Split Mode",
+			"PARENT_BILL_ID": "Parent Bill Id",
+			"PARENT_BILL_ID_Hint": "Please enter Parent Bill Id",
+			"SPLIT_RELATION": "Split Relation",
+			"SPLIT_RELATION_Hint": "Please enter Split Relation",
+			"WAITER_ID": "Waiter Id",
+			"WAITER_ID_Hint": "Please enter Waiter Id",
+			"TABLE_ID": "Table Id",
+			"TABLE_ID_Hint": "Please enter Table Id",
+			"component_title": "ERP BILL LIST"
+		}
+	},
+	"ERP_ERP_BILL_DETAIL_LIST": {
+		"erpbillDetailErpErpBillDetailList": {
+			"BILL_DETAIL_ID": "Bill Detail Id",
+			"BILL_DETAIL_ID_Hint": "Please enter Bill Detail Id",
+			"BILL_ID": "Bill Id",
+			"BILL_ID_Hint": "Please enter Bill Id",
+			"ITEM_ID": "Item Id",
+			"ITEM_ID_Hint": "Please enter Item Id",
+			"ITEM_QTY": "Item Qty",
+			"ITEM_QTY_Hint": "Please enter Item Qty",
+			"SUBTOTAL_PER_ITEM": "Subtotal Per Item",
+			"SUBTOTAL_PER_ITEM_Hint": "Please enter Subtotal Per Item",
+			"SPLIT_ID": "Split Id",
+			"SPLIT_ID_Hint": "Please enter Split Id",
+			"SPLIT_PERSONS": "Split Persons",
+			"SPLIT_PERSONS_Hint": "Please enter Split Persons",
+			"MERGE_FROM_TABLE": "Merge From Table",
+			"MERGE_FROM_TABLE_Hint": "Please enter Merge From Table",
+			"component_title": "ERP BILL DETAIL LIST"
+		}
+	},
+	"ERP_ERP_BILL_DETAIL_FORM": {
+		"erpbillDetailErpErpBillDetailForm": {
+			"BILL_DETAIL_ID": "Bill Detail Id",
+			"BILL_DETAIL_ID_Hint": "Please enter Bill Detail Id",
+			"BILL_ID": "Bill Id",
+			"BILL_ID_Hint": "Please enter Bill Id",
+			"ITEM_ID": "Item Id",
+			"ITEM_ID_Hint": "Please enter Item Id",
+			"ITEM_QTY": "Item Qty",
+			"ITEM_QTY_Hint": "Please enter Item Qty",
+			"SUBTOTAL_PER_ITEM": "Subtotal Per Item",
+			"SUBTOTAL_PER_ITEM_Hint": "Please enter Subtotal Per Item",
+			"SPLIT_ID": "Split Id",
+			"SPLIT_ID_Hint": "Please enter Split Id",
+			"SPLIT_PERSONS": "Split Persons",
+			"SPLIT_PERSONS_Hint": "Please enter Split Persons",
+			"MERGE_FROM_TABLE": "Merge From Table",
+			"MERGE_FROM_TABLE_Hint": "Please enter Merge From Table",
+			"component_title": "ERP BILL DETAIL FORM"
+		}
+	},
+	"ERP_ERP_ORDER_ITEM_GRID": {
+		"erporderItemErpErpOrderItemGrid": {
+			"ORDER_ID": "Order Id",
+			"ORDER_ID_Hint": "Please enter Order Id",
+			"ORDER_ITEM_ID": "Order Item Id",
+			"ORDER_ITEM_ID_Hint": "Please enter Order Item Id",
+			"ITEM_ID": "Item Id",
+			"ITEM_ID_Hint": "Please enter Item Id",
+			"QUANTITY": "Quantity",
+			"QUANTITY_Hint": "Please enter Quantity",
+			"PRICE": "Price",
+			"PRICE_Hint": "Please enter Price",
+			"SEAT": "Seat",
+			"SEAT_Hint": "Please enter Seat",
+			"CUSTOMIZATION": "Customization",
+			"CUSTOMIZATION_Hint": "Please enter Customization",
+			"component_title": ""
+		}
+	},
+	"ERP_KD_KITCHEN_ORDERS": {
+		"erpmainOrderErpKdKitchenOrders": {
+			"ORDER_ID": "Order Id",
+			"ORDER_ID_Hint": "Please enter Order Id",
+			"TABLE_ID": "Table Id",
+			"TABLE_ID_Hint": "Please enter Table Id",
+			"WAITER_ID": "Waiter Id",
+			"WAITER_ID_Hint": "Please enter Waiter Id",
+			"TOTAL": "Total",
+			"TOTAL_Hint": "Please enter Total",
+			"SERVICE_CHARGES": "Service Charges",
+			"SERVICE_CHARGES_Hint": "Please enter Service Charges",
+			"ORDER_STATUS": "Order Status",
+			"ORDER_STATUS_Hint": "Please enter Order Status",
+			"TIME_ORDERED": "Time Ordered",
+			"TIME_ORDERED_Hint": "Please enter Time Ordered",
+			"CLOSING_STATUS": "Closing Status",
+			"CLOSING_STATUS_Hint": "Please enter Closing Status",
+			"WAITER_ACCOUNT": "Waiter Account",
+			"WAITER_ACCOUNT_Hint": "Please enter Waiter Account",
+			"NUMBER_OF_GUESTS": "Number Of Guests",
+			"NUMBER_OF_GUESTS_Hint": "Please enter Number Of Guests",
+			"CUSTOMER_DETAILS": "Customer Details",
+			"CUSTOMER_DETAILS_Hint": "Please enter Customer Details",
+			"WAITER_SHIFT": "Waiter Shift",
+			"WAITER_SHIFT_Hint": "Please enter Waiter Shift",
+			"ERP_ORDER_ITEM_GRID": "Erp Order Item Grid",
+			"ERP_ORDER_ITEM_GRID_Hint": "Please enter Erp Order Item Grid",
+			"component_title": "Kitchen Orders"
+		}
+	},
+	"ERP_payment_processing": {
+		"ERP_payment_processing": {
+			"component_title": "Payment Processing",
+			"tab_title1": "Bill Summary",
+			"tab_title2": "Payment Details"
+		}
+	},
+	"ERP_point_of_sale1": {
+		"ERP_point_of_sale1": {
+			"component_title": "Point of Sale_1",
+			"tab_title1": "Main Order",
+			"tab_title2": "Order Items",
+			"tab_title3": "Item Modifiers"
+		}
+	},
+	"ERP_point_of_sale2": {
+		"ERP_point_of_sale2": {
+			"component_title": "Point of Sale_2",
+			"tab_title1": "Item Categories",
+			"tab_title2": "Items to Sell"
+		}
+	},
+	"ERP_table_wf": {
+		"ERP_table_wf": {
+			"component_title": "TABLE Workflow",
+			"tab_title1": "Tw table form",
+			"tab_title2": "Pos main order",
+			"tab_title3": "Kd kitchen orders summary",
+			"tab_title4": "Cb bill header",
+			"tab_title5": "Pp payment details"
+		}
+	}
+}

@@ -1,0 +1,539 @@
+{
+	"AQB_Seller_MAP": {
+		"aqbsellerAqbSellerMap": {
+			"Seller_code": "Seller Code",
+			"Seller_code_Hint": "Please enter Seller Code",
+			"Seller_Type": "Seller Type",
+			"Seller_Type_Hint": "Please enter Seller Type",
+			"Name": "Name",
+			"Name_Hint": "Please enter Name",
+			"Family": "Family",
+			"Family_Hint": "Please enter Family",
+			"Other": "Other",
+			"Other_Hint": "Please enter Other",
+			"Location": "Location",
+			"Location_Hint": "Please enter Location",
+			"Latitude": "Latitude",
+			"Latitude_Hint": "Please enter Latitude",
+			"Longitude": "Longitude",
+			"Longitude_Hint": "Please enter Longitude",
+			"Offcial_address": "Offcial Address",
+			"Offcial_address_Hint": "Please enter Offcial Address",
+			"Mob_no": "Mob No",
+			"Mob_no_Hint": "Please enter Mob No",
+			"Email": "Email",
+			"Email_Hint": "Please enter Email",
+			"Login_pass": "Login Pass",
+			"Login_pass_Hint": "Please enter Login Pass",
+			"Status": "Status",
+			"Status_Hint": "Please enter Status",
+			"Subsiary": "Subsiary",
+			"Subsiary_Hint": "Please enter Subsiary",
+			"Parent": "Parent",
+			"Parent_Hint": "Please enter Parent",
+			"Additional_info1": "Additional Info1",
+			"Additional_info1_Hint": "Please enter Additional Info1",
+			"Web_link": "Web Link",
+			"Web_link_Hint": "Please enter Web Link",
+			"points_balance": "Points Balance",
+			"points_balance_Hint": "Please enter Points Balance",
+			"Balance_date": "Balance Date",
+			"Balance_date_Hint": "Please enter Balance Date",
+			"Reg_date": "Reg Date",
+			"Reg_date_Hint": "Please enter Reg Date",
+			"Last_update": "Last Update",
+			"Last_update_Hint": "Please enter Last Update",
+			"Status_date": "Status Date",
+			"Status_date_Hint": "Please enter Status Date",
+			"Photo": "Photo",
+			"Photo_Hint": "Please enter Photo",
+			"Seller_id": "Seller Id",
+			"Seller_id_Hint": "Please enter Seller Id",
+			"component_title": "Seller"
+		}
+	},
+	"AQB_Seller_options_LIST": {
+		"aqbsellerOptionsAqbSellerOptionsList": {
+			"Service": "Service",
+			"Service_Hint": "Please enter Service",
+			"Seller": "Seller",
+			"Seller_Hint": "Please enter Seller",
+			"Service_start": "Service Start",
+			"Service_start_Hint": "Please enter Service Start",
+			"Service_duration": "Service Duration",
+			"Service_duration_Hint": "Please enter Service Duration",
+			"Service_type": "Service Type",
+			"Service_type_Hint": "Please enter Service Type",
+			"points_sub": "Points Sub",
+			"points_sub_Hint": "Please enter Points Sub",
+			"Service_price": "Service Price",
+			"Service_price_Hint": "Please enter Service Price",
+			"Currency": "Currency",
+			"Currency_Hint": "Please enter Currency",
+			"Rec_status": "Rec Status",
+			"Rec_status_Hint": "Please enter Rec Status",
+			"Seller_options_id": "Seller Options Id",
+			"Seller_options_id_Hint": "Please enter Seller Options Id",
+			"component_title": "Seller_options"
+		}
+	},
+	"aqb_seller_seller_options": {
+		"aqb_seller_seller_options": {
+			"component_title": "Seller Seller_options"
+		}
+	},
+	"AQB_Seller_CARD": {
+		"aqbsellerAqbSellerCard": {
+			"Seller_code": "Seller Code",
+			"Seller_code_Hint": "Please enter Seller Code",
+			"Seller_Type": "Seller Type",
+			"Seller_Type_Hint": "Please enter Seller Type",
+			"Name": "Name",
+			"Name_Hint": "Please enter Name",
+			"Family": "Family",
+			"Family_Hint": "Please enter Family",
+			"Other": "Other",
+			"Other_Hint": "Please enter Other",
+			"Location": "Location",
+			"Location_Hint": "Please enter Location",
+			"Latitude": "Latitude",
+			"Latitude_Hint": "Please enter Latitude",
+			"Longitude": "Longitude",
+			"Longitude_Hint": "Please enter Longitude",
+			"Offcial_address": "Offcial Address",
+			"Offcial_address_Hint": "Please enter Offcial Address",
+			"Mob_no": "Mob No",
+			"Mob_no_Hint": "Please enter Mob No",
+			"Email": "Email",
+			"Email_Hint": "Please enter Email",
+			"Login_pass": "Login Pass",
+			"Login_pass_Hint": "Please enter Login Pass",
+			"Status": "Status",
+			"Status_Hint": "Please enter Status",
+			"Subsiary": "Subsiary",
+			"Subsiary_Hint": "Please enter Subsiary",
+			"Parent": "Parent",
+			"Parent_Hint": "Please enter Parent",
+			"Additional_info1": "Additional Info1",
+			"Additional_info1_Hint": "Please enter Additional Info1",
+			"Web_link": "Web Link",
+			"Web_link_Hint": "Please enter Web Link",
+			"points_balance": "Points Balance",
+			"points_balance_Hint": "Please enter Points Balance",
+			"Balance_date": "Balance Date",
+			"Balance_date_Hint": "Please enter Balance Date",
+			"Reg_date": "Reg Date",
+			"Reg_date_Hint": "Please enter Reg Date",
+			"Last_update": "Last Update",
+			"Last_update_Hint": "Please enter Last Update",
+			"Status_date": "Status Date",
+			"Status_date_Hint": "Please enter Status Date",
+			"Photo": "Photo",
+			"Photo_Hint": "Please enter Photo",
+			"Seller_id": "Seller Id",
+			"Seller_id_Hint": "Please enter Seller Id",
+			"component_title": "Seller"
+		}
+	},
+	"AQB_Seller_paymet_LIST": {
+		"aqbsellerPaymetAqbSellerPaymetList": {
+			"pay": "Pay",
+			"pay_Hint": "Please enter Pay",
+			"Seller": "Seller",
+			"Seller_Hint": "Please enter Seller",
+			"Service": "Service",
+			"Service_Hint": "Please enter Service",
+			"Amount": "Amount",
+			"Amount_Hint": "Please enter Amount",
+			"Currency": "Currency",
+			"Currency_Hint": "Please enter Currency",
+			"Pay_method": "Pay Method",
+			"Pay_method_Hint": "Please enter Pay Method",
+			"Confirmation": "Confirmation",
+			"Confirmation_Hint": "Please enter Confirmation",
+			"Status": "Status",
+			"Status_Hint": "Please enter Status",
+			"Pay_date": "Pay Date",
+			"Pay_date_Hint": "Please enter Pay Date",
+			"Seller_paymet_id": "Seller Paymet Id",
+			"Seller_paymet_id_Hint": "Please enter Seller Paymet Id",
+			"component_title": "Seller_paymet"
+		}
+	},
+	"aqb_seller_seller_paymet": {
+		"aqb_seller_seller_paymet": {
+			"component_title": "Seller Seller_paymet"
+		}
+	},
+	"AQB_Product_Category_CARD": {
+		"aqbproductCategoryAqbProductCategoryCard": {
+			"categ": "Categ",
+			"categ_Hint": "Please enter Categ",
+			"categ_level": "Categ Level",
+			"categ_level_Hint": "Please enter Categ Level",
+			"categ_parent": "Categ Parent",
+			"categ_parent_Hint": "Please enter Categ Parent",
+			"Categ_name": "Categ Name",
+			"Categ_name_Hint": "Please enter Categ Name",
+			"Img": "Img",
+			"Img_Hint": "Please enter Img",
+			"Product_Category_id": "Product Category Id",
+			"Product_Category_id_Hint": "Please enter Product Category Id",
+			"component_title": "Product_category"
+		}
+	},
+	"AQB_Product_CARD": {
+		"aqbproductAqbProductCard": {
+			"Item": "Item",
+			"Item_Hint": "Please enter Item",
+			"Item_code": "Item Code",
+			"Item_code_Hint": "Please enter Item Code",
+			"categ": "Categ",
+			"categ_Hint": "Please enter Categ",
+			"Item_name": "Item Name",
+			"Item_name_Hint": "Please enter Item Name",
+			"Img": "Img",
+			"Img_Hint": "Please enter Img",
+			"Item_UOM": "Item Uom",
+			"Item_UOM_Hint": "Please enter Item Uom",
+			"Reg_date": "Reg Date",
+			"Reg_date_Hint": "Please enter Reg Date",
+			"Long_remarks": "Long Remarks",
+			"Long_remarks_Hint": "Please enter Long Remarks",
+			"Product_id": "Product Id",
+			"Product_id_Hint": "Please enter Product Id",
+			"component_title": "Product"
+		}
+	},
+	"aqb_product_category_product": {
+		"aqb_product_category_product": {
+			"component_title": "Product_category Product"
+		}
+	},
+	"AQB_Specifications_LIST": {
+		"aqbspecificationsAqbSpecificationsList": {
+			"specs": "Specs",
+			"specs_Hint": "Please enter Specs",
+			"has_unit": "Has Unit",
+			"has_unit_Hint": "Please enter Has Unit",
+			"UoM": "Uom",
+			"UoM_Hint": "Please enter Uom",
+			"Numeric_format": "Numeric Format",
+			"Numeric_format_Hint": "Please enter Numeric Format",
+			"has_range": "Has Range",
+			"has_range_Hint": "Please enter Has Range",
+			"Specs_description": "Specs Description",
+			"Specs_description_Hint": "Please enter Specs Description",
+			"Specifications_id": "Specifications Id",
+			"Specifications_id_Hint": "Please enter Specifications Id",
+			"component_title": "Specifications"
+		}
+	},
+	"aqb_product_specifications": {
+		"aqb_product_specifications": {
+			"component_title": "Product Specifications"
+		}
+	},
+	"AQB_Product_Specs_GRID": {
+		"aqbproductSpecsAqbProductSpecsGrid": {
+			"Item": "Item",
+			"Item_Hint": "Please enter Item",
+			"specs": "Specs",
+			"specs_Hint": "Please enter Specs",
+			"range_from": "Range From",
+			"range_from_Hint": "Please enter Range From",
+			"range_to": "Range To",
+			"range_to_Hint": "Please enter Range To",
+			"Long_description": "Long Description",
+			"Long_description_Hint": "Please enter Long Description",
+			"Product_Specs_id": "Product Specs Id",
+			"Product_Specs_id_Hint": "Please enter Product Specs Id",
+			"component_title": "Product_specs"
+		}
+	},
+	"aqb_product_product_specs": {
+		"aqb_product_product_specs": {
+			"component_title": "Product Product_specs"
+		}
+	},
+	"AQB_Seller_item_cross_ref_GRID": {
+		"aqbsellerItemCrossRefAqbSellerItemCrossRefGrid": {
+			"Item": "Item",
+			"Item_Hint": "Please enter Item",
+			"Item_code": "Item Code",
+			"Item_code_Hint": "Please enter Item Code",
+			"Seller_item_code": "Seller Item Code",
+			"Seller_item_code_Hint": "Please enter Seller Item Code",
+			"Seller_item_cross_ref_id": "Seller Item Cross Ref Id",
+			"Seller_item_cross_ref_id_Hint": "Please enter Seller Item Cross Ref Id",
+			"component_title": "Seller_item_cross_ref"
+		}
+	},
+	"AQB_Buyer_CARD": {
+		"aqbbuyerAqbBuyerCard": {
+			"buyer_IP_MAC": "Buyer Ip Mac",
+			"buyer_IP_MAC_Hint": "Please enter Buyer Ip Mac",
+			"buyer_country_code": "Buyer Country Code",
+			"buyer_country_code_Hint": "Please enter Buyer Country Code",
+			"buyer_visit_date_time": "Buyer Visit Date Time",
+			"buyer_visit_date_time_Hint": "Please enter Buyer Visit Date Time",
+			"Buyer_id": "Buyer Id",
+			"Buyer_id_Hint": "Please enter Buyer Id",
+			"component_title": "Buyer"
+		}
+	},
+	"AQB_Buyer_FeedBack_rating_LIST": {
+		"aqbbuyerFeedbackRatingAqbBuyerFeedbackRatingList": {
+			"buyer_MAC": "Buyer Mac",
+			"buyer_MAC_Hint": "Please enter Buyer Mac",
+			"Seller": "Seller",
+			"Seller_Hint": "Please enter Seller",
+			"Rating": "Rating",
+			"Rating_Hint": "Please enter Rating",
+			"Comment": "Comment",
+			"Comment_Hint": "Please enter Comment",
+			"Fb_date": "Fb Date",
+			"Fb_date_Hint": "Please enter Fb Date",
+			"Status": "Status",
+			"Status_Hint": "Please enter Status",
+			"Buyer_FeedBack_rating_id": "Buyer Feedback Rating Id",
+			"Buyer_FeedBack_rating_id_Hint": "Please enter Buyer Feedback Rating Id",
+			"component_title": "Buyer_feedback_rating"
+		}
+	},
+	"aqb_buyer_buyer_feedback_rating": {
+		"aqb_buyer_buyer_feedback_rating": {
+			"component_title": "Buyer Buyer_feedback_rating"
+		}
+	},
+	"AQB_Buyer_statistics_GRID": {
+		"aqbbuyerStatisticsAqbBuyerStatisticsGrid": {
+			"buyer": "Buyer",
+			"buyer_Hint": "Please enter Buyer",
+			"Clicked_categ": "Clicked Categ",
+			"Clicked_categ_Hint": "Please enter Clicked Categ",
+			"Clicked_item": "Clicked Item",
+			"Clicked_item_Hint": "Please enter Clicked Item",
+			"Clicked_seller": "Clicked Seller",
+			"Clicked_seller_Hint": "Please enter Clicked Seller",
+			"Rec_date_time": "Rec Date Time",
+			"Rec_date_time_Hint": "Please enter Rec Date Time",
+			"Buyer_statistics_id": "Buyer Statistics Id",
+			"Buyer_statistics_id_Hint": "Please enter Buyer Statistics Id",
+			"component_title": "Buyer_statistics"
+		}
+	},
+	"aqb_buyer_buyer_statistics": {
+		"aqb_buyer_buyer_statistics": {
+			"component_title": "Buyer Buyer_statistics"
+		}
+	},
+	"AQB_Seller_FORM": {
+		"aqbsellerAqbSellerForm": {
+			"Seller_code": "Seller Code",
+			"Seller_code_Hint": "Please enter Seller Code",
+			"Seller_Type": "Seller Type",
+			"Seller_Type_Hint": "Please enter Seller Type",
+			"Name": "Name",
+			"Name_Hint": "Please enter Name",
+			"Family": "Family",
+			"Family_Hint": "Please enter Family",
+			"Other": "Other",
+			"Other_Hint": "Please enter Other",
+			"Location": "Location",
+			"Location_Hint": "Please enter Location",
+			"Latitude": "Latitude",
+			"Latitude_Hint": "Please enter Latitude",
+			"Longitude": "Longitude",
+			"Longitude_Hint": "Please enter Longitude",
+			"Offcial_address": "Offcial Address",
+			"Offcial_address_Hint": "Please enter Offcial Address",
+			"Mob_no": "Mob No",
+			"Mob_no_Hint": "Please enter Mob No",
+			"Email": "Email",
+			"Email_Hint": "Please enter Email",
+			"Login_pass": "Login Pass",
+			"Login_pass_Hint": "Please enter Login Pass",
+			"Status": "Status",
+			"Status_Hint": "Please enter Status",
+			"Subsiary": "Subsiary",
+			"Subsiary_Hint": "Please enter Subsiary",
+			"Parent": "Parent",
+			"Parent_Hint": "Please enter Parent",
+			"Additional_info1": "Additional Info1",
+			"Additional_info1_Hint": "Please enter Additional Info1",
+			"Web_link": "Web Link",
+			"Web_link_Hint": "Please enter Web Link",
+			"points_balance": "Points Balance",
+			"points_balance_Hint": "Please enter Points Balance",
+			"Balance_date": "Balance Date",
+			"Balance_date_Hint": "Please enter Balance Date",
+			"Reg_date": "Reg Date",
+			"Reg_date_Hint": "Please enter Reg Date",
+			"Last_update": "Last Update",
+			"Last_update_Hint": "Please enter Last Update",
+			"Status_date": "Status Date",
+			"Status_date_Hint": "Please enter Status Date",
+			"Photo": "Photo",
+			"Photo_Hint": "Please enter Photo",
+			"Seller_id": "Seller Id",
+			"Seller_id_Hint": "Please enter Seller Id",
+			"component_title": "Seller"
+		}
+	},
+	"AQB_Product_Category_FORM": {
+		"aqbproductCategoryAqbProductCategoryForm": {
+			"categ": "Categ",
+			"categ_Hint": "Please enter Categ",
+			"categ_level": "Categ Level",
+			"categ_level_Hint": "Please enter Categ Level",
+			"categ_parent": "Categ Parent",
+			"categ_parent_Hint": "Please enter Categ Parent",
+			"Categ_name": "Categ Name",
+			"Categ_name_Hint": "Please enter Categ Name",
+			"Img": "Img",
+			"Img_Hint": "Please enter Img",
+			"Product_Category_id": "Product Category Id",
+			"Product_Category_id_Hint": "Please enter Product Category Id",
+			"component_title": "Product_category"
+		}
+	},
+	"AQB_Product_GRID": {
+		"aqbproductAqbProductGrid": {
+			"Item": "Item",
+			"Item_Hint": "Please enter Item",
+			"Item_code": "Item Code",
+			"Item_code_Hint": "Please enter Item Code",
+			"categ": "Categ",
+			"categ_Hint": "Please enter Categ",
+			"Item_name": "Item Name",
+			"Item_name_Hint": "Please enter Item Name",
+			"Img": "Img",
+			"Img_Hint": "Please enter Img",
+			"Item_UOM": "Item Uom",
+			"Item_UOM_Hint": "Please enter Item Uom",
+			"Reg_date": "Reg Date",
+			"Reg_date_Hint": "Please enter Reg Date",
+			"Long_remarks": "Long Remarks",
+			"Long_remarks_Hint": "Please enter Long Remarks",
+			"Product_id": "Product Id",
+			"Product_id_Hint": "Please enter Product Id",
+			"component_title": "Product"
+		}
+	},
+	"aqb_product_category_product_specifications": {
+		"aqb_product_category_product_specifications": {
+			"component_title": "Product_category Product Specifications"
+		}
+	},
+	"AQB_Seller_item_GRID": {
+		"aqbsellerItemAqbSellerItemGrid": {
+			"item": "Item",
+			"item_Hint": "Please enter Item",
+			"Item_categ": "Item Categ",
+			"Item_categ_Hint": "Please enter Item Categ",
+			"Seller_ref": "Seller Ref",
+			"Seller_ref_Hint": "Please enter Seller Ref",
+			"Seller": "Seller",
+			"Seller_Hint": "Please enter Seller",
+			"Service": "Service",
+			"Service_Hint": "Please enter Service",
+			"Quantity": "Quantity",
+			"Quantity_Hint": "Please enter Quantity",
+			"Price": "Price",
+			"Price_Hint": "Please enter Price",
+			"Pay_type": "Pay Type",
+			"Pay_type_Hint": "Please enter Pay Type",
+			"Img": "Img",
+			"Img_Hint": "Please enter Img",
+			"Item_status": "Item Status",
+			"Item_status_Hint": "Please enter Item Status",
+			"last_update": "Last Update",
+			"last_update_Hint": "Please enter Last Update",
+			"\"1st_added\"": "\"1st Added\"",
+			"\"1st_added\"_Hint": "Please enter \"1st Added\"",
+			"Seller_item_id": "Seller Item Id",
+			"Seller_item_id_Hint": "Please enter Seller Item Id",
+			"component_title": "Seller_item"
+		}
+	},
+	"AQB_buyer_buyer_feedback_rating": {
+		"AQB_buyer_buyer_feedback_rating": {
+			"component_title": "Buyer Buyer_feedback_rating",
+			"tab_title1": "Buyer",
+			"tab_title2": "Buyer_feedback_rating"
+		}
+	},
+	"AQB_buyer_buyer_statistics": {
+		"AQB_buyer_buyer_statistics": {
+			"component_title": "Buyer Buyer_statistics",
+			"tab_title1": "Buyer",
+			"tab_title2": "Buyer_statistics"
+		}
+	},
+	"AQB_product_category_product": {
+		"AQB_product_category_product": {
+			"component_title": "Product_category Product",
+			"tab_title1": "Product_category",
+			"tab_title2": "Product"
+		}
+	},
+	"AQB_product_category_product_specifications": {
+		"AQB_product_category_product_specifications": {
+			"component_title": "Product_category Product Specifications",
+			"tab_title1": "Product_category",
+			"tab_title2": "Product",
+			"tab_title3": "Specifications"
+		}
+	},
+	"AQB_product_product_specs": {
+		"AQB_product_product_specs": {
+			"component_title": "Product Product_specs",
+			"tab_title1": "Product",
+			"tab_title2": "Product_specs"
+		}
+	},
+	"AQB_product_specifications": {
+		"AQB_product_specifications": {
+			"component_title": "Product Specifications",
+			"tab_title1": "Product",
+			"tab_title2": "Specifications"
+		}
+	},
+	"AQB_seller_seller_item": {
+		"AQB_seller_seller_item": {
+			"component_title": "Seller Seller_item",
+			"tab_title1": "Seller",
+			"tab_title2": "Seller_item"
+		}
+	},
+	"AQB_seller_seller_item_seller_item_cross_ref": {
+		"AQB_seller_seller_item_seller_item_cross_ref": {
+			"component_title": "Seller Seller_item Seller_item_cross_ref",
+			"tab_title1": "Seller",
+			"tab_title2": "Seller_item",
+			"tab_title3": "Seller_item_cross_ref"
+		}
+	},
+	"AQB_seller_seller_options": {
+		"AQB_seller_seller_options": {
+			"component_title": "Seller Seller_options",
+			"tab_title1": "Seller",
+			"tab_title2": "Seller_options"
+		}
+	},
+	"AQB_seller_seller_paymet": {
+		"AQB_seller_seller_paymet": {
+			"component_title": "Seller Seller_paymet",
+			"tab_title1": "Seller",
+			"tab_title2": "Seller_paymet"
+		}
+	},
+	"AQB_seller_item_seller_item_cross_ref": {
+		"AQB_seller_item_seller_item_cross_ref": {
+			"component_title": "Seller_item Seller_item_cross_ref",
+			"tab_title1": "Seller_item",
+			"tab_title2": "Seller_item_cross_ref"
+		}
+	}
+}

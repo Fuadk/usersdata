@@ -1,0 +1,25 @@
+{
+	"TND_TND_TENDER1_FORM": {
+		"tndtender1TndTndTender1Form": {
+			"Tender_ID": "رقم التعريف",
+			"Tender_ID_Hint": "يرجى إدخال رقم العطاء",
+			"Tender_Title": "عنوان التندرة",
+			"Tender_Title_Hint": "يرجى إدخال عنوان المناقصة",
+			"Tender_Category": "فئة المناقصات",
+			"Tender_Category_Hint": "يرجى إدخال فئة المناقصة",
+			"Publishing_Authority": "هيئة النشر",
+			"Publishing_Authority_Hint": "يرجى الدخول إلى هيئة النشر",
+			"Publish_Date": "تاريخ النشر",
+			"Publish_Date_Hint": "يرجى إدخال تاريخ النشر",
+			"Submission_Deadline": "الموعد النهائي للتقديم",
+			"Submission_Deadline_Hint": "يرجى إدخال موعد تسليم الطلبات",
+			"Budget_Min": "الحد الأدنى للميزانية",
+			"Budget_Min_Hint": "يرجى إدخال الحد الأدنى للميزانية",
+			"Budget_Max": "بذرجت ماكس",
+			"Budget_Max_Hint": "يرجى إدخال Budget Max",
+			"Status": "الحالة",
+			"Status_Hint": "يرجى إدخال الحالة",
+			"component_title": "TND TENDER1 الشكل"
+		}
+	}
+}

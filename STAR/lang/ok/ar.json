@@ -1,0 +1,28 @@
+{
+    "somcodes_fmb":
+    {
+        "tabsCodesSpecSomcodesFmbB1":
+           {"CODENAME":"اسم الرمز","VALUEALFA":"Value C/N","CODETEXT":"Code Text","VALUELENGTH":"Value Length","CODEALFA":"Code Char /Num","CODELENGTH":"Code Length","TEXTLENGTH":"Text Length","VALUE_UNIQUE":"Value Unique","CODE_PRIV":"Restricted Access","PARTCODENAME":"Part Code Name","FLEX_FLD1":"Flex","FLEX_FLD2":"Flex","FLEX_FLD3":"Flex","FLEX_FLD4":"Flex","FLEX_FLD5":"Flex","PROGRAM":"","LAST_UPDATE":"","ORDERUSER":"","INS_UPD":""
+            },
+        "tabsCodesSomcodesFmbB2":
+         {"CODE":"الرمز","PARTCODE":"Part Code Text","CODEVALUE_LANG":"Value","LANGUAGE":"Language","CODETEXT_LANG":"Text","FLEX_FLD1":"Flex","FLEX_FLD2":"Flex","FLEX_FLD3":"Flex","FLEX_FLD4":"Flex","FLEX_FLD5":"Flex","CODENAME":"","LAST_UPDATE":"","ORDERUSER":"","INS_UPD":""
+            },
+        "tabsCodesSomcodesFmbB3":
+            {"CODE":"Code","PARTCODE":"Part Code Text","CODEVALUE_LANG":"Value","LANGUAGE":"Language","CODETEXT_LANG":"Text","FLEX_FLD1":"Flex","FLEX_FLD2":"Flex","FLEX_FLD3":"Flex","FLEX_FLD4":"Flex","FLEX_FLD5":"Flex","CODENAME":"Codename","LAST_UPDATE":"Last Update"
+            },
+        "tabsCodesSpecSomcodesFmbB4":
+        {"CODENAME":"Code Name","CODETEXT":"Code Text","VALUELENGTH":"Value Length","CODELENGTH":"Code Length","TEXTLENGTH":"Text Length","VALUE_UNIQUE":"Value Unique","PARTCODENAME":"Part Code Name","FLEX_FLD1":"Flex","CODE_PRIV":"Restricted Access","FLEX_FLD2":"Flex","FLEX_FLD3":"Flex","FLEX_FLD4":"Flex","FLEX_FLD5":"Flex","LAST_UPDATE":"Last Update"
+            }
+    },
+    "SAVE":"حفظ"
+    ,"PRINT":"طباعه"
+    ,"ENTER_QUERY":"ادخل استفسار"
+    ,"EXECUTE_QUERY":"تفذ الاستفسار"
+    ,"CANCEL":"الغاء"
+    ,"INSERT_RECORD":"سجل جديد"
+    ,"DELETE_RECORD":"احذف السجل"
+  
+
+
+}
+

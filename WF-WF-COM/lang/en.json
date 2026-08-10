@@ -1,0 +1,205 @@
+{
+	"WF_ERP_Event_EVENT2": {
+		"erpeventWfErpEventEvent2": {
+			"event_id": "Event Id",
+			"event_id_Hint": "Please enter Event Id",
+			"event_name": "Event Name",
+			"event_name_Hint": "Please enter Event Name",
+			"description": "Description",
+			"description_Hint": "Please enter Description",
+			"start_datetime": "Start Datetime",
+			"start_datetime_Hint": "Please enter Start Datetime",
+			"end_datetime": "End Datetime",
+			"end_datetime_Hint": "Please enter End Datetime",
+			"RecurRule": "Recurrule",
+			"RecurRule_Hint": "Please enter Recurrule",
+			"RecurID": "Recurid",
+			"RecurID_Hint": "Please enter Recurid",
+			"RecurrExcep": "Recurrexcep",
+			"RecurrExcep_Hint": "Please enter Recurrexcep",
+			"IsAll": "Isall",
+			"IsAll_Hint": "Please enter Isall",
+			"component_title": "ERP Event EVENT2"
+		}
+	},
+	"WF_WF_IDEAS_FORM": {
+		"wfideasWfWfIdeasForm": {
+			"IDEA_ID": "Idea Id",
+			"IDEA_ID_Hint": "Please enter Idea Id",
+			"NAME": "Name",
+			"NAME_Hint": "Please enter Name",
+			"TIME_FRMAE": "Time Frmae",
+			"TIME_FRMAE_Hint": "Please enter Time Frmae",
+			"CAMPAIGN": "Campaign",
+			"CAMPAIGN_Hint": "Please enter Campaign",
+			"component_title": "Idea"
+		}
+	},
+	"WF_WF_IDEA_APPROV_CARD": {
+		"wfideaApprovWfWfIdeaApprovCard": {
+			"APROV_ID": "Aprov Id",
+			"APROV_ID_Hint": "Please enter Aprov Id",
+			"MANAGER_NAME": "Manager Name",
+			"MANAGER_NAME_Hint": "Please enter Manager Name",
+			"BUDGET": "Budget",
+			"BUDGET_Hint": "Please enter Budget",
+			"COST": "Cost",
+			"COST_Hint": "Please enter Cost",
+			"IDEA_ID": "Idea Id",
+			"IDEA_ID_Hint": "Please enter Idea Id",
+			"component_title": "WF IDEA APPROV CARD"
+		}
+	},
+	"WF_WF_IDEA_APPROV_FORM": {
+		"wfideaApprovWfWfIdeaApprovForm": {
+			"IDEA_ID": "Idea Id",
+			"IDEA_ID_Hint": "Please enter Idea Id",
+			"APROV_ID": "Aprov Id",
+			"APROV_ID_Hint": "Please enter Aprov Id",
+			"MANAGER_NAME": "Manager Name",
+			"MANAGER_NAME_Hint": "Please enter Manager Name",
+			"BUDGET": "Budget",
+			"BUDGET_Hint": "Please enter Budget",
+			"COST": "Cost",
+			"COST_Hint": "Please enter Cost",
+			"component_title": "Approve"
+		}
+	},
+	"WF_WF_IDEA_APPROV_FORM2": {
+		"wfideaApprovWfWfIdeaApprovForm2": {
+			"APROV_ID": "Aprov Id",
+			"APROV_ID_Hint": "Please enter Aprov Id",
+			"MANAGER_NAME": "Manager Name",
+			"MANAGER_NAME_Hint": "Please enter Manager Name",
+			"BUDGET": "Budget",
+			"BUDGET_Hint": "Please enter Budget",
+			"COST": "Cost",
+			"COST_Hint": "Please enter Cost",
+			"IDEA_ID": "Idea Id",
+			"IDEA_ID_Hint": "Please enter Idea Id",
+			"component_title": "WF IDEA APPROV FORM2"
+		}
+	},
+	"WF_WF_IDEA_APPROV_GRID": {
+		"wfideaApprovWfWfIdeaApprovGrid": {
+			"APROV_ID": "Aprov Id",
+			"APROV_ID_Hint": "Please enter Aprov Id",
+			"MANAGER_NAME": "Manager Name",
+			"MANAGER_NAME_Hint": "Please enter Manager Name",
+			"BUDGET": "Budget",
+			"BUDGET_Hint": "Please enter Budget",
+			"COST": "Cost",
+			"COST_Hint": "Please enter Cost",
+			"IDEA_ID": "Idea Id",
+			"IDEA_ID_Hint": "Please enter Idea Id",
+			"component_title": "WF IDEA APPROV GRID"
+		}
+	},
+	"WF_WF_IDEA_APPROV_LIST": {
+		"wfideaApprovWfWfIdeaApprovList": {
+			"APROV_ID": "Aprov Id",
+			"APROV_ID_Hint": "Please enter Aprov Id",
+			"MANAGER_NAME": "Manager Name",
+			"MANAGER_NAME_Hint": "Please enter Manager Name",
+			"BUDGET": "Budget",
+			"BUDGET_Hint": "Please enter Budget",
+			"COST": "Cost",
+			"COST_Hint": "Please enter Cost",
+			"IDEA_ID": "Idea Id",
+			"IDEA_ID_Hint": "Please enter Idea Id",
+			"component_title": "WF IDEA APPROV LIST"
+		}
+	},
+	"WF_WF_IDEA_STAGES_GRID": {
+		"wfideaStagesWfWfIdeaStagesGrid": {
+			"IDEA_ID": "Idea Id",
+			"IDEA_ID_Hint": "Please enter Idea Id",
+			"STAGE_ID": "Stage Id",
+			"STAGE_ID_Hint": "Please enter Stage Id",
+			"STAGE_NUMBER": "Stage Number",
+			"STAGE_NUMBER_Hint": "Please enter Stage Number",
+			"STAGE_COST": "Stage Cost",
+			"STAGE_COST_Hint": "Please enter Stage Cost",
+			"component_title": "Stages"
+		}
+	},
+	"WF_WF_MARKERS2_MAP": {
+		"wfmarkers2WfWfMarkers2Map": {
+			"MARKER_ID": "Marker Id",
+			"MARKER_ID_Hint": "Please enter Marker Id",
+			"NAME": "Name",
+			"NAME_Hint": "Please enter Name",
+			"Latitude": "Latitude",
+			"Latitude_Hint": "Please enter Latitude",
+			"Longitude": "Longitude",
+			"Longitude_Hint": "Please enter Longitude",
+			"MARKER_VALUE": "Marker Value",
+			"MARKER_VALUE_Hint": "Please enter Marker Value",
+			"component_title": "WF MARKERS2 MAP"
+		}
+	},
+	"WF_WF_MARKERS_FORM": {
+		"wfmarkersWfWfMarkersForm": {
+			"MARKER_ID": "Marker Id",
+			"MARKER_ID_Hint": "Please enter Marker Id",
+			"NAME": "Name",
+			"NAME_Hint": "Please enter Name",
+			"Latitude": "Latitude",
+			"Latitude_Hint": "Please enter Latitude",
+			"Longitude": "Longitude",
+			"Longitude_Hint": "Please enter Longitude",
+			"component_title": "WF MARKERS FORM"
+		}
+	},
+	"WF_WF_MARKERS_FORM_Buble": {
+		"wfmarkersWfWfMarkersFormBuble": {
+			"MARKER_ID": "Marker Id",
+			"MARKER_ID_Hint": "Please enter Marker Id",
+			"NAME": "Name",
+			"NAME_Hint": "Please enter Name",
+			"Latitude": "Latitude",
+			"Latitude_Hint": "Please enter Latitude",
+			"Longitude": "Longitude",
+			"Longitude_Hint": "Please enter Longitude",
+			"component_title": "WF MARKERS FORM Buble"
+		}
+	},
+	"wf_est_cost": {
+		"wf_est_cost": {
+			"component_title": "Estimated Cost"
+		}
+	},
+	"wf_idea": {
+		"wf_idea": {
+			"component_title": "Idea"
+		}
+	},
+	"wf_idea_approve": {
+		"wf_idea_approve": {
+			"component_title": "idea_approve"
+		}
+	},
+	"WF_ERP_Event_EVENT": {
+		"erpeventWfErpEventEvent": {
+			"event_id": "Event Id",
+			"event_id_Hint": "Please enter Event Id",
+			"event_name": "Event Name",
+			"event_name_Hint": "Please enter Event Name",
+			"description": "Description",
+			"description_Hint": "Please enter Description",
+			"start_datetime": "Start Datetime",
+			"start_datetime_Hint": "Please enter Start Datetime",
+			"end_datetime": "End Datetime",
+			"end_datetime_Hint": "Please enter End Datetime",
+			"RecurRule": "Recurrule",
+			"RecurRule_Hint": "Please enter Recurrule",
+			"RecurID": "Recurid",
+			"RecurID_Hint": "Please enter Recurid",
+			"RecurrExcep": "Recurrexcep",
+			"RecurrExcep_Hint": "Please enter Recurrexcep",
+			"IsAll": "Isall",
+			"IsAll_Hint": "Please enter Isall",
+			"component_title": "ERP Event EVENT"
+		}
+	}
+}

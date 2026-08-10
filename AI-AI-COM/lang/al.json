@@ -1,0 +1,50 @@
+{
+	"ERP_CB_BILL_DETAILS": {
+		"erpbillDetailErpCbBillDetails": {
+			"BILL_DETAIL_ID": "Bill Detail Id",
+			"BILL_DETAIL_ID_Hint": "Please enter Bill Detail Id",
+			"BILL_ID": "Bill Id",
+			"BILL_ID_Hint": "Please enter Bill Id",
+			"ITEM_ID": "Item Id",
+			"ITEM_ID_Hint": "Please enter Item Id",
+			"ITEM_QTY": "Item Qty",
+			"ITEM_QTY_Hint": "Please enter Item Qty",
+			"SUBTOTAL": "Subtotal",
+			"SUBTOTAL_Hint": "Please enter Subtotal",
+			"SPLIT_ID": "Split Id",
+			"SPLIT_ID_Hint": "Please enter Split Id",
+			"SPLIT_PERSONS": "Split Persons",
+			"SPLIT_PERSONS_Hint": "Please enter Split Persons",
+			"MERGE_FROM_TABLE": "Merge From Table",
+			"MERGE_FROM_TABLE_Hint": "Please enter Merge From Table",
+			"component_title": "Bill Details"
+		}
+	},
+	"MED_DM_DOCTOR_DETAILS": {
+		"meddoctorMedDmDoctorDetails": {
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id",
+			"FIRST_NAME": "First Name",
+			"FIRST_NAME_Hint": "Please enter First Name",
+			"LAST_NAME": "Last Name",
+			"LAST_NAME_Hint": "Please enter Last Name",
+			"SPECIALIZATION": "Specialization",
+			"SPECIALIZATION_Hint": "Please enter Specialization",
+			"PHONE": "Phone",
+			"PHONE_Hint": "Please enter Phone",
+			"EMAIL": "Email",
+			"EMAIL_Hint": "Please enter Email",
+			"ADDRESS": "Address",
+			"ADDRESS_Hint": "Please enter Address",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude",
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude",
+			"FEES": "Fees",
+			"FEES_Hint": "Please enter Fees",
+			"PHOTO": "Photo",
+			"PHOTO_Hint": "Please enter Photo",
+			"component_title": "Doctor Details"
+		}
+	}
+}

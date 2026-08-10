@@ -1,0 +1,302 @@
+{
+	"accountability_ACT_FILE_DEF_FORM": {
+		"actfileDefAccountabilityActFileDefForm": {
+			"FILE_TYPE": "File Type",
+			"FILE_TYPE_Hint": "Please enter File Type",
+			"DOC_NAME": "Doc Name",
+			"DOC_NAME_Hint": "Please enter Doc Name",
+			"SEPARATOR": "Separator",
+			"SEPARATOR_Hint": "Please enter Separator",
+			"FILE_NAME": "File Name",
+			"FILE_NAME_Hint": "Please enter File Name",
+			"DOC_INFO": "Doc Info",
+			"DOC_INFO_Hint": "Please enter Doc Info",
+			"LOGNAME": "Logname",
+			"LOGNAME_Hint": "Please enter Logname",
+			"LOG_DATE": "Log Date",
+			"LOG_DATE_Hint": "Please enter Log Date",
+			"component_title": "Caricamento file"
+		}
+	},
+	"accountability_ACT_INVOICES_GRID": {
+		"actinvoicesAccountabilityActInvoicesGrid": {
+			"FILE_TYPE": "File Type",
+			"FILE_TYPE_Hint": "Please enter File Type",
+			"FILE_NAME": "File Name",
+			"FILE_NAME_Hint": "Please enter File Name",
+			"INVOICE_NUMBER": "Invoice Number",
+			"INVOICE_NUMBER_Hint": "Please enter Invoice Number",
+			"SUPPLIER": "Supplier",
+			"SUPPLIER_Hint": "Please enter Supplier",
+			"INVOICE_DATE": "Invoice Date",
+			"INVOICE_DATE_Hint": "Please enter Invoice Date",
+			"INVOICE_AMOUNT": "Invoice Amount",
+			"INVOICE_AMOUNT_Hint": "Please enter Invoice Amount",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"LOGNAME": "Logname",
+			"LOGNAME_Hint": "Please enter Logname",
+			"LOGDATE": "Logdate",
+			"LOGDATE_Hint": "Please enter Logdate",
+			"component_title": "Invoices"
+		}
+	},
+	"accountability_ACT_PAYMENT_GRID": {
+		"actpaymentAccountabilityActPaymentGrid": {
+			"FILE_TYPE": "File Type",
+			"FILE_TYPE_Hint": "Please enter File Type",
+			"FILE_NAME": "File Name",
+			"FILE_NAME_Hint": "Please enter File Name",
+			"PAYMENT_NUMBER": "Payment Number",
+			"PAYMENT_NUMBER_Hint": "Please enter Payment Number",
+			"PAYMENT_DATE": "Payment Date",
+			"PAYMENT_DATE_Hint": "Please enter Payment Date",
+			"PAYMENT_DESCRIPTION": "Payment Description",
+			"PAYMENT_DESCRIPTION_Hint": "Please enter Payment Description",
+			"PAYMENT_AMOUNT": "Payment Amount",
+			"PAYMENT_AMOUNT_Hint": "Please enter Payment Amount",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"LOGNAME": "Logname",
+			"LOGNAME_Hint": "Please enter Logname",
+			"LOGDATE": "Logdate",
+			"LOGDATE_Hint": "Please enter Logdate",
+			"component_title": "Payment"
+		}
+	},
+	"accountability_ACT_FIELDS_GRID": {
+		"actfieldsAccountabilityActFieldsGrid": {
+			"FILE_TYPE": "Tipo di file",
+			"FILE_TYPE_Hint": "Inserisci il tipo di file",
+			"FILE_NAME": "Nome file",
+			"FILE_NAME_Hint": "Inserisci il nome del file",
+			"REC_SEQ": "Rec Seq",
+			"REC_SEQ_Hint": "Si prega di inserire Rec Seq",
+			"FIELD_DATA": "Dati del campo",
+			"FIELD_DATA_Hint": "Inserisci i dati del campo",
+			"LOGNAME": "Nome registro",
+			"LOGNAME_Hint": "Inserisci il nome del registro",
+			"LOGDATE": "Data di registrazione",
+			"LOGDATE_Hint": "Inserisci la data di registro",
+			"component_title": "GRIGLIA CAMPI ACT"
+		}
+	},
+	"accountability_ACT_FILE_DEF_GRID": {
+		"actfileDefAccountabilityActFileDefGrid": {
+			"FILE_TYPE": "File Type",
+			"FILE_TYPE_Hint": "Please enter File Type",
+			"FILE_NAME": "File Name",
+			"FILE_NAME_Hint": "Please enter File Name",
+			"DOC_NAME": "Doc Name",
+			"DOC_NAME_Hint": "Please enter Doc Name",
+			"SEPARATOR": "Separator",
+			"SEPARATOR_Hint": "Please enter Separator",
+			"DOC_INFO": "Doc Info",
+			"DOC_INFO_Hint": "Please enter Doc Info",
+			"LOGNAME": "Logname",
+			"LOGNAME_Hint": "Please enter Logname",
+			"LOG_DATE": "Log Date",
+			"LOG_DATE_Hint": "Please enter Log Date",
+			"component_title": "Files uploaded"
+		}
+	},
+	"accountability_ACT_INVOICES_FORM": {
+		"actinvoicesAccountabilityActInvoicesForm": {
+			"FILE_TYPE": "File Type",
+			"FILE_TYPE_Hint": "Please enter File Type",
+			"FILE_NAME": "File Name",
+			"FILE_NAME_Hint": "Please enter File Name",
+			"INVOICE_DATE": "Invoice Date",
+			"INVOICE_DATE_Hint": "Please enter Invoice Date",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"SUPPLIER": "Supplier",
+			"SUPPLIER_Hint": "Please enter Supplier",
+			"INVOICE_AMOUNT": "Invoice Amount",
+			"INVOICE_AMOUNT_Hint": "Please enter Invoice Amount",
+			"LOGDATE": "Logdate",
+			"LOGDATE_Hint": "Please enter Logdate",
+			"LOGNAME": "Logname",
+			"LOGNAME_Hint": "Please enter Logname",
+			"INVOICE_NUMBER": "Invoice Number",
+			"INVOICE_NUMBER_Hint": "Please enter Invoice Number",
+			"component_title": "Invoices"
+		}
+	},
+	"accountability_ACT_PAYMENT_FORM": {
+		"actpaymentAccountabilityActPaymentForm": {
+			"FILE_TYPE": "File Type",
+			"FILE_TYPE_Hint": "Please enter File Type",
+			"FILE_NAME": "File Name",
+			"FILE_NAME_Hint": "Please enter File Name",
+			"PAYMENT_DATE": "Payment Date",
+			"PAYMENT_DATE_Hint": "Please enter Payment Date",
+			"PAYMENT_DESCRIPTION": "Payment Description",
+			"PAYMENT_DESCRIPTION_Hint": "Please enter Payment Description",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"PAYMENT_NUMBER": "Payment Number",
+			"PAYMENT_NUMBER_Hint": "Please enter Payment Number",
+			"PAYMENT_AMOUNT": "Payment Amount",
+			"PAYMENT_AMOUNT_Hint": "Please enter Payment Amount",
+			"LOGDATE": "Logdate",
+			"LOGDATE_Hint": "Please enter Logdate",
+			"LOGNAME": "Logname",
+			"LOGNAME_Hint": "Please enter Logname",
+			"component_title": "ACT PAYMENT FORM"
+		}
+	},
+	"accountability_invoices": {
+		"accountability_invoices": {
+			"component_title": "Invoices",
+			"tab_title1": "Invoices",
+			"tab_title2": "Invoices"
+		}
+	},
+	"accountability_ACT_RULE_DEF_FORM": {
+		"actruleDefAccountabilityActRuleDefForm": {
+			"RULE_ID": "Rule Id",
+			"RULE_ID_Hint": "Please enter Rule Id",
+			"DISABLED": "Disabled",
+			"DISABLED_Hint": "Please enter Disabled",
+			"RULE_DESCRIPTION": "Rule Description",
+			"RULE_DESCRIPTION_Hint": "Please enter Rule Description",
+			"LOGNAME": "Logname",
+			"LOGNAME_Hint": "Please enter Logname",
+			"LOGDATE": "Logdate",
+			"LOGDATE_Hint": "Please enter Logdate",
+			"component_title": "Rules"
+		}
+	},
+	"accountability_ACT_RULE_ITEM_GRID": {
+		"actruleItemAccountabilityActRuleItemGrid": {
+			"RULE_ID": "Rule Id",
+			"RULE_ID_Hint": "Please enter Rule Id",
+			"DISABLED": "Disabled",
+			"DISABLED_Hint": "Please enter Disabled",
+			"ITEM": "Item",
+			"ITEM_Hint": "Please enter Item",
+			"FIELD": "Field",
+			"FIELD_Hint": "Please enter Field",
+			"OPERATION": "Operation",
+			"OPERATION_Hint": "Please enter Operation",
+			"FIELD_VALUE": "Field Value",
+			"FIELD_VALUE_Hint": "Please enter Field Value",
+			"LOGNAME": "Logname",
+			"LOGNAME_Hint": "Please enter Logname",
+			"LOGDATE": "Logdate",
+			"LOGDATE_Hint": "Please enter Logdate",
+			"component_title": "Items"
+		}
+	},
+	"accountability_ACT_RULE_ACTION_GRID": {
+		"actruleActionAccountabilityActRuleActionGrid": {
+			"DISABLED": "Disabled",
+			"DISABLED_Hint": "Please enter Disabled",
+			"RULE_ID": "Rule Id",
+			"RULE_ID_Hint": "Please enter Rule Id",
+			"ACTION_ORDER": "Action Order",
+			"ACTION_ORDER_Hint": "Please enter Action Order",
+			"ACTION_ID": "Action Id",
+			"ACTION_ID_Hint": "Please enter Action Id",
+			"ACTION_CODE": "Action Code",
+			"ACTION_CODE_Hint": "Please enter Action Code",
+			"LOGNAME": "Logname",
+			"LOGNAME_Hint": "Please enter Logname",
+			"LOGDATE": "Logdate",
+			"LOGDATE_Hint": "Please enter Logdate",
+			"component_title": "Actions"
+		}
+	},
+	"accountability_rules": {
+		"accountability_rules": {
+			"component_title": "Rules"
+		}
+	},
+	"accountability_ACT_RULE_ITEM_FORM": {
+		"actruleItemAccountabilityActRuleItemForm": {
+			"RULE_ID": "Rule Id",
+			"RULE_ID_Hint": "Please enter Rule Id",
+			"DISABLED": "Disabled",
+			"DISABLED_Hint": "Please enter Disabled",
+			"ITEM": "Item",
+			"ITEM_Hint": "Please enter Item",
+			"FIELD": "Field",
+			"FIELD_Hint": "Please enter Field",
+			"OPERATION": "Operation",
+			"OPERATION_Hint": "Please enter Operation",
+			"FIELD_VALUE": "Field Value",
+			"FIELD_VALUE_Hint": "Please enter Field Value",
+			"LOGNAME": "Logname",
+			"LOGNAME_Hint": "Please enter Logname",
+			"LOGDATE": "Logdate",
+			"LOGDATE_Hint": "Please enter Logdate",
+			"component_title": "ACT RULE ITEM FORM"
+		}
+	},
+	"accountability_ACT_RULE_ACTION_FORM": {
+		"actruleActionAccountabilityActRuleActionForm": {
+			"RULE_ID": "Rule Id",
+			"RULE_ID_Hint": "Please enter Rule Id",
+			"ACTION_ID": "Action Id",
+			"ACTION_ID_Hint": "Please enter Action Id",
+			"ACTION_ORDER": "Action Order",
+			"ACTION_ORDER_Hint": "Please enter Action Order",
+			"ACTION_CODE": "Action Code",
+			"ACTION_CODE_Hint": "Please enter Action Code",
+			"DISABLED": "Disabled",
+			"DISABLED_Hint": "Please enter Disabled",
+			"LOGNAME": "Logname",
+			"LOGNAME_Hint": "Please enter Logname",
+			"LOGDATE": "Logdate",
+			"LOGDATE_Hint": "Please enter Logdate",
+			"component_title": "ACT RULE ACTION FORM"
+		}
+	},
+	"accountability_ACT_INVOICES_GRID2": {
+		"actinvoicesAccountabilityActInvoicesGrid2": {
+			"FILE_TYPE": "File Type",
+			"FILE_TYPE_Hint": "Please enter File Type",
+			"FILE_NAME": "File Name",
+			"FILE_NAME_Hint": "Please enter File Name",
+			"INVOICE_NUMBER": "Invoice Number",
+			"INVOICE_NUMBER_Hint": "Please enter Invoice Number",
+			"SUPPLIER": "Supplier",
+			"SUPPLIER_Hint": "Please enter Supplier",
+			"INVOICE_DATE": "Invoice Date",
+			"INVOICE_DATE_Hint": "Please enter Invoice Date",
+			"INVOICE_AMOUNT": "Invoice Amount",
+			"INVOICE_AMOUNT_Hint": "Please enter Invoice Amount",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"LOGNAME": "Logname",
+			"LOGNAME_Hint": "Please enter Logname",
+			"LOGDATE": "Logdate",
+			"LOGDATE_Hint": "Please enter Logdate",
+			"component_title": "ACT INVOICES GRID2"
+		}
+	},
+	"accountability_ACT_PAYMENT_GRID2": {
+		"actpaymentAccountabilityActPaymentGrid2": {
+			"FILE_TYPE": "File Type",
+			"FILE_TYPE_Hint": "Please enter File Type",
+			"FILE_NAME": "File Name",
+			"FILE_NAME_Hint": "Please enter File Name",
+			"PAYMENT_NUMBER": "Number",
+			"PAYMENT_NUMBER_Hint": "Please enter Payment Number",
+			"PAYMENT_DATE": "Payment Date",
+			"PAYMENT_DATE_Hint": "Please enter Payment Date",
+			"PAYMENT_DESCRIPTION": "Payment Description",
+			"PAYMENT_DESCRIPTION_Hint": "Please enter Payment Description",
+			"PAYMENT_AMOUNT": "Payment Amount",
+			"PAYMENT_AMOUNT_Hint": "Please enter Payment Amount",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"LOGNAME": "Logname",
+			"LOGNAME_Hint": "Please enter Logname",
+			"LOGDATE": "Logdate",
+			"LOGDATE_Hint": "Please enter Logdate",
+			"component_title": "ACT PAYMENT GRID2"
+		}
+	}
+}

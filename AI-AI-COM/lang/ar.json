@@ -1,0 +1,2357 @@
+{
+	"LIB_Authors_FORM": {
+		"libauthorsLibAuthorsForm": {
+			"id": "Id",
+			"id_Hint": "Please enter Id",
+			"name": "Name",
+			"name_Hint": "Please enter Name",
+			"biography": "Biography",
+			"biography_Hint": "Please enter Biography",
+			"component_title": "Authors"
+		}
+	},
+	"LIB_Books_GRID": {
+		"libbooksLibBooksGrid": {
+			"id": "Id",
+			"id_Hint": "Please enter Id",
+			"title": "Title",
+			"title_Hint": "Please enter Title",
+			"author_id": "Author Id",
+			"author_id_Hint": "Please enter Author Id",
+			"publication_date": "Publication Date",
+			"publication_date_Hint": "Please enter Publication Date",
+			"component_title": "Books"
+		}
+	},
+	"lib_authors_books": {
+		"lib_authors_books": {
+			"component_title": "Authors Books"
+		}
+	},
+	"LIB_Books_FORM": {
+		"libbooksLibBooksForm": {
+			"id": "Id",
+			"id_Hint": "Please enter Id",
+			"title": "Title",
+			"title_Hint": "Please enter Title",
+			"author_id": "Author Id",
+			"author_id_Hint": "Please enter Author Id",
+			"publication_date": "Publication Date",
+			"publication_date_Hint": "Please enter Publication Date",
+			"component_title": "Books"
+		}
+	},
+	"LIB_BorrowedBooks_GRID": {
+		"libborrowedbooksLibBorrowedbooksGrid": {
+			"id": "Id",
+			"id_Hint": "Please enter Id",
+			"patron_id": "Patron Id",
+			"patron_id_Hint": "Please enter Patron Id",
+			"book_id": "Book Id",
+			"book_id_Hint": "Please enter Book Id",
+			"borrow_date": "Borrow Date",
+			"borrow_date_Hint": "Please enter Borrow Date",
+			"due_date": "Due Date",
+			"due_date_Hint": "Please enter Due Date",
+			"return_date": "Return Date",
+			"return_date_Hint": "Please enter Return Date",
+			"component_title": "Borrowedbooks"
+		}
+	},
+	"lib_books_borrowedbooks": {
+		"lib_books_borrowedbooks": {
+			"component_title": "Books Borrowedbooks"
+		}
+	},
+	"LIB_Patrons_FORM": {
+		"libpatronsLibPatronsForm": {
+			"id": "Id",
+			"id_Hint": "Please enter Id",
+			"name": "Name",
+			"name_Hint": "Please enter Name",
+			"email": "Email",
+			"email_Hint": "Please enter Email",
+			"phone_number": "Phone Number",
+			"phone_number_Hint": "Please enter Phone Number",
+			"component_title": "Patrons"
+		}
+	},
+	"lib_patrons_borrowedbooks": {
+		"lib_patrons_borrowedbooks": {
+			"component_title": "Patrons Borrowedbooks"
+		}
+	},
+	"LIB_Reservations_GRID": {
+		"libreservationsLibReservationsGrid": {
+			"id": "Id",
+			"id_Hint": "Please enter Id",
+			"patron_id": "Patron Id",
+			"patron_id_Hint": "Please enter Patron Id",
+			"book_id": "Book Id",
+			"book_id_Hint": "Please enter Book Id",
+			"reservation_date": "Reservation Date",
+			"reservation_date_Hint": "Please enter Reservation Date",
+			"component_title": "Reservations"
+		}
+	},
+	"lib_patrons_reservations": {
+		"lib_patrons_reservations": {
+			"component_title": "Patrons Reservations"
+		}
+	},
+	"lib_books_reservations": {
+		"lib_books_reservations": {
+			"component_title": "Books Reservations"
+		}
+	},
+	"LIB_authors_books": {
+		"LIB_authors_books": {
+			"component_title": "Authors Books",
+			"tab_title1": "Authors",
+			"tab_title2": "Books"
+		}
+	},
+	"LIB_books_borrowedbooks": {
+		"LIB_books_borrowedbooks": {
+			"component_title": "Books Borrowedbooks",
+			"tab_title1": "Books",
+			"tab_title2": "Borrowedbooks"
+		}
+	},
+	"LIB_books_reservations": {
+		"LIB_books_reservations": {
+			"component_title": "Books Reservations",
+			"tab_title1": "Books",
+			"tab_title2": "Reservations"
+		}
+	},
+	"LIB_patrons_borrowedbooks": {
+		"LIB_patrons_borrowedbooks": {
+			"component_title": "Patrons Borrowedbooks",
+			"tab_title1": "Patrons",
+			"tab_title2": "Borrowedbooks"
+		}
+	},
+	"LIB_patrons_reservations": {
+		"LIB_patrons_reservations": {
+			"component_title": "Patrons Reservations",
+			"tab_title1": "Patrons",
+			"tab_title2": "Reservations"
+		}
+	},
+	"MSC_Artists_FORM": {
+		"mscartistsMscArtistsForm": {
+			"artist_id": "Artist Id",
+			"artist_id_Hint": "Please enter Artist Id",
+			"name": "Name",
+			"name_Hint": "Please enter Name",
+			"biography": "Biography",
+			"biography_Hint": "Please enter Biography",
+			"component_title": "Artists"
+		}
+	},
+	"MSC_Albums_GRID": {
+		"mscalbumsMscAlbumsGrid": {
+			"album_id": "Album Id",
+			"album_id_Hint": "Please enter Album Id",
+			"title": "Title",
+			"title_Hint": "Please enter Title",
+			"artist_id": "Artist Id",
+			"artist_id_Hint": "Please enter Artist Id",
+			"release_date": "Release Date",
+			"release_date_Hint": "Please enter Release Date",
+			"inventory_level": "Inventory Level",
+			"inventory_level_Hint": "Please enter Inventory Level",
+			"component_title": "Albums"
+		}
+	},
+	"msc_artists_albums": {
+		"msc_artists_albums": {
+			"component_title": "Artists Albums"
+		}
+	},
+	"MSC_Customers_FORM": {
+		"msccustomersMscCustomersForm": {
+			"customer_id": "Customer Id",
+			"customer_id_Hint": "Please enter Customer Id",
+			"name": "Name",
+			"name_Hint": "Please enter Name",
+			"email": "Email",
+			"email_Hint": "Please enter Email",
+			"phone": "Phone",
+			"phone_Hint": "Please enter Phone",
+			"join_date": "Join Date",
+			"join_date_Hint": "Please enter Join Date",
+			"component_title": "Customers"
+		}
+	},
+	"MSC_Purchases_GRID": {
+		"mscpurchasesMscPurchasesGrid": {
+			"purchase_id": "Purchase Id",
+			"purchase_id_Hint": "Please enter Purchase Id",
+			"customer_id": "Customer Id",
+			"customer_id_Hint": "Please enter Customer Id",
+			"album_id": "Album Id",
+			"album_id_Hint": "Please enter Album Id",
+			"purchase_date": "Purchase Date",
+			"purchase_date_Hint": "Please enter Purchase Date",
+			"quantity": "Quantity",
+			"quantity_Hint": "Please enter Quantity",
+			"component_title": "Purchases"
+		}
+	},
+	"msc_customers_purchases": {
+		"msc_customers_purchases": {
+			"component_title": "Customers Purchases"
+		}
+	},
+	"MSC_artists_albums": {
+		"MSC_artists_albums": {
+			"component_title": "Artists Albums",
+			"tab_title1": "Artists",
+			"tab_title2": "Albums"
+		}
+	},
+	"MSC_customers_purchases": {
+		"MSC_customers_purchases": {
+			"component_title": "Customers Purchases",
+			"tab_title1": "Customers",
+			"tab_title2": "Purchases"
+		}
+	},
+	"MSC2_artists_FORM": {
+		"msc2artistsMsc2ArtistsForm": {
+			"artist_id": "Artist Id",
+			"artist_id_Hint": "Please enter Artist Id",
+			"name": "Name",
+			"name_Hint": "Please enter Name",
+			"biography": "Biography",
+			"biography_Hint": "Please enter Biography",
+			"component_title": "Artists"
+		}
+	},
+	"MSC2_albums_GRID": {
+		"msc2albumsMsc2AlbumsGrid": {
+			"album_id": "Album Id",
+			"album_id_Hint": "Please enter Album Id",
+			"title": "Title",
+			"title_Hint": "Please enter Title",
+			"artist_id": "Artist Id",
+			"artist_id_Hint": "Please enter Artist Id",
+			"inventory_level": "Inventory Level",
+			"inventory_level_Hint": "Please enter Inventory Level",
+			"price": "Price",
+			"price_Hint": "Please enter Price",
+			"release_date": "Release Date",
+			"release_date_Hint": "Please enter Release Date",
+			"component_title": "Albums"
+		}
+	},
+	"msc2_artists_albums": {
+		"msc2_artists_albums": {
+			"component_title": "Artists Albums"
+		}
+	},
+	"MSC2_customers_FORM": {
+		"msc2customersMsc2CustomersForm": {
+			"customer_id": "Customer Id",
+			"customer_id_Hint": "Please enter Customer Id",
+			"first_name": "First Name",
+			"first_name_Hint": "Please enter First Name",
+			"last_name": "Last Name",
+			"last_name_Hint": "Please enter Last Name",
+			"email": "Email",
+			"email_Hint": "Please enter Email",
+			"phone": "Phone",
+			"phone_Hint": "Please enter Phone",
+			"address": "Address",
+			"address_Hint": "Please enter Address",
+			"registration_date": "Registration Date",
+			"registration_date_Hint": "Please enter Registration Date",
+			"component_title": "Customers"
+		}
+	},
+	"MSC2_purchases_GRID": {
+		"msc2purchasesMsc2PurchasesGrid": {
+			"purchase_id": "Purchase Id",
+			"purchase_id_Hint": "Please enter Purchase Id",
+			"customer_id": "Customer Id",
+			"customer_id_Hint": "Please enter Customer Id",
+			"album_id": "Album Id",
+			"album_id_Hint": "Please enter Album Id",
+			"purchase_date": "Purchase Date",
+			"purchase_date_Hint": "Please enter Purchase Date",
+			"quantity": "Quantity",
+			"quantity_Hint": "Please enter Quantity",
+			"component_title": "Purchases"
+		}
+	},
+	"msc2_customers_purchases": {
+		"msc2_customers_purchases": {
+			"component_title": "Customers Purchases"
+		}
+	},
+	"MSC2_albums_FORM": {
+		"msc2albumsMsc2AlbumsForm": {
+			"album_id": "Album Id",
+			"album_id_Hint": "Please enter Album Id",
+			"title": "Title",
+			"title_Hint": "Please enter Title",
+			"artist_id": "Artist Id",
+			"artist_id_Hint": "Please enter Artist Id",
+			"inventory_level": "Inventory Level",
+			"inventory_level_Hint": "Please enter Inventory Level",
+			"price": "Price",
+			"price_Hint": "Please enter Price",
+			"release_date": "Release Date",
+			"release_date_Hint": "Please enter Release Date",
+			"component_title": "Albums"
+		}
+	},
+	"msc2_albums_purchases": {
+		"msc2_albums_purchases": {
+			"component_title": "Albums Purchases"
+		}
+	},
+	"MSC2_albums_purchases": {
+		"MSC2_albums_purchases": {
+			"component_title": "Albums Purchases",
+			"tab_title1": "Albums",
+			"tab_title2": "Purchases"
+		}
+	},
+	"MSC2_artists_albums": {
+		"MSC2_artists_albums": {
+			"component_title": "Artists Albums",
+			"tab_title1": "Artists",
+			"tab_title2": "Albums"
+		}
+	},
+	"MSC2_customers_purchases": {
+		"MSC2_customers_purchases": {
+			"component_title": "Customers Purchases",
+			"tab_title1": "Customers",
+			"tab_title2": "Purchases"
+		}
+	},
+	"MSC_Sales_GRID": {
+		"mscsalesMscSalesGrid": {
+			"sale_id": "Sale Id",
+			"sale_id_Hint": "Please enter Sale Id",
+			"customer_id": "Customer Id",
+			"customer_id_Hint": "Please enter Customer Id",
+			"album_id": "Album Id",
+			"album_id_Hint": "Please enter Album Id",
+			"sale_date": "Sale Date",
+			"sale_date_Hint": "Please enter Sale Date",
+			"quantity": "Quantity",
+			"quantity_Hint": "Please enter Quantity",
+			"component_title": "Sales"
+		}
+	},
+	"msc_customers_sales": {
+		"msc_customers_sales": {
+			"component_title": "Customers Sales"
+		}
+	},
+	"MSC_Albums_FORM": {
+		"mscalbumsMscAlbumsForm": {
+			"album_id": "Album Id",
+			"album_id_Hint": "Please enter Album Id",
+			"title": "Title",
+			"title_Hint": "Please enter Title",
+			"artist_id": "Artist Id",
+			"artist_id_Hint": "Please enter Artist Id",
+			"release_date": "Release Date",
+			"release_date_Hint": "Please enter Release Date",
+			"inventory_level": "Inventory Level",
+			"inventory_level_Hint": "Please enter Inventory Level",
+			"component_title": "Albums"
+		}
+	},
+	"msc_albums_sales": {
+		"msc_albums_sales": {
+			"component_title": "Albums Sales"
+		}
+	},
+	"MSC_albums_sales": {
+		"MSC_albums_sales": {
+			"component_title": "Albums Sales",
+			"tab_title1": "Albums",
+			"tab_title2": "Sales"
+		}
+	},
+	"MSC_customers_sales": {
+		"MSC_customers_sales": {
+			"component_title": "Customers Sales",
+			"tab_title1": "Customers",
+			"tab_title2": "Sales"
+		}
+	},
+	"MSC_artists_FORM": {
+		"mscartistsMscArtistsForm": {
+			"artist_id": "Artist Id",
+			"artist_id_Hint": "Please enter Artist Id",
+			"name": "Name",
+			"name_Hint": "Please enter Name",
+			"biography": "Biography",
+			"biography_Hint": "Please enter Biography",
+			"component_title": "Artists"
+		}
+	},
+	"MSC_albums_GRID": {
+		"mscalbumsMscAlbumsGrid": {
+			"album_id": "Album Id",
+			"album_id_Hint": "Please enter Album Id",
+			"title": "Title",
+			"title_Hint": "Please enter Title",
+			"artist_id": "Artist Id",
+			"artist_id_Hint": "Please enter Artist Id",
+			"inventory_level": "Inventory Level",
+			"inventory_level_Hint": "Please enter Inventory Level",
+			"release_date": "Release Date",
+			"release_date_Hint": "Please enter Release Date",
+			"component_title": "Albums"
+		}
+	},
+	"MSC_customers_FORM": {
+		"msccustomersMscCustomersForm": {
+			"customer_id": "Customer Id",
+			"customer_id_Hint": "Please enter Customer Id",
+			"name": "Name",
+			"name_Hint": "Please enter Name",
+			"email": "Email",
+			"email_Hint": "Please enter Email",
+			"phone": "Phone",
+			"phone_Hint": "Please enter Phone",
+			"address": "Address",
+			"address_Hint": "Please enter Address",
+			"component_title": "Customers"
+		}
+	},
+	"MSC_purchases_GRID": {
+		"mscpurchasesMscPurchasesGrid": {
+			"purchase_id": "Purchase Id",
+			"purchase_id_Hint": "Please enter Purchase Id",
+			"customer_id": "Customer Id",
+			"customer_id_Hint": "Please enter Customer Id",
+			"album_id": "Album Id",
+			"album_id_Hint": "Please enter Album Id",
+			"purchase_date": "Purchase Date",
+			"purchase_date_Hint": "Please enter Purchase Date",
+			"quantity": "Quantity",
+			"quantity_Hint": "Please enter Quantity",
+			"component_title": "Purchases"
+		}
+	},
+	"MSC_albums_FORM": {
+		"mscalbumsMscAlbumsForm": {
+			"album_id": "Album Id",
+			"album_id_Hint": "Please enter Album Id",
+			"title": "Title",
+			"title_Hint": "Please enter Title",
+			"inventory_level": "Inventory Level",
+			"inventory_level_Hint": "Please enter Inventory Level",
+			"artist_id": "Artist Id",
+			"artist_id_Hint": "Please enter Artist Id",
+			"release_date": "Release Date",
+			"release_date_Hint": "Please enter Release Date",
+			"component_title": "Albums"
+		}
+	},
+	"msc_albums_purchases": {
+		"msc_albums_purchases": {
+			"component_title": "Albums Purchases"
+		}
+	},
+	"MSC_albums_purchases": {
+		"MSC_albums_purchases": {
+			"component_title": "Albums Purchases",
+			"tab_title1": "Albums",
+			"tab_title2": "Purchases"
+		}
+	},
+	"WL_observer_FORM": {
+		"wlobserverWlObserverForm": {
+			"id": "Id",
+			"id_Hint": "Please enter Id",
+			"name": "Name",
+			"name_Hint": "Please enter Name",
+			"component_title": "Observer"
+		}
+	},
+	"WL_observations_GRID": {
+		"wlobservationsWlObservationsGrid": {
+			"id": "Id",
+			"id_Hint": "Please enter Id",
+			"observer_id": "Observer Id",
+			"observer_id_Hint": "Please enter Observer Id",
+			"species_id": "Species Id",
+			"species_id_Hint": "Please enter Species Id",
+			"location": "Location",
+			"location_Hint": "Please enter Location",
+			"observation_date": "Observation Date",
+			"observation_date_Hint": "Please enter Observation Date",
+			"lifecycle_stage": "Lifecycle Stage",
+			"lifecycle_stage_Hint": "Please enter Lifecycle Stage",
+			"component_title": "Observations"
+		}
+	},
+	"wl_observer_observations": {
+		"wl_observer_observations": {
+			"component_title": "Observer Observations"
+		}
+	},
+	"WL_species_FORM": {
+		"wlspeciesWlSpeciesForm": {
+			"id": "Id",
+			"id_Hint": "Please enter Id",
+			"common_name": "Common Name",
+			"common_name_Hint": "Please enter Common Name",
+			"scientific_name": "Scientific Name",
+			"scientific_name_Hint": "Please enter Scientific Name",
+			"component_title": "Species"
+		}
+	},
+	"wl_species_observations": {
+		"wl_species_observations": {
+			"component_title": "Species Observations"
+		}
+	},
+	"WL_observations_FORM": {
+		"wlobservationsWlObservationsForm": {
+			"id": "Id",
+			"id_Hint": "Please enter Id",
+			"observer_id": "Observer Id",
+			"observer_id_Hint": "Please enter Observer Id",
+			"species_id": "Species Id",
+			"species_id_Hint": "Please enter Species Id",
+			"location": "Location",
+			"location_Hint": "Please enter Location",
+			"observation_date": "Observation Date",
+			"observation_date_Hint": "Please enter Observation Date",
+			"lifecycle_stage": "Lifecycle Stage",
+			"lifecycle_stage_Hint": "Please enter Lifecycle Stage",
+			"component_title": "Observations"
+		}
+	},
+	"WL_comments_GRID": {
+		"wlcommentsWlCommentsGrid": {
+			"id": "Id",
+			"id_Hint": "Please enter Id",
+			"observation_id": "Observation Id",
+			"observation_id_Hint": "Please enter Observation Id",
+			"comment": "Comment",
+			"comment_Hint": "Please enter Comment",
+			"component_title": "Comments"
+		}
+	},
+	"wl_observations_comments": {
+		"wl_observations_comments": {
+			"component_title": "Observations Comments"
+		}
+	},
+	"WL_observations_comments": {
+		"WL_observations_comments": {
+			"component_title": "Observations Comments",
+			"tab_title1": "Observations",
+			"tab_title2": "Comments"
+		}
+	},
+	"WL_observer_observations": {
+		"WL_observer_observations": {
+			"component_title": "Observer Observations",
+			"tab_title1": "Observer",
+			"tab_title2": "Observations"
+		}
+	},
+	"WL_species_observations": {
+		"WL_species_observations": {
+			"component_title": "Species Observations",
+			"tab_title1": "Species",
+			"tab_title2": "Observations"
+		}
+	},
+	"MED_Patients_FORM": {
+		"medpatientsMedPatientsForm": {
+			"patient_id": "Patient Id",
+			"patient_id_Hint": "Please enter Patient Id",
+			"name": "Name",
+			"name_Hint": "Please enter Name",
+			"date_of_birth": "Date Of Birth",
+			"date_of_birth_Hint": "Please enter Date Of Birth",
+			"contact_info": "Contact Info",
+			"contact_info_Hint": "Please enter Contact Info",
+			"component_title": "Patients"
+		}
+	},
+	"MED_Appointments_GRID": {
+		"medappointmentsMedAppointmentsGrid": {
+			"appointment_id": "Appointment Id",
+			"appointment_id_Hint": "Please enter Appointment Id",
+			"patient_id": "Patient Id",
+			"patient_id_Hint": "Please enter Patient Id",
+			"doctor_id": "Doctor Id",
+			"doctor_id_Hint": "Please enter Doctor Id",
+			"appointment_date": "Appointment Date",
+			"appointment_date_Hint": "Please enter Appointment Date",
+			"details": "Details",
+			"details_Hint": "Please enter Details",
+			"component_title": "Appointments"
+		}
+	},
+	"med_patients_appointments": {
+		"med_patients_appointments": {
+			"component_title": "Patients Appointments"
+		}
+	},
+	"MED_Prescriptions_GRID": {
+		"medprescriptionsMedPrescriptionsGrid": {
+			"prescription_id": "Prescription Id",
+			"prescription_id_Hint": "Please enter Prescription Id",
+			"appointment_id": "Appointment Id",
+			"appointment_id_Hint": "Please enter Appointment Id",
+			"medication_name": "Medication Name",
+			"medication_name_Hint": "Please enter Medication Name",
+			"dosage": "Dosage",
+			"dosage_Hint": "Please enter Dosage",
+			"instructions": "Instructions",
+			"instructions_Hint": "Please enter Instructions",
+			"component_title": "Prescriptions"
+		}
+	},
+	"med_patients_prescriptions": {
+		"med_patients_prescriptions": {
+			"component_title": "Patients Prescriptions"
+		}
+	},
+	"MED_Doctors_FORM": {
+		"meddoctorsMedDoctorsForm": {
+			"doctor_id": "Doctor Id",
+			"doctor_id_Hint": "Please enter Doctor Id",
+			"name": "Name",
+			"name_Hint": "Please enter Name",
+			"specialty": "Specialty",
+			"specialty_Hint": "Please enter Specialty",
+			"contact_info": "Contact Info",
+			"contact_info_Hint": "Please enter Contact Info",
+			"component_title": "Doctors"
+		}
+	},
+	"med_doctors_appointments": {
+		"med_doctors_appointments": {
+			"component_title": "Doctors Appointments"
+		}
+	},
+	"MED_Appointments_FORM": {
+		"medappointmentsMedAppointmentsForm": {
+			"appointment_id": "Appointment Id",
+			"appointment_id_Hint": "Please enter Appointment Id",
+			"patient_id": "Patient Id",
+			"patient_id_Hint": "Please enter Patient Id",
+			"appointment_date": "Appointment Date",
+			"appointment_date_Hint": "Please enter Appointment Date",
+			"doctor_id": "Doctor Id",
+			"doctor_id_Hint": "Please enter Doctor Id",
+			"details": "Details",
+			"details_Hint": "Please enter Details",
+			"component_title": "Appointments"
+		}
+	},
+	"med_appointments_prescriptions": {
+		"med_appointments_prescriptions": {
+			"component_title": "Appointments Prescriptions"
+		}
+	},
+	"MED_appointments_prescriptions": {
+		"MED_appointments_prescriptions": {
+			"component_title": "Appointments Prescriptions",
+			"tab_title1": "Appointments",
+			"tab_title2": "Prescriptions"
+		}
+	},
+	"MED_doctors_appointments": {
+		"MED_doctors_appointments": {
+			"component_title": "Doctors Appointments",
+			"tab_title1": "Doctors",
+			"tab_title2": "Appointments"
+		}
+	},
+	"MED_patients_appointments": {
+		"MED_patients_appointments": {
+			"component_title": "Patients Appointments",
+			"tab_title1": "Patients",
+			"tab_title2": "Appointments"
+		}
+	},
+	"MED_patients_prescriptions": {
+		"MED_patients_prescriptions": {
+			"component_title": "Patients Prescriptions",
+			"tab_title1": "Patients",
+			"tab_title2": "Prescriptions"
+		}
+	},
+	"BOK_Member_FORM": {
+		"bokmemberBokMemberForm": {
+			"MemberID": "Memberid",
+			"MemberID_Hint": "Please enter Memberid",
+			"FirstName": "Firstname",
+			"FirstName_Hint": "Please enter Firstname",
+			"LastName": "Lastname",
+			"LastName_Hint": "Please enter Lastname",
+			"Email": "Email",
+			"Email_Hint": "Please enter Email",
+			"JoinDate": "Joindate",
+			"JoinDate_Hint": "Please enter Joindate",
+			"component_title": "Member"
+		}
+	},
+	"BOK_Loan_GRID": {
+		"bokloanBokLoanGrid": {
+			"LoanID": "Loanid",
+			"LoanID_Hint": "Please enter Loanid",
+			"BookID": "Bookid",
+			"BookID_Hint": "Please enter Bookid",
+			"MemberID": "Memberid",
+			"MemberID_Hint": "Please enter Memberid",
+			"LoanDate": "Loandate",
+			"LoanDate_Hint": "Please enter Loandate",
+			"DueDate": "Duedate",
+			"DueDate_Hint": "Please enter Duedate",
+			"ReturnDate": "Returndate",
+			"ReturnDate_Hint": "Please enter Returndate",
+			"component_title": "Loan"
+		}
+	},
+	"bok_member_loan": {
+		"bok_member_loan": {
+			"component_title": "Member Loan"
+		}
+	},
+	"BOK_Book_FORM": {
+		"bokbookBokBookForm": {
+			"BookID": "Bookid",
+			"BookID_Hint": "Please enter Bookid",
+			"Title": "Title",
+			"Title_Hint": "Please enter Title",
+			"ISBN": "Isbn",
+			"ISBN_Hint": "Please enter Isbn",
+			"Author": "Author",
+			"Author_Hint": "Please enter Author",
+			"PublicationDate": "Publicationdate",
+			"PublicationDate_Hint": "Please enter Publicationdate",
+			"CopiesAvailable": "Copiesavailable",
+			"CopiesAvailable_Hint": "Please enter Copiesavailable",
+			"component_title": "Book"
+		}
+	},
+	"bok_book_loan": {
+		"bok_book_loan": {
+			"component_title": "Book Loan"
+		}
+	},
+	"BOK_DigitalMedia_GRID": {
+		"bokdigitalmediaBokDigitalmediaGrid": {
+			"DigitalMediaID": "Digitalmediaid",
+			"DigitalMediaID_Hint": "Please enter Digitalmediaid",
+			"Title": "Title",
+			"Title_Hint": "Please enter Title",
+			"MediaType": "Mediatype",
+			"MediaType_Hint": "Please enter Mediatype",
+			"Format": "Format",
+			"Format_Hint": "Please enter Format",
+			"AccessLink": "Accesslink",
+			"AccessLink_Hint": "Please enter Accesslink",
+			"UploadDate": "Uploaddate",
+			"UploadDate_Hint": "Please enter Uploaddate",
+			"component_title": "Digitalmedia"
+		}
+	},
+	"bok_member_digitalmedia": {
+		"bok_member_digitalmedia": {
+			"component_title": "Member Digitalmedia"
+		}
+	},
+	"BOK_DigitalMedia_FORM": {
+		"bokdigitalmediaBokDigitalmediaForm": {
+			"DigitalMediaID": "Digitalmediaid",
+			"DigitalMediaID_Hint": "Please enter Digitalmediaid",
+			"Title": "Title",
+			"Title_Hint": "Please enter Title",
+			"MediaType": "Mediatype",
+			"MediaType_Hint": "Please enter Mediatype",
+			"Format": "Format",
+			"Format_Hint": "Please enter Format",
+			"AccessLink": "Accesslink",
+			"AccessLink_Hint": "Please enter Accesslink",
+			"UploadDate": "Uploaddate",
+			"UploadDate_Hint": "Please enter Uploaddate",
+			"component_title": "Digitalmedia"
+		}
+	},
+	"bok_digitalmedia_loan": {
+		"bok_digitalmedia_loan": {
+			"component_title": "Digitalmedia Loan"
+		}
+	},
+	"bok_member_digitalmedia_loan": {
+		"bok_member_digitalmedia_loan": {
+			"component_title": "Member Digitalmedia Loan"
+		}
+	},
+	"BOK_book_loan": {
+		"BOK_book_loan": {
+			"component_title": "Book Loan",
+			"tab_title1": "Book",
+			"tab_title2": "Loan"
+		}
+	},
+	"BOK_digitalmedia_loan": {
+		"BOK_digitalmedia_loan": {
+			"component_title": "Digitalmedia Loan",
+			"tab_title1": "Digitalmedia",
+			"tab_title2": "Loan"
+		}
+	},
+	"BOK_member_digitalmedia": {
+		"BOK_member_digitalmedia": {
+			"component_title": "Member Digitalmedia",
+			"tab_title1": "Member",
+			"tab_title2": "Digitalmedia"
+		}
+	},
+	"BOK_member_digitalmedia_loan": {
+		"BOK_member_digitalmedia_loan": {
+			"component_title": "Member Digitalmedia Loan",
+			"tab_title1": "Member",
+			"tab_title2": "Digitalmedia",
+			"tab_title3": "Loan"
+		}
+	},
+	"BOK_member_loan": {
+		"BOK_member_loan": {
+			"component_title": "Member Loan",
+			"tab_title1": "Member",
+			"tab_title2": "Loan"
+		}
+	},
+	"MED_patient_FORM": {
+		"medpatientMedPatientForm": {
+			"patient_id": "Patient Id",
+			"patient_id_Hint": "Please enter Patient Id",
+			"patient_name": "Patient Name",
+			"patient_name_Hint": "Please enter Patient Name",
+			"patient_email": "Patient Email",
+			"patient_email_Hint": "Please enter Patient Email",
+			"patient_phone": "Patient Phone",
+			"patient_phone_Hint": "Please enter Patient Phone",
+			"component_title": "Patient"
+		}
+	},
+	"MED_appointment_EVENT": {
+		"medappointmentMedAppointmentEvent": {
+			"appointment_id": "Appointment Id",
+			"appointment_id_Hint": "Please enter Appointment Id",
+			"patient_id": "Patient Id",
+			"patient_id_Hint": "Please enter Patient Id",
+			"doctor_id": "Doctor Id",
+			"doctor_id_Hint": "Please enter Doctor Id",
+			"appointment_date": "Appointment Date",
+			"appointment_date_Hint": "Please enter Appointment Date",
+			"description": "Description",
+			"description_Hint": "Please enter Description",
+			"component_title": "Appointment"
+		}
+	},
+	"med_patient_appointment": {
+		"med_patient_appointment": {
+			"component_title": "Patient Appointment"
+		}
+	},
+	"MED_doctor_MAP": {
+		"meddoctorMedDoctorMap": {
+			"doctor_id": "Doctor Id",
+			"doctor_id_Hint": "Please enter Doctor Id",
+			"doctor_name": "Doctor Name",
+			"doctor_name_Hint": "Please enter Doctor Name",
+			"doctor_email": "Doctor Email",
+			"doctor_email_Hint": "Please enter Doctor Email",
+			"doctor_phone": "Doctor Phone",
+			"doctor_phone_Hint": "Please enter Doctor Phone",
+			"doctor_specialization": "Doctor Specialization",
+			"doctor_specialization_Hint": "Please enter Doctor Specialization",
+			"latitude": "Latitude",
+			"latitude_Hint": "Please enter Latitude",
+			"longitude": "Longitude",
+			"longitude_Hint": "Please enter Longitude",
+			"fees": "Fees",
+			"fees_Hint": "Please enter Fees",
+			"component_title": "Doctor"
+		}
+	},
+	"MED_appointment_GRID": {
+		"medappointmentMedAppointmentGrid": {
+			"appointment_id": "Appointment Id",
+			"appointment_id_Hint": "Please enter Appointment Id",
+			"patient_id": "Patient Id",
+			"patient_id_Hint": "Please enter Patient Id",
+			"doctor_id": "Doctor Id",
+			"doctor_id_Hint": "Please enter Doctor Id",
+			"appointment_date": "Appointment Date",
+			"appointment_date_Hint": "Please enter Appointment Date",
+			"description": "Description",
+			"description_Hint": "Please enter Description",
+			"component_title": "Appointment"
+		}
+	},
+	"med_doctor_appointment": {
+		"med_doctor_appointment": {
+			"component_title": "Doctor Appointment"
+		}
+	},
+	"MED_appointment_FORM": {
+		"medappointmentMedAppointmentForm": {
+			"appointment_id": "Appointment Id",
+			"appointment_id_Hint": "Please enter Appointment Id",
+			"patient_id": "Patient Id",
+			"patient_id_Hint": "Please enter Patient Id",
+			"doctor_id": "Doctor Id",
+			"doctor_id_Hint": "Please enter Doctor Id",
+			"appointment_date": "Appointment Date",
+			"appointment_date_Hint": "Please enter Appointment Date",
+			"description": "Description",
+			"description_Hint": "Please enter Description",
+			"component_title": "Appointment"
+		}
+	},
+	"MED_prescription_GRID": {
+		"medprescriptionMedPrescriptionGrid": {
+			"prescription_id": "Prescription Id",
+			"prescription_id_Hint": "Please enter Prescription Id",
+			"appointment_id": "Appointment Id",
+			"appointment_id_Hint": "Please enter Appointment Id",
+			"prescription_date": "Prescription Date",
+			"prescription_date_Hint": "Please enter Prescription Date",
+			"medication": "Medication",
+			"medication_Hint": "Please enter Medication",
+			"dosage": "Dosage",
+			"dosage_Hint": "Please enter Dosage",
+			"component_title": "Prescription"
+		}
+	},
+	"med_appointment_prescription": {
+		"med_appointment_prescription": {
+			"component_title": "Appointment Prescription"
+		}
+	},
+	"med_patient_appointment_prescription": {
+		"med_patient_appointment_prescription": {
+			"component_title": "Patient Appointment Prescription"
+		}
+	},
+	"MED_doctor_FORM": {
+		"meddoctorMedDoctorForm": {
+			"doctor_id": "Doctor Id",
+			"doctor_id_Hint": "Please enter Doctor Id",
+			"doctor_name": "Doctor Name",
+			"doctor_name_Hint": "Please enter Doctor Name",
+			"doctor_email": "Doctor Email",
+			"doctor_email_Hint": "Please enter Doctor Email",
+			"doctor_phone": "Doctor Phone",
+			"doctor_phone_Hint": "Please enter Doctor Phone",
+			"doctor_specialization": "Doctor Specialization",
+			"doctor_specialization_Hint": "Please enter Doctor Specialization",
+			"latitude": "Latitude",
+			"latitude_Hint": "Please enter Latitude",
+			"longitude": "Longitude",
+			"longitude_Hint": "Please enter Longitude",
+			"fees": "Fees",
+			"fees_Hint": "Please enter Fees",
+			"component_title": "Doctor"
+		}
+	},
+	"med_doctor_appointment_prescription": {
+		"med_doctor_appointment_prescription": {
+			"component_title": "Doctor Appointment Prescription"
+		}
+	},
+	"MED_appointment_prescription": {
+		"MED_appointment_prescription": {
+			"component_title": "Appointment Prescription",
+			"tab_title1": "Appointment",
+			"tab_title2": "Prescription"
+		}
+	},
+	"MED_doctor_appointment": {
+		"MED_doctor_appointment": {
+			"component_title": "Doctor Appointment",
+			"tab_title1": "Appointment",
+			"tab_title2": "Doctor"
+		}
+	},
+	"MED_doctor_appointment_prescription": {
+		"MED_doctor_appointment_prescription": {
+			"component_title": "Doctor Appointment Prescription",
+			"tab_title1": "Doctor",
+			"tab_title2": "Appointment",
+			"tab_title3": "Prescription"
+		}
+	},
+	"MED_patient_appointment": {
+		"MED_patient_appointment": {
+			"component_title": "Patient Appointment",
+			"tab_title1": "Patient",
+			"tab_title2": "Appointment"
+		}
+	},
+	"MED_patient_appointment_prescription": {
+		"MED_patient_appointment_prescription": {
+			"component_title": "Patient Appointment Prescription",
+			"tab_title1": "Patient",
+			"tab_title2": "Appointment",
+			"tab_title3": "Prescription"
+		}
+	},
+	"MED_": {
+		"medappointmentMed": {
+			"appointment_id": "Appointment Id",
+			"appointment_id_Hint": "Please enter Appointment Id",
+			"appointment_date": "Appointment Date",
+			"appointment_date_Hint": "Please enter Appointment Date",
+			"appointment_description": "Appointment Description",
+			"appointment_description_Hint": "Please enter Appointment Description",
+			"patient_id": "Patient Id",
+			"patient_id_Hint": "Please enter Patient Id",
+			"doctor_id": "Doctor Id",
+			"doctor_id_Hint": "Please enter Doctor Id",
+			"component_title": "Appointment"
+		}
+	},
+	"MED_appointment_MAP": {
+		"medappointmentMedAppointmentMap": {
+			"appointment_id": "Appointment Id",
+			"appointment_id_Hint": "Please enter Appointment Id",
+			"appointment_date": "Appointment Date",
+			"appointment_date_Hint": "Please enter Appointment Date",
+			"appointment_description": "Appointment Description",
+			"appointment_description_Hint": "Please enter Appointment Description",
+			"patient_id": "Patient Id",
+			"patient_id_Hint": "Please enter Patient Id",
+			"doctor_id": "Doctor Id",
+			"doctor_id_Hint": "Please enter Doctor Id",
+			"component_title": "Appointment"
+		}
+	},
+	"MED_prescription_EVENT": {
+		"medprescriptionMedPrescriptionEvent": {
+			"prescription_id": "Prescription Id",
+			"prescription_id_Hint": "Please enter Prescription Id",
+			"appointment_id": "Appointment Id",
+			"appointment_id_Hint": "Please enter Appointment Id",
+			"prescription_date": "Prescription Date",
+			"prescription_date_Hint": "Please enter Prescription Date",
+			"medication": "Medication",
+			"medication_Hint": "Please enter Medication",
+			"dosage": "Dosage",
+			"dosage_Hint": "Please enter Dosage",
+			"instructions": "Instructions",
+			"instructions_Hint": "Please enter Instructions",
+			"component_title": "Prescription"
+		}
+	},
+	"MED_DBM_VOLDISCOUNT_GRID": {
+		"dbmvoldiscountMedDbmVoldiscountGrid": {
+			"PROFILE": "Profile",
+			"PROFILE_Hint": "Please enter Profile",
+			"CATEGORY": "Category",
+			"CATEGORY_Hint": "Please enter Category",
+			"SUBSCR_TYPE": "Subscr Type",
+			"SUBSCR_TYPE_Hint": "Please enter Subscr Type",
+			"CHARGETYPE": "Chargetype",
+			"CHARGETYPE_Hint": "Please enter Chargetype",
+			"BILLCODE": "Billcode",
+			"BILLCODE_Hint": "Please enter Billcode",
+			"STARTDATE": "Startdate",
+			"STARTDATE_Hint": "Please enter Startdate",
+			"VOLFROM": "Volfrom",
+			"VOLFROM_Hint": "Please enter Volfrom",
+			"VOLTO": "Volto",
+			"VOLTO_Hint": "Please enter Volto",
+			"FACTOR": "Factor",
+			"FACTOR_Hint": "Please enter Factor",
+			"FACTOR_INT": "Factor Int",
+			"FACTOR_INT_Hint": "Please enter Factor Int",
+			"TARIFFCLASS": "Tariffclass",
+			"TARIFFCLASS_Hint": "Please enter Tariffclass",
+			"WEIGHT_RATIO": "Weight Ratio",
+			"WEIGHT_RATIO_Hint": "Please enter Weight Ratio",
+			"PEAK_PRICE": "Peak Price",
+			"PEAK_PRICE_Hint": "Please enter Peak Price",
+			"OFF_PEAK_PRICE": "Off Peak Price",
+			"OFF_PEAK_PRICE_Hint": "Please enter Off Peak Price",
+			"FLEX_FLD1": "Flex Fld1",
+			"FLEX_FLD1_Hint": "Please enter Flex Fld1",
+			"FLEX_FLD2": "Flex Fld2",
+			"FLEX_FLD2_Hint": "Please enter Flex Fld2",
+			"FLEX_FLD3": "Flex Fld3",
+			"FLEX_FLD3_Hint": "Please enter Flex Fld3",
+			"FLEX_FLD4": "Flex Fld4",
+			"FLEX_FLD4_Hint": "Please enter Flex Fld4",
+			"FLEX_FLD5": "Flex Fld5",
+			"FLEX_FLD5_Hint": "Please enter Flex Fld5",
+			"component_title": "DBM VOLDISCOUNT GRID"
+		}
+	},
+	"ERP_CB_BILL_DETAILS": {
+		"erpbillDetailErpCbBillDetails": {
+			"BILL_DETAIL_ID": "Bill Detail Id",
+			"BILL_DETAIL_ID_Hint": "Please enter Bill Detail Id",
+			"BILL_ID": "Bill Id",
+			"BILL_ID_Hint": "Please enter Bill Id",
+			"ITEM_ID": "Item Id",
+			"ITEM_ID_Hint": "Please enter Item Id",
+			"ITEM_QTY": "Item Qty",
+			"ITEM_QTY_Hint": "Please enter Item Qty",
+			"SUBTOTAL": "Subtotal",
+			"SUBTOTAL_Hint": "Please enter Subtotal",
+			"SPLIT_ID": "Split Id",
+			"SPLIT_ID_Hint": "Please enter Split Id",
+			"SPLIT_PERSONS": "Split Persons",
+			"SPLIT_PERSONS_Hint": "Please enter Split Persons",
+			"MERGE_FROM_TABLE": "Merge From Table",
+			"MERGE_FROM_TABLE_Hint": "Please enter Merge From Table",
+			"component_title": "Bill Details"
+		}
+	},
+	"ERP_IM_INVENTORY_MOVEMENTS": {
+		"erpinventoryMovementErpImInventoryMovements": {
+			"MOVEMENT_ID": "Movement Id",
+			"MOVEMENT_ID_Hint": "Please enter Movement Id",
+			"ITEM_ID": "Item Id",
+			"ITEM_ID_Hint": "Please enter Item Id",
+			"MOVEMENT_TYPE": "Movement Type",
+			"MOVEMENT_TYPE_Hint": "Please enter Movement Type",
+			"QUANTITY": "Quantity",
+			"QUANTITY_Hint": "Please enter Quantity",
+			"REFERENCE_ID": "Reference Id",
+			"REFERENCE_ID_Hint": "Please enter Reference Id",
+			"REFERENCE_TYPE": "Reference Type",
+			"REFERENCE_TYPE_Hint": "Please enter Reference Type",
+			"LOCATION_FROM": "Location From",
+			"LOCATION_FROM_Hint": "Please enter Location From",
+			"LOCATION_TO": "Location To",
+			"LOCATION_TO_Hint": "Please enter Location To",
+			"COST_AMOUNT": "Cost Amount",
+			"COST_AMOUNT_Hint": "Please enter Cost Amount",
+			"USER_ID": "User Id",
+			"USER_ID_Hint": "Please enter User Id",
+			"MOVEMENT_DATE": "Movement Date",
+			"MOVEMENT_DATE_Hint": "Please enter Movement Date",
+			"VIEW_ITEM": "View Item",
+			"VIEW_ITEM_Hint": "Please enter View Item",
+			"EXPORT_LOG": "Export Log",
+			"EXPORT_LOG_Hint": "Please enter Export Log",
+			"component_title": "Inventory Movements"
+		}
+	},
+	"erp_order_wf": {
+		"erp_order_wf": {
+			"component_title": "ORDER Workflow"
+		}
+	},
+	"ERP_customer_bill": {
+		"ERP_customer_bill": {
+			"component_title": "Customer Bill",
+			"tab_title1": "Bill Header",
+			"tab_title2": "Bill Details",
+			"tab_title3": "Bill Footer"
+		}
+	},
+	"ERP_inventory_management": {
+		"ERP_inventory_management": {
+			"component_title": "Inventory Management",
+			"tab_title1": "Inventory Items"
+		}
+	},
+	"ERP_inventory_movement": {
+		"ERP_inventory_movement": {
+			"component_title": "Inventory Movement",
+			"tab_title1": "Inventory Movements"
+		}
+	},
+	"ERP_kitchen_display": {
+		"ERP_kitchen_display": {
+			"component_title": "Kitchen Display",
+			"tab_title1": "Kitchen Orders",
+			"tab_title2": "Order Items",
+			"tab_title3": "Kitchen Summary"
+		}
+	},
+	"ERP_order_wf": {
+		"ERP_order_wf": {
+			"component_title": "ORDER Workflow",
+			"tab_title1": "Pos main order",
+			"tab_title2": "Ow kitchen order grid",
+			"tab_title3": "Cb bill header",
+			"tab_title4": "Pp payment details"
+		}
+	},
+	"MED_AM_APPOINTMENT_DETAILS": {
+		"medappointmentMedAmAppointmentDetails": {
+			"APPOINTMENT_ID": "Appointment Id",
+			"APPOINTMENT_ID_Hint": "Please enter Appointment Id",
+			"PATIENT_ID": "Patient Id",
+			"PATIENT_ID_Hint": "Please enter Patient Id",
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id",
+			"APPOINTMENT_DATE": "Appointment Date",
+			"APPOINTMENT_DATE_Hint": "Please enter Appointment Date",
+			"APPOINTMENT_TIME": "Appointment Time",
+			"APPOINTMENT_TIME_Hint": "Please enter Appointment Time",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"DESCRIPTION": "Description",
+			"DESCRIPTION_Hint": "Please enter Description",
+			"component_title": "Appointment Details"
+		}
+	},
+	"MED_PR_PATIENT_INFORMATION": {
+		"medpatientMedPrPatientInformation": {
+			"PATIENT_ID": "Patient Id",
+			"PATIENT_ID_Hint": "Please enter Patient Id",
+			"FIRST_NAME": "First Name",
+			"FIRST_NAME_Hint": "Please enter First Name",
+			"LAST_NAME": "Last Name",
+			"LAST_NAME_Hint": "Please enter Last Name",
+			"DATE_OF_BIRTH": "Date Of Birth",
+			"DATE_OF_BIRTH_Hint": "Please enter Date Of Birth",
+			"GENDER": "Gender",
+			"GENDER_Hint": "Please enter Gender",
+			"PHONE": "Phone",
+			"PHONE_Hint": "Please enter Phone",
+			"EMAIL": "Email",
+			"EMAIL_Hint": "Please enter Email",
+			"ADDRESS": "Address",
+			"ADDRESS_Hint": "Please enter Address",
+			"PHOTO": "Photo",
+			"PHOTO_Hint": "Please enter Photo",
+			"component_title": "Patient Information"
+		}
+	},
+	"MED_patient_registration": {
+		"MED_patient_registration": {
+			"component_title": "Patient Registration",
+			"tab_title1": "Patient Information"
+		}
+	},
+	"MED_PP_MY_PROFILE": {
+		"medpatientMedPpMyProfile": {
+			"PATIENT_ID": "Patient Id",
+			"PATIENT_ID_Hint": "Please enter Patient Id",
+			"FIRST_NAME": "First Name",
+			"FIRST_NAME_Hint": "Please enter First Name",
+			"LAST_NAME": "Last Name",
+			"LAST_NAME_Hint": "Please enter Last Name",
+			"DATE_OF_BIRTH": "Date Of Birth",
+			"DATE_OF_BIRTH_Hint": "Please enter Date Of Birth",
+			"GENDER": "Gender",
+			"GENDER_Hint": "Please enter Gender",
+			"PHONE": "Phone",
+			"PHONE_Hint": "Please enter Phone",
+			"EMAIL": "Email",
+			"EMAIL_Hint": "Please enter Email",
+			"ADDRESS": "Address",
+			"ADDRESS_Hint": "Please enter Address",
+			"PHOTO": "Photo",
+			"PHOTO_Hint": "Please enter Photo",
+			"component_title": "My Profile"
+		}
+	},
+	"MED_PP_MY_APPOINTMENTS": {
+		"medappointmentMedPpMyAppointments": {
+			"APPOINTMENT_ID": "Appointment Id",
+			"APPOINTMENT_ID_Hint": "Please enter Appointment Id",
+			"PATIENT_ID": "Patient Id",
+			"PATIENT_ID_Hint": "Please enter Patient Id",
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id",
+			"APPOINTMENT_DATE": "Appointment Date",
+			"APPOINTMENT_DATE_Hint": "Please enter Appointment Date",
+			"APPOINTMENT_TIME": "Appointment Time",
+			"APPOINTMENT_TIME_Hint": "Please enter Appointment Time",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"DESCRIPTION": "Description",
+			"DESCRIPTION_Hint": "Please enter Description",
+			"component_title": "My Appointments"
+		}
+	},
+	"med_patient_profile": {
+		"med_patient_profile": {
+			"component_title": "Patient Profile"
+		}
+	},
+	"MED_BA_BOOK_APPOINTMENT": {
+		"medappointmentMedBaBookAppointment": {
+			"APPOINTMENT_ID": "Appointment Id",
+			"APPOINTMENT_ID_Hint": "Please enter Appointment Id",
+			"PATIENT_ID": "Patient Id",
+			"PATIENT_ID_Hint": "Please enter Patient Id",
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id",
+			"APPOINTMENT_DATE": "Appointment Date",
+			"APPOINTMENT_DATE_Hint": "Please enter Appointment Date",
+			"APPOINTMENT_TIME": "Appointment Time",
+			"APPOINTMENT_TIME_Hint": "Please enter Appointment Time",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"DESCRIPTION": "Description",
+			"DESCRIPTION_Hint": "Please enter Description",
+			"component_title": "Book Appointment"
+		}
+	},
+	"MED_BA_AVAILABLE_DOCTORS": {
+		"meddoctorMedBaAvailableDoctors": {
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id",
+			"FIRST_NAME": "First Name",
+			"FIRST_NAME_Hint": "Please enter First Name",
+			"LAST_NAME": "Last Name",
+			"LAST_NAME_Hint": "Please enter Last Name",
+			"SPECIALIZATION": "Specialization",
+			"SPECIALIZATION_Hint": "Please enter Specialization",
+			"PHONE": "Phone",
+			"PHONE_Hint": "Please enter Phone",
+			"EMAIL": "Email",
+			"EMAIL_Hint": "Please enter Email",
+			"ADDRESS": "Address",
+			"ADDRESS_Hint": "Please enter Address",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude",
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude",
+			"FEES": "Fees",
+			"FEES_Hint": "Please enter Fees",
+			"PHOTO": "Photo",
+			"PHOTO_Hint": "Please enter Photo",
+			"component_title": "Available Doctors"
+		}
+	},
+	"med_book_appointment": {
+		"med_book_appointment": {
+			"component_title": "موعد كتابي"
+		}
+	},
+	"MED_VP_PRESCRIPTION_DETAILS": {
+		"medprescriptionMedVpPrescriptionDetails": {
+			"PRESCRIPTION_ID": "Prescription Id",
+			"PRESCRIPTION_ID_Hint": "Please enter Prescription Id",
+			"APPOINTMENT_ID": "Appointment Id",
+			"APPOINTMENT_ID_Hint": "Please enter Appointment Id",
+			"MEDICATION_NAME": "Medication Name",
+			"MEDICATION_NAME_Hint": "Please enter Medication Name",
+			"DOSAGE": "Dosage",
+			"DOSAGE_Hint": "Please enter Dosage",
+			"FREQUENCY": "Frequency",
+			"FREQUENCY_Hint": "Please enter Frequency",
+			"DURATION": "Duration",
+			"DURATION_Hint": "Please enter Duration",
+			"INSTRUCTIONS": "Instructions",
+			"INSTRUCTIONS_Hint": "Please enter Instructions",
+			"PRESCRIPTION_DATE": "Prescription Date",
+			"PRESCRIPTION_DATE_Hint": "Please enter Prescription Date",
+			"component_title": "Prescription Details"
+		}
+	},
+	"MED_view_prescription": {
+		"MED_view_prescription": {
+			"component_title": "View Prescription",
+			"tab_title1": "Prescription Details"
+		}
+	},
+	"MED_PM_PATIENT_DETAILS": {
+		"medpatientMedPmPatientDetails": {
+			"PATIENT_ID": "Patient Id",
+			"PATIENT_ID_Hint": "Please enter Patient Id",
+			"FIRST_NAME": "First Name",
+			"FIRST_NAME_Hint": "Please enter First Name",
+			"LAST_NAME": "Last Name",
+			"LAST_NAME_Hint": "Please enter Last Name",
+			"DATE_OF_BIRTH": "Date Of Birth",
+			"DATE_OF_BIRTH_Hint": "Please enter Date Of Birth",
+			"GENDER": "Gender",
+			"GENDER_Hint": "Please enter Gender",
+			"PHONE": "Phone",
+			"PHONE_Hint": "Please enter Phone",
+			"EMAIL": "Email",
+			"EMAIL_Hint": "Please enter Email",
+			"ADDRESS": "Address",
+			"ADDRESS_Hint": "Please enter Address",
+			"PHOTO": "Photo",
+			"PHOTO_Hint": "Please enter Photo",
+			"VIEW_APPOINTMENTS": "View Appointments",
+			"VIEW_APPOINTMENTS_Hint": "Please enter View Appointments",
+			"component_title": "Patient Details"
+		}
+	},
+	"MED_PM_PATIENT_APPOINTMENTS": {
+		"medappointmentMedPmPatientAppointments": {
+			"APPOINTMENT_ID": "Appointment Id",
+			"APPOINTMENT_ID_Hint": "Please enter Appointment Id",
+			"PATIENT_ID": "Patient Id",
+			"PATIENT_ID_Hint": "Please enter Patient Id",
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id",
+			"APPOINTMENT_DATE": "Appointment Date",
+			"APPOINTMENT_DATE_Hint": "Please enter Appointment Date",
+			"APPOINTMENT_TIME": "Appointment Time",
+			"APPOINTMENT_TIME_Hint": "Please enter Appointment Time",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"DESCRIPTION": "Description",
+			"DESCRIPTION_Hint": "Please enter Description",
+			"component_title": "Patient Appointments"
+		}
+	},
+	"med_patient_management": {
+		"med_patient_management": {
+			"component_title": "Patient Management"
+		}
+	},
+	"MED_DM_DOCTOR_DETAILS": {
+		"meddoctorMedDmDoctorDetails": {
+			"DOCTOR_ID": "معرف الدكتور",
+			"DOCTOR_ID_Hint": "يرجى إدخال بطاقة تعريف الطبيب",
+			"FIRST_NAME": "الاسم الأول",
+			"FIRST_NAME_Hint": "يرجى إدخال الاسم الأول",
+			"LAST_NAME": "الاسم الأخير",
+			"LAST_NAME_Hint": "يرجى إدخال اسم العائلة",
+			"SPECIALIZATION": "التخصص",
+			"SPECIALIZATION_Hint": "يرجى إدخال قسم التخصص",
+			"PHONE": "الهاتف",
+			"PHONE_Hint": "يرجى إدخال الهاتف",
+			"EMAIL": "البريد الإلكتروني",
+			"EMAIL_Hint": "يرجى إدخال البريد الإلكتروني",
+			"ADDRESS": "العنوان",
+			"ADDRESS_Hint": "يرجى إدخال العنوان",
+			"LATITUDE": "خط العرض",
+			"LATITUDE_Hint": "يرجى إدخال Latitude",
+			"LONGITUDE": "خط الطول",
+			"LONGITUDE_Hint": "يرجى إدخال خط الطول",
+			"FEES": "الرسوم",
+			"FEES_Hint": "يرجى إدخال الرسوم",
+			"PHOTO": "صورة",
+			"PHOTO_Hint": "يرجى إدخال الصورة",
+			"component_title": "تفاصيل الطبيب"
+		}
+	},
+	"MED_DM_DOCTOR_SCHEDULE": {
+		"medappointmentMedDmDoctorSchedule": {
+			"APPOINTMENT_ID": "Appointment Id",
+			"APPOINTMENT_ID_Hint": "Please enter Appointment Id",
+			"PATIENT_ID": "Patient Id",
+			"PATIENT_ID_Hint": "Please enter Patient Id",
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id",
+			"APPOINTMENT_DATE": "Appointment Date",
+			"APPOINTMENT_DATE_Hint": "Please enter Appointment Date",
+			"APPOINTMENT_TIME": "Appointment Time",
+			"APPOINTMENT_TIME_Hint": "Please enter Appointment Time",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"DESCRIPTION": "Description",
+			"DESCRIPTION_Hint": "Please enter Description",
+			"component_title": "Doctor Schedule"
+		}
+	},
+	"med_doctor_management": {
+		"med_doctor_management": {
+			"component_title": "إدارة الأطباء"
+		}
+	},
+	"MED_AM_PRESCRIPTIONS": {
+		"medprescriptionMedAmPrescriptions": {
+			"PRESCRIPTION_ID": "Prescription Id",
+			"PRESCRIPTION_ID_Hint": "Please enter Prescription Id",
+			"APPOINTMENT_ID": "Appointment Id",
+			"APPOINTMENT_ID_Hint": "Please enter Appointment Id",
+			"MEDICATION_NAME": "Medication Name",
+			"MEDICATION_NAME_Hint": "Please enter Medication Name",
+			"DOSAGE": "Dosage",
+			"DOSAGE_Hint": "Please enter Dosage",
+			"FREQUENCY": "Frequency",
+			"FREQUENCY_Hint": "Please enter Frequency",
+			"DURATION": "Duration",
+			"DURATION_Hint": "Please enter Duration",
+			"INSTRUCTIONS": "Instructions",
+			"INSTRUCTIONS_Hint": "Please enter Instructions",
+			"PRESCRIPTION_DATE": "Prescription Date",
+			"PRESCRIPTION_DATE_Hint": "Please enter Prescription Date",
+			"component_title": "Prescriptions"
+		}
+	},
+	"med_appointment_management": {
+		"med_appointment_management": {
+			"component_title": "إدارة التعيينات"
+		}
+	},
+	"MED_DD_DOCTORS_BY_SPECIALIZATION": {
+		"meddoctorMedDdDoctorsBySpecialization": {
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id",
+			"FIRST_NAME": "First Name",
+			"FIRST_NAME_Hint": "Please enter First Name",
+			"LAST_NAME": "Last Name",
+			"LAST_NAME_Hint": "Please enter Last Name",
+			"SPECIALIZATION": "Specialization",
+			"SPECIALIZATION_Hint": "Please enter Specialization",
+			"PHONE": "Phone",
+			"PHONE_Hint": "Please enter Phone",
+			"EMAIL": "Email",
+			"EMAIL_Hint": "Please enter Email",
+			"ADDRESS": "Address",
+			"ADDRESS_Hint": "Please enter Address",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude",
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude",
+			"FEES": "Fees",
+			"FEES_Hint": "Please enter Fees",
+			"PHOTO": "Photo",
+			"PHOTO_Hint": "Please enter Photo",
+			"component_title": "Doctors by Specialization"
+		}
+	},
+	"MED_DD_DOCTORS_LOCATION_MAP": {
+		"meddoctorMedDdDoctorsLocationMap": {
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id",
+			"FIRST_NAME": "First Name",
+			"FIRST_NAME_Hint": "Please enter First Name",
+			"LAST_NAME": "Last Name",
+			"LAST_NAME_Hint": "Please enter Last Name",
+			"SPECIALIZATION": "Specialization",
+			"SPECIALIZATION_Hint": "Please enter Specialization",
+			"PHONE": "Phone",
+			"PHONE_Hint": "Please enter Phone",
+			"EMAIL": "Email",
+			"EMAIL_Hint": "Please enter Email",
+			"ADDRESS": "Address",
+			"ADDRESS_Hint": "Please enter Address",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude",
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude",
+			"FEES": "Fees",
+			"FEES_Hint": "Please enter Fees",
+			"PHOTO": "Photo",
+			"PHOTO_Hint": "Please enter Photo",
+			"component_title": "Doctors Location Map"
+		}
+	},
+	"med_doctor_directory": {
+		"med_doctor_directory": {
+			"component_title": "Doctor Directory"
+		}
+	},
+	"med_patient_wf": {
+		"med_patient_wf": {
+			"component_title": "PATIENT Workflow"
+		}
+	},
+	"MED_MED_APPOINTMENT_CARD": {
+		"medappointmentMedMedAppointmentCard": {
+			"APPOINTMENT_ID": "Appointment Id",
+			"APPOINTMENT_ID_Hint": "Please enter Appointment Id",
+			"PATIENT_ID": "Patient Id",
+			"PATIENT_ID_Hint": "Please enter Patient Id",
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id",
+			"APPOINTMENT_DATE": "Appointment Date",
+			"APPOINTMENT_DATE_Hint": "Please enter Appointment Date",
+			"APPOINTMENT_TIME": "Appointment Time",
+			"APPOINTMENT_TIME_Hint": "Please enter Appointment Time",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"DESCRIPTION": "Description",
+			"DESCRIPTION_Hint": "Please enter Description",
+			"component_title": "MED APPOINTMENT CARD"
+		}
+	},
+	"MED_MED_APPOINTMENT_GRID": {
+		"medappointmentMedMedAppointmentGrid": {
+			"APPOINTMENT_ID": "Appointment Id",
+			"APPOINTMENT_ID_Hint": "Please enter Appointment Id",
+			"PATIENT_ID": "Patient Id",
+			"PATIENT_ID_Hint": "Please enter Patient Id",
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id",
+			"APPOINTMENT_DATE": "Appointment Date",
+			"APPOINTMENT_DATE_Hint": "Please enter Appointment Date",
+			"APPOINTMENT_TIME": "Appointment Time",
+			"APPOINTMENT_TIME_Hint": "Please enter Appointment Time",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"DESCRIPTION": "Description",
+			"DESCRIPTION_Hint": "Please enter Description",
+			"component_title": "MED APPOINTMENT GRID"
+		}
+	},
+	"MED_MED_APPOINTMENT_KANBAN": {
+		"medappointmentMedMedAppointmentKanban": {
+			"APPOINTMENT_ID": "Appointment Id",
+			"APPOINTMENT_ID_Hint": "Please enter Appointment Id",
+			"PATIENT_ID": "Patient Id",
+			"PATIENT_ID_Hint": "Please enter Patient Id",
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id",
+			"APPOINTMENT_DATE": "Appointment Date",
+			"APPOINTMENT_DATE_Hint": "Please enter Appointment Date",
+			"APPOINTMENT_TIME": "Appointment Time",
+			"APPOINTMENT_TIME_Hint": "Please enter Appointment Time",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"DESCRIPTION": "Description",
+			"DESCRIPTION_Hint": "Please enter Description",
+			"component_title": "MED APPOINTMENT KANBAN"
+		}
+	},
+	"MED_MED_APPOINTMENT_LIST": {
+		"medappointmentMedMedAppointmentList": {
+			"APPOINTMENT_ID": "Appointment Id",
+			"APPOINTMENT_ID_Hint": "Please enter Appointment Id",
+			"PATIENT_ID": "Patient Id",
+			"PATIENT_ID_Hint": "Please enter Patient Id",
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id",
+			"APPOINTMENT_DATE": "Appointment Date",
+			"APPOINTMENT_DATE_Hint": "Please enter Appointment Date",
+			"APPOINTMENT_TIME": "Appointment Time",
+			"APPOINTMENT_TIME_Hint": "Please enter Appointment Time",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"DESCRIPTION": "Description",
+			"DESCRIPTION_Hint": "Please enter Description",
+			"component_title": "MED APPOINTMENT LIST"
+		}
+	},
+	"MED_MED_APPOINTMENT_MAP": {
+		"medappointmentMedMedAppointmentMap": {
+			"APPOINTMENT_ID": "Appointment Id",
+			"APPOINTMENT_ID_Hint": "Please enter Appointment Id",
+			"PATIENT_ID": "Patient Id",
+			"PATIENT_ID_Hint": "Please enter Patient Id",
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id",
+			"APPOINTMENT_DATE": "Appointment Date",
+			"APPOINTMENT_DATE_Hint": "Please enter Appointment Date",
+			"APPOINTMENT_TIME": "Appointment Time",
+			"APPOINTMENT_TIME_Hint": "Please enter Appointment Time",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"DESCRIPTION": "Description",
+			"DESCRIPTION_Hint": "Please enter Description",
+			"component_title": "MED APPOINTMENT MAP"
+		}
+	},
+	"MED_MED_APPOINTMENT_FORMSTEPS": {
+		"medappointmentMedMedAppointmentFormsteps": {
+			"APPOINTMENT_ID": "Appointment Id",
+			"APPOINTMENT_ID_Hint": "Please enter Appointment Id",
+			"PATIENT_ID": "Patient Id",
+			"PATIENT_ID_Hint": "Please enter Patient Id",
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id",
+			"APPOINTMENT_DATE": "Appointment Date",
+			"APPOINTMENT_DATE_Hint": "Please enter Appointment Date",
+			"APPOINTMENT_TIME": "Appointment Time",
+			"APPOINTMENT_TIME_Hint": "Please enter Appointment Time",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"DESCRIPTION": "Description",
+			"DESCRIPTION_Hint": "Please enter Description",
+			"component_title": "MED APPOINTMENT FORMSTEPS"
+		}
+	},
+	"MED_MED_APPOINTMENT_FORMSTEPS_2": {
+		"medappointmentMedMedAppointmentFormsteps2": {
+			"APPOINTMENT_ID": "Appointment Id",
+			"APPOINTMENT_ID_Hint": "Please enter Appointment Id",
+			"PATIENT_ID": "Patient Id",
+			"PATIENT_ID_Hint": "Please enter Patient Id",
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id",
+			"APPOINTMENT_DATE": "Appointment Date",
+			"APPOINTMENT_DATE_Hint": "Please enter Appointment Date",
+			"APPOINTMENT_TIME": "Appointment Time",
+			"APPOINTMENT_TIME_Hint": "Please enter Appointment Time",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"DESCRIPTION": "Description",
+			"DESCRIPTION_Hint": "Please enter Description",
+			"component_title": "MED APPOINTMENT FORMSTEPS 2"
+		}
+	},
+	"MED_appointment_management": {
+		"MED_appointment_management": {
+			"component_title": "إدارة التعيينات",
+			"tab_title1": "تفاصيل التعيين",
+			"tab_title2": "الوصفات الطبية"
+		}
+	},
+	"MED_book_appointment": {
+		"MED_book_appointment": {
+			"component_title": "موعد كتابي",
+			"tab_title1": "موعد كتابي",
+			"tab_title2": "الأطباء المتاحون"
+		}
+	},
+	"MED_doctor_directory": {
+		"MED_doctor_directory": {
+			"component_title": "Doctor Directory",
+			"tab_title1": "Doctors by Specialization",
+			"tab_title2": "Doctors Location Map"
+		}
+	},
+	"MED_doctor_management": {
+		"MED_doctor_management": {
+			"component_title": "إدارة الأطباء",
+			"tab_title1": "تفاصيل الطبيب",
+			"tab_title2": "جدول الأطباء"
+		}
+	},
+	"MED_patient_wf": {
+		"MED_patient_wf": {
+			"component_title": "PATIENT Workflow",
+			"tab_title1": "Pr patient information",
+			"tab_title2": "Ba book appointment",
+			"tab_title3": "Vp prescription details"
+		}
+	},
+	"MED_patient_management": {
+		"MED_patient_management": {
+			"component_title": "Patient Management",
+			"tab_title1": "Patient Details",
+			"tab_title2": "Patient Appointments"
+		}
+	},
+	"MED_patient_profile": {
+		"MED_patient_profile": {
+			"component_title": "Patient Profile",
+			"tab_title1": "My Profile",
+			"tab_title2": "My Appointments"
+		}
+	},
+	"BKS_BKS_PRODUCT_FORM": {
+		"bksproductBksBksProductForm": {
+			"PRODUCT_ID": "معرف المنتج",
+			"PRODUCT_ID_Hint": "يرجى إدخال معرف المنتج",
+			"TITLE": "العنوان",
+			"TITLE_Hint": "يرجى إدخال العنوان",
+			"PUBLISHER": "الناشر",
+			"PUBLISHER_Hint": "يرجى إدخال الناشر",
+			"NUMBER_OF_STARS": "عدد النجوم",
+			"NUMBER_OF_STARS_Hint": "يرجى إدخال عدد النجوم",
+			"NUMBER_OF_COMMENTS": "عدد التعليقات",
+			"NUMBER_OF_COMMENTS_Hint": "يرجى إدخال عدد التعليقات",
+			"PRODUCT_DESCRIPTION": "وصف المنتج",
+			"PRODUCT_DESCRIPTION_Hint": "يرجى إدخال وصف المنتج",
+			"PRODUCT_LANGUAGE": "لغة المنتج",
+			"PRODUCT_LANGUAGE_Hint": "يرجى إدخال لغة المنتج",
+			"MATERIAL_TYPE": "نوع المادة",
+			"MATERIAL_TYPE_Hint": "يرجى إدخال نوع المادة",
+			"PICTURE": "الصورة",
+			"PICTURE_Hint": "يرجى إدخال الصورة",
+			"PRICE": "السعر",
+			"PRICE_Hint": "يرجى إدخال السعر",
+			"HAS_SPECIAL_OFFER": "لديه عرض خاص",
+			"HAS_SPECIAL_OFFER_Hint": "يرجى المشاركة مع عرض خاص",
+			"DISCOUNT": "الخصم",
+			"DISCOUNT_Hint": "يرجى إدخال خصم",
+			"SALES_COUNT": "عدد المبيعات",
+			"SALES_COUNT_Hint": "يرجى إدخال عدد المبيعات",
+			"PRODUCT_TYPE": "نوع المنتج",
+			"PRODUCT_TYPE_Hint": "يرجى إدخال نوع المنتج",
+			"AUTHOR": "المؤلف",
+			"AUTHOR_Hint": "يرجى إدخال المؤلف",
+			"BOOK_RANK": "رتبة الكتاب",
+			"BOOK_RANK_Hint": "يرجى إدخال تصنيف الكتاب",
+			"DATE_OF_PUBLISHING": "تاريخ النشر",
+			"DATE_OF_PUBLISHING_Hint": "يرجى إدخال تاريخ النشر",
+			"PAPER_COVER_TYPE": "نوع الغلاف الورقي",
+			"PAPER_COVER_TYPE_Hint": "يرجى إدخال نوع الغلاف الورقي",
+			"OTHER_PAPER_TYPE": "أنواع ورق أخرى",
+			"OTHER_PAPER_TYPE_Hint": "يرجى إدخال أنواع ورق أخرى",
+			"DELIVERY_TYPE": "نوع التسليم",
+			"DELIVERY_TYPE_Hint": "يرجى إدخال نوع التوصيل",
+			"SIZE": "الحجم",
+			"SIZE_Hint": "يرجى إدخال الحجم",
+			"COLOR": "اللون",
+			"COLOR_Hint": "يرجى إدخال اللون",
+			"NUMBER_OF_PIECES": "عدد القطع",
+			"NUMBER_OF_PIECES_Hint": "يرجى إدخال عدد القطع",
+			"AGE_RANGE": "النطاق العمري",
+			"AGE_RANGE_Hint": "يرجى إدخال الفئة العمرية",
+			"TOPIC_ID": "معرف الموضوع",
+			"TOPIC_ID_Hint": "يرجى إدخال معرف الموضوع",
+			"SUBJECT_ID": "معرف الموضوع",
+			"SUBJECT_ID_Hint": "يرجى إدخال معرف الموضوع",
+			"component_title": "شكل جدي BKS"
+		}
+	},
+	"bks_topic_details": {
+		"bks_topic_details": {
+			"component_title": "تفاصيل الموضوع1",
+			"compsTitleID1": "الموضوع",
+			"compsTitleID2": "الخصم"
+		}
+	},
+	"BKS_BKS_SUBJECT_FORM": {
+		"bkssubjectBksBksSubjectForm": {
+			"SUBJECT_ID": "Subject Id",
+			"SUBJECT_ID_Hint": "Please enter Subject Id",
+			"SUBJECT_NAME": "Subject Name",
+			"SUBJECT_NAME_Hint": "Please enter Subject Name",
+			"TOPIC_ID": "Topic Id",
+			"TOPIC_ID_Hint": "Please enter Topic Id",
+			"component_title": "BKS SUBJECT FORM"
+		}
+	},
+	"BKS_topic_details": {
+		"BKS_topic_details": {
+			"component_title": "تفاصيل الموضوع1",
+			"tab_title1": "الموضوع",
+			"tab_title2": "الخصم"
+		}
+	},
+	"BKS_product_details": {
+		"BKS_product_details": {
+			"component_title": "تفاصيل المنتج",
+			"tab_title1": "معلومات المنتج",
+			"tab_title2": "الترتيب",
+			"tab_title3": "إكسسوارات البيع الإضافي"
+		}
+	},
+	"ETR_DSP_WORK_ORDERS_V_GRID": {
+		"dspworkOrdersVEtrDspWorkOrdersVGrid": {
+			"APPROVAL_FLAG": "علم الموافقة",
+			"APPROVAL_FLAG_Hint": "يرجى إدخال علم الموافقة",
+			"COMPLETION_DATE": "تاريخ الانتهاء",
+			"COMPLETION_DATE_Hint": "يرجى إدخال تاريخ الانتهاء",
+			"TEMPLATE_NAME": "اسم القالب",
+			"TEMPLATE_NAME_Hint": "يرجى إدخال اسم القالب",
+			"TEMPLATE_ORDER": "ترتيب القوالب",
+			"TEMPLATE_ORDER_Hint": "يرجى إدخال ترتيب القالب",
+			"DIVS": "الأقسام",
+			"DIVS_Hint": "يرجى إدخال الأقسام",
+			"WO_ORDER_NO": "أمر وو رقم",
+			"WO_ORDER_NO_Hint": "يرجى إدخال Wo الأمر رقم",
+			"DEPT": "القسم",
+			"DEPT_Hint": "Please enter Dept",
+			"ASSIGNEE_TYPE": "نوع الموظف",
+			"ASSIGNEE_TYPE_Hint": "يرجى إدخال نوع الموكيل",
+			"PROMISED_DATE": "التاريخ الموعود",
+			"PROMISED_DATE_Hint": "يرجى إدخال التاريخ الموعود",
+			"PARENT_WO_ORDER_NO": "أمر Wo الأصل رقم",
+			"PARENT_WO_ORDER_NO_Hint": "يرجى إدخال أمر الوالد",
+			"ORDER_NO": "أمر رقم",
+			"ORDER_NO_Hint": "يرجى إدخال رقم الطلب",
+			"ACTUAL_START_DATE": "تاريخ البداية الفعلي",
+			"ACTUAL_START_DATE_Hint": "يرجى إدخال تاريخ البدء الفعلي",
+			"ACTUAL_END_DATE": "تاريخ النهاية الفعلي",
+			"ACTUAL_END_DATE_Hint": "يرجى إدخال تاريخ الانتهاء الفعلي",
+			"ATTACHMENTS": "الملحقات",
+			"ATTACHMENTS_Hint": "يرجى إدخال المرفقات",
+			"LOGDATE": "تاريخ السجل",
+			"LOGDATE_Hint": "يرجى إدخال تاريخ التسجيل.",
+			"LOGNAME": "اسم السجل",
+			"LOGNAME_Hint": "يرجى إدخال اسم السجل",
+			"REJECT_SEQ": "رفض Seq",
+			"REJECT_SEQ_Hint": "Please enter Reject Seq",
+			"APPROVE_SEQ": "الموافقة على الترتيب",
+			"APPROVE_SEQ_Hint": "يرجى إدخال الموافقة على التقييم",
+			"SEQUENCE_NAME": "اسم التسلسل",
+			"SEQUENCE_NAME_Hint": "يرجى إدخال اسم التسلسل",
+			"MODIFY_SEQ": "تعديل Seq",
+			"MODIFY_SEQ_Hint": "يرجى إدخال تعديل Seq",
+			"ETR_ID": "معرف Etr",
+			"ETR_ID_Hint": "يرجى إدخال معرف Etr",
+			"ASSIGNEE": "الموزع",
+			"ASSIGNEE_Hint": "يرجى إدخال المكلف",
+			"WO_STATUS": "Wo Status",
+			"WO_STATUS_Hint": "يرجى إدخال حالة Wo",
+			"NOTES": "ملاحظات",
+			"NOTES_Hint": "يرجى إدخال الملاحظات",
+			"JOB_ROLE": "الدور الوظيفي",
+			"JOB_ROLE_Hint": "يرجى الدخول في وظيفة الدور",
+			"WO_TYPE": "نوع وو",
+			"WO_TYPE_Hint": "يرجى إدخال نوع وو",
+			"ORDERED_DATE": "تاريخ الطلب",
+			"ORDERED_DATE_Hint": "يرجى إدخال تاريخ الطلب",
+			"component_title": "أوامر العمل في DSP V"
+		}
+	},
+	"ETR_ETR_CASE_1_FORM": {
+		"etrcase1EtrEtrCase1Form": {
+			"ETR_ID": "معرف Etr",
+			"ETR_ID_Hint": "يرجى إدخال معرف Etr",
+			"ENTITY_NAME": "اسم الكيان",
+			"ENTITY_NAME_Hint": "يرجى إدخال اسم الكيان",
+			"APPROVAL_TYPE": "نوع الموافقة",
+			"APPROVAL_TYPE_Hint": "يرجى إدخال نوع الموافقة",
+			"REQUEST_DATE": "تاريخ الطلب",
+			"REQUEST_DATE_Hint": "يرجى إدخال تاريخ الطلب",
+			"INITIATOR_REQUEST_DATA": "بيانات طلب المبادر",
+			"INITIATOR_REQUEST_DATA_Hint": "يرجى إدخال بيانات طلب المبادرة",
+			"LOCATION_TYPE": "نوع الموقع",
+			"LOCATION_TYPE_Hint": "يرجى إدخال نوع الموقع",
+			"ANOTHER_SITE_TYPE": "نوع آخر من الموقع",
+			"ANOTHER_SITE_TYPE_Hint": "يرجى إدخال نوع آخر من الموقع",
+			"DISTRICT": "المنطقة",
+			"DISTRICT_Hint": "Please enter District",
+			"STREET": "الشارع",
+			"STREET_Hint": "يرجى الدخول إلى الشارع",
+			"COORDINATE": "الإحداثيات",
+			"COORDINATE_Hint": "يرجى إدخال الإحداثيات",
+			"SITE_NUM": "الموقع رقم",
+			"SITE_NUM_Hint": "Please enter Site Num",
+			"SITE_AREA": "منطقة الموقع",
+			"SITE_AREA_Hint": "يرجى إدخال منطقة الموقع",
+			"NAME_OF_OPPORTUNITY": "اسم الفرصة",
+			"NAME_OF_OPPORTUNITY_Hint": "يرجى إدخال اسم الفرصة",
+			"NO_PLANNED": "لا يوجد خطة",
+			"NO_PLANNED_Hint": "يرجى إدخال \"لا مخطط له\"",
+			"ADDITIONAL_INFORMATION": "معلومات إضافية",
+			"ADDITIONAL_INFORMATION_Hint": "يرجى إدخال معلومات إضافية",
+			"SITE_DESCRIPTION_OPTIONS": "خيارات وصف الموقع",
+			"SITE_DESCRIPTION_OPTIONS_Hint": "يرجى إدخال خيارات وصف الموقع",
+			"SITE_DESCRIPTION": "وصف الموقع",
+			"SITE_DESCRIPTION_Hint": "يرجى إدخال وصف الموقع",
+			"INSTRUCTIONS": "التعليمات",
+			"INSTRUCTIONS_Hint": "يرجى إدخال التعليمات",
+			"INVESTOR_MAIL": "بريد المستثمرين",
+			"INVESTOR_MAIL_Hint": "يرجى إدخال بريد المستثمرين",
+			"component_title": "نموذج حالة ETR 1"
+		}
+	},
+	"ETR_ETR_CASE_ATT_FORM": {
+		"etrcaseAttEtrEtrCaseAttForm": {
+			"ETR_ATT_ID": "معرف Etr Att",
+			"ETR_ATT_ID_Hint": "يرجى إدخال معرف Etr Att Id",
+			"ATT_NAME": "اسم الهجوم",
+			"ATT_NAME_Hint": "يرجى إدخال اسم Att",
+			"ATT_NOTES": "ملاحظات الترجمة",
+			"ATT_NOTES_Hint": "يرجى إدخال ملاحظات Att",
+			"ETR_ID": "Etr Id",
+			"ETR_ID_Hint": "Please enter Etr Id",
+			"component_title": "نموذج ATT لحالة ETR"
+		}
+	},
+	"ETR_ETR_CASE_ATT_GRID": {
+		"etrcaseAttEtrEtrCaseAttGrid": {
+			"ETR_ATT_ID": "معرف Etr Att",
+			"ETR_ATT_ID_Hint": "يرجى إدخال معرف Etr Att Id",
+			"ATT_NAME": "اسم الهجوم",
+			"ATT_NAME_Hint": "يرجى إدخال اسم Att",
+			"ATT_NOTES": "ملاحظات الترجمة",
+			"ATT_NOTES_Hint": "يرجى إدخال ملاحظات Att",
+			"ETR_ID": "معرف Etr",
+			"ETR_ID_Hint": "يرجى إدخال معرف Etr",
+			"component_title": "شبكة ATT لحالة ETR"
+		}
+	},
+	"ETR_ETR_CASE_ATT_GRID_RO": {
+		"etrcaseAttEtrEtrCaseAttGridRo": {
+			"ETR_ATT_ID": "معرف Etr Att",
+			"ETR_ATT_ID_Hint": "يرجى إدخال معرف Etr Att Id",
+			"ATT_NAME": "اسم الهجوم",
+			"ATT_NAME_Hint": "يرجى إدخال اسم Att",
+			"ATT_NOTES": "ملاحظات الترجمة",
+			"ATT_NOTES_Hint": "يرجى إدخال ملاحظات Att",
+			"ETR_ID": "معرف Etr",
+			"ETR_ID_Hint": "يرجى إدخال معرف Etr",
+			"component_title": "شبكة ETR CASE ATT RO"
+		}
+	},
+	"ETR_ETR_CASE_CATEGORIES_FORM": {
+		"etrcaseCategoriesEtrEtrCaseCategoriesForm": {
+			"ETR_CAT_ID": "معرف القطط Etr",
+			"ETR_CAT_ID_Hint": "يرجى إدخال معرف القطط Etr",
+			"ATT_NAME": "اسم الهجوم",
+			"ATT_NAME_Hint": "يرجى إدخال اسم Att",
+			"CAT_NAME": "اسم القط",
+			"CAT_NAME_Hint": "يرجى إدخال اسم القط",
+			"CAT_STATUS": "حالة القطط",
+			"CAT_STATUS_Hint": "يرجى إدخال حالة القطط",
+			"ETR_ID": "معرف Etr",
+			"ETR_ID_Hint": "يرجى إدخال معرف Etr",
+			"component_title": "شكل فئات حالات ETR"
+		}
+	},
+	"ETR_ETR_CASE_CATEGORIES_GRID": {
+		"etrcaseCategoriesEtrEtrCaseCategoriesGrid": {
+			"ETR_ID": "معرف Etr",
+			"ETR_ID_Hint": "يرجى إدخال معرف Etr",
+			"ETR_CAT_ID": "معرف القطط Etr",
+			"ETR_CAT_ID_Hint": "يرجى إدخال معرف القطط Etr",
+			"CAT_STATUS": "حالة القطط",
+			"CAT_STATUS_Hint": "يرجى إدخال حالة القطط",
+			"ATT_NAME": "اسم الهجوم",
+			"ATT_NAME_Hint": "يرجى إدخال اسم Att",
+			"CAT_NAME": "هل تريد إظهار الارتباط بالمستثمر",
+			"CAT_NAME_Hint": "يرجى إدخال اسم القط",
+			"component_title": "شبكة فئات حالات ETR"
+		}
+	},
+	"ETR_ETR_CASE_CATEGORIES_GRID_RO": {
+		"etrcaseCategoriesEtrEtrCaseCategoriesGridRo": {
+			"ETR_CAT_ID": "معرف القطط Etr",
+			"ETR_CAT_ID_Hint": "يرجى إدخال معرف القطط Etr",
+			"ATT_NAME": "اسم الهجوم",
+			"ATT_NAME_Hint": "يرجى إدخال اسم Att",
+			"CAT_NAME": "اسم القط",
+			"CAT_NAME_Hint": "يرجى إدخال اسم القط",
+			"CAT_STATUS": "حالة القطط",
+			"CAT_STATUS_Hint": "يرجى إدخال حالة القطط",
+			"ETR_ID": "معرف Etr",
+			"ETR_ID_Hint": "يرجى إدخال معرف Etr",
+			"component_title": "فئات حالات ETR شبكة RO"
+		}
+	},
+	"ETR_ETR_CASE_FORM": {
+		"etrcaseEtrEtrCaseForm": {
+			"ETR_ID": "معرف Etr",
+			"ETR_ID_Hint": "يرجى إدخال معرف Etr",
+			"ENTITY_NAME": "اسم الكيان",
+			"ENTITY_NAME_Hint": "يرجى إدخال اسم الكيان",
+			"INVESTOR_MAIL": "بريد المستثمرين",
+			"INVESTOR_MAIL_Hint": "يرجى إدخال بريد المستثمرين",
+			"INITIATOR_REQUEST_DATA": "بيانات طلب المبادر",
+			"INITIATOR_REQUEST_DATA_Hint": "يرجى إدخال بيانات طلب المبادرة",
+			"REQUEST_DATE": "تاريخ الطلب",
+			"REQUEST_DATE_Hint": "يرجى إدخال تاريخ الطلب",
+			"LOCATION_TYPE": "نوع الموقع",
+			"LOCATION_TYPE_Hint": "يرجى إدخال نوع الموقع",
+			"ANOTHER_SITE_TYPE": "نوع آخر من الموقع",
+			"ANOTHER_SITE_TYPE_Hint": "يرجى إدخال نوع آخر من الموقع",
+			"DISTRICT": "المنطقة",
+			"DISTRICT_Hint": "يرجى الدخول إلى المنطقة",
+			"STREET": "الشارع",
+			"STREET_Hint": "يرجى الدخول إلى الشارع",
+			"COORDINATE_TYPE": "نوع الإحداثيات",
+			"COORDINATE_TYPE_Hint": "يرجى إدخال نوع الإحداثيات",
+			"PIN": "دبوس",
+			"PIN_Hint": "يرجى إدخال رقم التعريف",
+			"COORDINATE": "الإحداثيات",
+			"COORDINATE_Hint": "يرجى إدخال الإحداثيات",
+			"ETR_CASE_MAP_MAP": "خريطة حالة إيتر",
+			"ETR_CASE_MAP_MAP_Hint": "يرجى إدخال خريطة خريطة حالة Etr",
+			"SITE_NUM": "الموقع رقم",
+			"SITE_NUM_Hint": "يرجى إدخال رقم الموقع",
+			"SITE_AREA": "منطقة الموقع",
+			"SITE_AREA_Hint": "يرجى إدخال منطقة الموقع",
+			"NAME_OF_OPPORTUNITY": "اسم الفرصة",
+			"NAME_OF_OPPORTUNITY_Hint": "يرجى إدخال اسم الفرصة",
+			"NO_PLANNED": "لا يوجد خطة",
+			"NO_PLANNED_Hint": "يرجى إدخال \"لا مخطط له\"",
+			"ADDITIONAL_INFORMATION": "معلومات إضافية",
+			"ADDITIONAL_INFORMATION_Hint": "يرجى إدخال معلومات إضافية",
+			"SITE_MSG": "يرجى إدخال وصف الموقع",
+			"SITE_MSG_Hint": "يرجى إدخال موقع Msg",
+			"SITE_DESCRIPTION_OPTIONS": "هل ترغب في وصف الموقع كالتالي:",
+			"SITE_DESCRIPTION_OPTIONS_Hint": "هل ترغب في وصف الموقع كالتالي:",
+			"SITE_DESCRIPTION": "وصف الموقع",
+			"SITE_DESCRIPTION_Hint": "يرجى إدخال وصف الموقع",
+			"OTHERS": "آخرون",
+			"OTHERS_Hint": "يرجى إدخال الآخرين",
+			"INSTRUCTIONS": "التعليمات",
+			"INSTRUCTIONS_Hint": "يرجى إدخال التعليمات",
+			"component_title": "شكل حالة ETR"
+		}
+	},
+	"ETR_ETR_CASE_FORM2": {
+		"etrcaseEtrEtrCaseForm2": {
+			"ETR_ID": "معرف Etr",
+			"ETR_ID_Hint": "يرجى إدخال معرف Etr",
+			"ENTITY_NAME": "اسم الكيان",
+			"ENTITY_NAME_Hint": "يرجى إدخال اسم الكيان",
+			"INITIATOR_REQUEST_DATA": "بيانات طلب المبادر",
+			"INITIATOR_REQUEST_DATA_Hint": "يرجى إدخال بيانات طلب المبادرة",
+			"REQUEST_DATE": "تاريخ الطلب",
+			"REQUEST_DATE_Hint": "يرجى إدخال تاريخ الطلب",
+			"LOCATION_TYPE": "نوع الموقع",
+			"LOCATION_TYPE_Hint": "يرجى إدخال نوع الموقع",
+			"ANOTHER_SITE_TYPE": "نوع آخر من الموقع",
+			"ANOTHER_SITE_TYPE_Hint": "يرجى إدخال نوع آخر من الموقع",
+			"DISTRICT": "المنطقة",
+			"DISTRICT_Hint": "يرجى الدخول إلى المنطقة",
+			"STREET": "الشارع",
+			"STREET_Hint": "يرجى الدخول إلى الشارع",
+			"COORDINATE_TYPE": "نوع الإحداثيات",
+			"COORDINATE_TYPE_Hint": "يرجى إدخال نوع الإحداثيات",
+			"PIN": "دبوس",
+			"PIN_Hint": "يرجى إدخال رقم التعريف",
+			"COORDINATE": "الإحداثيات",
+			"COORDINATE_Hint": "يرجى إدخال الإحداثيات",
+			"SITE_NUM": "الموقع رقم",
+			"SITE_NUM_Hint": "يرجى إدخال رقم الموقع",
+			"ETR_CASE_MAP_MAP": "خريطة حالة إيتر",
+			"ETR_CASE_MAP_MAP_Hint": "يرجى إدخال خريطة خريطة حالة Etr",
+			"NO_PLANNED": "لا يوجد خطة",
+			"NO_PLANNED_Hint": "يرجى إدخال \"لا مخطط له\"",
+			"NAME_OF_OPPORTUNITY": "اسم الفرصة",
+			"NAME_OF_OPPORTUNITY_Hint": "يرجى إدخال اسم الفرصة",
+			"ADDITIONAL_INFORMATION": "معلومات إضافية",
+			"ADDITIONAL_INFORMATION_Hint": "يرجى إدخال معلومات إضافية",
+			"SITE_AREA": "منطقة الموقع",
+			"SITE_AREA_Hint": "يرجى إدخال منطقة الموقع",
+			"SITE_DESCRIPTION_OPTIONS": "خيارات وصف الموقع",
+			"SITE_DESCRIPTION_OPTIONS_Hint": "يرجى إدخال خيارات وصف الموقع",
+			"SITE_DESCRIPTION": "وصف الموقع",
+			"SITE_DESCRIPTION_Hint": "يرجى إدخال وصف الموقع",
+			"INSTRUCTIONS": "التعليمات",
+			"INSTRUCTIONS_Hint": "يرجى إدخال التعليمات",
+			"OTHERS": "آخرون",
+			"OTHERS_Hint": "يرجى إدخال الآخرين",
+			"INVESTOR_MAIL": "بريد المستثمرين",
+			"INVESTOR_MAIL_Hint": "يرجى إدخال بريد المستثمرين",
+			"component_title": "نموذج حالة ETR 2"
+		}
+	},
+	"ETR_ETR_CASE_FORM_T": {
+		"etrcaseEtrEtrCaseFormT": {
+			"ETR_ID": "Etr Id",
+			"ETR_ID_Hint": "يرجى إدخال معرف Etr",
+			"ENTITY_NAME": "اسم الكيان",
+			"ENTITY_NAME_Hint": "يرجى إدخال اسم الكيان",
+			"INITIATOR_REQUEST_DATA": "بيانات طلب المبادر",
+			"INITIATOR_REQUEST_DATA_Hint": "يرجى إدخال بيانات طلب المبادرة",
+			"REQUEST_DATE": "تاريخ الطلب",
+			"REQUEST_DATE_Hint": "Please enter Request Date",
+			"LOCATION_TYPE": "نوع الموقع",
+			"LOCATION_TYPE_Hint": "يرجى إدخال نوع الموقع",
+			"ANOTHER_SITE_TYPE": "Another Site Type",
+			"ANOTHER_SITE_TYPE_Hint": "يرجى إدخال نوع آخر من الموقع",
+			"DISTRICT": "المنطقة",
+			"DISTRICT_Hint": "يرجى الدخول إلى المنطقة",
+			"STREET": "الشارع",
+			"STREET_Hint": "يرجى الدخول إلى الشارع",
+			"COORDINATE_TYPE": "نوع الإحداثيات",
+			"COORDINATE_TYPE_Hint": "يرجى إدخال نوع الإحداثيات",
+			"PIN": "دبوس",
+			"PIN_Hint": "يرجى إدخال رقم التعريف",
+			"COORDINATE": "الإحداثيات",
+			"COORDINATE_Hint": "يرجى إدخال الإحداثيات",
+			"SITE_NUM": "الموقع رقم",
+			"SITE_NUM_Hint": "يرجى إدخال رقم الموقع",
+			"SITE_AREA": "منطقة الموقع",
+			"SITE_AREA_Hint": "يرجى إدخال منطقة الموقع",
+			"NAME_OF_OPPORTUNITY": "اسم الفرصة",
+			"NAME_OF_OPPORTUNITY_Hint": "يرجى إدخال اسم الفرصة",
+			"NO_PLANNED": "لا يوجد خطة",
+			"NO_PLANNED_Hint": "يرجى إدخال \"لا مخطط له\"",
+			"ADDITIONAL_INFORMATION": "معلومات إضافية",
+			"ADDITIONAL_INFORMATION_Hint": "Please enter Additional Information",
+			"SITE_DESCRIPTION_OPTIONS": "Site Description Options",
+			"SITE_DESCRIPTION_OPTIONS_Hint": "يرجى إدخال خيارات وصف الموقع",
+			"SITE_DESCRIPTION": "وصف الموقع",
+			"SITE_DESCRIPTION_Hint": "يرجى إدخال وصف الموقع",
+			"INSTRUCTIONS": "Instructions",
+			"INSTRUCTIONS_Hint": "يرجى إدخال التعليمات",
+			"OTHERS": "آخرون",
+			"OTHERS_Hint": "يرجى إدخال الآخرين",
+			"INVESTOR_MAIL": "بريد المستثمرين",
+			"INVESTOR_MAIL_Hint": "يرجى إدخال بريد المستثمرين",
+			"component_title": "شكل T لحالة ETR"
+		}
+	},
+	"ETR_ETR_CASE_MAP_FORM": {
+		"etrcaseMapEtrEtrCaseMapForm": {
+			"ETR_MAP_ID": "Etr Map Id",
+			"ETR_MAP_ID_Hint": "يرجى إدخال معرف خريطة Etr",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude",
+			"LONGITUDE": "خط الطول",
+			"LONGITUDE_Hint": "يرجى إدخال خط الطول",
+			"LOC_NAME": "اسم لوك",
+			"LOC_NAME_Hint": "يرجى إدخال اسم Loc",
+			"ETR_ID": "معرف Etr",
+			"ETR_ID_Hint": "يرجى إدخال معرف Etr",
+			"component_title": "نموذج خريطة حالة ETR"
+		}
+	},
+	"ETR_ETR_CASE_MAP_MAP": {
+		"etrcaseMapEtrEtrCaseMapMap": {
+			"ETR_MAP_ID": "معرف خريطة ETR",
+			"ETR_MAP_ID_Hint": "يرجى إدخال معرف خريطة Etr",
+			"LATITUDE": "خط العرض",
+			"LATITUDE_Hint": "يرجى إدخال Latitude",
+			"LONGITUDE": "خط الطول",
+			"LONGITUDE_Hint": "يرجى إدخال خط الطول",
+			"LOC_NAME": "اسم لوك",
+			"LOC_NAME_Hint": "يرجى إدخال اسم Loc",
+			"ETR_ID": "معرف Etr",
+			"ETR_ID_Hint": "يرجى إدخال معرف Etr",
+			"component_title": "خريطة حالة ETR"
+		}
+	},
+	"ETR_ETR_CASE_NOTES_GRID": {
+		"etrcaseNotesEtrEtrCaseNotesGrid": {
+			"ETR_NOTE_ID": "معرف ملاحظة Etr",
+			"ETR_NOTE_ID_Hint": "يرجى إدخال معرف ملاحظة Etr",
+			"NOTE_BY": "ملاحظة بقلم",
+			"NOTE_BY_Hint": "يرجى إدخال ملاحظة بقلم",
+			"NOTE_TEXT": "نص الملاحظة",
+			"NOTE_TEXT_Hint": "يرجى إدخال نص الملاحظات",
+			"ETR_ID": "معرف Etr",
+			"ETR_ID_Hint": "يرجى إدخال معرف Etr",
+			"component_title": "شبكة ملاحظات الحالة في ETR"
+		}
+	},
+	"ETR_ETR_CASE_PUBLISHING_FORM": {
+		"etrcasePublishingEtrEtrCasePublishingForm": {
+			"ETR_PUP_ID": "معرف جرو Etr",
+			"ETR_PUP_ID_Hint": "يرجى إدخال معرف جرو Etr",
+			"PUB_OPTION": "خيار الحانة",
+			"PUB_OPTION_Hint": "يرجى إدخال خيار الحانة",
+			"ETR_ID": "معرف Etr",
+			"ETR_ID_Hint": "يرجى إدخال معرف Etr",
+			"component_title": "نموذج نشر قضايا ETR"
+		}
+	},
+	"ETR_ETR_CASE_TERM_GRID": {
+		"etrcaseTermEtrEtrCaseTermGrid": {
+			"ETR_TERM_ID": "معرف مصطلح Etr",
+			"ETR_TERM_ID_Hint": "يرجى إدخال معرف مصطلح Etr",
+			"TERM_START_DATE": "تاريخ بدء الفصل الدراسي",
+			"TERM_START_DATE_Hint": "يرجى إدخال تاريخ بدء الفصل الدراسي",
+			"TERM_END_DATE": "تاريخ انتهاء الولاية",
+			"TERM_END_DATE_Hint": "يرجى إدخال تاريخ انتهاء الفصل",
+			"TERM_PRICE": "سعر الأجل",
+			"TERM_PRICE_Hint": "يرجى إدخال سعر الأجل",
+			"ETR_ID": "معرف Etr",
+			"ETR_ID_Hint": "يرجى إدخال معرف Etr",
+			"component_title": "شبكة مصطلحات حالة ETR"
+		}
+	},
+	"ETR_ETR_PARTICIPANTS_GRID": {
+		"etrparticipantsEtrEtrParticipantsGrid": {
+			"ETR_PARTICIPANTS_ID": "معرف المشاركين في ETR",
+			"ETR_PARTICIPANTS_ID_Hint": "يرجى إدخال معرف المشاركين في ETR",
+			"PARTICIPANTS_ID": "هوية المشاركين",
+			"PARTICIPANTS_ID_Hint": "يرجى إدخال معرف المشاركين",
+			"REPRESENTER_ID": "معرف الممثل",
+			"REPRESENTER_ID_Hint": "يرجى إدخال معرف الممثل",
+			"PARTICIPANTS_EMAIL": "البريد الإلكتروني للمشاركين",
+			"PARTICIPANTS_EMAIL_Hint": "يرجى إدخال بريد المشاركين الإلكتروني",
+			"ETR_ID": "معرف Etr",
+			"ETR_ID_Hint": "يرجى إدخال معرف Etr",
+			"component_title": "شبكة المشاركين في ETR"
+		}
+	},
+	"ETR_ETR_SITE_HANDOVER_FORM": {
+		"etrsiteHandoverEtrEtrSiteHandoverForm": {
+			"ETR_HANDOVER_ID": "معرف تسليم Etr",
+			"ETR_HANDOVER_ID_Hint": "يرجى إدخال معرف تسليم Etr",
+			"HANDOVER_DATE": "تاريخ التسليم",
+			"HANDOVER_DATE_Hint": "يرجى إدخال تاريخ التسليم",
+			"HANDOVER_TIME": "وقت التسليم",
+			"HANDOVER_TIME_Hint": "يرجى إدخال وقت التسليم",
+			"HANDOVER_LOCATION": "موقع التسليم",
+			"HANDOVER_LOCATION_Hint": "يرجى إدخال موقع التسليم",
+			"HANDOVER_HIJRI_DATE": "تاريخ التسليم الهجري",
+			"HANDOVER_HIJRI_DATE_Hint": "يرجى إدخال تاريخ التسليم الهجري",
+			"ETR_ID": "معرف Etr",
+			"ETR_ID_Hint": "يرجى إدخال معرف Etr",
+			"component_title": "نموذج تسليم موقع ETR"
+		}
+	},
+	"ETR_ETR_WELCOME_FORM": {
+		"etrwelcomeEtrEtrWelcomeForm": {
+			"ETR_WELCOME": "مرحبا ب Etr",
+			"ETR_WELCOME_Hint": "يرجى إدخال Etr Welcome",
+			"WELCOME_TEXT": "نص الترحيب",
+			"WELCOME_TEXT_Hint": "يرجى إدخال نص الترحيب",
+			"BUTTON_START": "انقر لبدء تدفق العمل",
+			"BUTTON_START_Hint": "يرجى إدخال زر البدء",
+			"component_title": "نموذج الترحيب ب ETR"
+		}
+	},
+	"etr_test": {
+		"etr_test": {
+			"component_title": "اختبار",
+			"compsTitleID1": "الحالة",
+			"compsTitleID2": "الخريطة"
+		}
+	},
+	"etr_etr_pubu": {
+		"etr_etr_pubu": {
+			"component_title": "ETR Publish",
+			"compsTitleID1": "Publishing",
+			"compsTitleID2": "Attachments",
+			"compsTitleID3": "Term",
+			"compsTitleID4": "Notes"
+		}
+	},
+	"etr_ssh_sst_started": {
+		"etr_ssh_sst_started": {
+			"component_title": "ssh sst بدأ",
+			"compsTitleID1": "تسليم الموقع1",
+			"compsTitleID2": "المشاركون"
+		}
+	},
+	"etr_ent_tem_wf": {
+		"etr_ent_tem_wf": {
+			"component_title": "سير عمل الكيان المؤقت",
+			"compsTitleID1": "بداية القضية",
+			"compsTitleID2": "الملحقات",
+			"compsTitleID3": "الفئات",
+			"compsTitleID4": "القضية",
+			"compsTitleID5": "النشر",
+			"compsTitleID6": "الفئات",
+			"compsTitleID7": "العامل الكبير"
+		}
+	},
+	"CAR_NCS_SUBMIT_NEW_CLAIM": {
+		"carclaimCarNcsSubmitNewClaim": {
+			"CLAIM_ID": "معرف المطالبة",
+			"CLAIM_ID_Hint": "يرجى إدخال معرف المطالبة",
+			"CLAIM_NUMBER": "رقم المطالبة",
+			"CLAIM_NUMBER_Hint": "يرجى إدخال رقم المطالبة",
+			"POLICY_NUMBER": "رقم الوثيقة",
+			"POLICY_NUMBER_Hint": "يرجى إدخال رقم البوليصة",
+			"VEHICLE_REGISTRATION": "تسجيل المركبات",
+			"VEHICLE_REGISTRATION_Hint": "يرجى إدخال تسجيل المركبة",
+			"REPORTED_DATE": "تاريخ الإبلاغ عنه",
+			"REPORTED_DATE_Hint": "يرجى إدخال تاريخ الإبلاغ",
+			"FINAL_COST": "التكلفة النهائية",
+			"FINAL_COST_Hint": "يرجى إدخال التكلفة النهائية",
+			"STATUS": "الحالة",
+			"STATUS_Hint": "يرجى إدخال الحالة",
+			"PARTNER_ID": "معرف الشريك",
+			"PARTNER_ID_Hint": "يرجى إدخال معرف الشريك",
+			"CREATED_BY_PARTNER_ID": "تم إنشاؤه بواسطة معرف الشريك",
+			"CREATED_BY_PARTNER_ID_Hint": "يرجى إدخال الإنشاء بواسطة معرف الشريك",
+			"ASSIGNED_STAFF_ID": "الرقم المخصص للموظفين",
+			"ASSIGNED_STAFF_ID_Hint": "يرجى إدخال معرف الموظفين المخصص",
+			"BTN_SUBMIT": "Btn Submit",
+			"BTN_SUBMIT_Hint": "يرجى إدخال Btn Submit",
+			"INCIDENT_DATE": "تاريخ الحادث",
+			"INCIDENT_DATE_Hint": "يرجى إدخال تاريخ الحادث",
+			"DESCRIPTION": "الوصف",
+			"DESCRIPTION_Hint": "يرجى إدخال الوصف",
+			"ESTIMATED_COST": "التكلفة المقدرة",
+			"ESTIMATED_COST_Hint": "يرجى إدخال التكلفة المقدرة",
+			"component_title": "تقديم مطالبة جديدة"
+		}
+	},
+	"etr_etr_case": {
+		"etr_etr_case": {
+			"component_title": "التطبيق",
+			"compsTitleID1": "معلومات رئيسية",
+			"compsTitleID2": "الملحقات",
+			"compsTitleID3": "الفئات",
+			"compsTitleID4": "أوامر العمل"
+		}
+	}
+}

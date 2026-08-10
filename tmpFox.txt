@@ -1,0 +1,3767 @@
+Server running on port : 8090   http:
+appgen:
+req: [
+  {
+    name: 'star',
+    password: 'star',
+    app: 'app2',
+    comp_type: 'COMP',
+    comp_name: 'tickeit_FORM',
+    dbloc: 'APPGEN',
+    table: 'tickeit',
+    base_folder: '../../users/STAR_ws/projects/STAR/src/app/',
+    project: 'STAR',
+    userPort: '4200'
+  }
+]
+cmd: ./runappgen APP=app2 COMP_TYPE=COMP COMP_NAME=tickeit_FORM DBLOC=APPGEN NAME=star PASSWORD=star TABLE=tickeit BASE_FOLDER='../../users/STAR_ws/projects/STAR/src/app/'
+Child Process STDOUT: process.argv: [
+  '/usr/local/bin/node',
+  '/Users/geraldine/Documents/win/Genovity/dev/AngPrjs/AppGen/AppGen',
+  'APP=app2',
+  'COMP_TYPE=COMP',
+  'COMP_NAME=tickeit_FORM',
+  'DBLOC=APPGEN',
+  'NAME=star',
+  'PASSWORD=star',
+  'TABLE=tickeit',
+  'BASE_FOLDER=../../users/STAR_ws/projects/STAR/src/app/'
+]
+{ name: 'star', password: 'star' }
+folders {
+  appFolder: '../../users/STAR_WS/projects/STAR/src/app/',
+  compFolder: '../../users/STAR_WS/projects/STAR/src/app/',
+  baseFolder: '../../users/STAR_WS/projects/STAR/src/app/',
+  routeFolder: '../../users/STAR_WS/projects/STAR/src/app/routing/'
+}
+-argsData: {
+  AppName: 'app2',
+  CompType: 'COMP',
+  formName: 'tickeit_FORM',
+  DBLoc: 'APPGEN',
+  name: 'star',
+  password: 'star',
+  tableName: 'tickeit',
+  baseFolder: '../../users/STAR_ws/projects/STAR/src/app/'
+}
+url: http://localhost:8090/api?_format=json&_trans=Y	
+data: {
+  message: 'success',
+  data: [
+    { query: 'GET_APG_APP', rowCount: 1, data: [Array] },
+    { query: 'GET_APG_TABLE_COLUMNS', rowCount: 11, data: [Array] },
+    { query: 'GET_APG_COMP', rowCount: 1, data: [Array] },
+    { query: 'GET_APG_COMP_ATT', rowCount: 13, data: [Array] },
+    { query: 'GET_APG_COMP_ATT', rowCount: 7, data: [Array] },
+    { query: 'GET_APG_COMP_ITEM_ATT', rowCount: 198, data: [Array] },
+    { query: 'GET_APG_COMP_ITEM_ATT', rowCount: 22, data: [Array] }
+  ]
+}
+{
+  query: 'GET_APG_COMP',
+  rowCount: 1,
+  data: [
+    {
+      USERNAME: 'STAR',
+      APP_ID: 'app2',
+      COMP_ID: 'tickeit_FORM',
+      APG_USERNAME: 'STAR',
+      TABLE_NAME: 'tickeit',
+      COMP_TYPE: 'FORM',
+      COMP_TITLE: '',
+      STATUS: '',
+      COLUMNS_PER_ROWS: 2
+    }
+  ]
+}
+rec: []
+rec: []
+rec: []
+rec: [
+  {
+    APG_USERNAME: 'STAR',
+    TABLE_NAME: 'tickeit',
+    COL_NAME: 'content',
+    USERNAME: 'STAR',
+    APP_ID: 'app2',
+    COMP_ID: 'tickeit_FORM',
+    ITEM_ATT_ID: 'uitype',
+    ATTR_VALUE: 'TXTAR2F',
+    ATT_TYPE: 'ATT'
+  }
+]
+rec: []
+fields: [
+  {
+    name: 'id',
+    type: 'PK_AUTO',
+    width: 40,
+    COL_CONSTRAINT: 'PK_AUTO',
+    title: 'id',
+    visible: true,
+    startRow: true,
+    RecordGroupQuery: '',
+    Hint: 'Please enter value for id'
+  },
+  {
+    name: 'agent_id',
+    type: 'Char',
+    width: 40,
+    COL_CONSTRAINT: '',
+    title: 'agent_id11111',
+    visible: true,
+    startRow: true,
+    RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "agent_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+    Hint: 'Please enter value for agent_id222'
+  },
+  {
+    name: 'category_id',
+    type: 'Char',
+    width: 40,
+    COL_CONSTRAINT: '',
+    title: 'category_id',
+    visible: true,
+    startRow: false,
+    RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "category_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+    Hint: 'Please enter value for category_id'
+  },
+  {
+    name: 'completed_at',
+    type: 'Date',
+    width: 40,
+    COL_CONSTRAINT: '',
+    title: 'completed_at',
+    visible: true,
+    startRow: false,
+    RecordGroupQuery: '',
+    Hint: 'Please enter value for completed_at'
+  },
+  {
+    name: 'content',
+    type: 'LONGTEXT',
+    width: 0,
+    COL_CONSTRAINT: '',
+    title: 'content',
+    visible: true,
+    startRow: true,
+    RecordGroupQuery: '',
+    Hint: 'Please enter value for content'
+  },
+  {
+    name: 'created_at',
+    type: 'Date',
+    width: 40,
+    COL_CONSTRAINT: '',
+    title: 'created_at',
+    visible: true,
+    startRow: true,
+    RecordGroupQuery: '',
+    Hint: 'Please enter value for created_at'
+  },
+  {
+    name: 'priority_id',
+    type: 'Char',
+    width: 40,
+    COL_CONSTRAINT: '',
+    title: 'priority_id',
+    visible: true,
+    startRow: true,
+    RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "priority_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+    Hint: 'Please enter value for priority_id'
+  },
+  {
+    name: 'user_id',
+    type: 'Char',
+    width: 40,
+    COL_CONSTRAINT: '',
+    title: 'user_id',
+    visible: true,
+    startRow: false,
+    RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "user_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+    Hint: 'Please enter value for user_id'
+  },
+  {
+    name: 'updated_at',
+    type: 'Date',
+    width: 40,
+    COL_CONSTRAINT: '',
+    title: 'updated_at',
+    visible: true,
+    startRow: true,
+    RecordGroupQuery: '',
+    Hint: 'Please enter value for updated_at'
+  },
+  {
+    name: 'subject',
+    type: 'Char',
+    width: 1020,
+    COL_CONSTRAINT: '',
+    title: 'subject',
+    visible: true,
+    startRow: false,
+    RecordGroupQuery: '',
+    Hint: 'Please enter value for subject'
+  },
+  {
+    name: 'status_id',
+    type: 'Char',
+    width: 40,
+    COL_CONSTRAINT: '',
+    title: 'status_id',
+    visible: true,
+    startRow: true,
+    RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "status_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+    Hint: 'Please enter value for status_id'
+  }
+]
+createDBTable : { name: 'star', password: 'star' }
+creating table from : [
+  {
+    name: 'id',
+    type: 'PK_AUTO',
+    width: 40,
+    COL_CONSTRAINT: 'PK_AUTO',
+    title: 'id',
+    visible: true,
+    startRow: true,
+    RecordGroupQuery: '',
+    Hint: 'Please enter value for id'
+  },
+  {
+    name: 'agent_id',
+    type: 'Char',
+    width: 40,
+    COL_CONSTRAINT: '',
+    title: 'agent_id11111',
+    visible: true,
+    startRow: true,
+    RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "agent_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+    Hint: 'Please enter value for agent_id222'
+  },
+  {
+    name: 'category_id',
+    type: 'Char',
+    width: 40,
+    COL_CONSTRAINT: '',
+    title: 'category_id',
+    visible: true,
+    startRow: false,
+    RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "category_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+    Hint: 'Please enter value for category_id'
+  },
+  {
+    name: 'completed_at',
+    type: 'Date',
+    width: 40,
+    COL_CONSTRAINT: '',
+    title: 'completed_at',
+    visible: true,
+    startRow: false,
+    RecordGroupQuery: '',
+    Hint: 'Please enter value for completed_at'
+  },
+  {
+    name: 'content',
+    type: 'LONGTEXT',
+    width: 0,
+    COL_CONSTRAINT: '',
+    title: 'content',
+    visible: true,
+    startRow: true,
+    RecordGroupQuery: '',
+    Hint: 'Please enter value for content'
+  },
+  {
+    name: 'created_at',
+    type: 'Date',
+    width: 40,
+    COL_CONSTRAINT: '',
+    title: 'created_at',
+    visible: true,
+    startRow: true,
+    RecordGroupQuery: '',
+    Hint: 'Please enter value for created_at'
+  },
+  {
+    name: 'priority_id',
+    type: 'Char',
+    width: 40,
+    COL_CONSTRAINT: '',
+    title: 'priority_id',
+    visible: true,
+    startRow: true,
+    RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "priority_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+    Hint: 'Please enter value for priority_id'
+  },
+  {
+    name: 'user_id',
+    type: 'Char',
+    width: 40,
+    COL_CONSTRAINT: '',
+    title: 'user_id',
+    visible: true,
+    startRow: false,
+    RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "user_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+    Hint: 'Please enter value for user_id'
+  },
+  {
+    name: 'updated_at',
+    type: 'Date',
+    width: 40,
+    COL_CONSTRAINT: '',
+    title: 'updated_at',
+    visible: true,
+    startRow: true,
+    RecordGroupQuery: '',
+    Hint: 'Please enter value for updated_at'
+  },
+  {
+    name: 'subject',
+    type: 'Char',
+    width: 1020,
+    COL_CONSTRAINT: '',
+    title: 'subject',
+    visible: true,
+    startRow: false,
+    RecordGroupQuery: '',
+    Hint: 'Please enter value for subject'
+  },
+  {
+    name: 'status_id',
+    type: 'Char',
+    width: 40,
+    COL_CONSTRAINT: '',
+    title: 'status_id',
+    visible: true,
+    startRow: true,
+    RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "status_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+    Hint: 'Please enter value for status_id'
+  }
+]
+stmt: CREATE TABLE tickeit(id  INTEGER   NOT NULL PRIMARY KEY AUTOINCREMENT ,
+agent_id Char (10),
+category_id Char (10),
+completed_at Date,
+content LONGTEXT,
+created_at Date,
+priority_id Char (10),
+user_id Char (10),
+updated_at Date,
+subject Char (255),
+status_id Char (10))
+DBSOURCE: /Users/geraldine/Documents/win/Genovity/dev/sqlparse/users/usersdbs/STAR.db
+build_tableInfo:tableName: tickeit [
+  {
+    name: 'id',
+    type: 'PK_AUTO',
+    width: 40,
+    COL_CONSTRAINT: 'PK_AUTO',
+    title: 'id',
+    visible: true,
+    startRow: true,
+    RecordGroupQuery: '',
+    Hint: 'Please enter value for id'
+  },
+  {
+    name: 'agent_id',
+    type: 'Char',
+    width: 40,
+    COL_CONSTRAINT: '',
+    title: 'agent_id11111',
+    visible: true,
+    startRow: true,
+    RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "agent_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+    Hint: 'Please enter value for agent_id222'
+  },
+  {
+    name: 'category_id',
+    type: 'Char',
+    width: 40,
+    COL_CONSTRAINT: '',
+    title: 'category_id',
+    visible: true,
+    startRow: false,
+    RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "category_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+    Hint: 'Please enter value for category_id'
+  },
+  {
+    name: 'completed_at',
+    type: 'Date',
+    width: 40,
+    COL_CONSTRAINT: '',
+    title: 'completed_at',
+    visible: true,
+    startRow: false,
+    RecordGroupQuery: '',
+    Hint: 'Please enter value for completed_at'
+  },
+  {
+    name: 'content',
+    type: 'LONGTEXT',
+    width: 0,
+    COL_CONSTRAINT: '',
+    title: 'content',
+    visible: true,
+    startRow: true,
+    RecordGroupQuery: '',
+    Hint: 'Please enter value for content'
+  },
+  {
+    name: 'created_at',
+    type: 'Date',
+    width: 40,
+    COL_CONSTRAINT: '',
+    title: 'created_at',
+    visible: true,
+    startRow: true,
+    RecordGroupQuery: '',
+    Hint: 'Please enter value for created_at'
+  },
+  {
+    name: 'priority_id',
+    type: 'Char',
+    width: 40,
+    COL_CONSTRAINT: '',
+    title: 'priority_id',
+    visible: true,
+    startRow: true,
+    RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "priority_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+    Hint: 'Please enter value for priority_id'
+  },
+  {
+    name: 'user_id',
+    type: 'Char',
+    width: 40,
+    COL_CONSTRAINT: '',
+    title: 'user_id',
+    visible: true,
+    startRow: false,
+    RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "user_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+    Hint: 'Please enter value for user_id'
+  },
+  {
+    name: 'updated_at',
+    type: 'Date',
+    width: 40,
+    COL_CONSTRAINT: '',
+    title: 'updated_at',
+    visible: true,
+    startRow: true,
+    RecordGroupQuery: '',
+    Hint: 'Please enter value for updated_at'
+  },
+  {
+    name: 'subject',
+    type: 'Char',
+    width: 1020,
+    COL_CONSTRAINT: '',
+    title: 'subject',
+    visible: true,
+    startRow: false,
+    RecordGroupQuery: '',
+    Hint: 'Please enter value for subject'
+  },
+  {
+    name: 'status_id',
+    type: 'Char',
+    width: 40,
+    COL_CONSTRAINT: '',
+    title: 'status_id',
+    visible: true,
+    startRow: true,
+    RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "status_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+    Hint: 'Please enter value for status_id'
+  }
+] argsData: {
+  AppName: 'app2',
+  CompType: 'COMP',
+  formName: 'app2_tickeit_FORM',
+  DBLoc: 'APPGEN',
+  name: 'star',
+  password: 'star',
+  tableName: 'tickeit',
+  baseFolder: '../../users/STAR_ws/projects/STAR/src/app/',
+  screenType: 'FORM',
+  columnsPerRow: 3,
+  RecordsDisplayCount: 1,
+  WhereClause: '',
+  OrderByClause: '',
+  ScrollbarLength: 100,
+  InsertAllowed: 'Y',
+  queryable: 'Y',
+  navigable: 'Y',
+  removeable: 'Y',
+  updateable: 'Y',
+  keys: [ 'id' ],
+  masterKey: [ 'id' ],
+  masterKeysParent: [ 'id' ],
+  boxs: [],
+  txtars: [],
+  txtars2: [ 'content' ],
+  txtars3: [],
+  swchs: [],
+  module: 'app2/app2_tickeit_FORM/',
+  moduleOnly: 'app2/',
+  BlockName: 'app2_tickeit_FORM',
+  blockRoutines: '\r\n',
+  itemsRoutines: '\r\n',
+  modeldir: '../../../../model/model',
+  StarNotifyServiceDir: '../../../../services/starnotification.service',
+  Starlib1Dir: '../../../Starlib1',
+  usedFields: 100,
+  InitialValues: '',
+  copyValues: '',
+  tableNameFromName: false,
+  fields: [
+    {
+      name: 'id',
+      type: 'PK_AUTO',
+      width: 40,
+      COL_CONSTRAINT: 'PK_AUTO',
+      title: 'id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for id'
+    },
+    {
+      name: 'agent_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'agent_id11111',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "agent_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for agent_id222'
+    },
+    {
+      name: 'category_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'category_id',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "category_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for category_id'
+    },
+    {
+      name: 'completed_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'completed_at',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for completed_at'
+    },
+    {
+      name: 'content',
+      type: 'LONGTEXT',
+      width: 0,
+      COL_CONSTRAINT: '',
+      title: 'content',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for content'
+    },
+    {
+      name: 'created_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'created_at',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for created_at'
+    },
+    {
+      name: 'priority_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'priority_id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "priority_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for priority_id'
+    },
+    {
+      name: 'user_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'user_id',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "user_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for user_id'
+    },
+    {
+      name: 'updated_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'updated_at',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for updated_at'
+    },
+    {
+      name: 'subject',
+      type: 'Char',
+      width: 1020,
+      COL_CONSTRAINT: '',
+      title: 'subject',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for subject'
+    },
+    {
+      name: 'status_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'status_id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "status_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for status_id'
+    }
+  ]
+} BlockForm: app2_tickeit_FORM
+---tableName: tickeit_app2_tickeit_FORM  argsData.screenType: FORM
+---angularName: tickeit-app2-tickeit-form-form
+pre normalizeName:1:tickeit_app2_tickeit_FORM argsData: {
+  AppName: 'app2',
+  CompType: 'COMP',
+  formName: 'app2_tickeit_FORM',
+  DBLoc: 'APPGEN',
+  name: 'star',
+  password: 'star',
+  tableName: 'tickeit',
+  baseFolder: '../../users/STAR_ws/projects/STAR/src/app/',
+  screenType: 'FORM',
+  columnsPerRow: 3,
+  RecordsDisplayCount: 1,
+  WhereClause: '',
+  OrderByClause: '',
+  ScrollbarLength: 100,
+  InsertAllowed: 'Y',
+  queryable: 'Y',
+  navigable: 'Y',
+  removeable: 'Y',
+  updateable: 'Y',
+  keys: [ 'id' ],
+  masterKey: [ 'id' ],
+  masterKeysParent: [ 'id' ],
+  boxs: [],
+  txtars: [],
+  txtars2: [ 'content' ],
+  txtars3: [],
+  swchs: [],
+  module: 'app2/app2_tickeit_FORM/',
+  moduleOnly: 'app2/',
+  BlockName: 'app2_tickeit_FORM',
+  blockRoutines: '\r\n',
+  itemsRoutines: '\r\n',
+  modeldir: '../../../../model/model',
+  StarNotifyServiceDir: '../../../../services/starnotification.service',
+  Starlib1Dir: '../../../Starlib1',
+  usedFields: 100,
+  InitialValues: '',
+  copyValues: '',
+  tableNameFromName: false,
+  fields: [
+    {
+      name: 'id',
+      type: 'PK_AUTO',
+      width: 40,
+      COL_CONSTRAINT: 'PK_AUTO',
+      title: 'id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for id'
+    },
+    {
+      name: 'agent_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'agent_id11111',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "agent_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for agent_id222'
+    },
+    {
+      name: 'category_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'category_id',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "category_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for category_id'
+    },
+    {
+      name: 'completed_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'completed_at',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for completed_at'
+    },
+    {
+      name: 'content',
+      type: 'LONGTEXT',
+      width: 0,
+      COL_CONSTRAINT: '',
+      title: 'content',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for content'
+    },
+    {
+      name: 'created_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'created_at',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for created_at'
+    },
+    {
+      name: 'priority_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'priority_id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "priority_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for priority_id'
+    },
+    {
+      name: 'user_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'user_id',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "user_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for user_id'
+    },
+    {
+      name: 'updated_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'updated_at',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for updated_at'
+    },
+    {
+      name: 'subject',
+      type: 'Char',
+      width: 1020,
+      COL_CONSTRAINT: '',
+      title: 'subject',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for subject'
+    },
+    {
+      name: 'status_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'status_id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "status_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for status_id'
+    }
+  ]
+}
+tableName: tickeit_app2_tickeit_FORM
+ClassType: 0 array: [ 'tickeit', 'app2', 'tickeit', 'form' ]
+----className :Tickeit
+----className :TickeitApp2
+----className :TickeitApp2Tickeit
+----className :TickeitApp2TickeitForm
+normalizedNames: {
+  normalizedName: 'app2TickeitForm',
+  className: 'TickeitApp2TickeitFormForm',
+  title: 'Tickeit App2 Tickeit Form'
+}
+tickeit_app2_tickeit_FORM tableInfo built: {
+  ID: 'tickeit_app2_tickeit_FORM',
+  name: 'app2TickeitForm',
+  class: 'TickeitApp2TickeitFormForm',
+  title: 'Tickeit App2 Tickeit Form',
+  angularName: 'tickeit-app2-tickeit-form-form',
+  dataSource: 'tickeit',
+  tableKey: [ 'id' ],
+  MasterKeys: [ 'id' ],
+  MasterKeysParent: [ 'id' ],
+  lkps: undefined,
+  dates: undefined,
+  datesTimes: undefined,
+  times: undefined,
+  boxs: [],
+  btxtarsoxs: [],
+  swchs: [],
+  reqs: undefined,
+  hids: undefined,
+  RecordsDisplayCount: 1,
+  BlockName: 'app2_tickeit_FORM',
+  screenType: 'FORM',
+  numCols: 11,
+  tableNameFromName: false,
+  usedFields: 100,
+  visibleFields: undefined,
+  WhereClause: '',
+  OrderByClause: '',
+  ScrollbarLength: 100,
+  InsertAllowed: 'Y',
+  queryable: 'Y',
+  navigable: 'Y',
+  removeable: 'Y',
+  updateable: 'Y',
+  fields: [
+    {
+      name: 'id',
+      type: 'PK_AUTO',
+      width: 40,
+      COL_CONSTRAINT: 'PK_AUTO',
+      title: 'id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for id'
+    },
+    {
+      name: 'agent_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'agent_id11111',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "agent_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for agent_id222'
+    },
+    {
+      name: 'category_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'category_id',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "category_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for category_id'
+    },
+    {
+      name: 'completed_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'completed_at',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for completed_at'
+    },
+    {
+      name: 'content',
+      type: 'LONGTEXT',
+      width: 0,
+      COL_CONSTRAINT: '',
+      title: 'content',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for content'
+    },
+    {
+      name: 'created_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'created_at',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for created_at'
+    },
+    {
+      name: 'priority_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'priority_id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "priority_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for priority_id'
+    },
+    {
+      name: 'user_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'user_id',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "user_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for user_id'
+    },
+    {
+      name: 'updated_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'updated_at',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for updated_at'
+    },
+    {
+      name: 'subject',
+      type: 'Char',
+      width: 1020,
+      COL_CONSTRAINT: '',
+      title: 'subject',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for subject'
+    },
+    {
+      name: 'status_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'status_id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "status_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for status_id'
+    }
+  ]
+}
+tableInfo: {
+  ID: 'tickeit_app2_tickeit_FORM',
+  name: 'app2TickeitForm',
+  class: 'TickeitApp2TickeitFormForm',
+  title: 'Tickeit App2 Tickeit Form',
+  angularName: 'tickeit-app2-tickeit-form-form',
+  dataSource: 'tickeit',
+  tableKey: [ 'id' ],
+  MasterKeys: [ 'id' ],
+  MasterKeysParent: [ 'id' ],
+  lkps: undefined,
+  dates: undefined,
+  datesTimes: undefined,
+  times: undefined,
+  boxs: [],
+  btxtarsoxs: [],
+  swchs: [],
+  reqs: undefined,
+  hids: undefined,
+  RecordsDisplayCount: 1,
+  BlockName: 'app2_tickeit_FORM',
+  screenType: 'FORM',
+  numCols: 11,
+  tableNameFromName: false,
+  usedFields: 100,
+  visibleFields: undefined,
+  WhereClause: '',
+  OrderByClause: '',
+  ScrollbarLength: 100,
+  InsertAllowed: 'Y',
+  queryable: 'Y',
+  navigable: 'Y',
+  removeable: 'Y',
+  updateable: 'Y',
+  fields: [
+    {
+      name: 'id',
+      type: 'PK_AUTO',
+      width: 40,
+      COL_CONSTRAINT: 'PK_AUTO',
+      title: 'id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for id'
+    },
+    {
+      name: 'agent_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'agent_id11111',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "agent_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for agent_id222'
+    },
+    {
+      name: 'category_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'category_id',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "category_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for category_id'
+    },
+    {
+      name: 'completed_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'completed_at',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for completed_at'
+    },
+    {
+      name: 'content',
+      type: 'LONGTEXT',
+      width: 0,
+      COL_CONSTRAINT: '',
+      title: 'content',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for content'
+    },
+    {
+      name: 'created_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'created_at',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for created_at'
+    },
+    {
+      name: 'priority_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'priority_id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "priority_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for priority_id'
+    },
+    {
+      name: 'user_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'user_id',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "user_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for user_id'
+    },
+    {
+      name: 'updated_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'updated_at',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for updated_at'
+    },
+    {
+      name: 'subject',
+      type: 'Char',
+      width: 1020,
+      COL_CONSTRAINT: '',
+      title: 'subject',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for subject'
+    },
+    {
+      name: 'status_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'status_id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "status_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for status_id'
+    }
+  ]
+}
+tableInfo.gridHeight: {
+  ID: 'tickeit_app2_tickeit_FORM',
+  name: 'app2TickeitForm',
+  class: 'TickeitApp2TickeitFormForm',
+  title: 'Tickeit App2 Tickeit Form',
+  angularName: 'tickeit-app2-tickeit-form-form',
+  dataSource: 'tickeit',
+  tableKey: [ 'id' ],
+  MasterKeys: [ 'id' ],
+  MasterKeysParent: [ 'id' ],
+  lkps: undefined,
+  dates: undefined,
+  datesTimes: undefined,
+  times: undefined,
+  boxs: [],
+  btxtarsoxs: [],
+  swchs: [],
+  reqs: undefined,
+  hids: undefined,
+  RecordsDisplayCount: 1,
+  BlockName: 'app2_tickeit_FORM',
+  screenType: 'FORM',
+  numCols: 11,
+  tableNameFromName: false,
+  usedFields: 100,
+  visibleFields: undefined,
+  WhereClause: '',
+  OrderByClause: '',
+  ScrollbarLength: 100,
+  InsertAllowed: 'Y',
+  queryable: 'Y',
+  navigable: 'Y',
+  removeable: 'Y',
+  updateable: 'Y',
+  fields: [
+    {
+      name: 'id',
+      type: 'PK_AUTO',
+      width: 40,
+      COL_CONSTRAINT: 'PK_AUTO',
+      title: 'id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for id'
+    },
+    {
+      name: 'agent_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'agent_id11111',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "agent_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for agent_id222'
+    },
+    {
+      name: 'category_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'category_id',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "category_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for category_id'
+    },
+    {
+      name: 'completed_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'completed_at',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for completed_at'
+    },
+    {
+      name: 'content',
+      type: 'LONGTEXT',
+      width: 0,
+      COL_CONSTRAINT: '',
+      title: 'content',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for content'
+    },
+    {
+      name: 'created_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'created_at',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for created_at'
+    },
+    {
+      name: 'priority_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'priority_id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "priority_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for priority_id'
+    },
+    {
+      name: 'user_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'user_id',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "user_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for user_id'
+    },
+    {
+      name: 'updated_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'updated_at',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for updated_at'
+    },
+    {
+      name: 'subject',
+      type: 'Char',
+      width: 1020,
+      COL_CONSTRAINT: '',
+      title: 'subject',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for subject'
+    },
+    {
+      name: 'status_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'status_id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "status_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for status_id'
+    }
+  ]
+}  argsData.gridHeight: {
+  AppName: 'app2',
+  CompType: 'COMP',
+  formName: 'app2_tickeit_FORM',
+  DBLoc: 'APPGEN',
+  name: 'star',
+  password: 'star',
+  tableName: 'tickeit',
+  baseFolder: '../../users/STAR_ws/projects/STAR/src/app/',
+  screenType: 'FORM',
+  columnsPerRow: 3,
+  RecordsDisplayCount: 1,
+  WhereClause: '',
+  OrderByClause: '',
+  ScrollbarLength: 100,
+  InsertAllowed: 'Y',
+  queryable: 'Y',
+  navigable: 'Y',
+  removeable: 'Y',
+  updateable: 'Y',
+  keys: [ 'id' ],
+  masterKey: [ 'id' ],
+  masterKeysParent: [ 'id' ],
+  boxs: [],
+  txtars: [],
+  txtars2: [ 'content' ],
+  txtars3: [],
+  swchs: [],
+  module: 'app2/app2_tickeit_FORM/',
+  moduleOnly: 'app2/',
+  BlockName: 'app2_tickeit_FORM',
+  blockRoutines: '\r\n',
+  itemsRoutines: '\r\n',
+  modeldir: '../../../../model/model',
+  StarNotifyServiceDir: '../../../../services/starnotification.service',
+  Starlib1Dir: '../../../Starlib1',
+  usedFields: 100,
+  InitialValues: '',
+  copyValues: '',
+  tableNameFromName: false,
+  fields: [
+    {
+      name: 'id',
+      type: 'PK_AUTO',
+      width: 40,
+      COL_CONSTRAINT: 'PK_AUTO',
+      title: 'id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for id'
+    },
+    {
+      name: 'agent_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'agent_id11111',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "agent_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for agent_id222'
+    },
+    {
+      name: 'category_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'category_id',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "category_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for category_id'
+    },
+    {
+      name: 'completed_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'completed_at',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for completed_at'
+    },
+    {
+      name: 'content',
+      type: 'LONGTEXT',
+      width: 0,
+      COL_CONSTRAINT: '',
+      title: 'content',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for content'
+    },
+    {
+      name: 'created_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'created_at',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for created_at'
+    },
+    {
+      name: 'priority_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'priority_id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "priority_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for priority_id'
+    },
+    {
+      name: 'user_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'user_id',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "user_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for user_id'
+    },
+    {
+      name: 'updated_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'updated_at',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for updated_at'
+    },
+    {
+      name: 'subject',
+      type: 'Char',
+      width: 1020,
+      COL_CONSTRAINT: '',
+      title: 'subject',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for subject'
+    },
+    {
+      name: 'status_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'status_id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "status_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for status_id'
+    }
+  ]
+}
+gridHeight: 200
+check2:ableInfo.fields[i].name: id argsData.tableNameFromName : false
+checkColumnReq: id false
+isKey: true  isMasterKey: false  reqType: false  tableInfo.masterKey: undefined
+checkColumnType: id 
+tableInfo.fields[i].type: PK_AUTO keyType:  tableInfo.fields[i].name: id
+tableInfo.fields[i].RecordGroupQuery: 
+4:tableInfo.fields[i].type: PK_AUTO keyType:  tableInfo.fields[i].name: id  tableInfo.fields[i].RecordGroupQuery: 
+5:tableInfo.fields[i].type: PK_AUTO keyType:  tableInfo.fields[i].name: id
+checkColumnHid: id false
+tableInfo.fields[i].name: id  tableInfo.fields[i].UpdateAllowed: undefined  visible: 
+Testing triggers:argsData.screenType: FORM
+10:tableInfo.fields[i].type: PK_AUTO keyType:  tableInfo.fields[i].name: id
+tableInfo.fields[i].startRow: true  tableInfo.fields[i].name: id
+---keyType: 
+check2:ableInfo.fields[i].name: agent_id argsData.tableNameFromName : false
+checkColumnReq: agent_id false
+isKey: false  isMasterKey: false  reqType: false  tableInfo.masterKey: undefined
+checkColumnType: agent_id 
+tableInfo.fields[i].type: Char keyType:  tableInfo.fields[i].name: agent_id
+tableInfo.fields[i].RecordGroupQuery: SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "agent_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG 
+4:tableInfo.fields[i].type: Char keyType:  tableInfo.fields[i].name: agent_id  tableInfo.fields[i].RecordGroupQuery: SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "agent_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG 
+5:tableInfo.fields[i].type: Char keyType: lkps tableInfo.fields[i].name: agent_id
+checkColumnHid: agent_id false
+tableInfo.fields[i].name: agent_id  tableInfo.fields[i].UpdateAllowed: undefined  visible: 
+Testing triggers:argsData.screenType: FORM
+10:tableInfo.fields[i].type: Char keyType: lkps tableInfo.fields[i].name: agent_id
+tableInfo.fields[i].startRow: true  tableInfo.fields[i].name: agent_id
+---keyType: lkps
+check2:ableInfo.fields[i].name: category_id argsData.tableNameFromName : false
+checkColumnReq: category_id false
+isKey: false  isMasterKey: false  reqType: false  tableInfo.masterKey: undefined
+checkColumnType: category_id 
+tableInfo.fields[i].type: Char keyType:  tableInfo.fields[i].name: category_id
+tableInfo.fields[i].RecordGroupQuery: SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "category_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG 
+4:tableInfo.fields[i].type: Char keyType:  tableInfo.fields[i].name: category_id  tableInfo.fields[i].RecordGroupQuery: SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "category_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG 
+5:tableInfo.fields[i].type: Char keyType: lkps tableInfo.fields[i].name: category_id
+checkColumnHid: category_id false
+tableInfo.fields[i].name: category_id  tableInfo.fields[i].UpdateAllowed: undefined  visible: 
+Testing triggers:argsData.screenType: FORM
+10:tableInfo.fields[i].type: Char keyType: lkps tableInfo.fields[i].name: category_id
+tableInfo.fields[i].startRow: false  tableInfo.fields[i].name: category_id
+---keyType: lkps
+check2:ableInfo.fields[i].name: completed_at argsData.tableNameFromName : false
+checkColumnReq: completed_at false
+isKey: false  isMasterKey: false  reqType: false  tableInfo.masterKey: undefined
+checkColumnType: completed_at 
+tableInfo.fields[i].type: Date keyType: dates tableInfo.fields[i].name: completed_at
+tableInfo.fields[i].RecordGroupQuery: 
+4:tableInfo.fields[i].type: Date keyType: dates tableInfo.fields[i].name: completed_at  tableInfo.fields[i].RecordGroupQuery: 
+5:tableInfo.fields[i].type: Date keyType: dates tableInfo.fields[i].name: completed_at
+checkColumnHid: completed_at false
+tableInfo.fields[i].name: completed_at  tableInfo.fields[i].UpdateAllowed: undefined  visible: 
+Testing triggers:argsData.screenType: FORM
+10:tableInfo.fields[i].type: Date keyType: dates tableInfo.fields[i].name: completed_at
+tableInfo.fields[i].startRow: false  tableInfo.fields[i].name: completed_at
+---keyType: dates
+check2:ableInfo.fields[i].name: content argsData.tableNameFromName : false
+checkColumnReq: content false
+isKey: false  isMasterKey: false  reqType: false  tableInfo.masterKey: undefined
+checkColumnType: content txtars2
+tableInfo.fields[i].type: LONGTEXT keyType: txtars2 tableInfo.fields[i].name: content
+tableInfo.fields[i].RecordGroupQuery: 
+4:tableInfo.fields[i].type: LONGTEXT keyType: txtars2 tableInfo.fields[i].name: content  tableInfo.fields[i].RecordGroupQuery: 
+5:tableInfo.fields[i].type: LONGTEXT keyType: txtars2 tableInfo.fields[i].name: content
+checkColumnHid: content false
+tableInfo.fields[i].name: content  tableInfo.fields[i].UpdateAllowed: undefined  visible: 
+Testing triggers:argsData.screenType: FORM
+10:tableInfo.fields[i].type: LONGTEXT keyType: txtars2 tableInfo.fields[i].name: content
+tableInfo.fields[i].startRow: true  tableInfo.fields[i].name: content
+---keyType: txtars2
+check2:ableInfo.fields[i].name: created_at argsData.tableNameFromName : false
+checkColumnReq: created_at false
+isKey: false  isMasterKey: false  reqType: false  tableInfo.masterKey: undefined
+checkColumnType: created_at 
+tableInfo.fields[i].type: Date keyType: dates tableInfo.fields[i].name: created_at
+tableInfo.fields[i].RecordGroupQuery: 
+4:tableInfo.fields[i].type: Date keyType: dates tableInfo.fields[i].name: created_at  tableInfo.fields[i].RecordGroupQuery: 
+5:tableInfo.fields[i].type: Date keyType: dates tableInfo.fields[i].name: created_at
+checkColumnHid: created_at false
+tableInfo.fields[i].name: created_at  tableInfo.fields[i].UpdateAllowed: undefined  visible: 
+Testing triggers:argsData.screenType: FORM
+10:tableInfo.fields[i].type: Date keyType: dates tableInfo.fields[i].name: created_at
+tableInfo.fields[i].startRow: true  tableInfo.fields[i].name: created_at
+---keyType: dates
+check2:ableInfo.fields[i].name: priority_id argsData.tableNameFromName : false
+checkColumnReq: priority_id false
+isKey: false  isMasterKey: false  reqType: false  tableInfo.masterKey: undefined
+checkColumnType: priority_id 
+tableInfo.fields[i].type: Char keyType:  tableInfo.fields[i].name: priority_id
+tableInfo.fields[i].RecordGroupQuery: SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "priority_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG 
+4:tableInfo.fields[i].type: Char keyType:  tableInfo.fields[i].name: priority_id  tableInfo.fields[i].RecordGroupQuery: SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "priority_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG 
+5:tableInfo.fields[i].type: Char keyType: lkps tableInfo.fields[i].name: priority_id
+checkColumnHid: priority_id false
+tableInfo.fields[i].name: priority_id  tableInfo.fields[i].UpdateAllowed: undefined  visible: 
+Testing triggers:argsData.screenType: FORM
+10:tableInfo.fields[i].type: Char keyType: lkps tableInfo.fields[i].name: priority_id
+tableInfo.fields[i].startRow: true  tableInfo.fields[i].name: priority_id
+---keyType: lkps
+check2:ableInfo.fields[i].name: user_id argsData.tableNameFromName : false
+checkColumnReq: user_id false
+isKey: false  isMasterKey: false  reqType: false  tableInfo.masterKey: undefined
+checkColumnType: user_id 
+tableInfo.fields[i].type: Char keyType:  tableInfo.fields[i].name: user_id
+tableInfo.fields[i].RecordGroupQuery: SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "user_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG 
+4:tableInfo.fields[i].type: Char keyType:  tableInfo.fields[i].name: user_id  tableInfo.fields[i].RecordGroupQuery: SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "user_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG 
+5:tableInfo.fields[i].type: Char keyType: lkps tableInfo.fields[i].name: user_id
+checkColumnHid: user_id false
+tableInfo.fields[i].name: user_id  tableInfo.fields[i].UpdateAllowed: undefined  visible: 
+Testing triggers:argsData.screenType: FORM
+10:tableInfo.fields[i].type: Char keyType: lkps tableInfo.fields[i].name: user_id
+tableInfo.fields[i].startRow: false  tableInfo.fields[i].name: user_id
+---keyType: lkps
+check2:ableInfo.fields[i].name: updated_at argsData.tableNameFromName : false
+checkColumnReq: updated_at false
+isKey: false  isMasterKey: false  reqType: false  tableInfo.masterKey: undefined
+checkColumnType: updated_at 
+tableInfo.fields[i].type: Date keyType: dates tableInfo.fields[i].name: updated_at
+tableInfo.fields[i].RecordGroupQuery: 
+4:tableInfo.fields[i].type: Date keyType: dates tableInfo.fields[i].name: updated_at  tableInfo.fields[i].RecordGroupQuery: 
+5:tableInfo.fields[i].type: Date keyType: dates tableInfo.fields[i].name: updated_at
+checkColumnHid: updated_at false
+tableInfo.fields[i].name: updated_at  tableInfo.fields[i].UpdateAllowed: undefined  visible: 
+Testing triggers:argsData.screenType: FORM
+10:tableInfo.fields[i].type: Date keyType: dates tableInfo.fields[i].name: updated_at
+tableInfo.fields[i].startRow: true  tableInfo.fields[i].name: updated_at
+---keyType: dates
+check2:ableInfo.fields[i].name: subject argsData.tableNameFromName : false
+checkColumnReq: subject false
+isKey: false  isMasterKey: false  reqType: false  tableInfo.masterKey: undefined
+checkColumnType: subject 
+tableInfo.fields[i].type: Char keyType:  tableInfo.fields[i].name: subject
+tableInfo.fields[i].RecordGroupQuery: 
+4:tableInfo.fields[i].type: Char keyType:  tableInfo.fields[i].name: subject  tableInfo.fields[i].RecordGroupQuery: 
+5:tableInfo.fields[i].type: Char keyType:  tableInfo.fields[i].name: subject
+checkColumnHid: subject false
+tableInfo.fields[i].name: subject  tableInfo.fields[i].UpdateAllowed: undefined  visible: 
+Testing triggers:argsData.screenType: FORM
+10:tableInfo.fields[i].type: Char keyType:  tableInfo.fields[i].name: subject
+tableInfo.fields[i].startRow: false  tableInfo.fields[i].name: subject
+---keyType: 
+check2:ableInfo.fields[i].name: status_id argsData.tableNameFromName : false
+checkColumnReq: status_id false
+isKey: false  isMasterKey: false  reqType: false  tableInfo.masterKey: undefined
+checkColumnType: status_id 
+tableInfo.fields[i].type: Char keyType:  tableInfo.fields[i].name: status_id
+tableInfo.fields[i].RecordGroupQuery: SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "status_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG 
+4:tableInfo.fields[i].type: Char keyType:  tableInfo.fields[i].name: status_id  tableInfo.fields[i].RecordGroupQuery: SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "status_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG 
+5:tableInfo.fields[i].type: Char keyType: lkps tableInfo.fields[i].name: status_id
+checkColumnHid: status_id false
+tableInfo.fields[i].name: status_id  tableInfo.fields[i].UpdateAllowed: undefined  visible: 
+Testing triggers:argsData.screenType: FORM
+10:tableInfo.fields[i].type: Char keyType: lkps tableInfo.fields[i].name: status_id
+tableInfo.fields[i].startRow: true  tableInfo.fields[i].name: status_id
+---keyType: lkps
+ stmtDelete for: tickeit_app2_tickeit_FORM "DELETE_tickeit":[
+	" DELETE FROM tickeit ",
+	" WHERE  id = :id "
+
+]
+
+
+componentData: {
+  stmtModel: 'export class tickeit {\n' +
+    "public id = '';\n" +
+    "public agent_id = '';\n" +
+    "public category_id = '';\n" +
+    "public completed_at = '';\n" +
+    "public content = '';\n" +
+    "public created_at = '';\n" +
+    "public priority_id = '';\n" +
+    "public user_id = '';\n" +
+    "public updated_at = '';\n" +
+    "public subject = '';\n" +
+    "public status_id = '';\n" +
+    '\n' +
+    '\n' +
+    '}\n',
+  createFormGroup: ' const createFormGroup = dataItem => new FormGroup({\n' +
+    "'id' : new FormControl(dataItem.id ) ,\n" +
+    "'agent_id' : new FormControl(dataItem.agent_id ) ,\n" +
+    "'category_id' : new FormControl(dataItem.category_id ) ,\n" +
+    "'completed_at' : new FormControl(dataItem.completed_at ) ,\n" +
+    "'content' : new FormControl(dataItem.content ) ,\n" +
+    "'created_at' : new FormControl(dataItem.created_at ) ,\n" +
+    "'priority_id' : new FormControl(dataItem.priority_id ) ,\n" +
+    "'user_id' : new FormControl(dataItem.user_id ) ,\n" +
+    "'updated_at' : new FormControl(dataItem.updated_at ) ,\n" +
+    "'subject' : new FormControl(dataItem.subject ) ,\n" +
+    "'status_id' : new FormControl(dataItem.status_id ) \n" +
+    '});\n',
+  formGroup: '"id" : "" ,\n' +
+    '"agent_id" : "" ,\n' +
+    '"category_id" : "" ,\n' +
+    '"completed_at" : "" ,\n' +
+    '"content" : "" ,\n' +
+    '"created_at" : "" ,\n' +
+    '"priority_id" : "" ,\n' +
+    '"user_id" : "" ,\n' +
+    '"updated_at" : "" ,\n' +
+    '"subject" : "" ,\n' +
+    '"status_id" : "" ',
+  gridColumns: '\t<kendo-grid-column \t\t[editable]="!primarKeyReadOnlyArr.isidreadOnly"\r\n' +
+    `\t\t title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.id','id')}}"  width="50">\r\n` +
+    '\t\t <ng-template kendoGridCellTemplate let-dataItem> {{dataItem.id}}</ng-template>\r\n' +
+    '\t\t<ng-template kendoGridEditTemplate let-dataItem>\r\n' +
+    `\t\t<kendo-textbox  [formControl]="formGroup.get('id')"> </kendo-textbox>\r\n` +
+    '\t\t</ng-template>\r\n' +
+    '\t\t</kendo-grid-column>\r\n' +
+    '\r\n' +
+    `\t<kendo-grid-column field="agent_id" title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.agent_id','agent_id11111')}}" width="100"  >\r\n` +
+    '\t\t<ng-template kendoGridCellTemplate let-dataItem> {{lkpArrGetagent_id(dataItem.agent_id)?.CODETEXT_LANG}} </ng-template>\r\n' +
+    '\t\t<ng-template kendoGridEditTemplate let-dataItem >\r\n' +
+    '\t\t<kendo-dropdownlist  [data]="lkpArragent_id"  textField="CODETEXT_LANG" valueField="CODE"\r\n' +
+    '\t\t(valueChange)="valueChangeagent_id($event)"\r\n' +
+    `\t\t[valuePrimitive]="true" [formControl]="formGroup.get('agent_id')">\r\n` +
+    '\t\t</kendo-dropdownlist>\r\n' +
+    '\t\t</ng-template>\r\n' +
+    '\t</kendo-grid-column>\r\n' +
+    '\r\n' +
+    `\t<kendo-grid-column field="category_id" title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.category_id','category_id')}}" width="100"  >\r\n` +
+    '\t\t<ng-template kendoGridCellTemplate let-dataItem> {{lkpArrGetcategory_id(dataItem.category_id)?.CODETEXT_LANG}} </ng-template>\r\n' +
+    '\t\t<ng-template kendoGridEditTemplate let-dataItem >\r\n' +
+    '\t\t<kendo-dropdownlist  [data]="lkpArrcategory_id"  textField="CODETEXT_LANG" valueField="CODE"\r\n' +
+    '\t\t(valueChange)="valueChangecategory_id($event)"\r\n' +
+    `\t\t[valuePrimitive]="true" [formControl]="formGroup.get('category_id')">\r\n` +
+    '\t\t</kendo-dropdownlist>\r\n' +
+    '\t\t</ng-template>\r\n' +
+    '\t</kendo-grid-column>\r\n' +
+    '\r\n' +
+    `\t<kendo-grid-column field="completed_at"  width="100"\tfilter="date"\t editor="date"  title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.completed_at','completed_at')}}" \r\n` +
+    '\t\t[format]="paramConfig.DateFormat">\r\n' +
+    '\t\t<ng-template KendoGridEditTemplate  let-dataItem>\r\n' +
+    '\t\t<kendo-datepicker [format]="this.paramConfig.DateFormat" ngDefaultControl\t #datepicker>\r\n' +
+    '\t\t\t\t</kendo-datepicker>\r\n' +
+    '\t\t</ng-template>\r\n' +
+    '\t\t</kendo-grid-column>\r\n' +
+    '\r\n' +
+    '\t<kendo-grid-column field="content"\r\n' +
+    '\t\t title="content"  editor="boolean" width="15"><ng-template kendoGridCellTemplate let-dataItem>\r\n' +
+    '\t\t<textarea kendoTextArea  style="resize: both;" class="form-input-triple" kendoTextBox formControlName="content" #content></textarea>\r\n' +
+    '\t\t </ng-template></kendo-grid-column>\r\n' +
+    '\r\n' +
+    `\t<kendo-grid-column field="created_at"  width="100"\tfilter="date"\t editor="date"  title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.created_at','created_at')}}" \r\n` +
+    '\t\t[format]="paramConfig.DateFormat">\r\n' +
+    '\t\t<ng-template KendoGridEditTemplate  let-dataItem>\r\n' +
+    '\t\t<kendo-datepicker [format]="this.paramConfig.DateFormat" ngDefaultControl\t #datepicker>\r\n' +
+    '\t\t\t\t</kendo-datepicker>\r\n' +
+    '\t\t</ng-template>\r\n' +
+    '\t\t</kendo-grid-column>\r\n' +
+    '\r\n' +
+    `\t<kendo-grid-column field="priority_id" title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.priority_id','priority_id')}}" width="100"  >\r\n` +
+    '\t\t<ng-template kendoGridCellTemplate let-dataItem> {{lkpArrGetpriority_id(dataItem.priority_id)?.CODETEXT_LANG}} </ng-template>\r\n' +
+    '\t\t<ng-template kendoGridEditTemplate let-dataItem >\r\n' +
+    '\t\t<kendo-dropdownlist  [data]="lkpArrpriority_id"  textField="CODETEXT_LANG" valueField="CODE"\r\n' +
+    '\t\t(valueChange)="valueChangepriority_id($event)"\r\n' +
+    `\t\t[valuePrimitive]="true" [formControl]="formGroup.get('priority_id')">\r\n` +
+    '\t\t</kendo-dropdownlist>\r\n' +
+    '\t\t</ng-template>\r\n' +
+    '\t</kendo-grid-column>\r\n' +
+    '\r\n' +
+    `\t<kendo-grid-column field="user_id" title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.user_id','user_id')}}" width="100"  >\r\n` +
+    '\t\t<ng-template kendoGridCellTemplate let-dataItem> {{lkpArrGetuser_id(dataItem.user_id)?.CODETEXT_LANG}} </ng-template>\r\n' +
+    '\t\t<ng-template kendoGridEditTemplate let-dataItem >\r\n' +
+    '\t\t<kendo-dropdownlist  [data]="lkpArruser_id"  textField="CODETEXT_LANG" valueField="CODE"\r\n' +
+    '\t\t(valueChange)="valueChangeuser_id($event)"\r\n' +
+    `\t\t[valuePrimitive]="true" [formControl]="formGroup.get('user_id')">\r\n` +
+    '\t\t</kendo-dropdownlist>\r\n' +
+    '\t\t</ng-template>\r\n' +
+    '\t</kendo-grid-column>\r\n' +
+    '\r\n' +
+    `\t<kendo-grid-column field="updated_at"  width="100"\tfilter="date"\t editor="date"  title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.updated_at','updated_at')}}" \r\n` +
+    '\t\t[format]="paramConfig.DateFormat">\r\n' +
+    '\t\t<ng-template KendoGridEditTemplate  let-dataItem>\r\n' +
+    '\t\t<kendo-datepicker [format]="this.paramConfig.DateFormat" ngDefaultControl\t #datepicker>\r\n' +
+    '\t\t\t\t</kendo-datepicker>\r\n' +
+    '\t\t</ng-template>\r\n' +
+    '\t\t</kendo-grid-column>\r\n' +
+    '\r\n' +
+    `\t<kendo-grid-column \t\t title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.subject','subject')}}"  width="50">\r\n` +
+    '\t\t <ng-template kendoGridCellTemplate let-dataItem> {{dataItem.subject}}</ng-template>\r\n' +
+    '\t\t<ng-template kendoGridEditTemplate let-dataItem>\r\n' +
+    `\t\t<kendo-textbox  [formControl]="formGroup.get('subject')"> </kendo-textbox>\r\n` +
+    '\t\t</ng-template>\r\n' +
+    '\t\t</kendo-grid-column>\r\n' +
+    '\r\n' +
+    `\t<kendo-grid-column field="status_id" title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.status_id','status_id')}}" width="100"  >\r\n` +
+    '\t\t<ng-template kendoGridCellTemplate let-dataItem> {{lkpArrGetstatus_id(dataItem.status_id)?.CODETEXT_LANG}} </ng-template>\r\n' +
+    '\t\t<ng-template kendoGridEditTemplate let-dataItem >\r\n' +
+    '\t\t<kendo-dropdownlist  [data]="lkpArrstatus_id"  textField="CODETEXT_LANG" valueField="CODE"\r\n' +
+    '\t\t(valueChange)="valueChangestatus_id($event)"\r\n' +
+    `\t\t[valuePrimitive]="true" [formControl]="formGroup.get('status_id')">\r\n` +
+    '\t\t</kendo-dropdownlist>\r\n' +
+    '\t\t</ng-template>\r\n' +
+    '\t</kendo-grid-column>\r\n' +
+    '\n' +
+    '\n',
+  formColumns: '<div class="wrap">\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    `\t\t<kendo-label class="form-label" [for]="id" [text]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.id','id')"></kendo-label>\r\n` +
+    `\t\t<input class="form-input" formControlName="id" kendoTextBox #id  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.id_Hint','Please enter value for id')" />\r\n` +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    '\r\n' +
+    '</div>\n' +
+    '<div class="wrap">\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    `\t\t<kendo-label class="form-label" [for]="agent_id" [text]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.agent_id','agent_id11111')"></kendo-label>\r\n` +
+    `\t\t<kendo-combobox  #agent_id class="form-field-combobox" [formControlName]="'agent_id'"\r\n` +
+    `\t\t[data]="lkpArragent_id" [textField]="'CODETEXT_LANG'"  [valueField]="'CODE'"\r\n` +
+    `  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.agent_id_Hint','Please enter value for agent_id222')"\r\n` +
+    `\t\t[valuePrimitive]="true"  [kendoDropDownFilter]="{ operator: 'contains' }">\r\n` +
+    '\t\t</kendo-combobox>\r\n' +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    `\t\t<kendo-label class="form-label" [for]="category_id" [text]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.category_id','category_id')"></kendo-label>\r\n` +
+    `\t\t<kendo-combobox  #category_id class="form-field-combobox" [formControlName]="'category_id'"\r\n` +
+    `\t\t[data]="lkpArrcategory_id" [textField]="'CODETEXT_LANG'"  [valueField]="'CODE'"\r\n` +
+    `  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.category_id_Hint','Please enter value for category_id')"\r\n` +
+    `\t\t[valuePrimitive]="true"  [kendoDropDownFilter]="{ operator: 'contains' }">\r\n` +
+    '\t\t</kendo-combobox>\r\n' +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    '\t\t<kendo-label class="form-label" [for]="completed_at" text="completed_at"></kendo-label>\r\n' +
+    '\t\t<kendo-datepicker [format]="this.paramConfig.DateFormat" class="form-field-date" formControlName="completed_at"  #completed_at \r\n' +
+    `  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.completed_at_Hint','Please enter value for completed_at')"\r\n` +
+    '\t\t></kendo-datepicker>\r\n' +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    '\r\n' +
+    '</div>\n' +
+    '<div class="wrap">\r\n' +
+    `\t<kendo-formfield class="form-input-triple" [orientation]="'horizontal'" >\r\n` +
+    '\t\t<kendo-label class="form-label" [for]="content" text="content"></kendo-label>\r\n' +
+    '\t\t<textarea kendoTextArea  style="resize: both;" class="form-input-triple" kendoTextBox formControlName="content" #content></textarea>\r\n' +
+    `  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.content_Hint','Please enter value for content')"\r\n` +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    '\r\n' +
+    '</div>\n' +
+    '<div class="wrap">\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    '\t\t<kendo-label class="form-label" [for]="created_at" text="created_at"></kendo-label>\r\n' +
+    '\t\t<kendo-datepicker [format]="this.paramConfig.DateFormat" class="form-field-date" formControlName="created_at"  #created_at \r\n' +
+    `  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.created_at_Hint','Please enter value for created_at')"\r\n` +
+    '\t\t></kendo-datepicker>\r\n' +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    '\r\n' +
+    '</div>\n' +
+    '<div class="wrap">\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    `\t\t<kendo-label class="form-label" [for]="priority_id" [text]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.priority_id','priority_id')"></kendo-label>\r\n` +
+    `\t\t<kendo-combobox  #priority_id class="form-field-combobox" [formControlName]="'priority_id'"\r\n` +
+    `\t\t[data]="lkpArrpriority_id" [textField]="'CODETEXT_LANG'"  [valueField]="'CODE'"\r\n` +
+    `  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.priority_id_Hint','Please enter value for priority_id')"\r\n` +
+    `\t\t[valuePrimitive]="true"  [kendoDropDownFilter]="{ operator: 'contains' }">\r\n` +
+    '\t\t</kendo-combobox>\r\n' +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    `\t\t<kendo-label class="form-label" [for]="user_id" [text]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.user_id','user_id')"></kendo-label>\r\n` +
+    `\t\t<kendo-combobox  #user_id class="form-field-combobox" [formControlName]="'user_id'"\r\n` +
+    `\t\t[data]="lkpArruser_id" [textField]="'CODETEXT_LANG'"  [valueField]="'CODE'"\r\n` +
+    `  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.user_id_Hint','Please enter value for user_id')"\r\n` +
+    `\t\t[valuePrimitive]="true"  [kendoDropDownFilter]="{ operator: 'contains' }">\r\n` +
+    '\t\t</kendo-combobox>\r\n' +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    '\r\n' +
+    '</div>\n' +
+    '<div class="wrap">\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    '\t\t<kendo-label class="form-label" [for]="updated_at" text="updated_at"></kendo-label>\r\n' +
+    '\t\t<kendo-datepicker [format]="this.paramConfig.DateFormat" class="form-field-date" formControlName="updated_at"  #updated_at \r\n' +
+    `  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.updated_at_Hint','Please enter value for updated_at')"\r\n` +
+    '\t\t></kendo-datepicker>\r\n' +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    `\t\t<kendo-label class="form-label" [for]="subject" [text]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.subject','subject')"></kendo-label>\r\n` +
+    `\t\t<input class="form-input" formControlName="subject" kendoTextBox #subject  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.subject_Hint','Please enter value for subject')" />\r\n` +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    '\r\n' +
+    '</div>\n' +
+    '<div class="wrap">\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    `\t\t<kendo-label class="form-label" [for]="status_id" [text]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.status_id','status_id')"></kendo-label>\r\n` +
+    `\t\t<kendo-combobox  #status_id class="form-field-combobox" [formControlName]="'status_id'"\r\n` +
+    `\t\t[data]="lkpArrstatus_id" [textField]="'CODETEXT_LANG'"  [valueField]="'CODE'"\r\n` +
+    `  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.status_id_Hint','Please enter value for status_id')"\r\n` +
+    `\t\t[valuePrimitive]="true"  [kendoDropDownFilter]="{ operator: 'contains' }">\r\n` +
+    '\t\t</kendo-combobox>\r\n' +
+    '\t</kendo-formfield>\r\n' +
+    '</div>\n',
+  formModel: ' export class app2TickeitForm{\n' +
+    "\tpublic id = '';\n" +
+    "\tpublic agent_id = '';\n" +
+    "\tpublic category_id = '';\n" +
+    "\tpublic completed_at = '';\n" +
+    "\tpublic content = '';\n" +
+    "\tpublic created_at = '';\n" +
+    "\tpublic priority_id = '';\n" +
+    "\tpublic user_id = '';\n" +
+    "\tpublic updated_at = '';\n" +
+    "\tpublic subject = '';\n" +
+    "\tpublic status_id = '';\n" +
+    '\n' +
+    '}\n',
+  stmtGet: '"GET_tickeit":[\n' +
+    '\t" SELECT id ,  agent_id ,  category_id ,  completed_at ,  content ,  created_at ,  priority_id ,  user_id ,  updated_at ,  subject ,  status_id",\n' +
+    '\t" FROM tickeit ",\n' +
+    '\t" WHERE id = :id"\n' +
+    '\n' +
+    ']\n' +
+    '\n',
+  stmtGetQuery: '"GET_tickeit_QUERY":[\n' +
+    '\t" SELECT id ,  agent_id ,  category_id ,  completed_at ,  content ,  created_at ,  priority_id ,  user_id ,  updated_at ,  subject ,  status_id",\n' +
+    '\t" FROM tickeit ",\n' +
+    '\t" :_WHERE "\n' +
+    ']\n' +
+    '\n',
+  stmtInsert: '"INSERT_tickeit":[\n' +
+    '\t" INSERT INTO tickeit ",\n' +
+    '\t" ( agent_id  ,x  category_id  ,x  completed_at  ,x  content  ,x  created_at  ,x  priority_id  ,x  user_id  ,x  updated_at  ,x  subject  ,x  status_id  ) ",\n' +
+    '\t" VALUES ",\n' +
+    '\t" ( :agent_id  ,  :category_id  ,  :completed_at  ,  :content  ,  :created_at  ,  :priority_id  ,  :user_id  ,  :updated_at  ,  :subject  ,  :status_id  ) "\n' +
+    '\n' +
+    ']\n' +
+    '\n',
+  stmtUpdate: '"UPDATE_tickeit":[\n' +
+    '\t" UPDATE  tickeit ",\n' +
+    '\t" SET " , \n' +
+    '  "  agent_id = :agent_id " , \n' +
+    '  ",  category_id = :category_id " , \n' +
+    '  ",  completed_at = :completed_at " , \n' +
+    '  ",  content = :content " , \n' +
+    '  ",  created_at = :created_at " , \n' +
+    '  ",  priority_id = :priority_id " , \n' +
+    '  ",  user_id = :user_id " , \n' +
+    '  ",  updated_at = :updated_at " , \n' +
+    '  ",  subject = :subject " , \n' +
+    '  ",  status_id = :status_id ",\n' +
+    '\t" WHERE  id = :id "\n' +
+    '\n' +
+    ']\n' +
+    '\n',
+  stmtDelete: '"DELETE_tickeit":[\n\t" DELETE FROM tickeit ",\n\t" WHERE  id = :id "\n\n]\n\n',
+  lkpStmt: 'public userLang = "EN" ; \r\n' +
+    'public lookupArrDef =[/*\t{"statment":"SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "agent_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ",\r\n' +
+    '\t\t\t"lkpArrName":"lkpArragent_id"},\r\n' +
+    '\t{"statment":"SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "category_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ",\r\n' +
+    '\t\t\t"lkpArrName":"lkpArrcategory_id"},\r\n' +
+    '\t{"statment":"SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "priority_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ",\r\n' +
+    '\t\t\t"lkpArrName":"lkpArrpriority_id"},\r\n' +
+    '\t{"statment":"SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "user_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ",\r\n' +
+    '\t\t\t"lkpArrName":"lkpArruser_id"},\r\n' +
+    '\t{"statment":"SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "status_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ",\r\n' +
+    '\t\t\t"lkpArrName":"lkpArrstatus_id"}*/];\r\n' +
+    '\r\n' +
+    'public lkpArragent_id = [];\r\n' +
+    '\r\n' +
+    'public lkpArrcategory_id = [];\r\n' +
+    '\r\n' +
+    'public lkpArrpriority_id = [];\r\n' +
+    '\r\n' +
+    'public lkpArruser_id = [];\r\n' +
+    '\r\n' +
+    'public lkpArrstatus_id = [];\r\n' +
+    '\r\n' +
+    'public lkpArrGetagent_id(CODE: any): any {\r\n' +
+    '// Change x.CODE below if not from SOM_TABS_CODE\r\n' +
+    'var rec = this.lkpArragent_id.find(x => x.CODE === CODE);\r\n' +
+    'return rec;\r\n' +
+    '}\r\n' +
+    '\r\n' +
+    'public lkpArrGetcategory_id(CODE: any): any {\r\n' +
+    '// Change x.CODE below if not from SOM_TABS_CODE\r\n' +
+    'var rec = this.lkpArrcategory_id.find(x => x.CODE === CODE);\r\n' +
+    'return rec;\r\n' +
+    '}\r\n' +
+    '\r\n' +
+    'public lkpArrGetpriority_id(CODE: any): any {\r\n' +
+    '// Change x.CODE below if not from SOM_TABS_CODE\r\n' +
+    'var rec = this.lkpArrpriority_id.find(x => x.CODE === CODE);\r\n' +
+    'return rec;\r\n' +
+    '}\r\n' +
+    '\r\n' +
+    'public lkpArrGetuser_id(CODE: any): any {\r\n' +
+    '// Change x.CODE below if not from SOM_TABS_CODE\r\n' +
+    'var rec = this.lkpArruser_id.find(x => x.CODE === CODE);\r\n' +
+    'return rec;\r\n' +
+    '}\r\n' +
+    '\r\n' +
+    'public lkpArrGetstatus_id(CODE: any): any {\r\n' +
+    '// Change x.CODE below if not from SOM_TABS_CODE\r\n' +
+    'var rec = this.lkpArrstatus_id.find(x => x.CODE === CODE);\r\n' +
+    'return rec;\r\n' +
+    '}\r\n',
+  lkpOnChange: 'onChanges(): void {\r\n' +
+    "this.form.get('agent_id').valueChanges.subscribe(val => {\r\n" +
+    '});\r\n' +
+    "this.form.get('category_id').valueChanges.subscribe(val => {\r\n" +
+    '});\r\n' +
+    "this.form.get('priority_id').valueChanges.subscribe(val => {\r\n" +
+    '});\r\n' +
+    "this.form.get('user_id').valueChanges.subscribe(val => {\r\n" +
+    '});\r\n' +
+    "this.form.get('status_id').valueChanges.subscribe(val => {\r\n" +
+    '});\r\n' +
+    '}\r\n',
+  masterKeyEnable: '',
+  masterKeyEnableTrue: '',
+  masterKeyEnableFalse: '',
+  keyEnable: '\tpublic  isidEnable : boolean = true; \r\n',
+  masterKeyArr: '',
+  masterKeyNameArr: '',
+  primarKeyReadOnlyArr: 'isidreadOnly : false',
+  gridHeight: 200
+}
+argsData.module: app2/app2_tickeit_FORM/
+tableInfo.angularName : tickeit-app2-tickeit-form-form
+--scrMode: 0  TempType: FORM  componentData: {
+  stmtModel: 'export class tickeit {\n' +
+    "public id = '';\n" +
+    "public agent_id = '';\n" +
+    "public category_id = '';\n" +
+    "public completed_at = '';\n" +
+    "public content = '';\n" +
+    "public created_at = '';\n" +
+    "public priority_id = '';\n" +
+    "public user_id = '';\n" +
+    "public updated_at = '';\n" +
+    "public subject = '';\n" +
+    "public status_id = '';\n" +
+    '\n' +
+    '\n' +
+    '}\n',
+  createFormGroup: ' const createFormGroup = dataItem => new FormGroup({\n' +
+    "'id' : new FormControl(dataItem.id ) ,\n" +
+    "'agent_id' : new FormControl(dataItem.agent_id ) ,\n" +
+    "'category_id' : new FormControl(dataItem.category_id ) ,\n" +
+    "'completed_at' : new FormControl(dataItem.completed_at ) ,\n" +
+    "'content' : new FormControl(dataItem.content ) ,\n" +
+    "'created_at' : new FormControl(dataItem.created_at ) ,\n" +
+    "'priority_id' : new FormControl(dataItem.priority_id ) ,\n" +
+    "'user_id' : new FormControl(dataItem.user_id ) ,\n" +
+    "'updated_at' : new FormControl(dataItem.updated_at ) ,\n" +
+    "'subject' : new FormControl(dataItem.subject ) ,\n" +
+    "'status_id' : new FormControl(dataItem.status_id ) \n" +
+    '});\n',
+  formGroup: '"id" : "" ,\n' +
+    '"agent_id" : "" ,\n' +
+    '"category_id" : "" ,\n' +
+    '"completed_at" : "" ,\n' +
+    '"content" : "" ,\n' +
+    '"created_at" : "" ,\n' +
+    '"priority_id" : "" ,\n' +
+    '"user_id" : "" ,\n' +
+    '"updated_at" : "" ,\n' +
+    '"subject" : "" ,\n' +
+    '"status_id" : "" ',
+  gridColumns: '\t<kendo-grid-column \t\t[editable]="!primarKeyReadOnlyArr.isidreadOnly"\r\n' +
+    `\t\t title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.id','id')}}"  width="50">\r\n` +
+    '\t\t <ng-template kendoGridCellTemplate let-dataItem> {{dataItem.id}}</ng-template>\r\n' +
+    '\t\t<ng-template kendoGridEditTemplate let-dataItem>\r\n' +
+    `\t\t<kendo-textbox  [formControl]="formGroup.get('id')"> </kendo-textbox>\r\n` +
+    '\t\t</ng-template>\r\n' +
+    '\t\t</kendo-grid-column>\r\n' +
+    '\r\n' +
+    `\t<kendo-grid-column field="agent_id" title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.agent_id','agent_id11111')}}" width="100"  >\r\n` +
+    '\t\t<ng-template kendoGridCellTemplate let-dataItem> {{lkpArrGetagent_id(dataItem.agent_id)?.CODETEXT_LANG}} </ng-template>\r\n' +
+    '\t\t<ng-template kendoGridEditTemplate let-dataItem >\r\n' +
+    '\t\t<kendo-dropdownlist  [data]="lkpArragent_id"  textField="CODETEXT_LANG" valueField="CODE"\r\n' +
+    '\t\t(valueChange)="valueChangeagent_id($event)"\r\n' +
+    `\t\t[valuePrimitive]="true" [formControl]="formGroup.get('agent_id')">\r\n` +
+    '\t\t</kendo-dropdownlist>\r\n' +
+    '\t\t</ng-template>\r\n' +
+    '\t</kendo-grid-column>\r\n' +
+    '\r\n' +
+    `\t<kendo-grid-column field="category_id" title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.category_id','category_id')}}" width="100"  >\r\n` +
+    '\t\t<ng-template kendoGridCellTemplate let-dataItem> {{lkpArrGetcategory_id(dataItem.category_id)?.CODETEXT_LANG}} </ng-template>\r\n' +
+    '\t\t<ng-template kendoGridEditTemplate let-dataItem >\r\n' +
+    '\t\t<kendo-dropdownlist  [data]="lkpArrcategory_id"  textField="CODETEXT_LANG" valueField="CODE"\r\n' +
+    '\t\t(valueChange)="valueChangecategory_id($event)"\r\n' +
+    `\t\t[valuePrimitive]="true" [formControl]="formGroup.get('category_id')">\r\n` +
+    '\t\t</kendo-dropdownlist>\r\n' +
+    '\t\t</ng-template>\r\n' +
+    '\t</kendo-grid-column>\r\n' +
+    '\r\n' +
+    `\t<kendo-grid-column field="completed_at"  width="100"\tfilter="date"\t editor="date"  title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.completed_at','completed_at')}}" \r\n` +
+    '\t\t[format]="paramConfig.DateFormat">\r\n' +
+    '\t\t<ng-template KendoGridEditTemplate  let-dataItem>\r\n' +
+    '\t\t<kendo-datepicker [format]="this.paramConfig.DateFormat" ngDefaultControl\t #datepicker>\r\n' +
+    '\t\t\t\t</kendo-datepicker>\r\n' +
+    '\t\t</ng-template>\r\n' +
+    '\t\t</kendo-grid-column>\r\n' +
+    '\r\n' +
+    '\t<kendo-grid-column field="content"\r\n' +
+    '\t\t title="content"  editor="boolean" width="15"><ng-template kendoGridCellTemplate let-dataItem>\r\n' +
+    '\t\t<textarea kendoTextArea  style="resize: both;" class="form-input-triple" kendoTextBox formControlName="content" #content></textarea>\r\n' +
+    '\t\t </ng-template></kendo-grid-column>\r\n' +
+    '\r\n' +
+    `\t<kendo-grid-column field="created_at"  width="100"\tfilter="date"\t editor="date"  title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.created_at','created_at')}}" \r\n` +
+    '\t\t[format]="paramConfig.DateFormat">\r\n' +
+    '\t\t<ng-template KendoGridEditTemplate  let-dataItem>\r\n' +
+    '\t\t<kendo-datepicker [format]="this.paramConfig.DateFormat" ngDefaultControl\t #datepicker>\r\n' +
+    '\t\t\t\t</kendo-datepicker>\r\n' +
+    '\t\t</ng-template>\r\n' +
+    '\t\t</kendo-grid-column>\r\n' +
+    '\r\n' +
+    `\t<kendo-grid-column field="priority_id" title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.priority_id','priority_id')}}" width="100"  >\r\n` +
+    '\t\t<ng-template kendoGridCellTemplate let-dataItem> {{lkpArrGetpriority_id(dataItem.priority_id)?.CODETEXT_LANG}} </ng-template>\r\n' +
+    '\t\t<ng-template kendoGridEditTemplate let-dataItem >\r\n' +
+    '\t\t<kendo-dropdownlist  [data]="lkpArrpriority_id"  textField="CODETEXT_LANG" valueField="CODE"\r\n' +
+    '\t\t(valueChange)="valueChangepriority_id($event)"\r\n' +
+    `\t\t[valuePrimitive]="true" [formControl]="formGroup.get('priority_id')">\r\n` +
+    '\t\t</kendo-dropdownlist>\r\n' +
+    '\t\t</ng-template>\r\n' +
+    '\t</kendo-grid-column>\r\n' +
+    '\r\n' +
+    `\t<kendo-grid-column field="user_id" title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.user_id','user_id')}}" width="100"  >\r\n` +
+    '\t\t<ng-template kendoGridCellTemplate let-dataItem> {{lkpArrGetuser_id(dataItem.user_id)?.CODETEXT_LANG}} </ng-template>\r\n' +
+    '\t\t<ng-template kendoGridEditTemplate let-dataItem >\r\n' +
+    '\t\t<kendo-dropdownlist  [data]="lkpArruser_id"  textField="CODETEXT_LANG" valueField="CODE"\r\n' +
+    '\t\t(valueChange)="valueChangeuser_id($event)"\r\n' +
+    `\t\t[valuePrimitive]="true" [formControl]="formGroup.get('user_id')">\r\n` +
+    '\t\t</kendo-dropdownlist>\r\n' +
+    '\t\t</ng-template>\r\n' +
+    '\t</kendo-grid-column>\r\n' +
+    '\r\n' +
+    `\t<kendo-grid-column field="updated_at"  width="100"\tfilter="date"\t editor="date"  title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.updated_at','updated_at')}}" \r\n` +
+    '\t\t[format]="paramConfig.DateFormat">\r\n' +
+    '\t\t<ng-template KendoGridEditTemplate  let-dataItem>\r\n' +
+    '\t\t<kendo-datepicker [format]="this.paramConfig.DateFormat" ngDefaultControl\t #datepicker>\r\n' +
+    '\t\t\t\t</kendo-datepicker>\r\n' +
+    '\t\t</ng-template>\r\n' +
+    '\t\t</kendo-grid-column>\r\n' +
+    '\r\n' +
+    `\t<kendo-grid-column \t\t title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.subject','subject')}}"  width="50">\r\n` +
+    '\t\t <ng-template kendoGridCellTemplate let-dataItem> {{dataItem.subject}}</ng-template>\r\n' +
+    '\t\t<ng-template kendoGridEditTemplate let-dataItem>\r\n' +
+    `\t\t<kendo-textbox  [formControl]="formGroup.get('subject')"> </kendo-textbox>\r\n` +
+    '\t\t</ng-template>\r\n' +
+    '\t\t</kendo-grid-column>\r\n' +
+    '\r\n' +
+    `\t<kendo-grid-column field="status_id" title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.status_id','status_id')}}" width="100"  >\r\n` +
+    '\t\t<ng-template kendoGridCellTemplate let-dataItem> {{lkpArrGetstatus_id(dataItem.status_id)?.CODETEXT_LANG}} </ng-template>\r\n' +
+    '\t\t<ng-template kendoGridEditTemplate let-dataItem >\r\n' +
+    '\t\t<kendo-dropdownlist  [data]="lkpArrstatus_id"  textField="CODETEXT_LANG" valueField="CODE"\r\n' +
+    '\t\t(valueChange)="valueChangestatus_id($event)"\r\n' +
+    `\t\t[valuePrimitive]="true" [formControl]="formGroup.get('status_id')">\r\n` +
+    '\t\t</kendo-dropdownlist>\r\n' +
+    '\t\t</ng-template>\r\n' +
+    '\t</kendo-grid-column>\r\n' +
+    '\n' +
+    '\n',
+  formColumns: '<div class="wrap">\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    `\t\t<kendo-label class="form-label" [for]="id" [text]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.id','id')"></kendo-label>\r\n` +
+    `\t\t<input class="form-input" formControlName="id" kendoTextBox #id  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.id_Hint','Please enter value for id')" />\r\n` +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    '\r\n' +
+    '</div>\n' +
+    '<div class="wrap">\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    `\t\t<kendo-label class="form-label" [for]="agent_id" [text]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.agent_id','agent_id11111')"></kendo-label>\r\n` +
+    `\t\t<kendo-combobox  #agent_id class="form-field-combobox" [formControlName]="'agent_id'"\r\n` +
+    `\t\t[data]="lkpArragent_id" [textField]="'CODETEXT_LANG'"  [valueField]="'CODE'"\r\n` +
+    `  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.agent_id_Hint','Please enter value for agent_id222')"\r\n` +
+    `\t\t[valuePrimitive]="true"  [kendoDropDownFilter]="{ operator: 'contains' }">\r\n` +
+    '\t\t</kendo-combobox>\r\n' +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    `\t\t<kendo-label class="form-label" [for]="category_id" [text]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.category_id','category_id')"></kendo-label>\r\n` +
+    `\t\t<kendo-combobox  #category_id class="form-field-combobox" [formControlName]="'category_id'"\r\n` +
+    `\t\t[data]="lkpArrcategory_id" [textField]="'CODETEXT_LANG'"  [valueField]="'CODE'"\r\n` +
+    `  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.category_id_Hint','Please enter value for category_id')"\r\n` +
+    `\t\t[valuePrimitive]="true"  [kendoDropDownFilter]="{ operator: 'contains' }">\r\n` +
+    '\t\t</kendo-combobox>\r\n' +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    '\t\t<kendo-label class="form-label" [for]="completed_at" text="completed_at"></kendo-label>\r\n' +
+    '\t\t<kendo-datepicker [format]="this.paramConfig.DateFormat" class="form-field-date" formControlName="completed_at"  #completed_at \r\n' +
+    `  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.completed_at_Hint','Please enter value for completed_at')"\r\n` +
+    '\t\t></kendo-datepicker>\r\n' +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    '\r\n' +
+    '</div>\n' +
+    '<div class="wrap">\r\n' +
+    `\t<kendo-formfield class="form-input-triple" [orientation]="'horizontal'" >\r\n` +
+    '\t\t<kendo-label class="form-label" [for]="content" text="content"></kendo-label>\r\n' +
+    '\t\t<textarea kendoTextArea  style="resize: both;" class="form-input-triple" kendoTextBox formControlName="content" #content></textarea>\r\n' +
+    `  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.content_Hint','Please enter value for content')"\r\n` +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    '\r\n' +
+    '</div>\n' +
+    '<div class="wrap">\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    '\t\t<kendo-label class="form-label" [for]="created_at" text="created_at"></kendo-label>\r\n' +
+    '\t\t<kendo-datepicker [format]="this.paramConfig.DateFormat" class="form-field-date" formControlName="created_at"  #created_at \r\n' +
+    `  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.created_at_Hint','Please enter value for created_at')"\r\n` +
+    '\t\t></kendo-datepicker>\r\n' +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    '\r\n' +
+    '</div>\n' +
+    '<div class="wrap">\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    `\t\t<kendo-label class="form-label" [for]="priority_id" [text]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.priority_id','priority_id')"></kendo-label>\r\n` +
+    `\t\t<kendo-combobox  #priority_id class="form-field-combobox" [formControlName]="'priority_id'"\r\n` +
+    `\t\t[data]="lkpArrpriority_id" [textField]="'CODETEXT_LANG'"  [valueField]="'CODE'"\r\n` +
+    `  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.priority_id_Hint','Please enter value for priority_id')"\r\n` +
+    `\t\t[valuePrimitive]="true"  [kendoDropDownFilter]="{ operator: 'contains' }">\r\n` +
+    '\t\t</kendo-combobox>\r\n' +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    `\t\t<kendo-label class="form-label" [for]="user_id" [text]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.user_id','user_id')"></kendo-label>\r\n` +
+    `\t\t<kendo-combobox  #user_id class="form-field-combobox" [formControlName]="'user_id'"\r\n` +
+    `\t\t[data]="lkpArruser_id" [textField]="'CODETEXT_LANG'"  [valueField]="'CODE'"\r\n` +
+    `  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.user_id_Hint','Please enter value for user_id')"\r\n` +
+    `\t\t[valuePrimitive]="true"  [kendoDropDownFilter]="{ operator: 'contains' }">\r\n` +
+    '\t\t</kendo-combobox>\r\n' +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    '\r\n' +
+    '</div>\n' +
+    '<div class="wrap">\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    '\t\t<kendo-label class="form-label" [for]="updated_at" text="updated_at"></kendo-label>\r\n' +
+    '\t\t<kendo-datepicker [format]="this.paramConfig.DateFormat" class="form-field-date" formControlName="updated_at"  #updated_at \r\n' +
+    `  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.updated_at_Hint','Please enter value for updated_at')"\r\n` +
+    '\t\t></kendo-datepicker>\r\n' +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    `\t\t<kendo-label class="form-label" [for]="subject" [text]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.subject','subject')"></kendo-label>\r\n` +
+    `\t\t<input class="form-input" formControlName="subject" kendoTextBox #subject  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.subject_Hint','Please enter value for subject')" />\r\n` +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    '\r\n' +
+    '</div>\n' +
+    '<div class="wrap">\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    `\t\t<kendo-label class="form-label" [for]="status_id" [text]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.status_id','status_id')"></kendo-label>\r\n` +
+    `\t\t<kendo-combobox  #status_id class="form-field-combobox" [formControlName]="'status_id'"\r\n` +
+    `\t\t[data]="lkpArrstatus_id" [textField]="'CODETEXT_LANG'"  [valueField]="'CODE'"\r\n` +
+    `  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.status_id_Hint','Please enter value for status_id')"\r\n` +
+    `\t\t[valuePrimitive]="true"  [kendoDropDownFilter]="{ operator: 'contains' }">\r\n` +
+    '\t\t</kendo-combobox>\r\n' +
+    '\t</kendo-formfield>\r\n' +
+    '</div>\n',
+  formModel: ' export class app2TickeitForm{\n' +
+    "\tpublic id = '';\n" +
+    "\tpublic agent_id = '';\n" +
+    "\tpublic category_id = '';\n" +
+    "\tpublic completed_at = '';\n" +
+    "\tpublic content = '';\n" +
+    "\tpublic created_at = '';\n" +
+    "\tpublic priority_id = '';\n" +
+    "\tpublic user_id = '';\n" +
+    "\tpublic updated_at = '';\n" +
+    "\tpublic subject = '';\n" +
+    "\tpublic status_id = '';\n" +
+    '\n' +
+    '}\n',
+  stmtGet: '"GET_tickeit":[\n' +
+    '\t" SELECT id ,  agent_id ,  category_id ,  completed_at ,  content ,  created_at ,  priority_id ,  user_id ,  updated_at ,  subject ,  status_id",\n' +
+    '\t" FROM tickeit ",\n' +
+    '\t" WHERE id = :id"\n' +
+    '\n' +
+    ']\n' +
+    '\n',
+  stmtGetQuery: '"GET_tickeit_QUERY":[\n' +
+    '\t" SELECT id ,  agent_id ,  category_id ,  completed_at ,  content ,  created_at ,  priority_id ,  user_id ,  updated_at ,  subject ,  status_id",\n' +
+    '\t" FROM tickeit ",\n' +
+    '\t" :_WHERE "\n' +
+    ']\n' +
+    '\n',
+  stmtInsert: '"INSERT_tickeit":[\n' +
+    '\t" INSERT INTO tickeit ",\n' +
+    '\t" ( agent_id  ,x  category_id  ,x  completed_at  ,x  content  ,x  created_at  ,x  priority_id  ,x  user_id  ,x  updated_at  ,x  subject  ,x  status_id  ) ",\n' +
+    '\t" VALUES ",\n' +
+    '\t" ( :agent_id  ,  :category_id  ,  :completed_at  ,  :content  ,  :created_at  ,  :priority_id  ,  :user_id  ,  :updated_at  ,  :subject  ,  :status_id  ) "\n' +
+    '\n' +
+    ']\n' +
+    '\n',
+  stmtUpdate: '"UPDATE_tickeit":[\n' +
+    '\t" UPDATE  tickeit ",\n' +
+    '\t" SET " , \n' +
+    '  "  agent_id = :agent_id " , \n' +
+    '  ",  category_id = :category_id " , \n' +
+    '  ",  completed_at = :completed_at " , \n' +
+    '  ",  content = :content " , \n' +
+    '  ",  created_at = :created_at " , \n' +
+    '  ",  priority_id = :priority_id " , \n' +
+    '  ",  user_id = :user_id " , \n' +
+    '  ",  updated_at = :updated_at " , \n' +
+    '  ",  subject = :subject " , \n' +
+    '  ",  status_id = :status_id ",\n' +
+    '\t" WHERE  id = :id "\n' +
+    '\n' +
+    ']\n' +
+    '\n',
+  stmtDelete: '"DELETE_tickeit":[\n\t" DELETE FROM tickeit ",\n\t" WHERE  id = :id "\n\n]\n\n',
+  lkpStmt: 'public userLang = "EN" ; \r\n' +
+    'public lookupArrDef =[/*\t{"statment":"SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "agent_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ",\r\n' +
+    '\t\t\t"lkpArrName":"lkpArragent_id"},\r\n' +
+    '\t{"statment":"SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "category_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ",\r\n' +
+    '\t\t\t"lkpArrName":"lkpArrcategory_id"},\r\n' +
+    '\t{"statment":"SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "priority_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ",\r\n' +
+    '\t\t\t"lkpArrName":"lkpArrpriority_id"},\r\n' +
+    '\t{"statment":"SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "user_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ",\r\n' +
+    '\t\t\t"lkpArrName":"lkpArruser_id"},\r\n' +
+    '\t{"statment":"SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "status_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ",\r\n' +
+    '\t\t\t"lkpArrName":"lkpArrstatus_id"}*/];\r\n' +
+    '\r\n' +
+    'public lkpArragent_id = [];\r\n' +
+    '\r\n' +
+    'public lkpArrcategory_id = [];\r\n' +
+    '\r\n' +
+    'public lkpArrpriority_id = [];\r\n' +
+    '\r\n' +
+    'public lkpArruser_id = [];\r\n' +
+    '\r\n' +
+    'public lkpArrstatus_id = [];\r\n' +
+    '\r\n' +
+    'public lkpArrGetagent_id(CODE: any): any {\r\n' +
+    '// Change x.CODE below if not from SOM_TABS_CODE\r\n' +
+    'var rec = this.lkpArragent_id.find(x => x.CODE === CODE);\r\n' +
+    'return rec;\r\n' +
+    '}\r\n' +
+    '\r\n' +
+    'public lkpArrGetcategory_id(CODE: any): any {\r\n' +
+    '// Change x.CODE below if not from SOM_TABS_CODE\r\n' +
+    'var rec = this.lkpArrcategory_id.find(x => x.CODE === CODE);\r\n' +
+    'return rec;\r\n' +
+    '}\r\n' +
+    '\r\n' +
+    'public lkpArrGetpriority_id(CODE: any): any {\r\n' +
+    '// Change x.CODE below if not from SOM_TABS_CODE\r\n' +
+    'var rec = this.lkpArrpriority_id.find(x => x.CODE === CODE);\r\n' +
+    'return rec;\r\n' +
+    '}\r\n' +
+    '\r\n' +
+    'public lkpArrGetuser_id(CODE: any): any {\r\n' +
+    '// Change x.CODE below if not from SOM_TABS_CODE\r\n' +
+    'var rec = this.lkpArruser_id.find(x => x.CODE === CODE);\r\n' +
+    'return rec;\r\n' +
+    '}\r\n' +
+    '\r\n' +
+    'public lkpArrGetstatus_id(CODE: any): any {\r\n' +
+    '// Change x.CODE below if not from SOM_TABS_CODE\r\n' +
+    'var rec = this.lkpArrstatus_id.find(x => x.CODE === CODE);\r\n' +
+    'return rec;\r\n' +
+    '}\r\n',
+  lkpOnChange: 'onChanges(): void {\r\n' +
+    "this.form.get('agent_id').valueChanges.subscribe(val => {\r\n" +
+    '});\r\n' +
+    "this.form.get('category_id').valueChanges.subscribe(val => {\r\n" +
+    '});\r\n' +
+    "this.form.get('priority_id').valueChanges.subscribe(val => {\r\n" +
+    '});\r\n' +
+    "this.form.get('user_id').valueChanges.subscribe(val => {\r\n" +
+    '});\r\n' +
+    "this.form.get('status_id').valueChanges.subscribe(val => {\r\n" +
+    '});\r\n' +
+    '}\r\n',
+  masterKeyEnable: '',
+  masterKeyEnableTrue: '',
+  masterKeyEnableFalse: '',
+  keyEnable: '\tpublic  isidEnable : boolean = true; \r\n',
+  masterKeyArr: '',
+  masterKeyNameArr: '',
+  primarKeyReadOnlyArr: 'isidreadOnly : false',
+  gridHeight: 200
+}  tableInfo: {
+  ID: 'tickeit_app2_tickeit_FORM',
+  name: 'app2TickeitForm',
+  class: 'TickeitApp2TickeitFormForm',
+  title: 'Tickeit App2 Tickeit Form',
+  angularName: 'tickeit-app2-tickeit-form-form',
+  dataSource: 'tickeit',
+  tableKey: [ 'id' ],
+  MasterKeys: [ 'id' ],
+  MasterKeysParent: [ 'id' ],
+  lkps: undefined,
+  dates: undefined,
+  datesTimes: undefined,
+  times: undefined,
+  boxs: [],
+  btxtarsoxs: [],
+  swchs: [],
+  reqs: undefined,
+  hids: undefined,
+  RecordsDisplayCount: 1,
+  BlockName: 'app2_tickeit_FORM',
+  screenType: 'FORM',
+  numCols: 11,
+  tableNameFromName: false,
+  usedFields: 100,
+  visibleFields: undefined,
+  WhereClause: '',
+  OrderByClause: '',
+  ScrollbarLength: 100,
+  InsertAllowed: 'Y',
+  queryable: 'Y',
+  navigable: 'Y',
+  removeable: 'Y',
+  updateable: 'Y',
+  fields: [
+    {
+      name: 'id',
+      type: 'PK_AUTO',
+      width: 40,
+      COL_CONSTRAINT: 'PK_AUTO',
+      title: 'id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for id'
+    },
+    {
+      name: 'agent_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'agent_id11111',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "agent_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for agent_id222'
+    },
+    {
+      name: 'category_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'category_id',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "category_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for category_id'
+    },
+    {
+      name: 'completed_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'completed_at',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for completed_at'
+    },
+    {
+      name: 'content',
+      type: 'LONGTEXT',
+      width: 0,
+      COL_CONSTRAINT: '',
+      title: 'content',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for content'
+    },
+    {
+      name: 'created_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'created_at',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for created_at'
+    },
+    {
+      name: 'priority_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'priority_id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "priority_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for priority_id'
+    },
+    {
+      name: 'user_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'user_id',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "user_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for user_id'
+    },
+    {
+      name: 'updated_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'updated_at',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for updated_at'
+    },
+    {
+      name: 'subject',
+      type: 'Char',
+      width: 1020,
+      COL_CONSTRAINT: '',
+      title: 'subject',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for subject'
+    },
+    {
+      name: 'status_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'status_id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "status_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for status_id'
+    }
+  ]
+}  tablesInfo:0: []  argsData: {
+  AppName: 'app2',
+  CompType: 'COMP',
+  formName: 'app2_tickeit_FORM',
+  DBLoc: 'APPGEN',
+  name: 'star',
+  password: 'star',
+  tableName: 'tickeit',
+  baseFolder: '../../users/STAR_ws/projects/STAR/src/app/',
+  screenType: 'FORM',
+  columnsPerRow: 3,
+  RecordsDisplayCount: 1,
+  WhereClause: '',
+  OrderByClause: '',
+  ScrollbarLength: 100,
+  InsertAllowed: 'Y',
+  queryable: 'Y',
+  navigable: 'Y',
+  removeable: 'Y',
+  updateable: 'Y',
+  keys: [ 'id' ],
+  masterKey: [ 'id' ],
+  masterKeysParent: [ 'id' ],
+  boxs: [],
+  txtars: [],
+  txtars2: [ 'content' ],
+  txtars3: [],
+  swchs: [],
+  module: 'app2/app2_tickeit_FORM/',
+  moduleOnly: 'app2/',
+  BlockName: 'app2_tickeit_FORM',
+  blockRoutines: '\r\n',
+  itemsRoutines: '\r\n',
+  modeldir: '../../../../model/model',
+  StarNotifyServiceDir: '../../../../services/starnotification.service',
+  Starlib1Dir: '../../../Starlib1',
+  usedFields: 100,
+  InitialValues: '',
+  copyValues: '',
+  tableNameFromName: false,
+  fields: [
+    {
+      name: 'id',
+      type: 'PK_AUTO',
+      width: 40,
+      COL_CONSTRAINT: 'PK_AUTO',
+      title: 'id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for id'
+    },
+    {
+      name: 'agent_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'agent_id11111',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "agent_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for agent_id222'
+    },
+    {
+      name: 'category_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'category_id',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "category_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for category_id'
+    },
+    {
+      name: 'completed_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'completed_at',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for completed_at'
+    },
+    {
+      name: 'content',
+      type: 'LONGTEXT',
+      width: 0,
+      COL_CONSTRAINT: '',
+      title: 'content',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for content'
+    },
+    {
+      name: 'created_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'created_at',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for created_at'
+    },
+    {
+      name: 'priority_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'priority_id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "priority_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for priority_id'
+    },
+    {
+      name: 'user_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'user_id',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "user_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for user_id'
+    },
+    {
+      name: 'updated_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'updated_at',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for updated_at'
+    },
+    {
+      name: 'subject',
+      type: 'Char',
+      width: 1020,
+      COL_CONSTRAINT: '',
+      title: 'subject',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for subject'
+    },
+    {
+      name: 'status_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'status_id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "status_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for status_id'
+    }
+  ]
+}
+tableInfo.WhereClause: 
+Can not find tag WhereClause
+tableInfo.OrderByClause: 
+Can not find tag OrderByClause
+Can not find tag masterKeyEnableFalse
+Can not find tag masterKeyEnableTrue
+Can not find tag masterKeyEnableFalse
+Can not find tag InitialValues
+FileDir: app2/app2_tickeit_FORM/tickeit-app2-tickeit-form-form/
+fullDirName: ../../users/STAR_ws/projects/STAR/src/app/components/app2/app2_tickeit_FORM/tickeit-app2-tickeit-form-form/
+fullFileName:c: ../../users/STAR_ws/projects/STAR/src/app/components/app2/app2_tickeit_FORM/tickeit-app2-tickeit-form-form/tickeit-app2-tickeit-form-form.component.ts
+modelFileName: ../../users/STAR_WS/projects/STAR/src/app/model/model.ts
+storing line:
+routeFileName: ../../users/STAR_WS/projects/STAR/src/app/app.component.html |text: <kendo-panelbar-item [title]="'---------app2_tickeit_FORM components -------'"></kendo-panelbar-item> |EOFroutes: //point3 |key: <kendo-panelbar-item [title]="'---------app2_tickeit_FORM components -------'"></kendo-panelbar-item> |prefix: 				
+storing  :prefix: 				  text: <kendo-panelbar-item [title]="'---------app2_tickeit_FORM components -------'"></kendo-panelbar-item>
+--formModel:  export class app2TickeitForm{
+	public id = '';
+	public agent_id = '';
+	public category_id = '';
+	public completed_at = '';
+	public content = '';
+	public created_at = '';
+	public priority_id = '';
+	public user_id = '';
+	public updated_at = '';
+	public subject = '';
+	public status_id = '';
+
+}
+  modelFileName: ../../users/STAR_WS/projects/STAR/src/app/model/model.ts
+clasName:  export class app2TickeitForm{
+startOfclasName: 370
+sqlFileName: ../../sqlparse/APPGEN_statements.json
+textsQL: ,
+"GET_tickeit":[
+	" SELECT id ,  agent_id ,  category_id ,  completed_at ,  content ,  created_at ,  priority_id ,  user_id ,  updated_at ,  subject ,  status_id",
+	" FROM tickeit ",
+	" WHERE id = :id"
+
+]
+
+,
+"GET_tickeit_QUERY":[
+	" SELECT id ,  agent_id ,  category_id ,  completed_at ,  content ,  created_at ,  priority_id ,  user_id ,  updated_at ,  subject ,  status_id",
+	" FROM tickeit ",
+	" :_WHERE "
+]
+
+,
+"INSERT_tickeit":[
+	" INSERT INTO tickeit ",
+	" ( agent_id  ,x  category_id  ,x  completed_at  ,x  content  ,x  created_at  ,x  priority_id  ,x  user_id  ,x  updated_at  ,x  subject  ,x  status_id  ) ",
+	" VALUES ",
+	" ( :agent_id  ,  :category_id  ,  :completed_at  ,  :content  ,  :created_at  ,  :priority_id  ,  :user_id  ,  :updated_at  ,  :subject  ,  :status_id  ) "
+
+]
+
+,
+"UPDATE_tickeit":[
+	" UPDATE  tickeit ",
+	" SET " , 
+  "  agent_id = :agent_id " , 
+  ",  category_id = :category_id " , 
+  ",  completed_at = :completed_at " , 
+  ",  content = :content " , 
+  ",  created_at = :created_at " , 
+  ",  priority_id = :priority_id " , 
+  ",  user_id = :user_id " , 
+  ",  updated_at = :updated_at " , 
+  ",  subject = :subject " , 
+  ",  status_id = :status_id ",
+	" WHERE  id = :id "
+
+]
+
+,
+"DELETE_tickeit":[
+	" DELETE FROM tickeit ",
+	" WHERE  id = :id "
+
+]
+
+
+ found deleteStmt for :tickeit  : [ ' DELETE FROM tickeit ', ' WHERE  id = :id ' ]
+processing deleteStmtID: DELETE_tickeit  :   DELETE FROM tickeit 
+Str1: {"DELETE_tickeit":[
+	" DELETE FROM tickeit ",
+	" WHERE  id = :id "
+
+]
+
+}
+StrJson: [ ' DELETE FROM tickeit ', ' WHERE  id = :id ' ]
+Str1: " DELETE FROM tickeit  WHERE  id = :id "
+deleteStmt: " DELETE FROM tickeit  WHERE  id = :id "
+Str1 length: 40 : 40
+deleteStmtID: DELETE_tickeit true "DELETE_tickeit":[
+	" DELETE FROM tickeit ",
+	" WHERE  id = :id "
+
+]
+
+
+stmts_begin: "GET_tickeit":[
+charc: "
+charc: 
+
+charc: ,
+startOfstmts_begin: 468455
+poststmts_beginText: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,"EOF":[]
+
+
+
+
+}
+
+
+blocksTitles: app2TickeitForm {
+  app2TickeitForm: {
+    id: 'id',
+    id_Hint: 'Please enter value for id',
+    agent_id: 'agent_id11111',
+    agent_id_Hint: 'Please enter value for agent_id222',
+    category_id: 'category_id',
+    category_id_Hint: 'Please enter value for category_id',
+    completed_at: 'completed_at',
+    completed_at_Hint: 'Please enter value for completed_at',
+    content: 'content',
+    content_Hint: 'Please enter value for content',
+    created_at: 'created_at',
+    created_at_Hint: 'Please enter value for created_at',
+    priority_id: 'priority_id',
+    priority_id_Hint: 'Please enter value for priority_id',
+    user_id: 'user_id',
+    user_id_Hint: 'Please enter value for user_id',
+    updated_at: 'updated_at',
+    updated_at_Hint: 'Please enter value for updated_at',
+    subject: 'subject',
+    subject_Hint: 'Please enter value for subject',
+    status_id: 'status_id',
+    status_id_Hint: 'Please enter value for status_id'
+  }
+}
+ argsData.module   + tableInfo.angularName: app2/app2_tickeit_FORM/   tickeit-app2-tickeit-form-form
+route: {
+  msg1: 'inside panelbar.routes.ts , add : \r\n',
+  importStmt: "import { TickeitApp2TickeitFormFormComponent } from '../components/app2/app2_tickeit_FORM/tickeit-app2-tickeit-form-form/tickeit-app2-tickeit-form-form.component';",
+  importStmtApp: "import { TickeitApp2TickeitFormFormComponent } from './components/app2/app2_tickeit_FORM/tickeit-app2-tickeit-form-form/tickeit-app2-tickeit-form-form.component';",
+  path: "{ path: 'tickeit_app2_tickeit_form_form', component: TickeitApp2TickeitFormFormComponent },",
+  msg2: 'inside app.component.html , add : \r\n',
+  item: `<kendo-panelbar-item [title]="'Tickeit App2 Tickeit Form FORM'" routerLink="/tickeit_app2_tickeit_form_form"></kendo-panelbar-item>`,
+  class: 'TickeitApp2TickeitFormForm'
+}
+routeFolder: ../../users/STAR_WS/projects/STAR/src/app/routing/
+routeFileName: ../../users/STAR_WS/projects/STAR/src/app/routing/panelbar.routes.ts
+key_begin:A: 46
+routeFileName: ../../users/STAR_WS/projects/STAR/src/app/routing/panelbar.routes.ts |text: import { TickeitApp2TickeitFormFormComponent } from '../components/app2/app2_tickeit_FORM/tickeit-app2-tickeit-form-form/tickeit-app2-tickeit-form-form.component'; |EOFroutes: //point1 |key: import { TickeitApp2TickeitFormFormComponent } |prefix: 
+storing  :prefix:   text: import { TickeitApp2TickeitFormFormComponent } from '../components/app2/app2_tickeit_FORM/tickeit-app2-tickeit-form-form/tickeit-app2-tickeit-form-form.component';
+key_beginB: 40
+routeFileName: ../../users/STAR_WS/projects/STAR/src/app/routing/panelbar.routes.ts |text: { path: 'tickeit_app2_tickeit_form_form', component: TickeitApp2TickeitFormFormComponent }, |EOFroutes: //point2 |key: { path: 'tickeit_app2_tickeit_form_form' |prefix: 	
+storing  :prefix: 	  text: { path: 'tickeit_app2_tickeit_form_form', component: TickeitApp2TickeitFormFormComponent },
+compFileName: ../../users/STAR_WS/projects/STAR/src/app/app.component.html
+routeFileName: ../../users/STAR_WS/projects/STAR/src/app/app.component.html |text: <kendo-panelbar-item [title]="'Tickeit App2 Tickeit Form FORM'" routerLink="/tickeit_app2_tickeit_form_form"></kendo-panelbar-item> |EOFroutes: //point3 |key: routerLink="/tickeit_app2_tickeit_form_form" |prefix: 				
+storing  :prefix: 				  text: <kendo-panelbar-item [title]="'Tickeit App2 Tickeit Form FORM'" routerLink="/tickeit_app2_tickeit_form_form"></kendo-panelbar-item>
+appFileName: ../../users/STAR_WS/projects/STAR/src/app/app.module.ts
+--scrMode: 0  TempType: FORM  componentData: {
+  stmtModel: 'export class tickeit {\n' +
+    "public id = '';\n" +
+    "public agent_id = '';\n" +
+    "public category_id = '';\n" +
+    "public completed_at = '';\n" +
+    "public content = '';\n" +
+    "public created_at = '';\n" +
+    "public priority_id = '';\n" +
+    "public user_id = '';\n" +
+    "public updated_at = '';\n" +
+    "public subject = '';\n" +
+    "public status_id = '';\n" +
+    '\n' +
+    '\n' +
+    '}\n',
+  createFormGroup: ' const createFormGroup = dataItem => new FormGroup({\n' +
+    "'id' : new FormControl(dataItem.id ) ,\n" +
+    "'agent_id' : new FormControl(dataItem.agent_id ) ,\n" +
+    "'category_id' : new FormControl(dataItem.category_id ) ,\n" +
+    "'completed_at' : new FormControl(dataItem.completed_at ) ,\n" +
+    "'content' : new FormControl(dataItem.content ) ,\n" +
+    "'created_at' : new FormControl(dataItem.created_at ) ,\n" +
+    "'priority_id' : new FormControl(dataItem.priority_id ) ,\n" +
+    "'user_id' : new FormControl(dataItem.user_id ) ,\n" +
+    "'updated_at' : new FormControl(dataItem.updated_at ) ,\n" +
+    "'subject' : new FormControl(dataItem.subject ) ,\n" +
+    "'status_id' : new FormControl(dataItem.status_id ) \n" +
+    '});\n',
+  formGroup: '"id" : "" ,\n' +
+    '"agent_id" : "" ,\n' +
+    '"category_id" : "" ,\n' +
+    '"completed_at" : "" ,\n' +
+    '"content" : "" ,\n' +
+    '"created_at" : "" ,\n' +
+    '"priority_id" : "" ,\n' +
+    '"user_id" : "" ,\n' +
+    '"updated_at" : "" ,\n' +
+    '"subject" : "" ,\n' +
+    '"status_id" : "" ',
+  gridColumns: '\t<kendo-grid-column \t\t[editable]="!primarKeyReadOnlyArr.isidreadOnly"\r\n' +
+    `\t\t title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.id','id')}}"  width="50">\r\n` +
+    '\t\t <ng-template kendoGridCellTemplate let-dataItem> {{dataItem.id}}</ng-template>\r\n' +
+    '\t\t<ng-template kendoGridEditTemplate let-dataItem>\r\n' +
+    `\t\t<kendo-textbox  [formControl]="formGroup.get('id')"> </kendo-textbox>\r\n` +
+    '\t\t</ng-template>\r\n' +
+    '\t\t</kendo-grid-column>\r\n' +
+    '\r\n' +
+    `\t<kendo-grid-column field="agent_id" title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.agent_id','agent_id11111')}}" width="100"  >\r\n` +
+    '\t\t<ng-template kendoGridCellTemplate let-dataItem> {{lkpArrGetagent_id(dataItem.agent_id)?.CODETEXT_LANG}} </ng-template>\r\n' +
+    '\t\t<ng-template kendoGridEditTemplate let-dataItem >\r\n' +
+    '\t\t<kendo-dropdownlist  [data]="lkpArragent_id"  textField="CODETEXT_LANG" valueField="CODE"\r\n' +
+    '\t\t(valueChange)="valueChangeagent_id($event)"\r\n' +
+    `\t\t[valuePrimitive]="true" [formControl]="formGroup.get('agent_id')">\r\n` +
+    '\t\t</kendo-dropdownlist>\r\n' +
+    '\t\t</ng-template>\r\n' +
+    '\t</kendo-grid-column>\r\n' +
+    '\r\n' +
+    `\t<kendo-grid-column field="category_id" title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.category_id','category_id')}}" width="100"  >\r\n` +
+    '\t\t<ng-template kendoGridCellTemplate let-dataItem> {{lkpArrGetcategory_id(dataItem.category_id)?.CODETEXT_LANG}} </ng-template>\r\n' +
+    '\t\t<ng-template kendoGridEditTemplate let-dataItem >\r\n' +
+    '\t\t<kendo-dropdownlist  [data]="lkpArrcategory_id"  textField="CODETEXT_LANG" valueField="CODE"\r\n' +
+    '\t\t(valueChange)="valueChangecategory_id($event)"\r\n' +
+    `\t\t[valuePrimitive]="true" [formControl]="formGroup.get('category_id')">\r\n` +
+    '\t\t</kendo-dropdownlist>\r\n' +
+    '\t\t</ng-template>\r\n' +
+    '\t</kendo-grid-column>\r\n' +
+    '\r\n' +
+    `\t<kendo-grid-column field="completed_at"  width="100"\tfilter="date"\t editor="date"  title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.completed_at','completed_at')}}" \r\n` +
+    '\t\t[format]="paramConfig.DateFormat">\r\n' +
+    '\t\t<ng-template KendoGridEditTemplate  let-dataItem>\r\n' +
+    '\t\t<kendo-datepicker [format]="this.paramConfig.DateFormat" ngDefaultControl\t #datepicker>\r\n' +
+    '\t\t\t\t</kendo-datepicker>\r\n' +
+    '\t\t</ng-template>\r\n' +
+    '\t\t</kendo-grid-column>\r\n' +
+    '\r\n' +
+    '\t<kendo-grid-column field="content"\r\n' +
+    '\t\t title="content"  editor="boolean" width="15"><ng-template kendoGridCellTemplate let-dataItem>\r\n' +
+    '\t\t<textarea kendoTextArea  style="resize: both;" class="form-input-triple" kendoTextBox formControlName="content" #content></textarea>\r\n' +
+    '\t\t </ng-template></kendo-grid-column>\r\n' +
+    '\r\n' +
+    `\t<kendo-grid-column field="created_at"  width="100"\tfilter="date"\t editor="date"  title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.created_at','created_at')}}" \r\n` +
+    '\t\t[format]="paramConfig.DateFormat">\r\n' +
+    '\t\t<ng-template KendoGridEditTemplate  let-dataItem>\r\n' +
+    '\t\t<kendo-datepicker [format]="this.paramConfig.DateFormat" ngDefaultControl\t #datepicker>\r\n' +
+    '\t\t\t\t</kendo-datepicker>\r\n' +
+    '\t\t</ng-template>\r\n' +
+    '\t\t</kendo-grid-column>\r\n' +
+    '\r\n' +
+    `\t<kendo-grid-column field="priority_id" title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.priority_id','priority_id')}}" width="100"  >\r\n` +
+    '\t\t<ng-template kendoGridCellTemplate let-dataItem> {{lkpArrGetpriority_id(dataItem.priority_id)?.CODETEXT_LANG}} </ng-template>\r\n' +
+    '\t\t<ng-template kendoGridEditTemplate let-dataItem >\r\n' +
+    '\t\t<kendo-dropdownlist  [data]="lkpArrpriority_id"  textField="CODETEXT_LANG" valueField="CODE"\r\n' +
+    '\t\t(valueChange)="valueChangepriority_id($event)"\r\n' +
+    `\t\t[valuePrimitive]="true" [formControl]="formGroup.get('priority_id')">\r\n` +
+    '\t\t</kendo-dropdownlist>\r\n' +
+    '\t\t</ng-template>\r\n' +
+    '\t</kendo-grid-column>\r\n' +
+    '\r\n' +
+    `\t<kendo-grid-column field="user_id" title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.user_id','user_id')}}" width="100"  >\r\n` +
+    '\t\t<ng-template kendoGridCellTemplate let-dataItem> {{lkpArrGetuser_id(dataItem.user_id)?.CODETEXT_LANG}} </ng-template>\r\n' +
+    '\t\t<ng-template kendoGridEditTemplate let-dataItem >\r\n' +
+    '\t\t<kendo-dropdownlist  [data]="lkpArruser_id"  textField="CODETEXT_LANG" valueField="CODE"\r\n' +
+    '\t\t(valueChange)="valueChangeuser_id($event)"\r\n' +
+    `\t\t[valuePrimitive]="true" [formControl]="formGroup.get('user_id')">\r\n` +
+    '\t\t</kendo-dropdownlist>\r\n' +
+    '\t\t</ng-template>\r\n' +
+    '\t</kendo-grid-column>\r\n' +
+    '\r\n' +
+    `\t<kendo-grid-column field="updated_at"  width="100"\tfilter="date"\t editor="date"  title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.updated_at','updated_at')}}" \r\n` +
+    '\t\t[format]="paramConfig.DateFormat">\r\n' +
+    '\t\t<ng-template KendoGridEditTemplate  let-dataItem>\r\n' +
+    '\t\t<kendo-datepicker [format]="this.paramConfig.DateFormat" ngDefaultControl\t #datepicker>\r\n' +
+    '\t\t\t\t</kendo-datepicker>\r\n' +
+    '\t\t</ng-template>\r\n' +
+    '\t\t</kendo-grid-column>\r\n' +
+    '\r\n' +
+    `\t<kendo-grid-column \t\t title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.subject','subject')}}"  width="50">\r\n` +
+    '\t\t <ng-template kendoGridCellTemplate let-dataItem> {{dataItem.subject}}</ng-template>\r\n' +
+    '\t\t<ng-template kendoGridEditTemplate let-dataItem>\r\n' +
+    `\t\t<kendo-textbox  [formControl]="formGroup.get('subject')"> </kendo-textbox>\r\n` +
+    '\t\t</ng-template>\r\n' +
+    '\t\t</kendo-grid-column>\r\n' +
+    '\r\n' +
+    `\t<kendo-grid-column field="status_id" title="{{starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.status_id','status_id')}}" width="100"  >\r\n` +
+    '\t\t<ng-template kendoGridCellTemplate let-dataItem> {{lkpArrGetstatus_id(dataItem.status_id)?.CODETEXT_LANG}} </ng-template>\r\n' +
+    '\t\t<ng-template kendoGridEditTemplate let-dataItem >\r\n' +
+    '\t\t<kendo-dropdownlist  [data]="lkpArrstatus_id"  textField="CODETEXT_LANG" valueField="CODE"\r\n' +
+    '\t\t(valueChange)="valueChangestatus_id($event)"\r\n' +
+    `\t\t[valuePrimitive]="true" [formControl]="formGroup.get('status_id')">\r\n` +
+    '\t\t</kendo-dropdownlist>\r\n' +
+    '\t\t</ng-template>\r\n' +
+    '\t</kendo-grid-column>\r\n' +
+    '\n' +
+    '\n',
+  formColumns: '<div class="wrap">\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    `\t\t<kendo-label class="form-label" [for]="id" [text]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.id','id')"></kendo-label>\r\n` +
+    `\t\t<input class="form-input" formControlName="id" kendoTextBox #id  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.id_Hint','Please enter value for id')" />\r\n` +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    '\r\n' +
+    '</div>\n' +
+    '<div class="wrap">\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    `\t\t<kendo-label class="form-label" [for]="agent_id" [text]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.agent_id','agent_id11111')"></kendo-label>\r\n` +
+    `\t\t<kendo-combobox  #agent_id class="form-field-combobox" [formControlName]="'agent_id'"\r\n` +
+    `\t\t[data]="lkpArragent_id" [textField]="'CODETEXT_LANG'"  [valueField]="'CODE'"\r\n` +
+    `  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.agent_id_Hint','Please enter value for agent_id222')"\r\n` +
+    `\t\t[valuePrimitive]="true"  [kendoDropDownFilter]="{ operator: 'contains' }">\r\n` +
+    '\t\t</kendo-combobox>\r\n' +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    `\t\t<kendo-label class="form-label" [for]="category_id" [text]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.category_id','category_id')"></kendo-label>\r\n` +
+    `\t\t<kendo-combobox  #category_id class="form-field-combobox" [formControlName]="'category_id'"\r\n` +
+    `\t\t[data]="lkpArrcategory_id" [textField]="'CODETEXT_LANG'"  [valueField]="'CODE'"\r\n` +
+    `  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.category_id_Hint','Please enter value for category_id')"\r\n` +
+    `\t\t[valuePrimitive]="true"  [kendoDropDownFilter]="{ operator: 'contains' }">\r\n` +
+    '\t\t</kendo-combobox>\r\n' +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    '\t\t<kendo-label class="form-label" [for]="completed_at" text="completed_at"></kendo-label>\r\n' +
+    '\t\t<kendo-datepicker [format]="this.paramConfig.DateFormat" class="form-field-date" formControlName="completed_at"  #completed_at \r\n' +
+    `  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.completed_at_Hint','Please enter value for completed_at')"\r\n` +
+    '\t\t></kendo-datepicker>\r\n' +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    '\r\n' +
+    '</div>\n' +
+    '<div class="wrap">\r\n' +
+    `\t<kendo-formfield class="form-input-triple" [orientation]="'horizontal'" >\r\n` +
+    '\t\t<kendo-label class="form-label" [for]="content" text="content"></kendo-label>\r\n' +
+    '\t\t<textarea kendoTextArea  style="resize: both;" class="form-input-triple" kendoTextBox formControlName="content" #content></textarea>\r\n' +
+    `  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.content_Hint','Please enter value for content')"\r\n` +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    '\r\n' +
+    '</div>\n' +
+    '<div class="wrap">\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    '\t\t<kendo-label class="form-label" [for]="created_at" text="created_at"></kendo-label>\r\n' +
+    '\t\t<kendo-datepicker [format]="this.paramConfig.DateFormat" class="form-field-date" formControlName="created_at"  #created_at \r\n' +
+    `  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.created_at_Hint','Please enter value for created_at')"\r\n` +
+    '\t\t></kendo-datepicker>\r\n' +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    '\r\n' +
+    '</div>\n' +
+    '<div class="wrap">\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    `\t\t<kendo-label class="form-label" [for]="priority_id" [text]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.priority_id','priority_id')"></kendo-label>\r\n` +
+    `\t\t<kendo-combobox  #priority_id class="form-field-combobox" [formControlName]="'priority_id'"\r\n` +
+    `\t\t[data]="lkpArrpriority_id" [textField]="'CODETEXT_LANG'"  [valueField]="'CODE'"\r\n` +
+    `  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.priority_id_Hint','Please enter value for priority_id')"\r\n` +
+    `\t\t[valuePrimitive]="true"  [kendoDropDownFilter]="{ operator: 'contains' }">\r\n` +
+    '\t\t</kendo-combobox>\r\n' +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    `\t\t<kendo-label class="form-label" [for]="user_id" [text]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.user_id','user_id')"></kendo-label>\r\n` +
+    `\t\t<kendo-combobox  #user_id class="form-field-combobox" [formControlName]="'user_id'"\r\n` +
+    `\t\t[data]="lkpArruser_id" [textField]="'CODETEXT_LANG'"  [valueField]="'CODE'"\r\n` +
+    `  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.user_id_Hint','Please enter value for user_id')"\r\n` +
+    `\t\t[valuePrimitive]="true"  [kendoDropDownFilter]="{ operator: 'contains' }">\r\n` +
+    '\t\t</kendo-combobox>\r\n' +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    '\r\n' +
+    '</div>\n' +
+    '<div class="wrap">\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    '\t\t<kendo-label class="form-label" [for]="updated_at" text="updated_at"></kendo-label>\r\n' +
+    '\t\t<kendo-datepicker [format]="this.paramConfig.DateFormat" class="form-field-date" formControlName="updated_at"  #updated_at \r\n' +
+    `  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.updated_at_Hint','Please enter value for updated_at')"\r\n` +
+    '\t\t></kendo-datepicker>\r\n' +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    `\t\t<kendo-label class="form-label" [for]="subject" [text]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.subject','subject')"></kendo-label>\r\n` +
+    `\t\t<input class="form-input" formControlName="subject" kendoTextBox #subject  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.subject_Hint','Please enter value for subject')" />\r\n` +
+    '\t</kendo-formfield>\r\n' +
+    '\r\n' +
+    '\r\n' +
+    '</div>\n' +
+    '<div class="wrap">\r\n' +
+    `\t<kendo-formfield class="form-field" [orientation]="'horizontal'" >\r\n` +
+    `\t\t<kendo-label class="form-label" [for]="status_id" [text]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.status_id','status_id')"></kendo-label>\r\n` +
+    `\t\t<kendo-combobox  #status_id class="form-field-combobox" [formControlName]="'status_id'"\r\n` +
+    `\t\t[data]="lkpArrstatus_id" [textField]="'CODETEXT_LANG'"  [valueField]="'CODE'"\r\n` +
+    `  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.status_id_Hint','Please enter value for status_id')"\r\n` +
+    `\t\t[valuePrimitive]="true"  [kendoDropDownFilter]="{ operator: 'contains' }">\r\n` +
+    '\t\t</kendo-combobox>\r\n' +
+    '\t</kendo-formfield>\r\n' +
+    '</div>\n',
+  formModel: ' export class app2TickeitForm{\n' +
+    "\tpublic id = '';\n" +
+    "\tpublic agent_id = '';\n" +
+    "\tpublic category_id = '';\n" +
+    "\tpublic completed_at = '';\n" +
+    "\tpublic content = '';\n" +
+    "\tpublic created_at = '';\n" +
+    "\tpublic priority_id = '';\n" +
+    "\tpublic user_id = '';\n" +
+    "\tpublic updated_at = '';\n" +
+    "\tpublic subject = '';\n" +
+    "\tpublic status_id = '';\n" +
+    '\n' +
+    '}\n',
+  stmtGet: '"GET_tickeit":[\n' +
+    '\t" SELECT id ,  agent_id ,  category_id ,  completed_at ,  content ,  created_at ,  priority_id ,  user_id ,  updated_at ,  subject ,  status_id",\n' +
+    '\t" FROM tickeit ",\n' +
+    '\t" WHERE id = :id"\n' +
+    '\n' +
+    ']\n' +
+    '\n',
+  stmtGetQuery: '"GET_tickeit_QUERY":[\n' +
+    '\t" SELECT id ,  agent_id ,  category_id ,  completed_at ,  content ,  created_at ,  priority_id ,  user_id ,  updated_at ,  subject ,  status_id",\n' +
+    '\t" FROM tickeit ",\n' +
+    '\t" :_WHERE "\n' +
+    ']\n' +
+    '\n',
+  stmtInsert: '"INSERT_tickeit":[\n' +
+    '\t" INSERT INTO tickeit ",\n' +
+    '\t" ( agent_id  ,x  category_id  ,x  completed_at  ,x  content  ,x  created_at  ,x  priority_id  ,x  user_id  ,x  updated_at  ,x  subject  ,x  status_id  ) ",\n' +
+    '\t" VALUES ",\n' +
+    '\t" ( :agent_id  ,  :category_id  ,  :completed_at  ,  :content  ,  :created_at  ,  :priority_id  ,  :user_id  ,  :updated_at  ,  :subject  ,  :status_id  ) "\n' +
+    '\n' +
+    ']\n' +
+    '\n',
+  stmtUpdate: '"UPDATE_tickeit":[\n' +
+    '\t" UPDATE  tickeit ",\n' +
+    '\t" SET " , \n' +
+    '  "  agent_id = :agent_id " , \n' +
+    '  ",  category_id = :category_id " , \n' +
+    '  ",  completed_at = :completed_at " , \n' +
+    '  ",  content = :content " , \n' +
+    '  ",  created_at = :created_at " , \n' +
+    '  ",  priority_id = :priority_id " , \n' +
+    '  ",  user_id = :user_id " , \n' +
+    '  ",  updated_at = :updated_at " , \n' +
+    '  ",  subject = :subject " , \n' +
+    '  ",  status_id = :status_id ",\n' +
+    '\t" WHERE  id = :id "\n' +
+    '\n' +
+    ']\n' +
+    '\n',
+  stmtDelete: '"DELETE_tickeit":[\n\t" DELETE FROM tickeit ",\n\t" WHERE  id = :id "\n\n]\n\n',
+  lkpStmt: 'public userLang = "EN" ; \r\n' +
+    'public lookupArrDef =[/*\t{"statment":"SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "agent_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ",\r\n' +
+    '\t\t\t"lkpArrName":"lkpArragent_id"},\r\n' +
+    '\t{"statment":"SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "category_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ",\r\n' +
+    '\t\t\t"lkpArrName":"lkpArrcategory_id"},\r\n' +
+    '\t{"statment":"SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "priority_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ",\r\n' +
+    '\t\t\t"lkpArrName":"lkpArrpriority_id"},\r\n' +
+    '\t{"statment":"SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "user_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ",\r\n' +
+    '\t\t\t"lkpArrName":"lkpArruser_id"},\r\n' +
+    '\t{"statment":"SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "status_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ",\r\n' +
+    '\t\t\t"lkpArrName":"lkpArrstatus_id"}*/];\r\n' +
+    '\r\n' +
+    'public lkpArragent_id = [];\r\n' +
+    '\r\n' +
+    'public lkpArrcategory_id = [];\r\n' +
+    '\r\n' +
+    'public lkpArrpriority_id = [];\r\n' +
+    '\r\n' +
+    'public lkpArruser_id = [];\r\n' +
+    '\r\n' +
+    'public lkpArrstatus_id = [];\r\n' +
+    '\r\n' +
+    'public lkpArrGetagent_id(CODE: any): any {\r\n' +
+    '// Change x.CODE below if not from SOM_TABS_CODE\r\n' +
+    'var rec = this.lkpArragent_id.find(x => x.CODE === CODE);\r\n' +
+    'return rec;\r\n' +
+    '}\r\n' +
+    '\r\n' +
+    'public lkpArrGetcategory_id(CODE: any): any {\r\n' +
+    '// Change x.CODE below if not from SOM_TABS_CODE\r\n' +
+    'var rec = this.lkpArrcategory_id.find(x => x.CODE === CODE);\r\n' +
+    'return rec;\r\n' +
+    '}\r\n' +
+    '\r\n' +
+    'public lkpArrGetpriority_id(CODE: any): any {\r\n' +
+    '// Change x.CODE below if not from SOM_TABS_CODE\r\n' +
+    'var rec = this.lkpArrpriority_id.find(x => x.CODE === CODE);\r\n' +
+    'return rec;\r\n' +
+    '}\r\n' +
+    '\r\n' +
+    'public lkpArrGetuser_id(CODE: any): any {\r\n' +
+    '// Change x.CODE below if not from SOM_TABS_CODE\r\n' +
+    'var rec = this.lkpArruser_id.find(x => x.CODE === CODE);\r\n' +
+    'return rec;\r\n' +
+    '}\r\n' +
+    '\r\n' +
+    'public lkpArrGetstatus_id(CODE: any): any {\r\n' +
+    '// Change x.CODE below if not from SOM_TABS_CODE\r\n' +
+    'var rec = this.lkpArrstatus_id.find(x => x.CODE === CODE);\r\n' +
+    'return rec;\r\n' +
+    '}\r\n',
+  lkpOnChange: 'onChanges(): void {\r\n' +
+    "this.form.get('agent_id').valueChanges.subscribe(val => {\r\n" +
+    '});\r\n' +
+    "this.form.get('category_id').valueChanges.subscribe(val => {\r\n" +
+    '});\r\n' +
+    "this.form.get('priority_id').valueChanges.subscribe(val => {\r\n" +
+    '});\r\n' +
+    "this.form.get('user_id').valueChanges.subscribe(val => {\r\n" +
+    '});\r\n' +
+    "this.form.get('status_id').valueChanges.subscribe(val => {\r\n" +
+    '});\r\n' +
+    '}\r\n',
+  masterKeyEnable: '',
+  masterKeyEnableTrue: '',
+  masterKeyEnableFalse: '',
+  keyEnable: '\tpublic  isidEnable : boolean = true; \r\n',
+  masterKeyArr: '',
+  masterKeyNameArr: '',
+  primarKeyReadOnlyArr: 'isidreadOnly : false',
+  gridHeight: 200
+}  tableInfo: {
+  ID: 'tickeit_app2_tickeit_FORM',
+  name: 'app2TickeitForm',
+  class: 'TickeitApp2TickeitFormForm',
+  title: 'Tickeit App2 Tickeit Form',
+  angularName: 'tickeit-app2-tickeit-form-form',
+  dataSource: 'tickeit',
+  tableKey: [ 'id' ],
+  MasterKeys: [ 'id' ],
+  MasterKeysParent: [ 'id' ],
+  lkps: undefined,
+  dates: undefined,
+  datesTimes: undefined,
+  times: undefined,
+  boxs: [],
+  btxtarsoxs: [],
+  swchs: [],
+  reqs: undefined,
+  hids: undefined,
+  RecordsDisplayCount: 1,
+  BlockName: 'app2_tickeit_FORM',
+  screenType: 'FORM',
+  numCols: 11,
+  tableNameFromName: false,
+  usedFields: 100,
+  visibleFields: undefined,
+  WhereClause: '',
+  OrderByClause: '',
+  ScrollbarLength: 100,
+  InsertAllowed: 'Y',
+  queryable: 'Y',
+  navigable: 'Y',
+  removeable: 'Y',
+  updateable: 'Y',
+  fields: [
+    {
+      name: 'id',
+      type: 'PK_AUTO',
+      width: 40,
+      COL_CONSTRAINT: 'PK_AUTO',
+      title: 'id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for id'
+    },
+    {
+      name: 'agent_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'agent_id11111',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "agent_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for agent_id222'
+    },
+    {
+      name: 'category_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'category_id',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "category_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for category_id'
+    },
+    {
+      name: 'completed_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'completed_at',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for completed_at'
+    },
+    {
+      name: 'content',
+      type: 'LONGTEXT',
+      width: 0,
+      COL_CONSTRAINT: '',
+      title: 'content',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for content'
+    },
+    {
+      name: 'created_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'created_at',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for created_at'
+    },
+    {
+      name: 'priority_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'priority_id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "priority_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for priority_id'
+    },
+    {
+      name: 'user_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'user_id',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "user_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for user_id'
+    },
+    {
+      name: 'updated_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'updated_at',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for updated_at'
+    },
+    {
+      name: 'subject',
+      type: 'Char',
+      width: 1020,
+      COL_CONSTRAINT: '',
+      title: 'subject',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for subject'
+    },
+    {
+      name: 'status_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'status_id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "status_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for status_id'
+    }
+  ]
+}  tablesInfo:0: []  argsData: {
+  AppName: 'app2',
+  CompType: 'COMP',
+  formName: 'app2_tickeit_FORM',
+  DBLoc: 'APPGEN',
+  name: 'star',
+  password: 'star',
+  tableName: 'tickeit',
+  baseFolder: '../../users/STAR_ws/projects/STAR/src/app/',
+  screenType: 'FORM',
+  columnsPerRow: 3,
+  RecordsDisplayCount: 1,
+  WhereClause: '',
+  OrderByClause: '',
+  ScrollbarLength: 100,
+  InsertAllowed: 'Y',
+  queryable: 'Y',
+  navigable: 'Y',
+  removeable: 'Y',
+  updateable: 'Y',
+  keys: [ 'id' ],
+  masterKey: [ 'id' ],
+  masterKeysParent: [ 'id' ],
+  boxs: [],
+  txtars: [],
+  txtars2: [ 'content' ],
+  txtars3: [],
+  swchs: [],
+  module: 'app2/app2_tickeit_FORM/',
+  moduleOnly: 'app2/',
+  BlockName: 'app2_tickeit_FORM',
+  blockRoutines: '\r\n',
+  itemsRoutines: '\r\n',
+  modeldir: '../../../../model/model',
+  StarNotifyServiceDir: '../../../../services/starnotification.service',
+  Starlib1Dir: '../../../Starlib1',
+  usedFields: 100,
+  InitialValues: '',
+  copyValues: '',
+  tableNameFromName: false,
+  fields: [
+    {
+      name: 'id',
+      type: 'PK_AUTO',
+      width: 40,
+      COL_CONSTRAINT: 'PK_AUTO',
+      title: 'id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for id'
+    },
+    {
+      name: 'agent_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'agent_id11111',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "agent_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for agent_id222'
+    },
+    {
+      name: 'category_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'category_id',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "category_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for category_id'
+    },
+    {
+      name: 'completed_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'completed_at',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for completed_at'
+    },
+    {
+      name: 'content',
+      type: 'LONGTEXT',
+      width: 0,
+      COL_CONSTRAINT: '',
+      title: 'content',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for content'
+    },
+    {
+      name: 'created_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'created_at',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for created_at'
+    },
+    {
+      name: 'priority_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'priority_id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "priority_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for priority_id'
+    },
+    {
+      name: 'user_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'user_id',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "user_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for user_id'
+    },
+    {
+      name: 'updated_at',
+      type: 'Date',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'updated_at',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for updated_at'
+    },
+    {
+      name: 'subject',
+      type: 'Char',
+      width: 1020,
+      COL_CONSTRAINT: '',
+      title: 'subject',
+      visible: true,
+      startRow: false,
+      RecordGroupQuery: '',
+      Hint: 'Please enter value for subject'
+    },
+    {
+      name: 'status_id',
+      type: 'Char',
+      width: 40,
+      COL_CONSTRAINT: '',
+      title: 'status_id',
+      visible: true,
+      startRow: true,
+      RecordGroupQuery: 'SELECT CODE, CODETEXT_LANG , PARTCODE FROM SOM_TABS_CODES WHERE CODENAME = "status_id"  and LANGUAGE_NAME = "EN" order by CODETEXT_LANG ',
+      Hint: 'Please enter value for status_id'
+    }
+  ]
+}
+HtmlText: <div>
+    <legend  class="k-form-legend">{{ title }}</legend>
+<div class="form-toolbar"> </div>
+<kendo-toolbar class="form-toolbar" *ngIf="showToolbar">
+    <kendo-toolbar-button kendoButton [disabled]="isSearch"  [icon]="'save'" title="{{starServices.getNLS([],'SAVE','Save')}}" (click)="saveChanges( form)" *ngIf="!isChild && componentConfig.updateable"></kendo-toolbar-button>
+    <kendo-toolbar-button  kendoButton [icon]="'print'" title="{{starServices.getNLS([],'PRINT','Print')}}" (click)="printScreen()" ></kendo-toolbar-button >
+
+<kendo-toolbar-separator></kendo-toolbar-separator>
+    <kendo-toolbar-button  [fillMode]="isSearch ? 'outline' : 'solid' " [icon]="'zoom'" title="{{starServices.getNLS([],'ENTER_QUERY','Enter Query')}}" (click)="enterQuery( form);" *ngIf="componentConfig.queryable"></kendo-toolbar-button>
+    <kendo-toolbar-button  [icon]="'reload'"  title="{{starServices.getNLS([],'EXECUTE_QUERY','Execute Query')}}"  (click)="executeQuery( form.value);" *ngIf="componentConfig.queryable"></kendo-toolbar-button>
+    <kendo-toolbar-button  [fillMode]="isSearch ? 'outline' : 'solid' "  [icon]="'cancel'"  title="{{starServices.getNLS([],'CANCEL','Cancel')}}"  (click)="onCancel($event)" *ngIf="componentConfig.queryable"></kendo-toolbar-button >
+<kendo-toolbar-separator></kendo-toolbar-separator>
+    <kendo-toolbar-button  [disabled]="isSearch" [icon]="'arrow-double-60-left'" title="{{starServices.getNLS([],'FIRST_RECORD','First Record')}}" (click)="goRecord( 'first');" *ngIf="componentConfig.navigable"></kendo-toolbar-button>
+    <kendo-toolbar-button  [disabled]="isSearch" [icon]="'arrow-60-left'"  title="{{starServices.getNLS([],'PREVIOUS_RECORD','Previous Record')}}"  (click)="goRecord(  'prev');" *ngIf="componentConfig.navigable"></kendo-toolbar-button>
+    <kendo-toolbar-button  [disabled]="isSearch" [icon]="'arrow-60-right'" title="{{starServices.getNLS([],'NEXT_RECORD','Next Record')}}"  (click)="goRecord('next')" *ngIf="componentConfig.navigable"></kendo-toolbar-button >
+    <kendo-toolbar-button  [disabled]="isSearch" [icon]="'arrow-double-60-right'" title="{{starServices.getNLS([],'LAST_RECORD','Last Record')}}" (click)="goRecord('last')" *ngIf="componentConfig.navigable"></kendo-toolbar-button>
+<kendo-toolbar-separator></kendo-toolbar-separator>
+    <kendo-toolbar-button  [disabled]="isSearch" [icon]="'plus'" title="{{starServices.getNLS([],'INSERT_RECORD','Insert Record')}}" (click)="onNew($event);"  *ngIf="componentConfig.insertable"></kendo-toolbar-button>
+    <kendo-toolbar-button  [disabled]="isSearch" [icon]="'trash'" title="{{starServices.getNLS([],'DELETE_RECORD','Delete Record')}}" (click)="onRemove( form);"  *ngIf="componentConfig.removeable">Remove</kendo-toolbar-button>
+
+</kendo-toolbar>
+<kendo-pdf-export #pdf paperSize="A4" margin="2cm">
+    <form class="form-layout" class="k-form k-form-horizontal" [formGroup]="form" >
+    <fieldset class="form-fieldset"  class="k-form-fieldset" [disabled]="!componentConfig.enabled">
+
+
+<div class="wrap">
+	<kendo-formfield class="form-field" [orientation]="'horizontal'" >
+		<kendo-label class="form-label" [for]="id" [text]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.id','id')"></kendo-label>
+		<input class="form-input" formControlName="id" kendoTextBox #id  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.id_Hint','Please enter value for id')" />
+	</kendo-formfield>
+
+
+</div>
+<div class="wrap">
+	<kendo-formfield class="form-field" [orientation]="'horizontal'" >
+		<kendo-label class="form-label" [for]="agent_id" [text]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.agent_id','agent_id11111')"></kendo-label>
+		<kendo-combobox  #agent_id class="form-field-combobox" [formControlName]="'agent_id'"
+		[data]="lkpArragent_id" [textField]="'CODETEXT_LANG'"  [valueField]="'CODE'"
+  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.agent_id_Hint','Please enter value for agent_id222')"
+		[valuePrimitive]="true"  [kendoDropDownFilter]="{ operator: 'contains' }">
+		</kendo-combobox>
+	</kendo-formfield>
+
+	<kendo-formfield class="form-field" [orientation]="'horizontal'" >
+		<kendo-label class="form-label" [for]="category_id" [text]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.category_id','category_id')"></kendo-label>
+		<kendo-combobox  #category_id class="form-field-combobox" [formControlName]="'category_id'"
+		[data]="lkpArrcategory_id" [textField]="'CODETEXT_LANG'"  [valueField]="'CODE'"
+  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.category_id_Hint','Please enter value for category_id')"
+		[valuePrimitive]="true"  [kendoDropDownFilter]="{ operator: 'contains' }">
+		</kendo-combobox>
+	</kendo-formfield>
+
+	<kendo-formfield class="form-field" [orientation]="'horizontal'" >
+		<kendo-label class="form-label" [for]="completed_at" text="completed_at"></kendo-label>
+		<kendo-datepicker [format]="this.paramConfig.DateFormat" class="form-field-date" formControlName="completed_at"  #completed_at 
+  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.completed_at_Hint','Please enter value for completed_at')"
+		></kendo-datepicker>
+	</kendo-formfield>
+
+
+</div>
+<div class="wrap">
+	<kendo-formfield class="form-input-triple" [orientation]="'horizontal'" >
+		<kendo-label class="form-label" [for]="content" text="content"></kendo-label>
+		<textarea kendoTextArea  style="resize: both;" class="form-input-triple" kendoTextBox formControlName="content" #content></textarea>
+  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.content_Hint','Please enter value for content')"
+	</kendo-formfield>
+
+
+</div>
+<div class="wrap">
+	<kendo-formfield class="form-field" [orientation]="'horizontal'" >
+		<kendo-label class="form-label" [for]="created_at" text="created_at"></kendo-label>
+		<kendo-datepicker [format]="this.paramConfig.DateFormat" class="form-field-date" formControlName="created_at"  #created_at 
+  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.created_at_Hint','Please enter value for created_at')"
+		></kendo-datepicker>
+	</kendo-formfield>
+
+
+</div>
+<div class="wrap">
+	<kendo-formfield class="form-field" [orientation]="'horizontal'" >
+		<kendo-label class="form-label" [for]="priority_id" [text]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.priority_id','priority_id')"></kendo-label>
+		<kendo-combobox  #priority_id class="form-field-combobox" [formControlName]="'priority_id'"
+		[data]="lkpArrpriority_id" [textField]="'CODETEXT_LANG'"  [valueField]="'CODE'"
+  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.priority_id_Hint','Please enter value for priority_id')"
+		[valuePrimitive]="true"  [kendoDropDownFilter]="{ operator: 'contains' }">
+		</kendo-combobox>
+	</kendo-formfield>
+
+	<kendo-formfield class="form-field" [orientation]="'horizontal'" >
+		<kendo-label class="form-label" [for]="user_id" [text]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.user_id','user_id')"></kendo-label>
+		<kendo-combobox  #user_id class="form-field-combobox" [formControlName]="'user_id'"
+		[data]="lkpArruser_id" [textField]="'CODETEXT_LANG'"  [valueField]="'CODE'"
+  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.user_id_Hint','Please enter value for user_id')"
+		[valuePrimitive]="true"  [kendoDropDownFilter]="{ operator: 'contains' }">
+		</kendo-combobox>
+	</kendo-formfield>
+
+
+</div>
+<div class="wrap">
+	<kendo-formfield class="form-field" [orientation]="'horizontal'" >
+		<kendo-label class="form-label" [for]="updated_at" text="updated_at"></kendo-label>
+		<kendo-datepicker [format]="this.paramConfig.DateFormat" class="form-field-date" formControlName="updated_at"  #updated_at 
+  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.updated_at_Hint','Please enter value for updated_at')"
+		></kendo-datepicker>
+	</kendo-formfield>
+
+	<kendo-formfield class="form-field" [orientation]="'horizontal'" >
+		<kendo-label class="form-label" [for]="subject" [text]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.subject','subject')"></kendo-label>
+		<input class="form-input" formControlName="subject" kendoTextBox #subject  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.subject_Hint','Please enter value for subject')" />
+	</kendo-formfield>
+
+
+</div>
+<div class="wrap">
+	<kendo-formfield class="form-field" [orientation]="'horizontal'" >
+		<kendo-label class="form-label" [for]="status_id" [text]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.status_id','status_id')"></kendo-label>
+		<kendo-combobox  #status_id class="form-field-combobox" [formControlName]="'status_id'"
+		[data]="lkpArrstatus_id" [textField]="'CODETEXT_LANG'"  [valueField]="'CODE'"
+  [placeholder]="starServices.getNLS([],'app2_tickeit_FORM.app2TickeitForm.status_id_Hint','Please enter value for status_id')"
+		[valuePrimitive]="true"  [kendoDropDownFilter]="{ operator: 'contains' }">
+		</kendo-combobox>
+	</kendo-formfield>
+</div>
+
+    </fieldset>
+    </form>
+</kendo-pdf-export>
+</div>
+
+
+fullFileName:d: ../../users/STAR_ws/projects/STAR/src/app/components/app2/app2_tickeit_FORM/tickeit-app2-tickeit-form-form/tickeit-app2-tickeit-form-form.component.html
+ titlesFileName: ../../sqlparse/users/star/lang/en.json
+ blocksTitles: {
+  app2TickeitForm: {
+    id: 'id',
+    id_Hint: 'Please enter value for id',
+    agent_id: 'agent_id11111',
+    agent_id_Hint: 'Please enter value for agent_id222',
+    category_id: 'category_id',
+    category_id_Hint: 'Please enter value for category_id',
+    completed_at: 'completed_at',
+    completed_at_Hint: 'Please enter value for completed_at',
+    content: 'content',
+    content_Hint: 'Please enter value for content',
+    created_at: 'created_at',
+    created_at_Hint: 'Please enter value for created_at',
+    priority_id: 'priority_id',
+    priority_id_Hint: 'Please enter value for priority_id',
+    user_id: 'user_id',
+    user_id_Hint: 'Please enter value for user_id',
+    updated_at: 'updated_at',
+    updated_at_Hint: 'Please enter value for updated_at',
+    subject: 'subject',
+    subject_Hint: 'Please enter value for subject',
+    status_id: 'status_id',
+    status_id_Hint: 'Please enter value for status_id'
+  }
+}  formName: app2_tickeit_FORM
+ titlesFileName: ../../sqlparse/users/star/lang/en.json
+ titlesFileName: ../../sqlparse/users/star/lang/ar.json
+Connected to the SQLite database.
+Table Dropped
+Table just created.
+
+Child Process STDERR: 

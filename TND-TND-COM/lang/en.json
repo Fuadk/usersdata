@@ -1,0 +1,3491 @@
+{
+	"ATN2_LRA_PENDING_LEAVE_REQUESTS": {
+		"atn2leaveRequestAtn2LraPendingLeaveRequests": {
+			"LEAVE_ID": "Leave Id",
+			"LEAVE_ID_Hint": "Please enter Leave Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"LEAVE_TYPE": "Leave Type",
+			"LEAVE_TYPE_Hint": "Please enter Leave Type data.",
+			"REASON": "Reason",
+			"REASON_Hint": "Please enter Reason data.",
+			"START_DATE": "Start Date",
+			"START_DATE_Hint": "Please enter Start Date data.",
+			"END_DATE": "End Date",
+			"END_DATE_Hint": "Please enter End Date data.",
+			"EMERGENCY_CONTACT": "Emergency Contact",
+			"EMERGENCY_CONTACT_Hint": "Please enter Emergency Contact data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"APPROVE_BTN": "Approve Btn",
+			"APPROVE_BTN_Hint": "Please enter Approve Btn data.",
+			"REJECT_BTN": "Reject Btn",
+			"REJECT_BTN_Hint": "Please enter Reject Btn data.",
+			"component_title": "Pending Leave Requests"
+		}
+	},
+	"ATN2_CM_COMPANY_INFORMATION": {
+		"atn2companyAtn2CmCompanyInformation": {
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"COMPANY_NAME": "Company Name",
+			"COMPANY_NAME_Hint": "Please enter Company Name data.",
+			"LOGO": "Logo",
+			"LOGO_Hint": "Please enter Logo data.",
+			"TIME_IN": "Time In",
+			"TIME_IN_Hint": "Please enter Time In data.",
+			"TIME_OUT": "Time Out",
+			"TIME_OUT_Hint": "Please enter Time Out data.",
+			"WORKING_FROM_DAY": "Working From Day",
+			"WORKING_FROM_DAY_Hint": "Please enter Working From Day data.",
+			"WORKING_TO_DAY": "Working To Day",
+			"WORKING_TO_DAY_Hint": "Please enter Working To Day data.",
+			"TOLERANCE_MINUTES": "Tolerance Minutes",
+			"TOLERANCE_MINUTES_Hint": "Please enter Tolerance Minutes data.",
+			"SUBSCRIPTION_DATE": "Subscription Date",
+			"SUBSCRIPTION_DATE_Hint": "Please enter Subscription Date data.",
+			"VALID_TILL_DATE": "Valid Till Date",
+			"VALID_TILL_DATE_Hint": "Please enter Valid Till Date data.",
+			"SUBSCRIPTION_STATUS": "Subscription Status",
+			"SUBSCRIPTION_STATUS_Hint": "Please enter Subscription Status data.",
+			"PAYMENT_INFO": "Payment Info",
+			"PAYMENT_INFO_Hint": "Please enter Payment Info data.",
+			"SUBSCRIPTION_FEES": "Subscription Fees",
+			"SUBSCRIPTION_FEES_Hint": "Please enter Subscription Fees data.",
+			"component_title": "Company Information"
+		}
+	},
+	"ATN2_AR_ATTENDANCE_DETAILS": {
+		"atn2attendanceRecordAtn2ArAttendanceDetails": {
+			"RECORD_ID": "Record Id",
+			"RECORD_ID_Hint": "Please enter Record Id data.",
+			"ATTENDANCE_ID": "Attendance Id",
+			"ATTENDANCE_ID_Hint": "Please enter Attendance Id data.",
+			"TIME_IN": "Time In",
+			"TIME_IN_Hint": "Please enter Time In data.",
+			"TIME_OUT": "Time Out",
+			"TIME_OUT_Hint": "Please enter Time Out data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude data.",
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude data.",
+			"component_title": "Attendance Details"
+		}
+	},
+	"ATN2_AR_ATTENDANCE_DETAILS_1": {
+		"atn2attendanceAtn2ArAttendanceDetails1": {
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude data.",
+			"ATTENDANCE_ID": "Attendance Id",
+			"ATTENDANCE_ID_Hint": "Please enter Attendance Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"SHIFT_ID": "Shift Id",
+			"SHIFT_ID_Hint": "Please enter Shift Id data.",
+			"ATTENDANCE_DATE": "Attendance Date",
+			"ATTENDANCE_DATE_Hint": "Please enter Attendance Date data.",
+			"TIME_IN": "Time In",
+			"TIME_IN_Hint": "Please enter Time In data.",
+			"TIME_OUT": "Time Out",
+			"TIME_OUT_Hint": "Please enter Time Out data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude data.",
+			"component_title": "Monthly Summary"
+		}
+	},
+	"ATN2_AR_SEARCH_ATTENDANCE": {
+		"atn2attendanceAtn2ArSearchAttendance": {
+			"ATTENDANCE_ID": "Attendance Id",
+			"ATTENDANCE_ID_Hint": "Please enter Attendance Id data.",
+			"ATTENDANCE_DATE": "Attendance Date",
+			"ATTENDANCE_DATE_Hint": "Please enter Attendance Date data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"SHIFT_ID": "Shift Id",
+			"SHIFT_ID_Hint": "Please enter Shift Id data.",
+			"component_title": "Search Attendance"
+		}
+	},
+	"ATN2_AR_SEARCH_ATTENDANCE_0": {
+		"atn2attendanceAtn2ArSearchAttendance0": {
+			"ATTENDANCE_ID": "Attendance Id",
+			"ATTENDANCE_ID_Hint": "Please enter Attendance Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"ATTENDANCE_DATE": "Attendance Date",
+			"ATTENDANCE_DATE_Hint": "Please enter Attendance Date data.",
+			"SHIFT_ID": "Shift Id",
+			"SHIFT_ID_Hint": "Please enter Shift Id data.",
+			"TIME_IN": "Time In",
+			"TIME_IN_Hint": "Please enter Time In data.",
+			"TIME_OUT": "Time Out",
+			"TIME_OUT_Hint": "Please enter Time Out data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude data.",
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude data.",
+			"component_title": "Attendance Summary"
+		}
+	},
+	"ATN2_BM_BRANCHES_LIST": {
+		"atn2branchAtn2BmBranchesList": {
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"NAME": "Name",
+			"NAME_Hint": "Please enter Name data.",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude data.",
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude data.",
+			"component_title": "Branches List"
+		}
+	},
+	"ATN2_BM_BRANCH_LOCATIONS": {
+		"atn2branchAtn2BmBranchLocations": {
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"BRANCH_NAME": "Branch Name",
+			"BRANCH_NAME_Hint": "Please enter Branch Name data.",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude data.",
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude data.",
+			"component_title": "Branch Locations"
+		}
+	},
+	"ATN2_CM_COMPANY_SHIFTS": {
+		"atn2shiftAtn2CmCompanyShifts": {
+			"SHIFT_ID": "Shift Id",
+			"SHIFT_ID_Hint": "Please enter Shift Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"DAY_OF_WEEK": "Day Of Week",
+			"DAY_OF_WEEK_Hint": "Please enter Day Of Week data.",
+			"TIME_IN": "Time In",
+			"TIME_IN_Hint": "Please enter Time In data.",
+			"TIME_OUT": "Time Out",
+			"TIME_OUT_Hint": "Please enter Time Out data.",
+			"component_title": "Company Shifts"
+		}
+	},
+	"ATN2_EM_EMPLOYEES": {
+		"atn2employeeAtn2EmEmployees": {
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"NAME": "Name",
+			"NAME_Hint": "Please enter Name data.",
+			"PHOTO": "Photo",
+			"PHOTO_Hint": "Please enter Photo data.",
+			"MOBILE": "Mobile",
+			"MOBILE_Hint": "Please enter Mobile data.",
+			"ROLE": "Role",
+			"ROLE_Hint": "Please enter Role data.",
+			"VIEW_EMAILS": "View Emails",
+			"VIEW_EMAILS_Hint": "Please enter View Emails data.",
+			"VIEW_LEAVES": "View Leaves",
+			"VIEW_LEAVES_Hint": "Please enter View Leaves data.",
+			"component_title": "Employees"
+		}
+	},
+	"ATN2_HC_COMPANY_HOLIDAYS": {
+		"atn2holidayAtn2HcCompanyHolidays": {
+			"HOLIDAY_ID": "Holiday Id",
+			"HOLIDAY_ID_Hint": "Please enter Holiday Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"HOLIDAY_DATE": "Holiday Date",
+			"HOLIDAY_DATE_Hint": "Please enter Holiday Date data.",
+			"DESCRIPTION": "Description",
+			"DESCRIPTION_Hint": "Please enter Description data.",
+			"component_title": "Company Holidays"
+		}
+	},
+	"ATN2_LRS_SUBMIT_LEAVE_REQUEST": {
+		"atn2leaveRequestAtn2LrsSubmitLeaveRequest": {
+			"LEAVE_ID": "Leave Id",
+			"LEAVE_ID_Hint": "Please enter Leave Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"LEAVE_TYPE": "Leave Type",
+			"LEAVE_TYPE_Hint": "Please enter Leave Type data.",
+			"REASON": "Reason",
+			"REASON_Hint": "Please enter Reason data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"START_DATE": "Start Date",
+			"START_DATE_Hint": "Please enter Start Date data.",
+			"END_DATE": "End Date",
+			"END_DATE_Hint": "Please enter End Date data.",
+			"EMERGENCY_CONTACT": "Emergency Contact",
+			"EMERGENCY_CONTACT_Hint": "Please enter Emergency Contact data.",
+			"component_title": "Submit Leave Request"
+		}
+	},
+	"ATN2_QCM_BRANCH_QR_CODES": {
+		"atn2qrBranchAtn2QcmBranchQrCodes": {
+			"QR_ID": "Qr Id",
+			"QR_ID_Hint": "Please enter Qr Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"QR_CODE_DATA": "Qr Code Data",
+			"QR_CODE_DATA_Hint": "Please enter Qr Code Data data.",
+			"GENERATE_QR": "Generate Qr",
+			"GENERATE_QR_Hint": "Please enter Generate Qr data.",
+			"component_title": "Branch QR Codes"
+		}
+	},
+	"ATN2_attendance_records": {
+		"ATN2_attendance_records": {
+			"component_title": "Attendance Records",
+			"tab_title1": "Search Attendance",
+			"tab_title2": "Attendance Details"
+		}
+	},
+	"ATN2_branches_management": {
+		"ATN2_branches_management": {
+			"component_title": "Branches Management",
+			"tab_title1": "Company Branches",
+			"tab_title2": "Branch Locations"
+		}
+	},
+	"ATN2_company_management": {
+		"ATN2_company_management": {
+			"component_title": "Company Management",
+			"tab_title1": "Company Information",
+			"tab_title2": "Company Shifts",
+			"tab_title3": "Company Holidays",
+			"tab_title4": "Shifts"
+		}
+	},
+	"ATN2_daily_attendance_report": {
+		"ATN2_daily_attendance_report": {
+			"component_title": "Daily Attendance Report",
+			"tab_title1": "Monthly Status Summary",
+			"tab_title2": "Daily Attendance Details"
+		}
+	},
+	"ATN2_employee_management": {
+		"ATN2_employee_management": {
+			"component_title": "Employee Management",
+			"tab_title1": "Employee Details",
+			"tab_title2": "Employee Email Addresses",
+			"tab_title3": "Employee Leave Requests"
+		}
+	},
+	"ATN2_holidays_calendar": {
+		"ATN2_holidays_calendar": {
+			"component_title": "Holidays Calendar",
+			"tab_title1": "Company Holidays"
+		}
+	},
+	"ATN2_leave_request_wf": {
+		"ATN2_leave_request_wf": {
+			"component_title": "LEAVE_REQUEST Workflow",
+			"tab_title1": "Lra pending leave requests",
+			"tab_title2": "Lw attendance grid",
+			"tab_title3": "Masr attendance summary"
+		}
+	},
+	"ATN2_leave_request_approval": {
+		"ATN2_leave_request_approval": {
+			"component_title": "Leave Request Approval",
+			"tab_title1": "Pending Leave Requests"
+		}
+	},
+	"ATN2_leave_request_submission": {
+		"ATN2_leave_request_submission": {
+			"component_title": "Leave Request Submission",
+			"tab_title1": "Submit Leave Request"
+		}
+	},
+	"ATN2_monthly_attendance_summary": {
+		"ATN2_monthly_attendance_summary": {
+			"component_title": "Monthly Attendance Summary",
+			"tab_title1": "Attendance Summary",
+			"tab_title2": "Payment Summary"
+		}
+	},
+	"ATN2_qr_code_management": {
+		"ATN2_qr_code_management": {
+			"component_title": "QR Code Management",
+			"tab_title1": "Branch QR Code"
+		}
+	},
+	"ATN_ATN_QR_CODE_FORM": {
+		"atnqrCodeAtnAtnQrCodeForm": {
+			"QR_ID": "Qr Id",
+			"QR_ID_Hint": "Please enter Qr Id data.",
+			"BRANCH_ID": "Select a branch to generate QR Code",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"QR_CODE_DATA": "Qr Code Data",
+			"QR_CODE_DATA_Hint": "Please enter Qr Code Data data.",
+			"QrCode": "Qrcode",
+			"QrCode_Hint": "Please enter Qrcode data.",
+			"component_title": "ATN QR CODE FORM"
+		}
+	},
+	"ATN_ATN_ATTENDANCE_GRID": {
+		"atnattendanceAtnAtnAttendanceGrid": {
+			"ATTENDANCE_ID": "Attendance Id",
+			"ATTENDANCE_ID_Hint": "Please enter Attendance Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"SHIFT_ID": "Shift Id",
+			"SHIFT_ID_Hint": "Please enter Shift Id data.",
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"ATTENDANCE_DATE": "Attendance Date",
+			"ATTENDANCE_DATE_Hint": "Please enter Attendance Date data.",
+			"TIME_IN": "Time In",
+			"TIME_IN_Hint": "Please enter Time In data.",
+			"TIME_OUT": "Time Out",
+			"TIME_OUT_Hint": "Please enter Time Out data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"component_title": "ATN ATTENDANCE GRID"
+		}
+	},
+	"ATN_SLR_LEAVE_REQUEST_FORM": {
+		"atnleaveRequestAtnSlrLeaveRequestForm": {
+			"REQUEST_ID": "Request Id",
+			"REQUEST_ID_Hint": "Please enter Request Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"LEAVE_TYPE": "Leave Type",
+			"LEAVE_TYPE_Hint": "Please enter Leave Type data.",
+			"REASON": "Reason",
+			"REASON_Hint": "Please enter Reason data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"START_DATE": "Start Date",
+			"START_DATE_Hint": "Please enter Start Date data.",
+			"END_DATE": "End Date",
+			"END_DATE_Hint": "Please enter End Date data.",
+			"EMERGENCY_CONTACT": "Emergency Contact",
+			"EMERGENCY_CONTACT_Hint": "Please enter Emergency Contact data.",
+			"component_title": "Leave Request Form"
+		}
+	},
+	"atn_company_management": {
+		"atn_company_management": {
+			"component_title": "Company Management",
+			"compsTitleID1": "Company Information",
+			"compsTitleID2": "Company Shifts",
+			"compsTitleID3": "Company Branches",
+			"compsTitleID4": "Company Holidays"
+		}
+	},
+	"atn_employee_management": {
+		"atn_employee_management": {
+			"component_title": "Employee Management",
+			"compsTitleID1": "Employee Details",
+			"compsTitleID2": "Employee Emails",
+			"compsTitleID3": "Employee Leave Requests"
+		}
+	},
+	"atn_attendance_records": {
+		"atn_attendance_records": {
+			"component_title": "*Attendance Records",
+			"compsTitleID1": "Search Criteria",
+			"compsTitleID2": "Attendance Results"
+		}
+	},
+	"ATN2_CM_COMPANY_BRANCHES": {
+		"atn2branchAtn2CmCompanyBranches": {
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"BRANCH_NAME": "Branch Name",
+			"BRANCH_NAME_Hint": "Please enter Branch Name data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude data.",
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude data.",
+			"SHOW_MAP": "",
+			"component_title": "Company Branches"
+		}
+	},
+	"ATN2_CM_COMPANY_HOLIDAYS": {
+		"atn2holidayAtn2CmCompanyHolidays": {
+			"HOLIDAY_ID": "Holiday Id",
+			"HOLIDAY_ID_Hint": "Please enter Holiday Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"HOLIDAY_DATE": "Holiday Date",
+			"HOLIDAY_DATE_Hint": "Please enter Holiday Date data.",
+			"HOLIDAY_NAME": "Holiday Name",
+			"HOLIDAY_NAME_Hint": "Please enter Holiday Name data.",
+			"component_title": "Company Holidays"
+		}
+	},
+	"atn2_company_management": {
+		"atn2_company_management": {
+			"component_title": "Company Management",
+			"compsTitleID1": "Company Information",
+			"compsTitleID2": "Company Shifts",
+			"compsTitleID3": "Company Holidays",
+			"compsTitleID4": "Shifts"
+		}
+	},
+	"ATN2_CM_COMPANY_BRANCHES_0": {
+		"atn2branchAtn2CmCompanyBranches0": {
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"BRANCH_NAME": "Branch Name",
+			"BRANCH_NAME_Hint": "Please enter Branch Name data.",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude data.",
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude data.",
+			"component_title": "Branches Master Grid"
+		}
+	},
+	"ATN2_BM_BRANCH_LOCATIONS_MAP": {
+		"atn2branchAtn2BmBranchLocationsMap": {
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"BRANCH_NAME": "Branch Name",
+			"BRANCH_NAME_Hint": "Please enter Branch Name data.",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude data.",
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude data.",
+			"component_title": "Branch Locations Map"
+		}
+	},
+	"atn2_branch_management": {
+		"atn2_branch_management": {
+			"component_title": "Branch Management",
+			"compsTitleID1": "Branches Master Grid",
+			"compsTitleID2": "Branch Locations Map"
+		}
+	},
+	"ATN2_EM_EMPLOYEE_MASTER_CARDS": {
+		"atn2employeeAtn2EmEmployeeMasterCards": {
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"SALARY_TYPE_ID": "Salary Type Id",
+			"SALARY_TYPE_ID_Hint": "Please enter Salary Type Id data.",
+			"CURRENCY_ID": "Currency Id",
+			"CURRENCY_ID_Hint": "Please enter Currency Id data.",
+			"EMPLOYEE_NAME": "Employee Name",
+			"EMPLOYEE_NAME_Hint": "Please enter Employee Name data.",
+			"PHOTO": "Photo",
+			"PHOTO_Hint": "Please enter Photo data.",
+			"MOBILE_CONTACT": "Mobile Contact",
+			"MOBILE_CONTACT_Hint": "Please enter Mobile Contact data.",
+			"SALARY_RATE": "Salary Rate",
+			"SALARY_RATE_Hint": "Please enter Salary Rate data.",
+			"ROLE": "Role",
+			"ROLE_Hint": "Please enter Role data.",
+			"component_title": "Employee Master Cards"
+		}
+	},
+	"ATN2_EM_EMPLOYEE_EMAIL_ADDRESSES": {
+		"atn2employeeEmailAtn2EmEmployeeEmailAddresses": {
+			"EMAIL_ID": "Email Id",
+			"EMAIL_ID_Hint": "Please enter Email Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"EMAIL_ADDRESS": "Email Address",
+			"EMAIL_ADDRESS_Hint": "Please enter Email Address data.",
+			"component_title": "Employee Email Addresses"
+		}
+	},
+	"ATN2_ALR_PENDING_LEAVE_REQUESTS_FOR_APPROVAL": {
+		"atn2leaveRequestAtn2AlrPendingLeaveRequestsForApproval": {}
+	},
+	"ATN2_ALR_SEARCH_PENDING_LEAVE_REQUESTS": {
+		"atn2leaveRequestAtn2AlrSearchPendingLeaveRequests": {}
+	},
+	"ATN2_AR_SEARCH_ATTENDANCE_RECORDS": {
+		"atn2attendanceAtn2ArSearchAttendanceRecords": {}
+	},
+	"ATN2_EM_EMPLOYEE_LEAVE_REQUESTS": {
+		"atn2leaveRequestAtn2EmEmployeeLeaveRequests": {
+			"LEAVE_ID": "Leave Id",
+			"LEAVE_ID_Hint": "Please enter Leave Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"LEAVE_TYPE": "Leave Type",
+			"LEAVE_TYPE_Hint": "Please enter Leave Type data.",
+			"REASON": "Reason",
+			"REASON_Hint": "Please enter Reason data.",
+			"START_DATE": "Start Date",
+			"START_DATE_Hint": "Please enter Start Date data.",
+			"END_DATE": "End Date",
+			"END_DATE_Hint": "Please enter End Date data.",
+			"EMERGENCY_CONTACT": "Emergency Contact",
+			"EMERGENCY_CONTACT_Hint": "Please enter Emergency Contact data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"component_title": "Employee Leave Requests"
+		}
+	},
+	"ATN2_SLR_LEAVE_REQUEST_FORM": {
+		"atn2leaveRequestAtn2SlrLeaveRequestForm": {}
+	},
+	"ATN2_approve_leave_requests": {
+		"ATN2_approve_leave_requests": {
+			"component_title": "Approve Leave Requests",
+			"tab_title1": "Search Pending Leave Requests",
+			"tab_title2": "Pending Leave Requests for Approval"
+		}
+	},
+	"ATN2_branch_management": {
+		"ATN2_branch_management": {
+			"component_title": "Branch Management",
+			"tab_title1": "Branches Master Grid",
+			"tab_title2": "Branch Locations Map"
+		}
+	},
+	"ATN2_submit_leave_request": {
+		"ATN2_submit_leave_request": {
+			"component_title": "Submit Leave Request",
+			"tab_title1": "Leave Request Form"
+		}
+	},
+	"ATN2_EM_EMPLOYEE_DETAILS": {
+		"atn2employeeAtn2EmEmployeeDetails": {
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"EMPLOYEE_NAME": "Employee Name",
+			"EMPLOYEE_NAME_Hint": "Please enter Employee Name data.",
+			"PHOTO": "Photo",
+			"PHOTO_Hint": "Please enter Photo data.",
+			"MOBILE_CONTACT": "Mobile Contact",
+			"MOBILE_CONTACT_Hint": "Please enter Mobile Contact data.",
+			"SALARY_TYPE": "Salary Type",
+			"SALARY_TYPE_Hint": "Please enter Salary Type data.",
+			"SALARY_RATE": "Salary Rate",
+			"SALARY_RATE_Hint": "Please enter Salary Rate data.",
+			"CURRENCY": "Currency",
+			"CURRENCY_Hint": "Please enter Currency data.",
+			"ROLE": "Role",
+			"ROLE_Hint": "Please enter Role data.",
+			"component_title": "Employee Details"
+		}
+	},
+	"ATN2_EM_EMPLOYEE_EMAILS": {
+		"atn2employeeEmailAtn2EmEmployeeEmails": {
+			"EMAIL_ID": "Email Id",
+			"EMAIL_ID_Hint": "Please enter Email Id data.",
+			"EMAIL_ADDRESS": "Email Address",
+			"EMAIL_ADDRESS_Hint": "Please enter Email Address data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"component_title": "Employee Emails"
+		}
+	},
+	"atn2_employee_management": {
+		"atn2_employee_management": {
+			"component_title": "Employee Management",
+			"compsTitleID1": "Employee Details",
+			"compsTitleID2": "Employee Email Addresses",
+			"compsTitleID3": "Employee Leave Requests"
+		}
+	},
+	"ATN2_AR_ATTENDANCE_RECORDS": {
+		"atn2attendanceAtn2ArAttendanceRecords": {
+			"ATTENDANCE_ID": "Attendance Id",
+			"ATTENDANCE_ID_Hint": "Please enter Attendance Id data.",
+			"ATTENDANCE_DATE": "Attendance Date",
+			"ATTENDANCE_DATE_Hint": "Please enter Attendance Date data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"SHIFT_ID": "Shift Id",
+			"SHIFT_ID_Hint": "Please enter Shift Id data.",
+			"TIME_IN": "Time In",
+			"TIME_IN_Hint": "Please enter Time In data.",
+			"TIME_OUT": "Time Out",
+			"TIME_OUT_Hint": "Please enter Time Out data.",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude data.",
+			"component_title": "Attendance Records"
+		}
+	},
+	"atn2_attendance_records": {
+		"atn2_attendance_records": {
+			"component_title": "Attendance Records",
+			"compsTitleID1": "Search Attendance",
+			"compsTitleID2": "Attendance Details"
+		}
+	},
+	"ATN2_QCM_BRANCH_QR_CODE": {
+		"atn2qrCodeAtn2QcmBranchQrCode": {
+			"QR_ID": "Qr Id",
+			"QR_ID_Hint": "Please enter Qr Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"QR_CODE_DATA": "Qr Code Data",
+			"QR_CODE_DATA_Hint": "Please enter Qr Code Data data.",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude data.",
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude data.",
+			"GENERATE_QR": "Generate Qr",
+			"GENERATE_QR_Hint": "Please enter Generate Qr data.",
+			"component_title": "Branch QR Code"
+		}
+	},
+	"ATN2_MAS_PAYMENT_SUMMARY": {
+		"atn2employeeAtn2MasPaymentSummary": {
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"SALARY_TYPE": "Salary Type",
+			"SALARY_TYPE_Hint": "Please enter Salary Type data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"SALARY_RATE": "Salary Rate",
+			"SALARY_RATE_Hint": "Please enter Salary Rate data.",
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"CURRENCY": "Currency",
+			"CURRENCY_Hint": "Please enter Currency data.",
+			"EMPLOYEE_NAME": "Employee Name",
+			"EMPLOYEE_NAME_Hint": "Please enter Employee Name data.",
+			"PHOTO": "Photo",
+			"PHOTO_Hint": "Please enter Photo data.",
+			"MOBILE_CONTACT": "Mobile Contact",
+			"MOBILE_CONTACT_Hint": "Please enter Mobile Contact data.",
+			"ROLE": "Role",
+			"ROLE_Hint": "Please enter Role data.",
+			"component_title": "Payment Summary"
+		}
+	},
+	"atn2_monthly_attendance_summary": {
+		"atn2_monthly_attendance_summary": {
+			"component_title": "Monthly Attendance Summary",
+			"compsTitleID1": "Attendance Summary",
+			"compsTitleID2": "Payment Summary"
+		}
+	},
+	"ATN2_AR_ATTENDANCE_RECORDS_1": {
+		"atn2attendanceAtn2ArAttendanceRecords1": {
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude data.",
+			"ATTENDANCE_ID": "Attendance Id",
+			"ATTENDANCE_ID_Hint": "Please enter Attendance Id data.",
+			"ATTENDANCE_DATE": "Attendance Date",
+			"ATTENDANCE_DATE_Hint": "Please enter Attendance Date data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"SHIFT_ID": "Shift Id",
+			"SHIFT_ID_Hint": "Please enter Shift Id data.",
+			"TIME_IN": "Time In",
+			"TIME_IN_Hint": "Please enter Time In data.",
+			"TIME_OUT": "Time Out",
+			"TIME_OUT_Hint": "Please enter Time Out data.",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude data.",
+			"component_title": "Monthly Daily Records"
+		}
+	},
+	"atn2_daily_attendance_report": {
+		"atn2_daily_attendance_report": {
+			"component_title": "Daily Attendance Report",
+			"compsTitleID1": "Monthly Status Summary",
+			"compsTitleID2": "Daily Attendance Details"
+		}
+	},
+	"ATN2_attendance_entry": {
+		"ATN2_attendance_entry": {
+			"component_title": "Attendance Entry",
+			"tab_title1": "Record Attendance"
+		}
+	},
+	"atn2_leave_request_wf": {
+		"atn2_leave_request_wf": {
+			"component_title": "LEAVE_REQUEST Workflow",
+			"compsTitleID1": "Lra pending leave requests",
+			"compsTitleID2": "Lw attendance grid",
+			"compsTitleID3": "Masr attendance summary"
+		}
+	},
+	"ATN2_ATN2_BRANCH_FORM": {
+		"atn2branchAtn2Atn2BranchForm": {
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"BRANCH_NAME": "Branch Name",
+			"BRANCH_NAME_Hint": "Please enter Branch Name data.",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude data.",
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude data.",
+			"component_title": "ATN2 BRANCH FORM"
+		}
+	},
+	"ATN2_ATN2_BRANCH_GRID": {
+		"atn2branchAtn2Atn2BranchGrid": {
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"BRANCH_NAME": "Branch Name",
+			"BRANCH_NAME_Hint": "Please enter Branch Name data.",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude data.",
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude data.",
+			"component_title": "ATN2 BRANCH GRID"
+		}
+	},
+	"ATN_EM_EMPLOYEES": {
+		"atnemployeeAtnEmEmployees": {
+			"PHOTO": "Photo",
+			"PHOTO_Hint": "Please enter Photo data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"EMPLOYEE_NAME": "Employee Name",
+			"EMPLOYEE_NAME_Hint": "Please enter Employee Name data.",
+			"MOBILE_CONTACT": "Mobile Contact",
+			"MOBILE_CONTACT_Hint": "Please enter Mobile Contact data.",
+			"ROLE": "Role",
+			"ROLE_Hint": "Please enter Role data.",
+			"component_title": "Employees"
+		}
+	},
+	"ATN_ATN2_EMPLOYEE_FORM": {
+		"atn2employeeAtnAtn2EmployeeForm": {
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"EMPLOYEE_NAME": "Employee Name",
+			"EMPLOYEE_NAME_Hint": "Please enter Employee Name data.",
+			"PHOTO": "Photo",
+			"PHOTO_Hint": "Please enter Photo data.",
+			"MOBILE_CONTACT": "Mobile Contact",
+			"MOBILE_CONTACT_Hint": "Please enter Mobile Contact data.",
+			"SALARY_TYPE": "Salary Type",
+			"SALARY_TYPE_Hint": "Please enter Salary Type data.",
+			"SALARY_RATE": "Salary Rate",
+			"SALARY_RATE_Hint": "Please enter Salary Rate data.",
+			"CURRENCY": "Currency",
+			"CURRENCY_Hint": "Please enter Currency data.",
+			"ROLE": "Role",
+			"ROLE_Hint": "Please enter Role data.",
+			"component_title": "ATN2 EMPLOYEE FORM"
+		}
+	},
+	"ATN_ATN_EMPLOYEE_FORM": {
+		"atnemployeeAtnAtnEmployeeForm": {
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"EMPLOYEE_NAME": "Employee Name",
+			"EMPLOYEE_NAME_Hint": "Please enter Employee Name data.",
+			"PHOTO": "Photo",
+			"PHOTO_Hint": "Please enter Photo data.",
+			"MOBILE_CONTACT": "Mobile Contact",
+			"MOBILE_CONTACT_Hint": "Please enter Mobile Contact data.",
+			"ROLE": "Role",
+			"ROLE_Hint": "Please enter Role data.",
+			"component_title": "ATN EMPLOYEE FORM"
+		}
+	},
+	"atn2_branches_management": {
+		"atn2_branches_management": {
+			"component_title": "Branches Management",
+			"compsTitleID1": "Company Branches",
+			"compsTitleID2": "Branch Locations"
+		}
+	},
+	"ATN2_BM_COMPANY_BRANCHES": {
+		"atn2branchAtn2BmCompanyBranches": {
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"BRANCH_NAME": "Branch Name",
+			"BRANCH_NAME_Hint": "Please enter Branch Name data.",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude data.",
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude data.",
+			"component_title": "Company Branches"
+		}
+	},
+	"ATN2_MASR_ATTENDANCE_SUMMARY": {
+		"atn2monthlySummaryAtn2MasrAttendanceSummary": {
+			"SUMMARY_ID": "Summary Id",
+			"SUMMARY_ID_Hint": "Please enter Summary Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"MONTH": "Month",
+			"MONTH_Hint": "Please enter Month data.",
+			"YEAR": "Year",
+			"YEAR_Hint": "Please enter Year data.",
+			"ATTENDED_DAYS": "Attended Days",
+			"ATTENDED_DAYS_Hint": "Please enter Attended Days data.",
+			"ABSENT_DAYS": "Absent Days",
+			"ABSENT_DAYS_Hint": "Please enter Absent Days data.",
+			"VACATION_DAYS": "Vacation Days",
+			"VACATION_DAYS_Hint": "Please enter Vacation Days data.",
+			"OFF_DAYS": "Off Days",
+			"OFF_DAYS_Hint": "Please enter Off Days data.",
+			"BASIC_EARNINGS": "Basic Earnings",
+			"BASIC_EARNINGS_Hint": "Please enter Basic Earnings data.",
+			"OVERTIME_EARNINGS": "Overtime Earnings",
+			"OVERTIME_EARNINGS_Hint": "Please enter Overtime Earnings data.",
+			"TOTAL_EARNING": "Total Earning",
+			"TOTAL_EARNING_Hint": "Please enter Total Earning data.",
+			"ADVANCE_PAYMENT": "Advance Payment",
+			"ADVANCE_PAYMENT_Hint": "Please enter Advance Payment data.",
+			"NET_PAYMENT": "Net Payment",
+			"NET_PAYMENT_Hint": "Please enter Net Payment data.",
+			"component_title": "Attendance Summary"
+		}
+	},
+	"ATN2_MASR_PAYMENT_SUMMARY": {
+		"atn2monthlySummaryAtn2MasrPaymentSummary": {
+			"SUMMARY_ID": "Summary Id",
+			"SUMMARY_ID_Hint": "Please enter Summary Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"MONTH": "Month",
+			"MONTH_Hint": "Please enter Month data.",
+			"YEAR": "Year",
+			"YEAR_Hint": "Please enter Year data.",
+			"ATTENDED_DAYS": "Attended Days",
+			"ATTENDED_DAYS_Hint": "Please enter Attended Days data.",
+			"ABSENT_DAYS": "Absent Days",
+			"ABSENT_DAYS_Hint": "Please enter Absent Days data.",
+			"VACATION_DAYS": "Vacation Days",
+			"VACATION_DAYS_Hint": "Please enter Vacation Days data.",
+			"OFF_DAYS": "Off Days",
+			"OFF_DAYS_Hint": "Please enter Off Days data.",
+			"BASIC_EARNINGS": "Basic Earnings",
+			"BASIC_EARNINGS_Hint": "Please enter Basic Earnings data.",
+			"OVERTIME_EARNINGS": "Overtime Earnings",
+			"OVERTIME_EARNINGS_Hint": "Please enter Overtime Earnings data.",
+			"TOTAL_EARNING": "Total Earning",
+			"TOTAL_EARNING_Hint": "Please enter Total Earning data.",
+			"ADVANCE_PAYMENT": "Advance Payment",
+			"ADVANCE_PAYMENT_Hint": "Please enter Advance Payment data.",
+			"NET_PAYMENT": "Net Payment",
+			"NET_PAYMENT_Hint": "Please enter Net Payment data.",
+			"component_title": "Payment Summary"
+		}
+	},
+	"atn2_monthly_attendance_summary_report": {
+		"atn2_monthly_attendance_summary_report": {
+			"component_title": "Monthly Attendance Summary Report",
+			"compsTitleID1": "Attendance Summary",
+			"compsTitleID2": "Payment Summary"
+		}
+	},
+	"ATN2_DAR_MONTHLY_STATUS_SUMMARY": {
+		"atn2dailyAttendanceAtn2DarMonthlyStatusSummary": {
+			"DAILY_ID": "Daily Id",
+			"DAILY_ID_Hint": "Please enter Daily Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"ATTENDANCE_DATE": "Attendance Date",
+			"ATTENDANCE_DATE_Hint": "Please enter Attendance Date data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"component_title": "Monthly Status Summary"
+		}
+	},
+	"ATN2_DAR_DAILY_ATTENDANCE_DETAILS": {
+		"atn2dailyAttendanceAtn2DarDailyAttendanceDetails": {
+			"DAILY_ID": "Daily Id",
+			"DAILY_ID_Hint": "Please enter Daily Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"ATTENDANCE_DATE": "Attendance Date",
+			"ATTENDANCE_DATE_Hint": "Please enter Attendance Date data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"component_title": "Daily Attendance Details"
+		}
+	},
+	"ATN2_AM_ADDUPDATE_ATTENDANCE_RECORD": {
+		"atn2attendanceRecordAtn2AmAddupdateAttendanceRecord": {
+			"RECORD_ID": "Record Id",
+			"RECORD_ID_Hint": "Please enter Record Id data.",
+			"ATTENDANCE_ID": "Attendance Id",
+			"ATTENDANCE_ID_Hint": "Please enter Attendance Id data.",
+			"TIME_IN": "Time In",
+			"TIME_IN_Hint": "Please enter Time In data.",
+			"TIME_OUT": "Time Out",
+			"TIME_OUT_Hint": "Please enter Time Out data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude data.",
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude data.",
+			"component_title": "Add/Update Attendance Record"
+		}
+	},
+	"ATN2_attendance_management": {
+		"ATN2_attendance_management": {
+			"component_title": "Attendance Management",
+			"tab_title1": "Add/Update Attendance Record"
+		}
+	},
+	"ATN2_CPT_COMPANY_PAYMENT": {
+		"atn2companyPaymentAtn2CptCompanyPayment": {
+			"COMPANY_PAYMENT_ID": "Company Payment Id",
+			"COMPANY_PAYMENT_ID_Hint": "Please enter Company Payment Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"PAYMENT_INFO": "Payment Info",
+			"PAYMENT_INFO_Hint": "Please enter Payment Info data.",
+			"PAYMENT_TYPE": "Payment Type",
+			"PAYMENT_TYPE_Hint": "Please enter Payment Type data.",
+			"PAYMENT_BY": "Payment By",
+			"PAYMENT_BY_Hint": "Please enter Payment By data.",
+			"PAYMENT_DATE": "Payment Date",
+			"PAYMENT_DATE_Hint": "Please enter Payment Date data.",
+			"PAYMENT_AMOUNT": "Payment Amount",
+			"PAYMENT_AMOUNT_Hint": "Please enter Payment Amount data.",
+			"PAYMENT_CURRENCY": "Payment Currency",
+			"PAYMENT_CURRENCY_Hint": "Please enter Payment Currency data.",
+			"PAYMENT_PERIOD": "Payment Period",
+			"PAYMENT_PERIOD_Hint": "Please enter Payment Period data.",
+			"component_title": "Company Payment"
+		}
+	},
+	"ATN2_company_payment_transaction": {
+		"ATN2_company_payment_transaction": {
+			"component_title": "Company Payment Transaction",
+			"tab_title1": "Company Payment"
+		}
+	},
+	"ATN2_CPT_COMPANY_PAYMENT_0": {
+		"atn2companyPaymentAtn2CptCompanyPayment0": {
+			"COMPANY_PAYMENT_ID": "Company Payment Id",
+			"COMPANY_PAYMENT_ID_Hint": "Please enter Company Payment Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"PAYMENT_INFO": "Payment Info",
+			"PAYMENT_INFO_Hint": "Please enter Payment Info data.",
+			"PAYMENT_TYPE": "Payment Type",
+			"PAYMENT_TYPE_Hint": "Please enter Payment Type data.",
+			"PAYMENT_BY": "Payment By",
+			"PAYMENT_BY_Hint": "Please enter Payment By data.",
+			"PAYMENT_DATE": "Payment Date",
+			"PAYMENT_DATE_Hint": "Please enter Payment Date data.",
+			"PAYMENT_AMOUNT": "Payment Amount",
+			"PAYMENT_AMOUNT_Hint": "Please enter Payment Amount data.",
+			"PAYMENT_CURRENCY": "Payment Currency",
+			"PAYMENT_CURRENCY_Hint": "Please enter Payment Currency data.",
+			"PAYMENT_PERIOD": "Payment Period",
+			"PAYMENT_PERIOD_Hint": "Please enter Payment Period data.",
+			"component_title": "Search Payments"
+		}
+	},
+	"ATN2_CPR_PAYMENT_TRANSACTIONS": {
+		"atn2companyPaymentAtn2CprPaymentTransactions": {
+			"PAYMENT_PERIOD": "Payment Period",
+			"PAYMENT_PERIOD_Hint": "Please enter Payment Period data.",
+			"COMPANY_PAYMENT_ID": "Company Payment Id",
+			"COMPANY_PAYMENT_ID_Hint": "Please enter Company Payment Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"PAYMENT_INFO": "Payment Info",
+			"PAYMENT_INFO_Hint": "Please enter Payment Info data.",
+			"PAYMENT_TYPE": "Payment Type",
+			"PAYMENT_TYPE_Hint": "Please enter Payment Type data.",
+			"PAYMENT_BY": "Payment By",
+			"PAYMENT_BY_Hint": "Please enter Payment By data.",
+			"PAYMENT_DATE": "Payment Date",
+			"PAYMENT_DATE_Hint": "Please enter Payment Date data.",
+			"PAYMENT_AMOUNT": "Payment Amount",
+			"PAYMENT_AMOUNT_Hint": "Please enter Payment Amount data.",
+			"PAYMENT_CURRENCY": "Payment Currency",
+			"PAYMENT_CURRENCY_Hint": "Please enter Payment Currency data.",
+			"component_title": "Payment Transactions"
+		}
+	},
+	"atn2_company_payments_report": {
+		"atn2_company_payments_report": {
+			"component_title": "Company Payments Report",
+			"compsTitleID1": "Search Payments",
+			"compsTitleID2": "Payment Transactions"
+		}
+	},
+	"ATN2_LW_ATTENDANCE_GRID": {
+		"atn2attendanceAtn2LwAttendanceGrid": {
+			"ATTENDANCE_ID": "Attendance Id",
+			"ATTENDANCE_ID_Hint": "Please enter Attendance Id data.",
+			"ATTENDANCE_DATE": "Attendance Date",
+			"ATTENDANCE_DATE_Hint": "Please enter Attendance Date data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"SHIFT_ID": "Shift Id",
+			"SHIFT_ID_Hint": "Please enter Shift Id data.",
+			"component_title": "Lw attendance grid"
+		}
+	},
+	"ATN2_company_payments_report": {
+		"ATN2_company_payments_report": {
+			"component_title": "Company Payments Report",
+			"tab_title1": "Search Payments",
+			"tab_title2": "Payment Transactions"
+		}
+	},
+	"ATN2_monthly_attendance_summary_report": {
+		"ATN2_monthly_attendance_summary_report": {
+			"component_title": "Monthly Attendance Summary Report",
+			"tab_title1": "Attendance Summary",
+			"tab_title2": "Payment Summary"
+		}
+	},
+	"ATND_CM_COMPANY_INFORMATION": {
+		"atndcompanyAtndCmCompanyInformation": {
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"COMPANY_NAME": "Company Name",
+			"COMPANY_NAME_Hint": "Please enter Company Name data.",
+			"LOGO": "Logo",
+			"LOGO_Hint": "Please enter Logo data.",
+			"TIME_IN": "Time In",
+			"TIME_IN_Hint": "Please enter Time In data.",
+			"TIME_OUT": "Time Out",
+			"TIME_OUT_Hint": "Please enter Time Out data.",
+			"WORKING_FROM_DAY": "Working From Day",
+			"WORKING_FROM_DAY_Hint": "Please enter Working From Day data.",
+			"WORKING_TO_DAY": "Working To Day",
+			"WORKING_TO_DAY_Hint": "Please enter Working To Day data.",
+			"TOLERANCE_MINUTES": "Tolerance Minutes",
+			"TOLERANCE_MINUTES_Hint": "Please enter Tolerance Minutes data.",
+			"BTN_SHIFTS": "Btn Shifts",
+			"BTN_SHIFTS_Hint": "Please enter Btn Shifts data.",
+			"BTN_BRANCHES": "Btn Branches",
+			"BTN_BRANCHES_Hint": "Please enter Btn Branches data.",
+			"BTN_HOLIDAYS": "Btn Holidays",
+			"BTN_HOLIDAYS_Hint": "Please enter Btn Holidays data.",
+			"SUBSCRIPTION_DATE": "Subscription Date",
+			"SUBSCRIPTION_DATE_Hint": "Please enter Subscription Date data.",
+			"VALID_TILL_DATE": "Valid Till Date",
+			"VALID_TILL_DATE_Hint": "Please enter Valid Till Date data.",
+			"SUBSCRIPTION_STATUS_ID": "Subscription Status Id",
+			"SUBSCRIPTION_STATUS_ID_Hint": "Please enter Subscription Status Id data.",
+			"PAYMENT_INFO": "Payment Info",
+			"PAYMENT_INFO_Hint": "Please enter Payment Info data.",
+			"SUBSCRIPTION_FEES": "Subscription Fees",
+			"SUBSCRIPTION_FEES_Hint": "Please enter Subscription Fees data.",
+			"component_title": "Company Information"
+		}
+	},
+	"ATND_CM_COMPANY_SHIFTS": {
+		"atndshiftAtndCmCompanyShifts": {
+			"SHIFT_ID": "Shift Id",
+			"SHIFT_ID_Hint": "Please enter Shift Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"DAY_OF_WEEK": "Day Of Week",
+			"DAY_OF_WEEK_Hint": "Please enter Day Of Week data.",
+			"SHIFT_TIME_IN": "Shift Time In",
+			"SHIFT_TIME_IN_Hint": "Please enter Shift Time In data.",
+			"SHIFT_TIME_OUT": "Shift Time Out",
+			"SHIFT_TIME_OUT_Hint": "Please enter Shift Time Out data.",
+			"component_title": "Company Shifts"
+		}
+	},
+	"atnd_company_management": {
+		"atnd_company_management": {
+			"component_title": "Company Management",
+			"compsTitleID1": "Company Information",
+			"compsTitleID2": "Company Shifts"
+		}
+	},
+	"ATND_CB_BRANCHES": {
+		"atndbranchAtndCbBranches": {
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"BRANCH_NAME": "Branch Name",
+			"BRANCH_NAME_Hint": "Please enter Branch Name data.",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude data.",
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude data.",
+			"component_title": "Branches"
+		}
+	},
+	"ATND_CB_BRANCH_LOCATIONS": {
+		"atndbranchAtndCbBranchLocations": {
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"BRANCH_NAME": "Branch Name",
+			"BRANCH_NAME_Hint": "Please enter Branch Name data.",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude data.",
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude data.",
+			"component_title": "Branch Locations"
+		}
+	},
+	"atnd_company_branches": {
+		"atnd_company_branches": {
+			"component_title": "Company Branches",
+			"compsTitleID1": "Branches",
+			"compsTitleID2": "Branch Locations"
+		}
+	},
+	"ATND_CH_COMPANY_HOLIDAYS": {
+		"atndholidayAtndChCompanyHolidays": {
+			"HOLIDAY_ID": "Holiday Id",
+			"HOLIDAY_ID_Hint": "Please enter Holiday Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"HOLIDAY_DATE": "Holiday Date",
+			"HOLIDAY_DATE_Hint": "Please enter Holiday Date data.",
+			"HOLIDAY_NAME": "Holiday Name",
+			"HOLIDAY_NAME_Hint": "Please enter Holiday Name data.",
+			"component_title": "Company Holidays"
+		}
+	},
+	"ATND_company_holidays": {
+		"ATND_company_holidays": {
+			"component_title": "Company Holidays",
+			"tab_title1": "Company Holidays"
+		}
+	},
+	"ATND_EM_EMPLOYEES": {
+		"atndemployeeAtndEmEmployees": {
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"EMPLOYEE_NAME": "Employee Name",
+			"EMPLOYEE_NAME_Hint": "Please enter Employee Name data.",
+			"PHOTO": "Photo",
+			"PHOTO_Hint": "Please enter Photo data.",
+			"MOBILE_CONTACT": "Mobile Contact",
+			"MOBILE_CONTACT_Hint": "Please enter Mobile Contact data.",
+			"SALARY_TYPE_ID": "Salary Type Id",
+			"SALARY_TYPE_ID_Hint": "Please enter Salary Type Id data.",
+			"SALARY_RATE": "Salary Rate",
+			"SALARY_RATE_Hint": "Please enter Salary Rate data.",
+			"CURRENCY_ID": "Currency Id",
+			"CURRENCY_ID_Hint": "Please enter Currency Id data.",
+			"ROLE": "Role",
+			"ROLE_Hint": "Please enter Role data.",
+			"component_title": "Employees"
+		}
+	},
+	"ATND_EM_EMPLOYEE_EMAILS": {
+		"atndemployeeEmailAtndEmEmployeeEmails": {
+			"EMAIL_ID": "Email Id",
+			"EMAIL_ID_Hint": "Please enter Email Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"EMAIL_ADDRESS": "Email Address",
+			"EMAIL_ADDRESS_Hint": "Please enter Email Address data.",
+			"component_title": "Employee Emails"
+		}
+	},
+	"ATND_EM_LEAVE_REQUESTS": {
+		"atndleaveRequestAtndEmLeaveRequests": {
+			"LEAVE_REQUEST_ID": "Leave Request Id",
+			"LEAVE_REQUEST_ID_Hint": "Please enter Leave Request Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"LEAVE_TYPE_ID": "Leave Type Id",
+			"LEAVE_TYPE_ID_Hint": "Please enter Leave Type Id data.",
+			"REASON": "Reason",
+			"REASON_Hint": "Please enter Reason data.",
+			"START_DATE": "Start Date",
+			"START_DATE_Hint": "Please enter Start Date data.",
+			"END_DATE": "End Date",
+			"END_DATE_Hint": "Please enter End Date data.",
+			"EMERGENCY_CONTACT": "Emergency Contact",
+			"EMERGENCY_CONTACT_Hint": "Please enter Emergency Contact data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"component_title": "Leave Requests"
+		}
+	},
+	"atnd_employee_management": {
+		"atnd_employee_management": {
+			"component_title": "Employee Management",
+			"compsTitleID1": "Employees",
+			"compsTitleID2": "Employee Emails",
+			"compsTitleID3": "Leave Requests"
+		}
+	},
+	"ATND_LRS_SUBMIT_LEAVE_REQUEST": {
+		"atndleaveRequestAtndLrsSubmitLeaveRequest": {
+			"LEAVE_REQUEST_ID": "Leave Request Id",
+			"LEAVE_REQUEST_ID_Hint": "Please enter Leave Request Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"LEAVE_TYPE_ID": "Leave Type Id",
+			"LEAVE_TYPE_ID_Hint": "Please enter Leave Type Id data.",
+			"START_DATE": "Start Date",
+			"START_DATE_Hint": "Please enter Start Date data.",
+			"END_DATE": "End Date",
+			"END_DATE_Hint": "Please enter End Date data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"REASON": "Reason",
+			"REASON_Hint": "Please enter Reason data.",
+			"EMERGENCY_CONTACT": "Emergency Contact",
+			"EMERGENCY_CONTACT_Hint": "Please enter Emergency Contact data.",
+			"component_title": "Submit Leave Request"
+		}
+	},
+	"ATND_leave_request_submission": {
+		"ATND_leave_request_submission": {
+			"component_title": "Leave Request Submission",
+			"tab_title1": "Submit Leave Request"
+		}
+	},
+	"ATND_LRA_PENDING_LEAVE_REQUESTS": {
+		"atndleaveRequestAtndLraPendingLeaveRequests": {
+			"LEAVE_REQUEST_ID": "Leave Request Id",
+			"LEAVE_REQUEST_ID_Hint": "Please enter Leave Request Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"LEAVE_TYPE_ID": "Leave Type Id",
+			"LEAVE_TYPE_ID_Hint": "Please enter Leave Type Id data.",
+			"REASON": "Reason",
+			"REASON_Hint": "Please enter Reason data.",
+			"START_DATE": "Start Date",
+			"START_DATE_Hint": "Please enter Start Date data.",
+			"END_DATE": "End Date",
+			"END_DATE_Hint": "Please enter End Date data.",
+			"EMERGENCY_CONTACT": "Emergency Contact",
+			"EMERGENCY_CONTACT_Hint": "Please enter Emergency Contact data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"BTN_APPROVE": "Btn Approve",
+			"BTN_APPROVE_Hint": "Please enter Btn Approve data.",
+			"BTN_REJECT": "Btn Reject",
+			"BTN_REJECT_Hint": "Please enter Btn Reject data.",
+			"component_title": "Pending Leave Requests"
+		}
+	},
+	"ATND_leave_request_approval": {
+		"ATND_leave_request_approval": {
+			"component_title": "Leave Request Approval",
+			"tab_title1": "Pending Leave Requests"
+		}
+	},
+	"ATND_AQ_SEARCH_ATTENDANCE": {
+		"atndattendanceAtndAqSearchAttendance": {
+			"ATTENDANCE_ID": "Attendance Id",
+			"ATTENDANCE_ID_Hint": "Please enter Attendance Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"ATTENDANCE_DATE": "Attendance Date",
+			"ATTENDANCE_DATE_Hint": "Please enter Attendance Date data.",
+			"TIME_IN": "Time In",
+			"TIME_IN_Hint": "Please enter Time In data.",
+			"TIME_OUT": "Time Out",
+			"TIME_OUT_Hint": "Please enter Time Out data.",
+			"SHIFT_ID": "Shift Id",
+			"SHIFT_ID_Hint": "Please enter Shift Id data.",
+			"STATUS_ID": "Status Id",
+			"STATUS_ID_Hint": "Please enter Status Id data.",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude data.",
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude data.",
+			"BTN_SEARCH": "Btn Search",
+			"BTN_SEARCH_Hint": "Please enter Btn Search data.",
+			"Filter": "Filter",
+			"Filter_Hint": "Please enter Filter data.",
+			"component_title": "Search Attendance"
+		}
+	},
+	"ATND_AQ_ATTENDANCE_RECORDS": {
+		"atndattendanceAtndAqAttendanceRecords": {
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude data.",
+			"ATTENDANCE_ID": "Attendance Id",
+			"ATTENDANCE_ID_Hint": "Please enter Attendance Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"ATTENDANCE_DATE": "Attendance Date",
+			"ATTENDANCE_DATE_Hint": "Please enter Attendance Date data.",
+			"TIME_IN": "Time In",
+			"TIME_IN_Hint": "Please enter Time In data.",
+			"TIME_OUT": "Time Out",
+			"TIME_OUT_Hint": "Please enter Time Out data.",
+			"SHIFT_ID": "Shift Id",
+			"SHIFT_ID_Hint": "Please enter Shift Id data.",
+			"STATUS_ID": "Status Id",
+			"STATUS_ID_Hint": "Please enter Status Id data.",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude data.",
+			"component_title": "Attendance Records"
+		}
+	},
+	"atnd_attendance_query": {
+		"atnd_attendance_query": {
+			"component_title": "Attendance Query",
+			"compsTitleID1": "Search Attendance",
+			"compsTitleID2": "Attendance Records"
+		}
+	},
+	"ATND_BQCG_BRANCH_QR_CODE": {
+		"atndbranchAtndBqcgBranchQrCode": {
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"BRANCH_NAME": "Branch Name",
+			"BRANCH_NAME_Hint": "Please enter Branch Name data.",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude data.",
+			"BTN_GENERATE": "Btn Generate",
+			"BTN_GENERATE_Hint": "Please enter Btn Generate data.",
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude data.",
+			"component_title": "Branch QR Code"
+		}
+	},
+	"ATND_branch_qr_code_generator": {
+		"ATND_branch_qr_code_generator": {
+			"component_title": "Branch QR Code Generator",
+			"tab_title1": "Branch QR Code"
+		}
+	},
+	"ATND_AQ_SEARCH_ATTENDANCE_0": {
+		"atndattendanceAtndAqSearchAttendance0": {
+			"ATTENDANCE_ID": "Attendance Id",
+			"ATTENDANCE_ID_Hint": "Please enter Attendance Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"ATTENDANCE_DATE": "Attendance Date",
+			"ATTENDANCE_DATE_Hint": "Please enter Attendance Date data.",
+			"TIME_IN": "Time In",
+			"TIME_IN_Hint": "Please enter Time In data.",
+			"TIME_OUT": "Time Out",
+			"TIME_OUT_Hint": "Please enter Time Out data.",
+			"SHIFT_ID": "Shift Id",
+			"SHIFT_ID_Hint": "Please enter Shift Id data.",
+			"STATUS_ID": "Status Id",
+			"STATUS_ID_Hint": "Please enter Status Id data.",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude data.",
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude data.",
+			"component_title": "Attendance Summary"
+		}
+	},
+	"ATND_MASR_PAYMENT_SUMMARY": {
+		"atndemployeeAtndMasrPaymentSummary": {
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"EMPLOYEE_NAME": "Employee Name",
+			"EMPLOYEE_NAME_Hint": "Please enter Employee Name data.",
+			"PHOTO": "Photo",
+			"PHOTO_Hint": "Please enter Photo data.",
+			"MOBILE_CONTACT": "Mobile Contact",
+			"MOBILE_CONTACT_Hint": "Please enter Mobile Contact data.",
+			"SALARY_TYPE_ID": "Salary Type Id",
+			"SALARY_TYPE_ID_Hint": "Please enter Salary Type Id data.",
+			"SALARY_RATE": "Salary Rate",
+			"SALARY_RATE_Hint": "Please enter Salary Rate data.",
+			"CURRENCY_ID": "Currency Id",
+			"CURRENCY_ID_Hint": "Please enter Currency Id data.",
+			"ROLE": "Role",
+			"ROLE_Hint": "Please enter Role data.",
+			"component_title": "Payment Summary"
+		}
+	},
+	"atnd_monthly_attendance_summary_report": {
+		"atnd_monthly_attendance_summary_report": {
+			"component_title": "Monthly Attendance Summary Report",
+			"compsTitleID1": "Attendance Summary",
+			"compsTitleID2": "Payment Summary"
+		}
+	},
+	"ATND_AQ_ATTENDANCE_RECORDS_1": {
+		"atndattendanceAtndAqAttendanceRecords1": {
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude data.",
+			"ATTENDANCE_ID": "Attendance Id",
+			"ATTENDANCE_ID_Hint": "Please enter Attendance Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"ATTENDANCE_DATE": "Attendance Date",
+			"ATTENDANCE_DATE_Hint": "Please enter Attendance Date data.",
+			"TIME_IN": "Time In",
+			"TIME_IN_Hint": "Please enter Time In data.",
+			"TIME_OUT": "Time Out",
+			"TIME_OUT_Hint": "Please enter Time Out data.",
+			"SHIFT_ID": "Shift Id",
+			"SHIFT_ID_Hint": "Please enter Shift Id data.",
+			"STATUS_ID": "Status Id",
+			"STATUS_ID_Hint": "Please enter Status Id data.",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude data.",
+			"component_title": "Daily Status"
+		}
+	},
+	"atnd_daily_attendance_report": {
+		"atnd_daily_attendance_report": {
+			"component_title": "Daily Attendance Report",
+			"compsTitleID1": "Month Status Summary",
+			"compsTitleID2": "Daily Status"
+		}
+	},
+	"ATND_attendance_management": {
+		"ATND_attendance_management": {
+			"component_title": "Attendance Management",
+			"tab_title1": "Add/Update Attendance"
+		}
+	},
+	"ATND_CPT_ADD_PAYMENT": {
+		"atndpaymentTransactionAtndCptAddPayment": {
+			"PAYMENT_ID": "Payment Id",
+			"PAYMENT_ID_Hint": "Please enter Payment Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"PAYMENT_INFO": "Payment Info",
+			"PAYMENT_INFO_Hint": "Please enter Payment Info data.",
+			"PAYMENT_TYPE_ID": "Payment Type Id",
+			"PAYMENT_TYPE_ID_Hint": "Please enter Payment Type Id data.",
+			"PAYMENT_BY": "Payment By",
+			"PAYMENT_BY_Hint": "Please enter Payment By data.",
+			"PAYMENT_DATE": "Payment Date",
+			"PAYMENT_DATE_Hint": "Please enter Payment Date data.",
+			"PAYMENT_AMOUNT": "Payment Amount",
+			"PAYMENT_AMOUNT_Hint": "Please enter Payment Amount data.",
+			"CURRENCY_ID": "Currency Id",
+			"CURRENCY_ID_Hint": "Please enter Currency Id data.",
+			"PAYMENT_PERIOD": "Payment Period",
+			"PAYMENT_PERIOD_Hint": "Please enter Payment Period data.",
+			"component_title": "Add Payment"
+		}
+	},
+	"ATND_company_payment_transaction": {
+		"ATND_company_payment_transaction": {
+			"component_title": "Company Payment Transaction",
+			"tab_title1": "Add Payment"
+		}
+	},
+	"ATND_CPT_ADD_PAYMENT_0": {
+		"atndpaymentTransactionAtndCptAddPayment0": {
+			"PAYMENT_ID": "Payment Id",
+			"PAYMENT_ID_Hint": "Please enter Payment Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"PAYMENT_INFO": "Payment Info",
+			"PAYMENT_INFO_Hint": "Please enter Payment Info data.",
+			"PAYMENT_TYPE_ID": "Payment Type Id",
+			"PAYMENT_TYPE_ID_Hint": "Please enter Payment Type Id data.",
+			"PAYMENT_BY": "Payment By",
+			"PAYMENT_BY_Hint": "Please enter Payment By data.",
+			"PAYMENT_DATE": "Payment Date",
+			"PAYMENT_DATE_Hint": "Please enter Payment Date data.",
+			"PAYMENT_AMOUNT": "Payment Amount",
+			"PAYMENT_AMOUNT_Hint": "Please enter Payment Amount data.",
+			"CURRENCY_ID": "Currency Id",
+			"CURRENCY_ID_Hint": "Please enter Currency Id data.",
+			"PAYMENT_PERIOD": "Payment Period",
+			"PAYMENT_PERIOD_Hint": "Please enter Payment Period data.",
+			"BTN_SEARCH_PAYMENTS": "Btn Search Payments",
+			"BTN_SEARCH_PAYMENTS_Hint": "Please enter Btn Search Payments data.",
+			"component_title": "Query Payments"
+		}
+	},
+	"ATND_CPR_PAYMENT_RECORDS": {
+		"atndpaymentTransactionAtndCprPaymentRecords": {
+			"PAYMENT_PERIOD": "Payment Period",
+			"PAYMENT_PERIOD_Hint": "Please enter Payment Period data.",
+			"PAYMENT_ID": "Payment Id",
+			"PAYMENT_ID_Hint": "Please enter Payment Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"PAYMENT_INFO": "Payment Info",
+			"PAYMENT_INFO_Hint": "Please enter Payment Info data.",
+			"PAYMENT_TYPE_ID": "Payment Type Id",
+			"PAYMENT_TYPE_ID_Hint": "Please enter Payment Type Id data.",
+			"PAYMENT_BY": "Payment By",
+			"PAYMENT_BY_Hint": "Please enter Payment By data.",
+			"PAYMENT_DATE": "Payment Date",
+			"PAYMENT_DATE_Hint": "Please enter Payment Date data.",
+			"PAYMENT_AMOUNT": "Payment Amount",
+			"PAYMENT_AMOUNT_Hint": "Please enter Payment Amount data.",
+			"CURRENCY_ID": "Currency Id",
+			"CURRENCY_ID_Hint": "Please enter Currency Id data.",
+			"component_title": "Payment Records"
+		}
+	},
+	"atnd_company_payments_report": {
+		"atnd_company_payments_report": {
+			"component_title": "Company Payments Report",
+			"compsTitleID1": "Query Payments",
+			"compsTitleID2": "Payment Records"
+		}
+	},
+	"atnd_leave_request_wf": {
+		"atnd_leave_request_wf": {
+			"component_title": "LEAVE_REQUEST Workflow",
+			"compsTitleID1": "Lra pending leave requests",
+			"compsTitleID2": "Aq attendance records",
+			"compsTitleID3": "Cpr payment records"
+		}
+	},
+	"ATN_ALR_PENDING_LEAVE_REQUESTS": {
+		"atnleaveRequestAtnAlrPendingLeaveRequests": {
+			"REQUEST_ID": "Request Id",
+			"REQUEST_ID_Hint": "Please enter Request Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"LEAVE_TYPE": "Leave Type",
+			"LEAVE_TYPE_Hint": "Please enter Leave Type data.",
+			"REASON": "Reason",
+			"REASON_Hint": "Please enter Reason data.",
+			"START_DATE": "Start Date",
+			"START_DATE_Hint": "Please enter Start Date data.",
+			"END_DATE": "End Date",
+			"END_DATE_Hint": "Please enter End Date data.",
+			"EMERGENCY_CONTACT": "Emergency Contact",
+			"EMERGENCY_CONTACT_Hint": "Please enter Emergency Contact data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"BTN_APPROVE": "Btn Approve",
+			"BTN_APPROVE_Hint": "Please enter Btn Approve data.",
+			"BTN_REJECT": "Btn Reject",
+			"BTN_REJECT_Hint": "Please enter Btn Reject data.",
+			"component_title": "Pending Leave Requests"
+		}
+	},
+	"ATN_AR_ATTENDANCE_RESULTS": {
+		"atnattendanceAtnArAttendanceResults": {
+			"ATTENDANCE_ID": "Attendance Id",
+			"ATTENDANCE_ID_Hint": "Please enter Attendance Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"SHIFT_ID": "Shift Id",
+			"SHIFT_ID_Hint": "Please enter Shift Id data.",
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"ATTENDANCE_DATE": "Attendance Date",
+			"ATTENDANCE_DATE_Hint": "Please enter Attendance Date data.",
+			"TIME_IN": "Time In",
+			"TIME_IN_Hint": "Please enter Time In data.",
+			"TIME_OUT": "Time Out",
+			"TIME_OUT_Hint": "Please enter Time Out data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"component_title": "Attendance Results"
+		}
+	},
+	"ATN_AR_SEARCH_CRITERIA": {
+		"atnattendanceAtnArSearchCriteria": {
+			"ATTENDANCE_ID": "Attendance Id",
+			"ATTENDANCE_ID_Hint": "Please enter Attendance Id data.",
+			"ATTENDANCE_DATE": "Attendance Date",
+			"ATTENDANCE_DATE_Hint": "Please enter Attendance Date data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"SHIFT_ID": "Shift Id",
+			"SHIFT_ID_Hint": "Please enter Shift Id data.",
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"TIME_IN": "Time In",
+			"TIME_IN_Hint": "Please enter Time In data.",
+			"TIME_OUT": "Time Out",
+			"TIME_OUT_Hint": "Please enter Time Out data.",
+			"BTN_SEARCH": "Btn Search",
+			"BTN_SEARCH_Hint": "Please enter Btn Search data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"component_title": "Search Criteria"
+		}
+	},
+	"ATN_BQCG_BRANCH_INFORMATION": {
+		"atnbranchAtnBqcgBranchInformation": {
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"BRANCH_NAME": "Branch Name",
+			"BRANCH_NAME_Hint": "Please enter Branch Name data.",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude data.",
+			"BTN_GENERATE_QR": "Btn Generate Qr",
+			"BTN_GENERATE_QR_Hint": "Please enter Btn Generate Qr data.",
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude data.",
+			"component_title": "Branch Information"
+		}
+	},
+	"ATN_CB_BRANCHES_LIST": {
+		"atnbranchAtnCbBranchesList": {
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"BRANCH_NAME": "Branch Name",
+			"BRANCH_NAME_Hint": "Please enter Branch Name data.",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude data.",
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude data.",
+			"component_title": "Branches List"
+		}
+	},
+	"ATN_CB_BRANCH_LOCATIONS": {
+		"atnbranchAtnCbBranchLocations": {
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"BRANCH_NAME": "Branch Name",
+			"BRANCH_NAME_Hint": "Please enter Branch Name data.",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude data.",
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude data.",
+			"component_title": "Branch Locations"
+		}
+	},
+	"ATN_CH_HOLIDAY_CALENDAR": {
+		"atnholidayAtnChHolidayCalendar": {
+			"HOLIDAY_ID": "Holiday Id",
+			"HOLIDAY_ID_Hint": "Please enter Holiday Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"HOLIDAY_DATE": "Holiday Date",
+			"HOLIDAY_DATE_Hint": "Please enter Holiday Date data.",
+			"HOLIDAY_NAME": "Holiday Name",
+			"HOLIDAY_NAME_Hint": "Please enter Holiday Name data.",
+			"component_title": "Holiday Calendar"
+		}
+	},
+	"ATN_CM_COMPANY_INFORMATION": {
+		"atncompanyAtnCmCompanyInformation": {
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"COMPANY_NAME": "Company Name",
+			"COMPANY_NAME_Hint": "Please enter Company Name data.",
+			"LOGO": "Logo",
+			"LOGO_Hint": "Please enter Logo data.",
+			"TIME_IN": "Time In",
+			"TIME_IN_Hint": "Please enter Time In data.",
+			"TIME_OUT": "Time Out",
+			"TIME_OUT_Hint": "Please enter Time Out data.",
+			"WORKING_FROM_DAY": "Working From Day",
+			"WORKING_FROM_DAY_Hint": "Please enter Working From Day data.",
+			"WORKING_TO_DAY": "Working To Day",
+			"WORKING_TO_DAY_Hint": "Please enter Working To Day data.",
+			"TOLERANCE_MINUTES": "Tolerance Minutes",
+			"TOLERANCE_MINUTES_Hint": "Please enter Tolerance Minutes data.",
+			"SUBSCRIPTION_DATE": "Subscription Date",
+			"SUBSCRIPTION_DATE_Hint": "Please enter Subscription Date data.",
+			"VALID_TILL_DATE": "Valid Till Date",
+			"VALID_TILL_DATE_Hint": "Please enter Valid Till Date data.",
+			"SUBSCRIPTION_STATUS": "Subscription Status",
+			"SUBSCRIPTION_STATUS_Hint": "Please enter Subscription Status data.",
+			"PAYMENT_INFO": "Payment Info",
+			"PAYMENT_INFO_Hint": "Please enter Payment Info data.",
+			"SUBSCRIPTION_FEES": "Subscription Fees",
+			"SUBSCRIPTION_FEES_Hint": "Please enter Subscription Fees data.",
+			"component_title": "Company Information"
+		}
+	},
+	"ATN_CM_COMPANY_SHIFTS": {
+		"atnshiftAtnCmCompanyShifts": {
+			"SHIFT_ID": "Shift Id",
+			"SHIFT_ID_Hint": "Please enter Shift Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"DAY_OF_WEEK": "Day Of Week",
+			"DAY_OF_WEEK_Hint": "Please enter Day Of Week data.",
+			"TIME_IN": "Time In",
+			"TIME_IN_Hint": "Please enter Time In data.",
+			"SHIFT_TIME_IN": "Shift Time In",
+			"SHIFT_TIME_IN_Hint": "Please enter Shift Time In data.",
+			"SHIFT_TIME_OUT": "Shift Time Out",
+			"SHIFT_TIME_OUT_Hint": "Please enter Shift Time Out data.",
+			"component_title": "Company Shifts"
+		}
+	},
+	"ATN_EM_EMPLOYEE_EMAILS": {
+		"atnemployeeEmailAtnEmEmployeeEmails": {
+			"EMAIL_ID": "Email Id",
+			"EMAIL_ID_Hint": "Please enter Email Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"EMAIL_ADDRESS": "Email Address",
+			"EMAIL_ADDRESS_Hint": "Please enter Email Address data.",
+			"component_title": "Employee Emails"
+		}
+	},
+	"ATN_EM_EMPLOYEE_LEAVE_REQUESTS": {
+		"atnleaveRequestAtnEmEmployeeLeaveRequests": {
+			"LEAVE_REQUEST_ID": "Leave Request Id",
+			"LEAVE_REQUEST_ID_Hint": "Please enter Leave Request Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"LEAVE_TYPE_ID": "Leave Type Id",
+			"LEAVE_TYPE_ID_Hint": "Please enter Leave Type Id data.",
+			"REASON": "Reason",
+			"REASON_Hint": "Please enter Reason data.",
+			"START_DATE": "Start Date",
+			"START_DATE_Hint": "Please enter Start Date data.",
+			"END_DATE": "End Date",
+			"END_DATE_Hint": "Please enter End Date data.",
+			"EMERGENCY_CONTACT": "Emergency Contact",
+			"EMERGENCY_CONTACT_Hint": "Please enter Emergency Contact data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"component_title": "Employee Leave Requests"
+		}
+	},
+	"ATN_ESP_MY_LEAVE_REQUESTS": {
+		"atnleaveRequestAtnEspMyLeaveRequests": {
+			"REQUEST_ID": "Request Id",
+			"REQUEST_ID_Hint": "Please enter Request Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"LEAVE_TYPE": "Leave Type",
+			"LEAVE_TYPE_Hint": "Please enter Leave Type data.",
+			"REASON": "Reason",
+			"REASON_Hint": "Please enter Reason data.",
+			"START_DATE": "Start Date",
+			"START_DATE_Hint": "Please enter Start Date data.",
+			"END_DATE": "End Date",
+			"END_DATE_Hint": "Please enter End Date data.",
+			"EMERGENCY_CONTACT": "Emergency Contact",
+			"EMERGENCY_CONTACT_Hint": "Please enter Emergency Contact data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"component_title": "My Leave Requests"
+		}
+	},
+	"ATN_ESP_MY_PROFILE": {
+		"atnemployeeAtnEspMyProfile": {
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"EMPLOYEE_NAME": "Employee Name",
+			"EMPLOYEE_NAME_Hint": "Please enter Employee Name data.",
+			"PHOTO": "Photo",
+			"PHOTO_Hint": "Please enter Photo data.",
+			"MOBILE_CONTACT": "Mobile Contact",
+			"MOBILE_CONTACT_Hint": "Please enter Mobile Contact data.",
+			"ROLE": "Role",
+			"ROLE_Hint": "Please enter Role data.",
+			"component_title": "My Profile"
+		}
+	},
+	"ATN_approve_leave_requests": {
+		"ATN_approve_leave_requests": {
+			"component_title": "Approve Leave Requests",
+			"tab_title1": "Pending Leave Requests"
+		}
+	},
+	"ATN_attendance_records": {
+		"ATN_attendance_records": {
+			"component_title": "*Attendance Records",
+			"tab_title1": "Search Criteria",
+			"tab_title2": "Attendance Results"
+		}
+	},
+	"ATN_branch_qr_code_generator": {
+		"ATN_branch_qr_code_generator": {
+			"component_title": "Branch QR Code Generator",
+			"tab_title1": "Branch Information"
+		}
+	},
+	"ATN_company_branches": {
+		"ATN_company_branches": {
+			"component_title": "Company Branches",
+			"tab_title1": "Branches List",
+			"tab_title2": "Branch Locations"
+		}
+	},
+	"ATN_company_holidays": {
+		"ATN_company_holidays": {
+			"component_title": "Company Holidays",
+			"tab_title1": "Holiday Calendar"
+		}
+	},
+	"ATN_company_management": {
+		"ATN_company_management": {
+			"component_title": "*Company Management",
+			"tab_title1": "Company Information",
+			"tab_title2": "Branchs",
+			"tab_title3": "Company Shifts",
+			"tab_title4": "Holidays"
+		}
+	},
+	"ATN_employee_management": {
+		"ATN_employee_management": {
+			"component_title": "*Employee Management",
+			"tab_title1": "Employees",
+			"tab_title2": "Employee Emails",
+			"tab_title3": "Employee Leave Requests"
+		}
+	},
+	"ATN_employee_selfservice_portal": {
+		"ATN_employee_selfservice_portal": {
+			"component_title": "Employee Self-Service Portal",
+			"tab_title1": "My Profile",
+			"tab_title2": "My Leave Requests"
+		}
+	},
+	"ATN_leave_request_wf": {
+		"ATN_leave_request_wf": {
+			"component_title": "LEAVE_REQUEST Workflow",
+			"tab_title1": "Alr pending leave requests",
+			"tab_title2": "Ar attendance results"
+		}
+	},
+	"ATN_submit_leave_request": {
+		"ATN_submit_leave_request": {
+			"component_title": "Submit Leave Request",
+			"tab_title1": "Leave Request Form"
+		}
+	},
+	"ATND_attendance_query": {
+		"ATND_attendance_query": {
+			"component_title": "Attendance Query",
+			"tab_title1": "Search Attendance",
+			"tab_title2": "Attendance Records"
+		}
+	},
+	"ATND_company_branches": {
+		"ATND_company_branches": {
+			"component_title": "Company Branches",
+			"tab_title1": "Branches",
+			"tab_title2": "Branch Locations"
+		}
+	},
+	"ATND_company_management": {
+		"ATND_company_management": {
+			"component_title": "Company Management",
+			"tab_title1": "Company Information",
+			"tab_title2": "Company Shifts"
+		}
+	},
+	"ATND_company_payments_report": {
+		"ATND_company_payments_report": {
+			"component_title": "Company Payments Report",
+			"tab_title1": "Query Payments",
+			"tab_title2": "Payment Records"
+		}
+	},
+	"ATND_daily_attendance_report": {
+		"ATND_daily_attendance_report": {
+			"component_title": "Daily Attendance Report",
+			"tab_title1": "Month Status Summary",
+			"tab_title2": "Daily Status"
+		}
+	},
+	"ATND_employee_management": {
+		"ATND_employee_management": {
+			"component_title": "Employee Management",
+			"tab_title1": "Employees",
+			"tab_title2": "Employee Emails",
+			"tab_title3": "Leave Requests"
+		}
+	},
+	"ATND_leave_request_wf": {
+		"ATND_leave_request_wf": {
+			"component_title": "LEAVE_REQUEST Workflow",
+			"tab_title1": "Lra pending leave requests",
+			"tab_title2": "Aq attendance records",
+			"tab_title3": "Cpr payment records"
+		}
+	},
+	"ATND_monthly_attendance_summary_report": {
+		"ATND_monthly_attendance_summary_report": {
+			"component_title": "Monthly Attendance Summary Report",
+			"tab_title1": "Attendance Summary",
+			"tab_title2": "Payment Summary"
+		}
+	},
+	"ATN_CM_COMPANY_BRANCHES": {
+		"atnbranchAtnCmCompanyBranches": {
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"BRANCH_NAME": "Branch Name",
+			"BRANCH_NAME_Hint": "Please enter Branch Name data.",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude data.",
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude data.",
+			"component_title": "Company Branches"
+		}
+	},
+	"ATN_CM_COMPANY_HOLIDAYS": {
+		"atnholidayAtnCmCompanyHolidays": {
+			"HOLIDAY_ID": "Holiday Id",
+			"HOLIDAY_ID_Hint": "Please enter Holiday Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"HOLIDAY_DATE": "Holiday Date",
+			"HOLIDAY_DATE_Hint": "Please enter Holiday Date data.",
+			"HOLIDAY_NAME": "Holiday Name",
+			"HOLIDAY_NAME_Hint": "Please enter Holiday Name data.",
+			"component_title": "Company Holidays"
+		}
+	},
+	"ATN_BM_BRANCH_LOCATIONS": {
+		"atnbranchAtnBmBranchLocations": {
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"BRANCH_NAME": "Branch Name",
+			"BRANCH_NAME_Hint": "Please enter Branch Name data.",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude data.",
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude data.",
+			"component_title": "Branch Locations"
+		}
+	},
+	"atn_branches_management": {
+		"atn_branches_management": {
+			"component_title": "Branches Management",
+			"compsTitleID1": "Branches List",
+			"compsTitleID2": "Branch Locations"
+		}
+	},
+	"ATN_EM_EMPLOYEE_DETAILS": {
+		"atnemployeeAtnEmEmployeeDetails": {
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"EMPLOYEE_NAME": "Employee Name",
+			"EMPLOYEE_NAME_Hint": "Please enter Employee Name data.",
+			"PHOTO": "Photo",
+			"PHOTO_Hint": "Please enter Photo data.",
+			"MOBILE_CONTACT": "Mobile Contact",
+			"MOBILE_CONTACT_Hint": "Please enter Mobile Contact data.",
+			"SALARY_TYPE": "Salary Type",
+			"SALARY_TYPE_Hint": "Please enter Salary Type data.",
+			"SALARY_RATE": "Salary Rate",
+			"SALARY_RATE_Hint": "Please enter Salary Rate data.",
+			"CURRENCY": "Currency",
+			"CURRENCY_Hint": "Please enter Currency data.",
+			"ROLE": "Role",
+			"ROLE_Hint": "Please enter Role data.",
+			"component_title": "Employee Details"
+		}
+	},
+	"ATN_LRS_SUBMIT_LEAVE_REQUEST": {
+		"atnleaveRequestAtnLrsSubmitLeaveRequest": {
+			"LEAVE_REQUEST_ID": "Leave Request Id",
+			"LEAVE_REQUEST_ID_Hint": "Please enter Leave Request Id data.",
+			"COMPANY_ID": "Company id",
+			"COMPANY_ID_Hint": "Please enter Company id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"LEAVE_TYPE_ID": "Leave Type Id",
+			"LEAVE_TYPE_ID_Hint": "Please enter Leave Type Id data.",
+			"START_DATE": "Start Date",
+			"START_DATE_Hint": "Please enter Start Date data.",
+			"END_DATE": "End Date",
+			"END_DATE_Hint": "Please enter End Date data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"REASON": "Reason",
+			"REASON_Hint": "Please enter Reason data.",
+			"EMERGENCY_CONTACT": "Emergency Contact",
+			"EMERGENCY_CONTACT_Hint": "Please enter Emergency Contact data.",
+			"component_title": "Submit Leave Request"
+		}
+	},
+	"ATN_leave_request_submission": {
+		"ATN_leave_request_submission": {
+			"component_title": "Leave Request Submission",
+			"tab_title1": "Submit Leave Request"
+		}
+	},
+	"ATN_LRA_FILTER_LEAVE_REQUESTS": {
+		"atnleaveRequestAtnLraFilterLeaveRequests": {
+			"LEAVE_REQUEST_ID": "Leave Request Id",
+			"LEAVE_REQUEST_ID_Hint": "Please enter Leave Request Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"LEAVE_TYPE_ID": "Leave Type Id",
+			"LEAVE_TYPE_ID_Hint": "Please enter Leave Type Id data.",
+			"COMPANY_ID": "Company id",
+			"COMPANY_ID_Hint": "Please enter Company id data.",
+			"REASON": "Reason",
+			"REASON_Hint": "Please enter Reason data.",
+			"START_DATE": "Start Date",
+			"START_DATE_Hint": "Please enter Start Date data.",
+			"END_DATE": "End Date",
+			"END_DATE_Hint": "Please enter End Date data.",
+			"EMERGENCY_CONTACT": "Emergency Contact",
+			"EMERGENCY_CONTACT_Hint": "Please enter Emergency Contact data.",
+			"SEARCH_BTN": "Search Btn",
+			"SEARCH_BTN_Hint": "Please enter Search Btn data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"CLEAR_BTN": "Clear Btn",
+			"CLEAR_BTN_Hint": "Please enter Clear Btn data.",
+			"component_title": "Filter Leave Requests"
+		}
+	},
+	"ATN_LRA_LEAVE_REQUESTS": {
+		"atnleaveRequestAtnLraLeaveRequests": {
+			"LEAVE_REQUEST_ID": "Leave Request Id",
+			"LEAVE_REQUEST_ID_Hint": "Please enter Leave Request Id data.",
+			"COMPANY_ID": "Company id",
+			"COMPANY_ID_Hint": "Please enter Company id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"LEAVE_TYPE_ID": "Leave Type Id",
+			"LEAVE_TYPE_ID_Hint": "Please enter Leave Type Id data.",
+			"REASON": "Reason",
+			"REASON_Hint": "Please enter Reason data.",
+			"START_DATE": "Start Date",
+			"START_DATE_Hint": "Please enter Start Date data.",
+			"END_DATE": "End Date",
+			"END_DATE_Hint": "Please enter End Date data.",
+			"EMERGENCY_CONTACT": "Emergency Contact",
+			"EMERGENCY_CONTACT_Hint": "Please enter Emergency Contact data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"component_title": "Leave Requests"
+		}
+	},
+	"atn_leave_request_approval": {
+		"atn_leave_request_approval": {
+			"component_title": "Leave Request Approval",
+			"compsTitleID1": "Filter Leave Requests",
+			"compsTitleID2": "Leave Requests"
+		}
+	},
+	"ATN_AQ_SEARCH_ATTENDANCE": {
+		"atnattendanceAtnAqSearchAttendance": {
+			"ATTENDANCE_ID": "Attendance Id",
+			"ATTENDANCE_ID_Hint": "Please enter Attendance Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"SHIFT_ID": "Shift Id",
+			"SHIFT_ID_Hint": "Please enter Shift Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"ATTENDANCE_DATE": "Attendance Date",
+			"ATTENDANCE_DATE_Hint": "Please enter Attendance Date data.",
+			"TIME_IN": "Time In",
+			"TIME_IN_Hint": "Please enter Time In data.",
+			"TIME_OUT": "Time Out",
+			"TIME_OUT_Hint": "Please enter Time Out data.",
+			"SEARCH_BTN": "Search Btn",
+			"SEARCH_BTN_Hint": "Please enter Search Btn data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"CLEAR_BTN": "Clear Btn",
+			"CLEAR_BTN_Hint": "Please enter Clear Btn data.",
+			"component_title": "Search Attendance"
+		}
+	},
+	"ATN_AQ_ATTENDANCE_RECORDS": {
+		"atnattendanceAtnAqAttendanceRecords": {
+			"ATTENDANCE_ID": "Attendance Id",
+			"ATTENDANCE_ID_Hint": "Please enter Attendance Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"SHIFT_ID": "Shift Id",
+			"SHIFT_ID_Hint": "Please enter Shift Id data.",
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"ATTENDANCE_DATE": "Attendance Date",
+			"ATTENDANCE_DATE_Hint": "Please enter Attendance Date data.",
+			"TIME_IN": "Time In",
+			"TIME_IN_Hint": "Please enter Time In data.",
+			"TIME_OUT": "Time Out",
+			"TIME_OUT_Hint": "Please enter Time Out data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"COMPANY_ID": "Company id",
+			"COMPANY_ID_Hint": "Please enter Company id data.",
+			"component_title": "Attendance Records"
+		}
+	},
+	"atn_attendance_query": {
+		"atn_attendance_query": {
+			"component_title": "Attendance Query",
+			"compsTitleID1": "Search Attendance",
+			"compsTitleID2": "Attendance Records"
+		}
+	},
+	"ATN_QCM_BRANCH_QR_CODE": {
+		"atnqrBranchAtnQcmBranchQrCode": {
+			"QR_ID": "Qr Id",
+			"QR_ID_Hint": "Please enter Qr Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"LOCATION": "Location",
+			"LOCATION_Hint": "Please enter Location data.",
+			"GENERATE_QR": "Generate Qr",
+			"GENERATE_QR_Hint": "Please enter Generate Qr data.",
+			"QR_CODE_DATA": "Qr Code Data",
+			"QR_CODE_DATA_Hint": "Please enter Qr Code Data data.",
+			"component_title": "Branch QR Code"
+		}
+	},
+	"ATN_qr_code_management": {
+		"ATN_qr_code_management": {
+			"component_title": "QR Code Management",
+			"tab_title1": "Branch QR Code"
+		}
+	},
+	"ATN_AQ_SEARCH_ATTENDANCE_0": {
+		"atnattendanceAtnAqSearchAttendance0": {
+			"ATTENDANCE_ID": "Attendance Id",
+			"ATTENDANCE_ID_Hint": "Please enter Attendance Id data.",
+			"COMPANY_ID": "Company id",
+			"COMPANY_ID_Hint": "Please enter Company id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"SHIFT_ID": "Shift Id",
+			"SHIFT_ID_Hint": "Please enter Shift Id data.",
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"ATTENDANCE_DATE": "Attendance Date",
+			"ATTENDANCE_DATE_Hint": "Please enter Attendance Date data.",
+			"TIME_IN": "Time In",
+			"TIME_IN_Hint": "Please enter Time In data.",
+			"TIME_OUT": "Time Out",
+			"TIME_OUT_Hint": "Please enter Time Out data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"SEARCH_BTN": "Search Btn",
+			"SEARCH_BTN_Hint": "Please enter Search Btn data.",
+			"CLEAR_BTN": "Clear Btn",
+			"CLEAR_BTN_Hint": "Please enter Clear Btn data.",
+			"component_title": "Select Month and Employee"
+		}
+	},
+	"ATN_AQ_SEARCH_ATTENDANCE_1": {
+		"atnattendanceAtnAqSearchAttendance1": {
+			"ATTENDANCE_ID": "Attendance Id",
+			"ATTENDANCE_ID_Hint": "Please enter Attendance Id data.",
+			"COMPANY_ID": "Company id",
+			"COMPANY_ID_Hint": "Please enter Company id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"SHIFT_ID": "Shift Id",
+			"SHIFT_ID_Hint": "Please enter Shift Id data.",
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"ATTENDANCE_DATE": "Attendance Date",
+			"ATTENDANCE_DATE_Hint": "Please enter Attendance Date data.",
+			"TIME_IN": "Time In",
+			"TIME_IN_Hint": "Please enter Time In data.",
+			"TIME_OUT": "Time Out",
+			"TIME_OUT_Hint": "Please enter Time Out data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"component_title": "Attendance Summary"
+		}
+	},
+	"ATN_MAR_PAYMENT_SUMMARY": {
+		"atnemployeeAtnMarPaymentSummary": {
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"EMPLOYEE_NAME": "Employee Name",
+			"EMPLOYEE_NAME_Hint": "Please enter Employee Name data.",
+			"PHOTO": "Photo",
+			"PHOTO_Hint": "Please enter Photo data.",
+			"MOBILE_CONTACT": "Mobile Contact",
+			"MOBILE_CONTACT_Hint": "Please enter Mobile Contact data.",
+			"SALARY_TYPE": "Salary Type",
+			"SALARY_TYPE_Hint": "Please enter Salary Type data.",
+			"SALARY_RATE": "Salary Rate",
+			"SALARY_RATE_Hint": "Please enter Salary Rate data.",
+			"CURRENCY": "Currency",
+			"CURRENCY_Hint": "Please enter Currency data.",
+			"ROLE": "Role",
+			"ROLE_Hint": "Please enter Role data.",
+			"component_title": "Payment Summary"
+		}
+	},
+	"atn_monthly_attendance_report": {
+		"atn_monthly_attendance_report": {
+			"component_title": "Monthly Attendance Report",
+			"compsTitleID1": "Select Month and Employee",
+			"compsTitleID2": "Attendance Summary"
+		}
+	},
+	"ATN_AQ_ATTENDANCE_RECORDS_2": {
+		"atnattendanceAtnAqAttendanceRecords2": {
+			"ATTENDANCE_ID": "Attendance Id",
+			"ATTENDANCE_ID_Hint": "Please enter Attendance Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"SHIFT_ID": "Shift Id",
+			"SHIFT_ID_Hint": "Please enter Shift Id data.",
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"ATTENDANCE_DATE": "Attendance Date",
+			"ATTENDANCE_DATE_Hint": "Please enter Attendance Date data.",
+			"TIME_IN": "Time In",
+			"TIME_IN_Hint": "Please enter Time In data.",
+			"TIME_OUT": "Time Out",
+			"TIME_OUT_Hint": "Please enter Time Out data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"COMPANY_ID": "Company id",
+			"COMPANY_ID_Hint": "Please enter Company id data.",
+			"component_title": "Daily Attendance Details"
+		}
+	},
+	"atn_daily_attendance_report": {
+		"atn_daily_attendance_report": {
+			"component_title": "Daily Attendance Report",
+			"compsTitleID1": "Select Month and Employee",
+			"compsTitleID2": "Month Status Summary",
+			"compsTitleID3": "Daily Attendance Details"
+		}
+	},
+	"ATN_admin_attendance_entry": {
+		"ATN_admin_attendance_entry": {
+			"component_title": "Admin Attendance Entry",
+			"tab_title1": "Add/Update Attendance"
+		}
+	},
+	"ATN_CPT_ADD_PAYMENT_TRANSACTION": {
+		"atnpaymentTransactionAtnCptAddPaymentTransaction": {
+			"PAYMENT_ID": "Payment Id",
+			"PAYMENT_ID_Hint": "Please enter Payment Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"PAYMENT_INFO": "Payment Info",
+			"PAYMENT_INFO_Hint": "Please enter Payment Info data.",
+			"PAYMENT_TYPE": "Payment Type",
+			"PAYMENT_TYPE_Hint": "Please enter Payment Type data.",
+			"PAYMENT_BY": "Payment By",
+			"PAYMENT_BY_Hint": "Please enter Payment By data.",
+			"PAYMENT_DATE": "Payment Date",
+			"PAYMENT_DATE_Hint": "Please enter Payment Date data.",
+			"PAYMENT_AMOUNT": "Payment Amount",
+			"PAYMENT_AMOUNT_Hint": "Please enter Payment Amount data.",
+			"PAYMENT_CURRENCY": "Payment Currency",
+			"PAYMENT_CURRENCY_Hint": "Please enter Payment Currency data.",
+			"PAYMENT_PERIOD": "Payment Period",
+			"PAYMENT_PERIOD_Hint": "Please enter Payment Period data.",
+			"component_title": "Add Payment Transaction"
+		}
+	},
+	"ATN_company_payment_transaction": {
+		"ATN_company_payment_transaction": {
+			"component_title": "Company Payment Transaction",
+			"tab_title1": "Add Payment Transaction"
+		}
+	},
+	"ATN_CPT_ADD_PAYMENT_TRANSACTION_0": {
+		"atnpaymentTransactionAtnCptAddPaymentTransaction0": {
+			"PAYMENT_ID": "Payment Id",
+			"PAYMENT_ID_Hint": "Please enter Payment Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"PAYMENT_INFO": "Payment Info",
+			"PAYMENT_INFO_Hint": "Please enter Payment Info data.",
+			"PAYMENT_TYPE": "Payment Type",
+			"PAYMENT_TYPE_Hint": "Please enter Payment Type data.",
+			"PAYMENT_BY": "Payment By",
+			"PAYMENT_BY_Hint": "Please enter Payment By data.",
+			"PAYMENT_DATE": "Payment Date",
+			"PAYMENT_DATE_Hint": "Please enter Payment Date data.",
+			"PAYMENT_AMOUNT": "Payment Amount",
+			"PAYMENT_AMOUNT_Hint": "Please enter Payment Amount data.",
+			"PAYMENT_CURRENCY": "Payment Currency",
+			"PAYMENT_CURRENCY_Hint": "Please enter Payment Currency data.",
+			"PAYMENT_PERIOD": "Payment Period",
+			"PAYMENT_PERIOD_Hint": "Please enter Payment Period data.",
+			"SEARCH_BTN": "Search Btn",
+			"SEARCH_BTN_Hint": "Please enter Search Btn data.",
+			"CLEAR_BTN": "Clear Btn",
+			"CLEAR_BTN_Hint": "Please enter Clear Btn data.",
+			"component_title": "Search Payments"
+		}
+	},
+	"ATN_CPR_PAYMENT_TRANSACTIONS": {
+		"atnpaymentTransactionAtnCprPaymentTransactions": {
+			"PAYMENT_ID": "Payment Id",
+			"PAYMENT_ID_Hint": "Please enter Payment Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"PAYMENT_INFO": "Payment Info",
+			"PAYMENT_INFO_Hint": "Please enter Payment Info data.",
+			"PAYMENT_TYPE": "Payment Type",
+			"PAYMENT_TYPE_Hint": "Please enter Payment Type data.",
+			"PAYMENT_BY": "Payment By",
+			"PAYMENT_BY_Hint": "Please enter Payment By data.",
+			"PAYMENT_DATE": "Payment Date",
+			"PAYMENT_DATE_Hint": "Please enter Payment Date data.",
+			"PAYMENT_AMOUNT": "Payment Amount",
+			"PAYMENT_AMOUNT_Hint": "Please enter Payment Amount data.",
+			"PAYMENT_CURRENCY": "Payment Currency",
+			"PAYMENT_CURRENCY_Hint": "Please enter Payment Currency data.",
+			"PAYMENT_PERIOD": "Payment Period",
+			"PAYMENT_PERIOD_Hint": "Please enter Payment Period data.",
+			"component_title": "Payment Transactions"
+		}
+	},
+	"atn_company_payments_report": {
+		"atn_company_payments_report": {
+			"component_title": "Company Payments Report",
+			"compsTitleID1": "Search Payments",
+			"compsTitleID2": "Payment Transactions"
+		}
+	},
+	"ATN_MAR_PAYMENT_SUMMARY_0": {
+		"atnemployeeAtnMarPaymentSummary0": {
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"EMPLOYEE_NAME": "Employee Name",
+			"EMPLOYEE_NAME_Hint": "Please enter Employee Name data.",
+			"PHOTO": "Photo",
+			"PHOTO_Hint": "Please enter Photo data.",
+			"MOBILE_CONTACT": "Mobile Contact",
+			"MOBILE_CONTACT_Hint": "Please enter Mobile Contact data.",
+			"SALARY_TYPE": "Salary Type",
+			"SALARY_TYPE_Hint": "Please enter Salary Type data.",
+			"SALARY_RATE": "Salary Rate",
+			"SALARY_RATE_Hint": "Please enter Salary Rate data.",
+			"CURRENCY": "Currency",
+			"CURRENCY_Hint": "Please enter Currency data.",
+			"ROLE": "Role",
+			"ROLE_Hint": "Please enter Role data.",
+			"component_title": "My Profile"
+		}
+	},
+	"ATN_ESS_MY_LEAVE_REQUESTS": {
+		"atnleaveRequestAtnEssMyLeaveRequests": {
+			"LEAVE_REQUEST_ID": "Leave Request Id",
+			"LEAVE_REQUEST_ID_Hint": "Please enter Leave Request Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"LEAVE_TYPE_ID": "Leave Type Id",
+			"LEAVE_TYPE_ID_Hint": "Please enter Leave Type Id data.",
+			"REASON": "Reason",
+			"REASON_Hint": "Please enter Reason data.",
+			"START_DATE": "Start Date",
+			"START_DATE_Hint": "Please enter Start Date data.",
+			"END_DATE": "End Date",
+			"END_DATE_Hint": "Please enter End Date data.",
+			"EMERGENCY_CONTACT": "Emergency Contact",
+			"EMERGENCY_CONTACT_Hint": "Please enter Emergency Contact data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"COMPANY_ID": "Company id",
+			"COMPANY_ID_Hint": "Please enter Company id data.",
+			"component_title": "My Leave Requests"
+		}
+	},
+	"ATN_ESS_MY_EMAILS": {
+		"atnemployeeEmailAtnEssMyEmails": {
+			"EMAIL_ID": "Email Id",
+			"EMAIL_ID_Hint": "Please enter Email Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"EMAIL_ADDRESS": "Email Address",
+			"EMAIL_ADDRESS_Hint": "Please enter Email Address data.",
+			"component_title": "My Emails"
+		}
+	},
+	"atn_employee_self_service": {
+		"atn_employee_self_service": {
+			"component_title": "Employee Self Service",
+			"compsTitleID1": "My Profile",
+			"compsTitleID2": "My Leave Requests",
+			"compsTitleID3": "My Emails"
+		}
+	},
+	"atn_leave_request_wf": {
+		"atn_leave_request_wf": {
+			"component_title": "LEAVE_REQUEST Workflow",
+			"compsTitleID1": "Lra leave requests",
+			"compsTitleID2": "Aq attendance records",
+			"compsTitleID3": "Cpr payment transactions"
+		}
+	},
+	"ETR_ETR_CASE_ATT_GRID": {
+		"etrcaseAttEtrEtrCaseAttGrid": {
+			"ETR_ATT_ID": "Etr Att Id",
+			"ETR_ATT_ID_Hint": "Please enter Etr Att Id",
+			"ATT_NAME": "Att Name",
+			"ATT_NAME_Hint": "Please enter Att Name",
+			"ATT_NOTES": "Att Notes",
+			"ATT_NOTES_Hint": "Please enter Att Notes",
+			"ETR_ID": "Etr Id",
+			"ETR_ID_Hint": "Please enter Etr Id",
+			"component_title": "ETR CASE ATT GRID"
+		}
+	},
+	"ETR_ETR_CASE_CATEGORIES_GRID": {
+		"etrcaseCategoriesEtrEtrCaseCategoriesGrid": {
+			"ETR_CAT_ID": "Etr Cat Id",
+			"ETR_CAT_ID_Hint": "Please enter Etr Cat Id",
+			"ATT_NAME": "Att Name",
+			"ATT_NAME_Hint": "Please enter Att Name",
+			"CAT_NAME": "Cat Name",
+			"CAT_NAME_Hint": "Please enter Cat Name",
+			"CAT_STATUS": "Cat Status",
+			"CAT_STATUS_Hint": "Please enter Cat Status",
+			"ETR_ID": "Etr Id",
+			"ETR_ID_Hint": "Please enter Etr Id",
+			"component_title": "ETR CASE CATEGORIES GRID"
+		}
+	},
+	"ETR_ETR_CASE_COMMENTS_GRID": {
+		"etrcaseCommentsEtrEtrCaseCommentsGrid": {
+			"ETR_COMMENT_ID": "Etr Comment Id",
+			"ETR_COMMENT_ID_Hint": "Please enter Etr Comment Id",
+			"COMMENT_BY": "Comment By",
+			"COMMENT_BY_Hint": "Please enter Comment By",
+			"DECISION": "Decision",
+			"DECISION_Hint": "Please enter Decision",
+			"COMmENT_TEXT": "Comment Text",
+			"COMmENT_TEXT_Hint": "Please enter Comment Text",
+			"JOB_ROLE": "Job Role",
+			"JOB_ROLE_Hint": "Please enter Job Role",
+			"COMMENT_DATE": "Comment Date",
+			"COMMENT_DATE_Hint": "Please enter Comment Date",
+			"ETR_ID": "Etr Id",
+			"ETR_ID_Hint": "Please enter Etr Id",
+			"component_title": "ETR CASE COMMENTS GRID"
+		}
+	},
+	"ETR_ETR_CASE_FORM": {
+		"etrcaseEtrEtrCaseForm": {
+			"ETR_ID": "Etr Id",
+			"ETR_ID_Hint": "Please enter Etr Id",
+			"ENTITY_NAME": "Entity Name",
+			"ENTITY_NAME_Hint": "Please enter Entity Name",
+			"INVESTOR_MAIL": "Investor Mail",
+			"INVESTOR_MAIL_Hint": "Please enter Investor Mail",
+			"INITIATOR_REQUEST_DATA": "Initiator Request Data",
+			"INITIATOR_REQUEST_DATA_Hint": "Please enter Initiator Request Data",
+			"REQUEST_DATE": "Request Date",
+			"REQUEST_DATE_Hint": "Please enter Request Date",
+			"LOCATION_TYPE": "Location Type",
+			"LOCATION_TYPE_Hint": "Please enter Location Type",
+			"ANOTHER_SITE_TYPE": "Another Site Type",
+			"ANOTHER_SITE_TYPE_Hint": "Please enter Another Site Type",
+			"DISTRICT": "District",
+			"DISTRICT_Hint": "Please enter District",
+			"STREET": "Street",
+			"STREET_Hint": "Please enter Street",
+			"COORDINATE_TYPE": "Coordinate Type : Pin",
+			"COORDINATE_TYPE_Hint": "Please enter Coordinate Type",
+			"COORDINATE_X": "Coordinate X",
+			"COORDINATE_X_Hint": "Please enter Coordinate X",
+			"COORDINATE_Y": "Coordinate Y",
+			"COORDINATE_Y_Hint": "Please enter Coordinate Y",
+			"ETR_CASE_MAP_MAP2": "Etr Case Map Map2",
+			"ETR_CASE_MAP_MAP2_Hint": "Please enter Etr Case Map Map2",
+			"SITE_NUMBER": "Site Number",
+			"SITE_NUMBER_Hint": "Please enter Site Number",
+			"SITE_AREA": "Site Area",
+			"SITE_AREA_Hint": "Please enter Site Area",
+			"NAME_OF_OPPORTUNITY": "Name Of Opportunity",
+			"NAME_OF_OPPORTUNITY_Hint": "Please enter Name Of Opportunity",
+			"NO_PLANNED": "No Planned",
+			"NO_PLANNED_Hint": "Please enter No Planned",
+			"ADDITIONAL_INFORMATION": "Additional Information",
+			"ADDITIONAL_INFORMATION_Hint": "Please enter Additional Information",
+			"SITE_DESCRIPTION_OPTIONS": "Site Description Options",
+			"SITE_DESCRIPTION_OPTIONS_Hint": "Please enter Site Description Options",
+			"SITE_DESCRIPTION": "Site Description",
+			"SITE_DESCRIPTION_Hint": "Please enter Site Description",
+			"INSTRUCTIONS": "Instructions",
+			"INSTRUCTIONS_Hint": "Please enter Instructions",
+			"OTHERS": "Others",
+			"OTHERS_Hint": "Please enter Others",
+			"PIN": "Pin",
+			"PIN_Hint": "Please enter Pin",
+			"component_title": "ETR CASE FORM"
+		}
+	},
+	"ETR_ETR_CASE_FORM3": {
+		"etrcaseEtrEtrCaseForm3": {
+			"ETR_ID": "Etr Id",
+			"ETR_ID_Hint": "Please enter Etr Id",
+			"ENTITY_NAME": "Entity Name",
+			"ENTITY_NAME_Hint": "Please enter Entity Name",
+			"INITIATOR_REQUEST_DATA": "Initiator Request Data",
+			"INITIATOR_REQUEST_DATA_Hint": "Please enter Initiator Request Data",
+			"REQUEST_DATE": "Request Date",
+			"REQUEST_DATE_Hint": "Please enter Request Date",
+			"LOCATION_TYPE": "Location Type",
+			"LOCATION_TYPE_Hint": "Please enter Location Type",
+			"ANOTHER_SITE_TYPE": "Another Site Type",
+			"ANOTHER_SITE_TYPE_Hint": "Please enter Another Site Type",
+			"DISTRICT": "District",
+			"DISTRICT_Hint": "Please enter District",
+			"STREET": "Street",
+			"STREET_Hint": "Please enter Street",
+			"COORDINATE_X": "Coordinate X",
+			"COORDINATE_X_Hint": "Please enter Coordinate X",
+			"COORDINATE_Y": "Coordinate Y",
+			"COORDINATE_Y_Hint": "Please enter Coordinate Y",
+			"ETR_CASE_MAP_MAP2": "Etr Case Map Map2",
+			"ETR_CASE_MAP_MAP2_Hint": "Please enter Etr Case Map Map2",
+			"SITE_AREA": "Site Area",
+			"SITE_AREA_Hint": "Please enter Site Area",
+			"PIN": "Pin",
+			"PIN_Hint": "Please enter Pin",
+			"SITE_NUMBER": "Site Number",
+			"SITE_NUMBER_Hint": "Please enter Site Number",
+			"NO_PLANNED": "No Planned",
+			"NO_PLANNED_Hint": "Please enter No Planned",
+			"ADDITIONAL_INFORMATION": "Additional Information",
+			"ADDITIONAL_INFORMATION_Hint": "Please enter Additional Information",
+			"SITE_DESCRIPTION_OPTIONS": "Site Description Options",
+			"SITE_DESCRIPTION_OPTIONS_Hint": "Please enter Site Description Options",
+			"SITE_DESCRIPTION": "Site Description",
+			"SITE_DESCRIPTION_Hint": "Please enter Site Description",
+			"INSTRUCTIONS": "Instructions",
+			"INSTRUCTIONS_Hint": "Please enter Instructions",
+			"OTHERS": "Others",
+			"OTHERS_Hint": "Please enter Others",
+			"NAME_OF_OPPORTUNITY": "Name Of Opportunity",
+			"NAME_OF_OPPORTUNITY_Hint": "Please enter Name Of Opportunity",
+			"INVESTOR_MAIL": "Investor Mail",
+			"INVESTOR_MAIL_Hint": "Please enter Investor Mail",
+			"COORDINATE_TYPE": "Coordinate Type",
+			"COORDINATE_TYPE_Hint": "Please enter Coordinate Type",
+			"component_title": "ETR CASE FORM3"
+		}
+	},
+	"ETR_ETR_CASE_FORM_2": {
+		"etrcaseEtrEtrCaseForm2": {
+			"ETR_ID": "Etr Id",
+			"ETR_ID_Hint": "Please enter Etr Id",
+			"ENTITY_NAME": "Entity Name",
+			"ENTITY_NAME_Hint": "Please enter Entity Name",
+			"NAME_OF_OPPORTUNITY": "Name of opportunity",
+			"NAME_OF_OPPORTUNITY_Hint": "Please enter Name of opportunity",
+			"INVESTOR_MAIL": "Investor mail",
+			"INVESTOR_MAIL_Hint": "Please enter Investor mail",
+			"INITIATOR_REQUEST_DATA": "Initiator Request Data",
+			"INITIATOR_REQUEST_DATA_Hint": "Please enter Initiator Request Data",
+			"REQUEST_DATE": "Request Date",
+			"REQUEST_DATE_Hint": "Please enter Request Date",
+			"LOCATION_TYPE": "Location Type",
+			"LOCATION_TYPE_Hint": "Please enter Location Type",
+			"ANOTHER_SITE_TYPE": "Another Site Type",
+			"ANOTHER_SITE_TYPE_Hint": "Please enter Another Site Type",
+			"DISTRICT": "District",
+			"DISTRICT_Hint": "Please enter District",
+			"STREET": "Street",
+			"STREET_Hint": "Please enter Street",
+			"ETR_CASE_MAP_MAP": "Etr Case Map Map",
+			"ETR_CASE_MAP_MAP_Hint": "Please enter Etr Case Map Map",
+			"COORDINATE_TYPE": "Coordinate Type",
+			"COORDINATE_TYPE_Hint": "Please enter Coordinate Type",
+			"COORDINATE_X": "Coordinate X",
+			"COORDINATE_X_Hint": "Please enter Coordinate X",
+			"COORDINATE_Y": "Coordinate Y",
+			"COORDINATE_Y_Hint": "Please enter Coordinate Y",
+			"PIN": "Pin",
+			"PIN_Hint": "Please enter Pin",
+			"SITE_NUMBER": "Site Number",
+			"SITE_NUMBER_Hint": "Please enter Site Number",
+			"SITE_AREA": "Site Area",
+			"SITE_AREA_Hint": "Please enter Site Area",
+			"NO_PLANNED": "No Planned",
+			"NO_PLANNED_Hint": "Please enter No Planned",
+			"ADDITIONAL_INFORMATION": "Additional Information",
+			"ADDITIONAL_INFORMATION_Hint": "Please enter Additional Information",
+			"SITE_DESCRIPTION_OPTIONS": "Site Description Options",
+			"SITE_DESCRIPTION_OPTIONS_Hint": "Please enter Site Description Options",
+			"SITE_DESCRIPTION": "Site Description",
+			"SITE_DESCRIPTION_Hint": "Please enter Site Description",
+			"INSTRUCTIONS": "Instructions",
+			"INSTRUCTIONS_Hint": "Please enter Instructions",
+			"OTHERS": "Others",
+			"OTHERS_Hint": "Please enter Others",
+			"component_title": "ETR CASE FORM 2"
+		}
+	},
+	"ETR_ETR_CASE_GRID": {
+		"etrcaseEtrEtrCaseGrid": {
+			"ETR_ID": "Etr Id",
+			"ETR_ID_Hint": "Please enter Etr Id",
+			"ENTITY_NAME": "Entity Name",
+			"ENTITY_NAME_Hint": "Please enter Entity Name",
+			"INITIATOR_REQUEST_DATA": "Initiator Request Data",
+			"INITIATOR_REQUEST_DATA_Hint": "Please enter Initiator Request Data",
+			"REQUEST_DATE": "Request Date",
+			"REQUEST_DATE_Hint": "Please enter Request Date",
+			"LOCATION_TYPE": "Location Type",
+			"LOCATION_TYPE_Hint": "Please enter Location Type",
+			"ANOTHER_SITE_TYPE": "Another Site Type",
+			"ANOTHER_SITE_TYPE_Hint": "Please enter Another Site Type",
+			"DISTRICT": "District",
+			"DISTRICT_Hint": "Please enter District",
+			"STREET": "Street",
+			"STREET_Hint": "Please enter Street",
+			"COORDINATE_TYPE": "Coordinate Type",
+			"COORDINATE_TYPE_Hint": "Please enter Coordinate Type",
+			"COORDINATE_X": "Coordinate X",
+			"COORDINATE_X_Hint": "Please enter Coordinate X",
+			"NAME_OF_OPPORTUNITY": "Name of opportunity",
+			"NAME_OF_OPPORTUNITY_Hint": "Please enter Name of opportunity",
+			"INVESTOR_MAIL": "Investor mail",
+			"INVESTOR_MAIL_Hint": "Please enter Investor mail",
+			"COORDINATE_Y": "Coordinate Y",
+			"COORDINATE_Y_Hint": "Please enter Coordinate Y",
+			"PIN": "Pin",
+			"PIN_Hint": "Please enter Pin",
+			"SITE_NUMBER": "Site Number",
+			"SITE_NUMBER_Hint": "Please enter Site Number",
+			"SITE_AREA": "Site Area",
+			"SITE_AREA_Hint": "Please enter Site Area",
+			"NO_PLANNED": "No Planned",
+			"NO_PLANNED_Hint": "Please enter No Planned",
+			"ADDITIONAL_INFORMATION": "Additional Information",
+			"ADDITIONAL_INFORMATION_Hint": "Please enter Additional Information",
+			"SITE_DESCRIPTION_OPTIONS": "Site Description Options",
+			"SITE_DESCRIPTION_OPTIONS_Hint": "Please enter Site Description Options",
+			"SITE_DESCRIPTION": "Site Description",
+			"SITE_DESCRIPTION_Hint": "Please enter Site Description",
+			"INSTRUCTIONS": "Instructions",
+			"INSTRUCTIONS_Hint": "Please enter Instructions",
+			"OTHERS": "Others",
+			"OTHERS_Hint": "Please enter Others",
+			"component_title": "ETR CASE GRID"
+		}
+	},
+	"ETR_ETR_CASE_MAP_MAP": {
+		"etrcaseMapEtrEtrCaseMapMap": {
+			"ETR_MAP_ID": "Etr Map Id",
+			"ETR_MAP_ID_Hint": "Please enter Etr Map Id",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude",
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude",
+			"LOC_NAME": "Loc Name",
+			"LOC_NAME_Hint": "Please enter Loc Name",
+			"ETR_ID": "Etr Id",
+			"ETR_ID_Hint": "Please enter Etr Id",
+			"component_title": "ETR CASE MAP MAP"
+		}
+	},
+	"ETR_ETR_CASE_MAP_MAP2": {
+		"etrcaseMapEtrEtrCaseMapMap2": {
+			"ETR_MAP_ID": "Etr Map Id",
+			"ETR_MAP_ID_Hint": "Please enter Etr Map Id",
+			"LATITUDE": "Latitude",
+			"LATITUDE_Hint": "Please enter Latitude",
+			"LONGITUDE": "Longitude",
+			"LONGITUDE_Hint": "Please enter Longitude",
+			"LOC_NAME": "Loc Name",
+			"LOC_NAME_Hint": "Please enter Loc Name",
+			"ETR_ID": "Etr Id",
+			"ETR_ID_Hint": "Please enter Etr Id",
+			"component_title": "ETR CASE MAP MAP2"
+		}
+	},
+	"ETR_ETR_CASE_NOTES_GRID": {
+		"etrcaseNotesEtrEtrCaseNotesGrid": {
+			"ETR_NOTE_ID": "Etr Note Id",
+			"ETR_NOTE_ID_Hint": "Please enter Etr Note Id",
+			"NOTE_BY": "Note By",
+			"NOTE_BY_Hint": "Please enter Note By",
+			"NOTE_TEXT": "Note Text",
+			"NOTE_TEXT_Hint": "Please enter Note Text",
+			"ETR_ID": "Etr Id",
+			"ETR_ID_Hint": "Please enter Etr Id",
+			"component_title": "ETR CASE NOTES GRID"
+		}
+	},
+	"ETR_ETR_CASE_PUBLISHING_FORM": {
+		"etrcasePublishingEtrEtrCasePublishingForm": {
+			"ETR_PUP_ID": "Etr Pup Id",
+			"ETR_PUP_ID_Hint": "Please enter Etr Pup Id",
+			"PUB_OPTION": "Pub Option",
+			"PUB_OPTION_Hint": "Please enter Pub Option",
+			"ETR_ID": "Etr Id",
+			"ETR_ID_Hint": "Please enter Etr Id",
+			"component_title": "ETR CASE PUBLISHING FORM"
+		}
+	},
+	"ETR_ETR_CASE_TERM_GRID": {
+		"etrcaseTermEtrEtrCaseTermGrid": {
+			"ETR_TERM_ID": "Etr Term Id",
+			"ETR_TERM_ID_Hint": "Please enter Etr Term Id",
+			"TERM_START_DATE": "Term Start Date",
+			"TERM_START_DATE_Hint": "Please enter Term Start Date",
+			"TERM_END_DATE": "Term End Date",
+			"TERM_END_DATE_Hint": "Please enter Term End Date",
+			"TERM_PRICE": "Term Price",
+			"TERM_PRICE_Hint": "Please enter Term Price",
+			"ETR_ID": "Etr Id",
+			"ETR_ID_Hint": "Please enter Etr Id",
+			"component_title": "ETR CASE TERM GRID"
+		}
+	},
+	"ETR_ETR_CONTRACTS_GRID": {
+		"etrcontractsEtrEtrContractsGrid": {
+			"ETR_CONTRACT_ID": "Etr Contract Id",
+			"ETR_CONTRACT_ID_Hint": "Please enter Etr Contract Id",
+			"ACTION_NUMBER": "Action Number",
+			"ACTION_NUMBER_Hint": "Please enter Action Number",
+			"CONTRACT_NUMBER": "Contract Number",
+			"CONTRACT_NUMBER_Hint": "Please enter Contract Number",
+			"CONTRACT_ATT": "Contract Att",
+			"CONTRACT_ATT_Hint": "Please enter Contract Att",
+			"OPPORTUNITY_ID": "Opportunity Id",
+			"OPPORTUNITY_ID_Hint": "Please enter Opportunity Id",
+			"INVETOR_ID": "Invetor Id",
+			"INVETOR_ID_Hint": "Please enter Invetor Id",
+			"TERM_START_DATE": "Term Start Date",
+			"TERM_START_DATE_Hint": "Please enter Term Start Date",
+			"TERM_END_DATE": "Term End Date",
+			"TERM_END_DATE_Hint": "Please enter Term End Date",
+			"DELIVERY_STATUS": "Delivery Status",
+			"DELIVERY_STATUS_Hint": "Please enter Delivery Status",
+			"component_title": "ETR CONTRACTS GRID"
+		}
+	},
+	"ETR_ETR_PARTICIPANTS_GRID": {
+		"etrparticipantsEtrEtrParticipantsGrid": {
+			"ETR_PARTICIPANTS_ID": "Etr Participants Id",
+			"ETR_PARTICIPANTS_ID_Hint": "Please enter Etr Participants Id",
+			"PARTICIPANTS_ID": "Participants Id",
+			"PARTICIPANTS_ID_Hint": "Please enter Participants Id",
+			"REPRESENTER_ID": "Representer Id",
+			"REPRESENTER_ID_Hint": "Please enter Representer Id",
+			"PARTICIPANTS_EMAIL": "Participants Email",
+			"PARTICIPANTS_EMAIL_Hint": "Please enter Participants Email",
+			"ETR_ID": "Etr Id",
+			"ETR_ID_Hint": "Please enter Etr Id",
+			"component_title": "ETR PARTICIPANTS GRID"
+		}
+	},
+	"ETR_ETR_SITE_HANDOVER_FORM": {
+		"etrsiteHandoverEtrEtrSiteHandoverForm": {
+			"ETR_HANDOVER_ID": "Etr Handover Id",
+			"ETR_HANDOVER_ID_Hint": "Please enter Etr Handover Id",
+			"HANDOVER_DATE": "Handover Date",
+			"HANDOVER_DATE_Hint": "Please enter Handover Date",
+			"HANDOVER_TIME": "Handover Time",
+			"HANDOVER_TIME_Hint": "Please enter Handover Time",
+			"HANDOVER_LOCATION": "Handover Location",
+			"HANDOVER_LOCATION_Hint": "Please enter Handover Location",
+			"HANDOVER_HIJRI_DATE": "Handover Hijri Date",
+			"HANDOVER_HIJRI_DATE_Hint": "Please enter Handover Hijri Date",
+			"ETR_ID": "Etr Id",
+			"ETR_ID_Hint": "Please enter Etr Id",
+			"component_title": "ETR SITE HANDOVER FORM"
+		}
+	},
+	"etr_ent_tem_wf": {
+		"etr_ent_tem_wf": {
+			"component_title": "Entity Temp Workflow",
+			"compsTitleID1": "Case Init",
+			"compsTitleID2": "Attachments",
+			"compsTitleID3": "Categories",
+			"compsTitleID4": "Case",
+			"compsTitleID5": "Publishing",
+			"compsTitleID6": "Categories",
+			"compsTitleID7": "Terms",
+			"compsTitleID8": "Notes",
+			"compsTitleID9": "Case",
+			"compsTitleID10": "SSH SST",
+			"compsTitleID11": "SSH SST",
+			"compsTitleID12": "Participants"
+		}
+	},
+	"TND_CP_MY_COMPANY_PROFILE": {
+		"tndcompanyTndCpMyCompanyProfile": {
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id",
+			"COMPANY_NAME": "Company Name",
+			"COMPANY_NAME_Hint": "Please enter Company Name",
+			"REGISTRATION_NUMBER": "Registration Number",
+			"REGISTRATION_NUMBER_Hint": "Please enter Registration Number",
+			"CONTACT_PERSON": "Contact Person",
+			"CONTACT_PERSON_Hint": "Please enter Contact Person",
+			"EMAIL": "Email",
+			"EMAIL_Hint": "Please enter Email",
+			"PHONE": "Phone",
+			"PHONE_Hint": "Please enter Phone",
+			"COUNTRY": "Country",
+			"COUNTRY_Hint": "Please enter Country",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"component_title": "My Company Profile"
+		}
+	},
+	"TND_CR_COMPANY_REGISTRATION": {
+		"tndcompanyTndCrCompanyRegistration": {
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id",
+			"COMPANY_NAME": "Company Name",
+			"COMPANY_NAME_Hint": "Please enter Company Name",
+			"REGISTRATION_NUMBER": "Registration Number",
+			"REGISTRATION_NUMBER_Hint": "Please enter Registration Number",
+			"CONTACT_PERSON": "Contact Person",
+			"CONTACT_PERSON_Hint": "Please enter Contact Person",
+			"EMAIL": "Email",
+			"EMAIL_Hint": "Please enter Email",
+			"PHONE": "Phone",
+			"PHONE_Hint": "Please enter Phone",
+			"COUNTRY": "Country",
+			"COUNTRY_Hint": "Please enter Country",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"REGISTER_COMPANY": "Register Company",
+			"REGISTER_COMPANY_Hint": "Please enter Register Company",
+			"component_title": "Company Registration"
+		}
+	},
+	"TND_CT_TENDER_CREATION": {
+		"tndtenderTndCtTenderCreation": {
+			"TENDER_ID": "Tender Id",
+			"TENDER_ID_Hint": "Please enter Tender Id",
+			"TENDER_TITLE": "Tender Title",
+			"TENDER_TITLE_Hint": "Please enter Tender Title",
+			"TENDER_DESCRIPTION": "Tender Description",
+			"TENDER_DESCRIPTION_Hint": "Please enter Tender Description",
+			"TENDER_CATEGORY": "Tender Category",
+			"TENDER_CATEGORY_Hint": "Please enter Tender Category",
+			"SAVE_DRAFT": "Save Draft",
+			"SAVE_DRAFT_Hint": "Please enter Save Draft",
+			"PUBLISH_TENDER": "Publish Tender",
+			"PUBLISH_TENDER_Hint": "Please enter Publish Tender",
+			"PUBLISHING_AUTHORITY": "Publishing Authority",
+			"PUBLISHING_AUTHORITY_Hint": "Please enter Publishing Authority",
+			"PUBLISH_DATE": "Publish Date",
+			"PUBLISH_DATE_Hint": "Please enter Publish Date",
+			"SUBMISSION_DEADLINE": "Submission Deadline",
+			"SUBMISSION_DEADLINE_Hint": "Please enter Submission Deadline",
+			"BUDGET_RANGE": "Budget Range",
+			"BUDGET_RANGE_Hint": "Please enter Budget Range",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"component_title": "Tender Creation"
+		}
+	},
+	"TND_EA_APPLICATION_DETAILS": {
+		"tndtenderApplicationTndEaApplicationDetails": {
+			"APPLICATION_ID": "Application Id",
+			"APPLICATION_ID_Hint": "Please enter Application Id",
+			"TENDER_ID": "Tender Id",
+			"TENDER_ID_Hint": "Please enter Tender Id",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id",
+			"PROPOSAL_DOCUMENT": "Proposal Document",
+			"PROPOSAL_DOCUMENT_Hint": "Please enter Proposal Document",
+			"PRICE_OFFER": "Price Offer",
+			"PRICE_OFFER_Hint": "Please enter Price Offer",
+			"TECHNICAL_DESCRIPTION": "Technical Description",
+			"TECHNICAL_DESCRIPTION_Hint": "Please enter Technical Description",
+			"SUBMISSION_DATE": "Submission Date",
+			"SUBMISSION_DATE_Hint": "Please enter Submission Date",
+			"APPLICATION_STATUS": "Application Status",
+			"APPLICATION_STATUS_Hint": "Please enter Application Status",
+			"component_title": "Application Details"
+		}
+	},
+	"TND_EA_APPLICATION_EVALUATION": {
+		"tndevaluationTndEaApplicationEvaluation": {
+			"EVALUATION_ID": "Evaluation Id",
+			"EVALUATION_ID_Hint": "Please enter Evaluation Id",
+			"APPLICATION_ID": "Application Id",
+			"APPLICATION_ID_Hint": "Please enter Application Id",
+			"PRICE_SCORE": "Price Score",
+			"PRICE_SCORE_Hint": "Please enter Price Score",
+			"TECHNICAL_SCORE": "Technical Score",
+			"TECHNICAL_SCORE_Hint": "Please enter Technical Score",
+			"COMPLIANCE_SCORE": "Compliance Score",
+			"COMPLIANCE_SCORE_Hint": "Please enter Compliance Score",
+			"TOTAL_SCORE": "Total Score",
+			"TOTAL_SCORE_Hint": "Please enter Total Score",
+			"REVIEWER_COMMENTS": "Reviewer Comments",
+			"REVIEWER_COMMENTS_Hint": "Please enter Reviewer Comments",
+			"CALCULATE_SCORE": "Calculate Score",
+			"CALCULATE_SCORE_Hint": "Please enter Calculate Score",
+			"EVALUATION_DATE": "Evaluation Date",
+			"EVALUATION_DATE_Hint": "Please enter Evaluation Date",
+			"SAVE_EVALUATION": "Save Evaluation",
+			"SAVE_EVALUATION_Hint": "Please enter Save Evaluation",
+			"component_title": "Application Evaluation"
+		}
+	},
+	"TND_GRD_APPLICATIONS_PENDING_REVIEW": {
+		"tndtenderApplicationTndGrdApplicationsPendingReview": {
+			"APPLICATION_ID": "Application Id",
+			"APPLICATION_ID_Hint": "Please enter Application Id",
+			"REVIEW_APPLICATION": "Review Application",
+			"REVIEW_APPLICATION_Hint": "Please enter Review Application",
+			"TENDER_ID": "Tender Id",
+			"TENDER_ID_Hint": "Please enter Tender Id",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id",
+			"PROPOSAL_DOCUMENT": "Proposal Document",
+			"PROPOSAL_DOCUMENT_Hint": "Please enter Proposal Document",
+			"PRICE_OFFER": "Price Offer",
+			"PRICE_OFFER_Hint": "Please enter Price Offer",
+			"TECHNICAL_DESCRIPTION": "Technical Description",
+			"TECHNICAL_DESCRIPTION_Hint": "Please enter Technical Description",
+			"SUBMISSION_DATE": "Submission Date",
+			"SUBMISSION_DATE_Hint": "Please enter Submission Date",
+			"APPLICATION_STATUS": "Application Status",
+			"APPLICATION_STATUS_Hint": "Please enter Application Status",
+			"component_title": "Applications Pending Review"
+		}
+	},
+	"TND_GRD_APPLICATION_REVIEW_PIPELINE": {
+		"tndtenderApplicationTndGrdApplicationReviewPipeline": {
+			"APPLICATION_ID": "Application Id",
+			"APPLICATION_ID_Hint": "Please enter Application Id",
+			"TENDER_ID": "Tender Id",
+			"TENDER_ID_Hint": "Please enter Tender Id",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id",
+			"PROPOSAL_DOCUMENT": "Proposal Document",
+			"PROPOSAL_DOCUMENT_Hint": "Please enter Proposal Document",
+			"PRICE_OFFER": "Price Offer",
+			"PRICE_OFFER_Hint": "Please enter Price Offer",
+			"TECHNICAL_DESCRIPTION": "Technical Description",
+			"TECHNICAL_DESCRIPTION_Hint": "Please enter Technical Description",
+			"SUBMISSION_DATE": "Submission Date",
+			"SUBMISSION_DATE_Hint": "Please enter Submission Date",
+			"APPLICATION_STATUS": "Application Status",
+			"APPLICATION_STATUS_Hint": "Please enter Application Status",
+			"component_title": "Application Review Pipeline"
+		}
+	},
+	"TND_RD_TENDER_EVALUATION_RANKINGS": {
+		"tndevaluationTndRdTenderEvaluationRankings": {
+			"EVALUATION_ID": "Evaluation Id",
+			"EVALUATION_ID_Hint": "Please enter Evaluation Id",
+			"VIEW_RANKING_DETAILS": "View Ranking Details",
+			"VIEW_RANKING_DETAILS_Hint": "Please enter View Ranking Details",
+			"APPLICATION_ID": "Application Id",
+			"APPLICATION_ID_Hint": "Please enter Application Id",
+			"PRICE_SCORE": "Price Score",
+			"PRICE_SCORE_Hint": "Please enter Price Score",
+			"TECHNICAL_SCORE": "Technical Score",
+			"TECHNICAL_SCORE_Hint": "Please enter Technical Score",
+			"COMPLIANCE_SCORE": "Compliance Score",
+			"COMPLIANCE_SCORE_Hint": "Please enter Compliance Score",
+			"TOTAL_SCORE": "Total Score",
+			"TOTAL_SCORE_Hint": "Please enter Total Score",
+			"REVIEWER_COMMENTS": "Reviewer Comments",
+			"REVIEWER_COMMENTS_Hint": "Please enter Reviewer Comments",
+			"EVALUATION_DATE": "Evaluation Date",
+			"EVALUATION_DATE_Hint": "Please enter Evaluation Date",
+			"component_title": "Tender Evaluation Rankings"
+		}
+	},
+	"TND_STA_TENDER_APPLICATION": {
+		"tndtenderApplicationTndStaTenderApplication": {
+			"APPLICATION_ID": "Application Id",
+			"APPLICATION_ID_Hint": "Please enter Application Id",
+			"TENDER_ID": "Tender Id",
+			"TENDER_ID_Hint": "Please enter Tender Id",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id",
+			"SAVE_DRAFT_APP": "Save Draft App",
+			"SAVE_DRAFT_APP_Hint": "Please enter Save Draft App",
+			"SUBMIT_APPLICATION": "Submit Application",
+			"SUBMIT_APPLICATION_Hint": "Please enter Submit Application",
+			"PROPOSAL_DOCUMENT": "Proposal Document",
+			"PROPOSAL_DOCUMENT_Hint": "Please enter Proposal Document",
+			"PRICE_OFFER": "Price Offer",
+			"PRICE_OFFER_Hint": "Please enter Price Offer",
+			"TECHNICAL_DESCRIPTION": "Technical Description",
+			"TECHNICAL_DESCRIPTION_Hint": "Please enter Technical Description",
+			"SUBMISSION_DATE": "Submission Date",
+			"SUBMISSION_DATE_Hint": "Please enter Submission Date",
+			"APPLICATION_STATUS": "Application Status",
+			"APPLICATION_STATUS_Hint": "Please enter Application Status",
+			"component_title": "Tender Application"
+		}
+	},
+	"TND_TD_TENDER_INFORMATION": {
+		"tndtenderTndTdTenderInformation": {
+			"TENDER_ID": "Tender Id",
+			"TENDER_ID_Hint": "Please enter Tender Id",
+			"TENDER_TITLE": "Tender Title",
+			"TENDER_TITLE_Hint": "Please enter Tender Title",
+			"TENDER_DESCRIPTION": "Tender Description",
+			"TENDER_DESCRIPTION_Hint": "Please enter Tender Description",
+			"TENDER_CATEGORY": "Tender Category",
+			"TENDER_CATEGORY_Hint": "Please enter Tender Category",
+			"PUBLISHING_AUTHORITY": "Publishing Authority",
+			"PUBLISHING_AUTHORITY_Hint": "Please enter Publishing Authority",
+			"PUBLISH_DATE": "Publish Date",
+			"PUBLISH_DATE_Hint": "Please enter Publish Date",
+			"SUBMISSION_DEADLINE": "Submission Deadline",
+			"SUBMISSION_DEADLINE_Hint": "Please enter Submission Deadline",
+			"BUDGET_RANGE": "Budget Range",
+			"BUDGET_RANGE_Hint": "Please enter Budget Range",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"APPLY_TENDER": "Apply Tender",
+			"APPLY_TENDER_Hint": "Please enter Apply Tender",
+			"component_title": "Tender Information"
+		}
+	},
+	"TND_TD_TENDER_STATISTICS": {
+		"tndtenderTndTdTenderStatistics": {
+			"TENDER_ID": "Tender Id",
+			"TENDER_ID_Hint": "Please enter Tender Id",
+			"TENDER_TITLE": "Tender Title",
+			"TENDER_TITLE_Hint": "Please enter Tender Title",
+			"TENDER_DESCRIPTION": "Tender Description",
+			"TENDER_DESCRIPTION_Hint": "Please enter Tender Description",
+			"TENDER_CATEGORY": "Tender Category",
+			"TENDER_CATEGORY_Hint": "Please enter Tender Category",
+			"PUBLISHING_AUTHORITY": "Publishing Authority",
+			"PUBLISHING_AUTHORITY_Hint": "Please enter Publishing Authority",
+			"PUBLISH_DATE": "Publish Date",
+			"PUBLISH_DATE_Hint": "Please enter Publish Date",
+			"CREATE_TENDER": "Create Tender",
+			"CREATE_TENDER_Hint": "Please enter Create Tender",
+			"SUBMISSION_DEADLINE": "Submission Deadline",
+			"SUBMISSION_DEADLINE_Hint": "Please enter Submission Deadline",
+			"BUDGET_RANGE": "Budget Range",
+			"BUDGET_RANGE_Hint": "Please enter Budget Range",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"component_title": "Tender Statistics"
+		}
+	},
+	"TND_TD_TENDER_STATUS_OVERVIEW": {
+		"tndtenderTndTdTenderStatusOverview": {
+			"TENDER_ID": "Tender Id",
+			"TENDER_ID_Hint": "Please enter Tender Id",
+			"TENDER_TITLE": "Tender Title",
+			"TENDER_TITLE_Hint": "Please enter Tender Title",
+			"TENDER_DESCRIPTION": "Tender Description",
+			"TENDER_DESCRIPTION_Hint": "Please enter Tender Description",
+			"TENDER_CATEGORY": "Tender Category",
+			"TENDER_CATEGORY_Hint": "Please enter Tender Category",
+			"PUBLISHING_AUTHORITY": "Publishing Authority",
+			"PUBLISHING_AUTHORITY_Hint": "Please enter Publishing Authority",
+			"PUBLISH_DATE": "Publish Date",
+			"PUBLISH_DATE_Hint": "Please enter Publish Date",
+			"SUBMISSION_DEADLINE": "Submission Deadline",
+			"SUBMISSION_DEADLINE_Hint": "Please enter Submission Deadline",
+			"BUDGET_RANGE": "Budget Range",
+			"BUDGET_RANGE_Hint": "Please enter Budget Range",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"component_title": "Tender Status Overview"
+		}
+	},
+	"TND_TL_AVAILABLE_TENDERS": {
+		"tndtenderTndTlAvailableTenders": {
+			"TENDER_ID": "Tender Id",
+			"TENDER_ID_Hint": "Please enter Tender Id",
+			"VIEW_TENDER": "View Tender",
+			"VIEW_TENDER_Hint": "Please enter View Tender",
+			"TENDER_TITLE": "Tender Title",
+			"TENDER_TITLE_Hint": "Please enter Tender Title",
+			"TENDER_DESCRIPTION": "Tender Description",
+			"TENDER_DESCRIPTION_Hint": "Please enter Tender Description",
+			"TENDER_CATEGORY": "Tender Category",
+			"TENDER_CATEGORY_Hint": "Please enter Tender Category",
+			"PUBLISHING_AUTHORITY": "Publishing Authority",
+			"PUBLISHING_AUTHORITY_Hint": "Please enter Publishing Authority",
+			"PUBLISH_DATE": "Publish Date",
+			"PUBLISH_DATE_Hint": "Please enter Publish Date",
+			"SUBMISSION_DEADLINE": "Submission Deadline",
+			"SUBMISSION_DEADLINE_Hint": "Please enter Submission Deadline",
+			"BUDGET_RANGE": "Budget Range",
+			"BUDGET_RANGE_Hint": "Please enter Budget Range",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"component_title": "Available Tenders"
+		}
+	},
+	"TND_TL_SEARCH_PUBLISHED_TENDERS": {
+		"tndtenderTndTlSearchPublishedTenders": {
+			"TENDER_ID": "Tender Id",
+			"TENDER_ID_Hint": "Please enter Tender Id",
+			"TENDER_TITLE": "Tender Title",
+			"TENDER_TITLE_Hint": "Please enter Tender Title",
+			"TENDER_DESCRIPTION": "Tender Description",
+			"TENDER_DESCRIPTION_Hint": "Please enter Tender Description",
+			"TENDER_CATEGORY": "Tender Category",
+			"TENDER_CATEGORY_Hint": "Please enter Tender Category",
+			"PUBLISHING_AUTHORITY": "Publishing Authority",
+			"PUBLISHING_AUTHORITY_Hint": "Please enter Publishing Authority",
+			"PUBLISH_DATE": "Publish Date",
+			"PUBLISH_DATE_Hint": "Please enter Publish Date",
+			"SUBMISSION_DEADLINE": "Submission Deadline",
+			"SUBMISSION_DEADLINE_Hint": "Please enter Submission Deadline",
+			"BUDGET_RANGE": "Budget Range",
+			"BUDGET_RANGE_Hint": "Please enter Budget Range",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status",
+			"SEARCH_TENDERS": "Search Tenders",
+			"SEARCH_TENDERS_Hint": "Please enter Search Tenders",
+			"component_title": "Search Published Tenders"
+		}
+	},
+	"TND_TND_TENDER1_FORM": {
+		"tndtender1TndTndTender1Form": {
+			"Tender_ID": "Tender Id",
+			"Tender_ID_Hint": "Please enter Tender Id",
+			"Tender_Title": "Tender Title",
+			"Tender_Title_Hint": "Please enter Tender Title",
+			"Tender_Category": "Tender Category",
+			"Tender_Category_Hint": "Please enter Tender Category",
+			"Publishing_Authority": "Publishing Authority",
+			"Publishing_Authority_Hint": "Please enter Publishing Authority",
+			"Publish_Date": "Publish Date",
+			"Publish_Date_Hint": "Please enter Publish Date",
+			"Submission_Deadline": "Submission Deadline",
+			"Submission_Deadline_Hint": "Please enter Submission Deadline",
+			"Budget_Min": "Budget Min",
+			"Budget_Min_Hint": "Please enter Budget Min",
+			"Budget_Max": "Budget Max",
+			"Budget_Max_Hint": "Please enter Budget Max",
+			"Status": "Status",
+			"Status_Hint": "Please enter Status",
+			"component_title": "TND TENDER1 FORM"
+		}
+	},
+	"TND_TRD_TOP_COMPANIES_PER_TENDER": {
+		"tndevaluationTndTrdTopCompaniesPerTender": {
+			"EVALUATION_ID": "Evaluation Id",
+			"EVALUATION_ID_Hint": "Please enter Evaluation Id",
+			"AWARD_TENDER": "Award Tender",
+			"AWARD_TENDER_Hint": "Please enter Award Tender",
+			"APPLICATION_ID": "Application Id",
+			"APPLICATION_ID_Hint": "Please enter Application Id",
+			"PRICE_SCORE": "Price Score",
+			"PRICE_SCORE_Hint": "Please enter Price Score",
+			"TECHNICAL_SCORE": "Technical Score",
+			"TECHNICAL_SCORE_Hint": "Please enter Technical Score",
+			"COMPLIANCE_SCORE": "Compliance Score",
+			"COMPLIANCE_SCORE_Hint": "Please enter Compliance Score",
+			"TOTAL_SCORE": "Total Score",
+			"TOTAL_SCORE_Hint": "Please enter Total Score",
+			"REVIEWER_COMMENTS": "Reviewer Comments",
+			"REVIEWER_COMMENTS_Hint": "Please enter Reviewer Comments",
+			"EVALUATION_DATE": "Evaluation Date",
+			"EVALUATION_DATE_Hint": "Please enter Evaluation Date",
+			"component_title": "Top Companies per Tender"
+		}
+	},
+	"TND_company_profile": {
+		"TND_company_profile": {
+			"component_title": "Company Profile",
+			"tab_title1": "My Company Profile"
+		}
+	},
+	"ATN_ATN_COMPANY_FORM": {
+		"atncompanyAtnAtnCompanyForm": {
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"COMPANY_NAME": "Company Name",
+			"COMPANY_NAME_Hint": "Please enter Company Name data.",
+			"LOGO": "Logo",
+			"LOGO_Hint": "Please enter Logo data.",
+			"TIME_IN": "Time In",
+			"TIME_IN_Hint": "Please enter Time In data.",
+			"TIME_OUT": "Time Out",
+			"TIME_OUT_Hint": "Please enter Time Out data.",
+			"WORKING_FROM_DAY": "Working From Day",
+			"WORKING_FROM_DAY_Hint": "Please enter Working From Day data.",
+			"WORKING_TO_DAY": "Working To Day",
+			"WORKING_TO_DAY_Hint": "Please enter Working To Day data.",
+			"TOLERANCE_MINUTES": "Tolerance Minutes",
+			"TOLERANCE_MINUTES_Hint": "Please enter Tolerance Minutes data.",
+			"SUBSCRIPTION_DATE": "Subscription Date",
+			"SUBSCRIPTION_DATE_Hint": "Please enter Subscription Date data.",
+			"VALID_TILL_DATE": "Valid Till Date",
+			"VALID_TILL_DATE_Hint": "Please enter Valid Till Date data.",
+			"SUBSCRIPTION_STATUS": "Subscription Status",
+			"SUBSCRIPTION_STATUS_Hint": "Please enter Subscription Status data.",
+			"PAYMENT_INFO": "Payment Info",
+			"PAYMENT_INFO_Hint": "Please enter Payment Info data.",
+			"SUBSCRIPTION_FEES": "Subscription Fees",
+			"SUBSCRIPTION_FEES_Hint": "Please enter Subscription Fees data.",
+			"component_title": "ATN COMPANY FORM"
+		}
+	},
+	"ATN_ATN_ATTENDANCE_FORM": {
+		"atnattendanceAtnAtnAttendanceForm": {
+			"ATTENDANCE_ID": "Attendance Id",
+			"ATTENDANCE_ID_Hint": "Please enter Attendance Id data.",
+			"EMPLOYEE_ID": "Employee Id",
+			"EMPLOYEE_ID_Hint": "Please enter Employee Id data.",
+			"SHIFT_ID": "Shift Id",
+			"SHIFT_ID_Hint": "Please enter Shift Id data.",
+			"BRANCH_ID": "Branch Id",
+			"BRANCH_ID_Hint": "Please enter Branch Id data.",
+			"ATTENDANCE_DATE": "Attendance Date",
+			"ATTENDANCE_DATE_Hint": "Please enter Attendance Date data.",
+			"TIME_IN": "Time In",
+			"TIME_IN_Hint": "Please enter Time In data.",
+			"TIME_OUT": "Time Out",
+			"TIME_OUT_Hint": "Please enter Time Out data.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"component_title": "ATN ATTENDANCE FORM"
+		}
+	},
+	"ATN_ATN_SHIFT_FORM": {
+		"atnshiftAtnAtnShiftForm": {
+			"SHIFT_ID": "Shift Id",
+			"SHIFT_ID_Hint": "Please enter Shift Id data.",
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"DAY_OF_WEEK": "Day Of Week",
+			"DAY_OF_WEEK_Hint": "Please enter Day Of Week data.",
+			"SHIFT_TIME_IN": "Shift Time In",
+			"SHIFT_TIME_IN_Hint": "Please enter Shift Time In data.",
+			"SHIFT_TIME_OUT": "Shift Time Out",
+			"SHIFT_TIME_OUT_Hint": "Please enter Shift Time Out data.",
+			"TIME_IN": "Time In",
+			"TIME_IN_Hint": "Please enter Time In data.",
+			"component_title": "ATN SHIFT FORM"
+		}
+	},
+	"ATN_ATN_COMPANY_FORMSTEPS1": {
+		"atncompanyAtnAtnCompanyFormsteps1": {
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"COMPANY_NAME": "Company Name",
+			"COMPANY_NAME_Hint": "Please enter Company Name data.",
+			"LOGO": "Logo",
+			"LOGO_Hint": "Please enter Logo data.",
+			"TIME_IN": "Time In",
+			"TIME_IN_Hint": "Please enter Time In data.",
+			"TIME_OUT": "Time Out",
+			"TIME_OUT_Hint": "Please enter Time Out data.",
+			"WORKING_FROM_DAY": "Working From Day",
+			"WORKING_FROM_DAY_Hint": "Please enter Working From Day data.",
+			"WORKING_TO_DAY": "Working To Day",
+			"WORKING_TO_DAY_Hint": "Please enter Working To Day data.",
+			"TOLERANCE_MINUTES": "Tolerance Minutes",
+			"TOLERANCE_MINUTES_Hint": "Please enter Tolerance Minutes data.",
+			"SUBSCRIPTION_DATE": "Subscription Date",
+			"SUBSCRIPTION_DATE_Hint": "Please enter Subscription Date data.",
+			"VALID_TILL_DATE": "Valid Till Date",
+			"VALID_TILL_DATE_Hint": "Please enter Valid Till Date data.",
+			"SUBSCRIPTION_STATUS": "Subscription Status",
+			"SUBSCRIPTION_STATUS_Hint": "Please enter Subscription Status data.",
+			"PAYMENT_INFO": "Payment Info",
+			"PAYMENT_INFO_Hint": "Please enter Payment Info data.",
+			"SUBSCRIPTION_FEES": "Subscription Fees",
+			"SUBSCRIPTION_FEES_Hint": "Please enter Subscription Fees data.",
+			"component_title": "ATN COMPANY FORMSTEPS1"
+		}
+	},
+	"ATN_ATN_COMPANY_FORMSTEPS": {
+		"atncompanyAtnAtnCompanyFormsteps": {
+			"COMPANY_ID": "Company Id",
+			"COMPANY_ID_Hint": "Please enter Company Id data.",
+			"COMPANY_NAME": "Company Name",
+			"COMPANY_NAME_Hint": "Please enter Company Name data.",
+			"LOGO": "Logo",
+			"LOGO_Hint": "Please enter Logo data.",
+			"TIME_IN": "Time In",
+			"TIME_IN_Hint": "Please enter Time In data.",
+			"TIME_OUT": "Time Out",
+			"TIME_OUT_Hint": "Please enter Time Out data.",
+			"WORKING_FROM_DAY": "Working From Day",
+			"WORKING_FROM_DAY_Hint": "Please enter Working From Day data.",
+			"WORKING_TO_DAY": "Working To Day",
+			"WORKING_TO_DAY_Hint": "Please enter Working To Day data.",
+			"TOLERANCE_MINUTES": "Tolerance Minutes",
+			"TOLERANCE_MINUTES_Hint": "Please enter Tolerance Minutes data.",
+			"SUBSCRIPTION_DATE": "Subscription Date",
+			"SUBSCRIPTION_DATE_Hint": "Please enter Subscription Date data.",
+			"VALID_TILL_DATE": "Valid Till Date",
+			"VALID_TILL_DATE_Hint": "Please enter Valid Till Date data.",
+			"SUBSCRIPTION_STATUS": "Subscription Status",
+			"SUBSCRIPTION_STATUS_Hint": "Please enter Subscription Status data.",
+			"PAYMENT_INFO": "Payment Info",
+			"PAYMENT_INFO_Hint": "Please enter Payment Info data.",
+			"SUBSCRIPTION_FEES": "Subscription Fees",
+			"SUBSCRIPTION_FEES_Hint": "Please enter Subscription Fees data.",
+			"component_title": "ATN COMPANY FORMSTEPS"
+		}
+	},
+	"etr_etr_case": {
+		"etr_etr_case": {
+			"component_title": "Case",
+			"compsTitleID1": "Key Information",
+			"compsTitleID2": "Attachments",
+			"compsTitleID3": "Categories"
+		}
+	},
+	"etr_etr_case2": {
+		"etr_etr_case2": {
+			"component_title": "CASE2",
+			"compsTitleID1": "Case2",
+			"compsTitleID2": "Att"
+		}
+	},
+	"etr_etr_pubu": {
+		"etr_etr_pubu": {
+			"component_title": "ETR publishing",
+			"compsTitleID1": "Publishing",
+			"compsTitleID2": "Case",
+			"compsTitleID3": "Terms",
+			"compsTitleID4": "Notes",
+			"compsTitleID5": "Comments"
+		}
+	},
+	"etr_ssh_sst_started": {
+		"etr_ssh_sst_started": {
+			"component_title": "ssh  sst Started",
+			"compsTitleID1": "Site Handover",
+			"compsTitleID2": "Participants"
+		}
+	},
+	"TND_company_registration": {
+		"TND_company_registration": {
+			"component_title": "Company Registration",
+			"tab_title1": "Company Registration"
+		}
+	},
+	"TND_create_tender": {
+		"TND_create_tender": {
+			"component_title": "Create Tender",
+			"tab_title1": "Tender Creation"
+		}
+	},
+	"tnd_evaluate_application": {
+		"tnd_evaluate_application": {
+			"component_title": "Evaluate Application",
+			"compsTitleID1": "Application Evaluation",
+			"compsTitleID2": "Application Details"
+		}
+	},
+	"tnd_government_review_dashboard": {
+		"tnd_government_review_dashboard": {
+			"component_title": "Government Review Dashboard",
+			"compsTitleID1": "Application Review Pipeline",
+			"compsTitleID2": "Applications Pending Review"
+		}
+	},
+	"TND_ranking_dashboard": {
+		"TND_ranking_dashboard": {
+			"component_title": "Ranking Dashboard",
+			"tab_title1": "Tender Evaluation Rankings"
+		}
+	},
+	"TND_submit_tender_application": {
+		"TND_submit_tender_application": {
+			"component_title": "Submit Tender Application",
+			"tab_title1": "Tender Application"
+		}
+	},
+	"tnd_tender_wf": {
+		"tnd_tender_wf": {
+			"component_title": "TENDER Workflow",
+			"compsTitleID1": "Tl search published tenders",
+			"compsTitleID2": "Ea application details",
+			"compsTitleID3": "Ea application evaluation"
+		}
+	},
+	"tnd_tender_dashboard": {
+		"tnd_tender_dashboard": {
+			"component_title": "Tender Dashboard",
+			"compsTitleID1": "Tender Statistics",
+			"compsTitleID2": "Tender Status Overview"
+		}
+	},
+	"TND_tender_details": {
+		"TND_tender_details": {
+			"component_title": "Tender Details",
+			"tab_title1": "Tender Information"
+		}
+	},
+	"tnd_tender_listing": {
+		"tnd_tender_listing": {
+			"component_title": "Tender Listing",
+			"compsTitleID1": "Search Published Tenders",
+			"compsTitleID2": "Available Tenders"
+		}
+	},
+	"TND_tender_ranking_details": {
+		"TND_tender_ranking_details": {
+			"component_title": "Tender Ranking Details",
+			"tab_title1": "Top Companies per Tender"
+		}
+	}
+}
