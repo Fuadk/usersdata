@@ -28014,6 +28014,8 @@
 			"DISPLAY_ID_Hint": "Please enter Display Id.",
 			"APPLICATION_ID": "Application Id",
 			"APPLICATION_ID_Hint": "Please enter Application Id.",
+			"DISPLAY_DATA": "Display Data",
+			"DISPLAY_DATA_Hint": "Please enter Display Data.",
 			"DISPLAY_NAME": "Display Name",
 			"DISPLAY_NAME_Hint": "Please enter Display Name.",
 			"component_title": "Display"
@@ -31196,7 +31198,7 @@
 			"created_at_Hint": "Please enter Created At.",
 			"updated_at": "Updated At",
 			"updated_at_Hint": "Please enter Updated At.",
-			"COPY_BUT": "Copy But",
+			"COPY_BUT": "Copy",
 			"COPY_BUT_Hint": "Please enter Copy But.",
 			"component_title": "SCD ICONS FORM"
 		}
@@ -31340,24 +31342,28 @@
 	"SCD_mdi_tabs": {
 		"SCD_mdi_tabs": {
 			"component_title": "MDI_TABS",
-			"tab_title1": "Diagram1",
+			"tab_title1": "Display",
 			"tab_title2": "Text"
 		}
 	},
 	"SCD_mdi_win": {
 		"SCD_mdi_win": {
 			"component_title": "MDI_WIN",
-			"tab_title1": "Diagram",
+			"tab_title1": "Display",
 			"tab_title2": "Users",
-			"tab_title3": "Symbol Factory"
+			"tab_title3": "Symbol Factory",
+			"tab_title4": "Tags",
+			"tab_title5": "Display"
 		}
 	},
 	"SCD_SCD_APPLICATION_FORM": {
 		"scdapplicationScdScdApplicationForm": {
-			"APPLICATION_ID": "Application Id",
-			"APPLICATION_ID_Hint": "Select application",
 			"APPLICATION_NAME": "Application Name",
 			"APPLICATION_NAME_Hint": "Please enter Application Name.",
+			"HIDE_BUT": "",
+			"HIDE_BUT_Hint": "Please enter Hide But.",
+			"APPLICATION_ID": "Application Id",
+			"APPLICATION_ID_Hint": "Select application",
 			"DESCRIPTION": "Description",
 			"DESCRIPTION_Hint": "Please enter Description.",
 			"APP_LANGUAGE": "App Language",
@@ -31402,6 +31408,10 @@
 			"MENU_ID_Hint": "Please enter Menu Id.",
 			"APPLICATION_ID": "Application Id",
 			"APPLICATION_ID_Hint": "Please enter Application Id.",
+			"MDI_ID": "Mdi Id",
+			"MDI_ID_Hint": "Please enter Mdi Id.",
+			"MAXIMIZED": "Maximized",
+			"MAXIMIZED_Hint": "Please enter Maximized.",
 			"MENU_TYPE": "Menu Type",
 			"MENU_TYPE_Hint": "Please enter Menu Type.",
 			"MENU": "Menu",
@@ -31454,6 +31464,10 @@
 			"ID_Hint": "Please enter Id.",
 			"ICON": "Icon",
 			"ICON_Hint": "Please enter Icon.",
+			"MDI_ID": "Mdi Id",
+			"MDI_ID_Hint": "Please enter Mdi Id.",
+			"MAXIMIZED": "Maximized",
+			"MAXIMIZED_Hint": "Please enter Maximized.",
 			"component_title": "SCD APP TREE GRID"
 		}
 	},
@@ -31482,6 +31496,19 @@
 			"tab_title1": "Diagram Menus",
 			"tab_title2": "App Tree",
 			"tab_title3": "App Tree Context"
+		}
+	},
+	"SCD_SCD_DISPLAY_DIAGRAM": {
+		"scddisplayScdScdDisplayDiagram": {
+			"DISPLAY_ID": "Display Id",
+			"DISPLAY_ID_Hint": "Please enter Display Id.",
+			"APPLICATION_ID": "Application Id",
+			"APPLICATION_ID_Hint": "Please enter Application Id.",
+			"DISPLAY_NAME": "Display Name",
+			"DISPLAY_NAME_Hint": "Please enter Display Name.",
+			"DISPLAY_DATA": "Display Data",
+			"DISPLAY_DATA_Hint": "Please enter Display Data.",
+			"component_title": "SCD DISPLAY DIAGRAM"
 		}
 	}
 }
