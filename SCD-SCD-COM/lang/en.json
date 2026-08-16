@@ -31510,5 +31510,27 @@
 			"DISPLAY_DATA_Hint": "Please enter Display Data.",
 			"component_title": "SCD DISPLAY DIAGRAM"
 		}
+	},
+	"scd_application_users_management": {
+		"scd_application_users_management": {
+			"component_title": "Application Users Management",
+			"compsTitleID1": "Users",
+			"compsTitleID2": "Groups"
+		}
+	},
+	"SCD_scale_properties": {
+		"SCD_scale_properties": {
+			"component_title": "Scale Properties",
+			"tab_title1": "Common",
+			"tab_title2": "General"
+		}
+	},
+	"SCD_symbol_properties": {
+		"SCD_symbol_properties": {
+			"component_title": "Symbol Properties",
+			"tab_title1": "Common",
+			"tab_title2": "States",
+			"tab_title3": "General"
+		}
 	}
 }
