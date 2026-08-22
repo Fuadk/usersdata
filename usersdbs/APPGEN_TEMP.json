@@ -2976,13 +2976,13 @@
 	" SELECT * FROM information_schema.tables WHERE table_schema LIKE :SCHEMA_NAME   AND table_name LIKE  :TABLE_NAME  "
 ],
 "GET_LAST_ID_SQLITE3": [
-	" SELECT last_insert_rowid()  "
+	" SELECT last_insert_rowid() LAST_INSERT_ID  "
 ],
 "GET_LAST_ID_POSTGRES": [
-	" SELECT lastval()  "
+	" SELECT lastval() LAST_INSERT_ID  "
 ],
 "GET_LAST_ID_MYSQL": [
-	" SELECT LAST_INSERT_ID()  "
+	" SELECT LAST_INSERT_ID() LAST_INSERT_ID  "
 ]
 
 ,

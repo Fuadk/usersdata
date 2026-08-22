@@ -27883,7 +27883,7 @@
 	"SCD_opcua_server_definition": {
 		"SCD_opcua_server_definition": {
 			"component_title": "OPCUA Server Definition",
-			"tab_title1": "OPCUA Server"
+			"tab_title1": "Server"
 		}
 	},
 	"SCD_OSRTD_OPCUA_SERVER_DIAGNOSTICS": {
@@ -28901,11 +28901,13 @@
 			"TEXT_GENERAL_ID_Hint": "Please enter Text General Id.",
 			"SHAPE_ID": "Shape Id",
 			"SHAPE_ID_Hint": "Please enter Shape Id.",
-			"TEXT_FIELD": "Text Field",
+			"TEXT_FIELD": "Text",
 			"TEXT_FIELD_Hint": "Please enter Text Field.",
-			"FONT_NAME": "Font Name",
+			"INSERT_VARIABLE": "",
+			"INSERT_VARIABLE_Hint": "Insert Variable.",
+			"FONT_NAME": "Font",
 			"FONT_NAME_Hint": "Please enter Font Name.",
-			"FONT_SIZE": "Font Size",
+			"FONT_SIZE": "Size",
 			"FONT_SIZE_Hint": "Please enter Font Size.",
 			"FONT_BOLD": "B",
 			"FONT_BOLD_Hint": "Please enter Font Bold.",
@@ -28968,8 +28970,8 @@
 			"TOOLTIP_TEXT_Hint": "Please enter Tooltip Text.",
 			"TAB_INDEX": "Tab Index",
 			"TAB_INDEX_Hint": "Please enter Tab Index.",
-			"INSERT_VARIABLE": "Insert variable",
-			"INSERT_VARIABLE_Hint": "Please enter Insert variable.",
+			"INSERT_VARIABLE": "",
+			"INSERT_VARIABLE_Hint": "Insert variable.",
 			"component_title": "Common Screen"
 		}
 	},
@@ -31353,7 +31355,8 @@
 			"tab_title2": "Users",
 			"tab_title3": "Symbol Factory",
 			"tab_title4": "Tags",
-			"tab_title5": "Display"
+			"tab_title5": "Display",
+			"tab_title6": "OPCUA Server"
 		}
 	},
 	"SCD_SCD_APPLICATION_FORM": {
@@ -31531,6 +31534,26 @@
 			"tab_title1": "Common",
 			"tab_title2": "States",
 			"tab_title3": "General"
+		}
+	},
+	"scd_opcua_server_definition": {
+		"scd_opcua_server_definition": {
+			"component_title": "OPCUA Server Definition",
+			"compsTitleID1": "OPCUA Server",
+			"compsTitleID2": "xx"
+		}
+	},
+	"SCD_SCD_SHAPE_DEFAULTS_GRID": {
+		"scdshapeDefaultsScdScdShapeDefaultsGrid": {
+			"SHAPE_DEFAULT_ID": "Shape Default Id",
+			"SHAPE_DEFAULT_ID_Hint": "Please enter Shape Default Id.",
+			"SHAPE_TYPE": "Shape Type",
+			"SHAPE_TYPE_Hint": "Please enter Shape Type.",
+			"FIELD_NAME": "Field Name",
+			"FIELD_NAME_Hint": "Please enter Field Name.",
+			"FIELD_VALUE": "Field Value",
+			"FIELD_VALUE_Hint": "Please enter Field Value.",
+			"component_title": "SCD SHAPE DEFAULTS GRID"
 		}
 	}
 }

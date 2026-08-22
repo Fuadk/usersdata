@@ -3534,13 +3534,13 @@
 		" WHERE  QR_ID = :QR_ID  AND  COMPANY_ID = :COMPANY_ID  AND  BRANCH_ID = :BRANCH_ID "
 	],
 	"GET_LAST_ID_SQLITE3": [
-		" SELECT last_insert_rowid()  "
+		" SELECT last_insert_rowid() LAST_INSERT_ID  "
 	],
 	"GET_LAST_ID_POSTGRES": [
-		" SELECT lastval()  "
+		" SELECT lastval() LAST_INSERT_ID  "
 	],
 	"GET_LAST_ID_MYSQL": [
-		" SELECT LAST_INSERT_ID()  "
+		" SELECT LAST_INSERT_ID() LAST_INSERT_ID  "
 	],
 	"GET_ATN2_QR_CODE": [
 		" SELECT QR_ID ,  COMPANY_ID ,  BRANCH_ID ,  QR_CODE_DATA ,  LATITUDE ,  LONGITUDE",
