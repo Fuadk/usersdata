@@ -8376,5 +8376,256 @@
 			"component_title": "Shape Animation Editor",
 			"tab_title1": "Shape Animation Editor"
 		}
+	},
+	"MID_P_PATIENT_LIST": {
+		"midpatientMidPPatientList": {
+			"PATIENT_ID": "Patient Id",
+			"PATIENT_ID_Hint": "Please enter Patient Id.",
+			"FIRST_NAME": "First Name",
+			"FIRST_NAME_Hint": "Please enter First Name.",
+			"LAST_NAME": "Last Name",
+			"LAST_NAME_Hint": "Please enter Last Name.",
+			"DATE_OF_BIRTH": "Date Of Birth",
+			"DATE_OF_BIRTH_Hint": "Please enter Date Of Birth.",
+			"GENDER": "Gender",
+			"GENDER_Hint": "Please enter Gender.",
+			"PHONE": "Phone",
+			"PHONE_Hint": "Please enter Phone.",
+			"EMAIL": "Email",
+			"EMAIL_Hint": "Please enter Email.",
+			"ADDRESS": "Address",
+			"ADDRESS_Hint": "Please enter Address.",
+			"PHOTO": "Photo",
+			"PHOTO_Hint": "Please enter Photo.",
+			"component_title": "Patient List"
+		}
+	},
+	"MID_patientlist": {
+		"MID_patientlist": {
+			"component_title": "PatientList",
+			"tab_title1": "Patient List"
+		}
+	},
+	"MID_P_PATIENT_REGISTRATION": {
+		"midpatientMidPPatientRegistration": {
+			"PATIENT_ID": "Patient Id",
+			"PATIENT_ID_Hint": "Please enter Patient Id.",
+			"FIRST_NAME": "First Name",
+			"FIRST_NAME_Hint": "Please enter First Name.",
+			"LAST_NAME": "Last Name",
+			"LAST_NAME_Hint": "Please enter Last Name.",
+			"DATE_OF_BIRTH": "Date Of Birth",
+			"DATE_OF_BIRTH_Hint": "Please enter Date Of Birth.",
+			"GENDER": "Gender",
+			"GENDER_Hint": "Please enter Gender.",
+			"PHONE": "Phone",
+			"PHONE_Hint": "Please enter Phone.",
+			"EMAIL": "Email",
+			"EMAIL_Hint": "Please enter Email.",
+			"ADDRESS": "Address",
+			"ADDRESS_Hint": "Please enter Address.",
+			"PHOTO": "Photo",
+			"PHOTO_Hint": "Please enter Photo.",
+			"component_title": "Patient Registration"
+		}
+	},
+	"MID_patientregistration": {
+		"MID_patientregistration": {
+			"component_title": "PatientRegistration",
+			"tab_title1": "Patient Registration"
+		}
+	},
+	"MID_D_DOCTOR_CARDS": {
+		"middoctorMidDDoctorCards": {
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id.",
+			"FIRST_NAME": "First Name",
+			"FIRST_NAME_Hint": "Please enter First Name.",
+			"LAST_NAME": "Last Name",
+			"LAST_NAME_Hint": "Please enter Last Name.",
+			"SPECIALIZATION": "Specialization",
+			"SPECIALIZATION_Hint": "Please enter Specialization.",
+			"PHONE": "Phone",
+			"PHONE_Hint": "Please enter Phone.",
+			"EMAIL": "Email",
+			"EMAIL_Hint": "Please enter Email.",
+			"PHOTO": "Photo",
+			"PHOTO_Hint": "Please enter Photo.",
+			"BOOKAPPOINTMENT": "Bookappointment",
+			"BOOKAPPOINTMENT_Hint": "Please enter Bookappointment.",
+			"component_title": "Doctor Cards"
+		}
+	},
+	"MID_doctordirectory": {
+		"MID_doctordirectory": {
+			"component_title": "DoctorDirectory",
+			"tab_title1": "Doctor Cards"
+		}
+	},
+	"MID_D_DOCTOR_INFORMATION": {
+		"middoctorMidDDoctorInformation": {
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id.",
+			"FIRST_NAME": "First Name",
+			"FIRST_NAME_Hint": "Please enter First Name.",
+			"LAST_NAME": "Last Name",
+			"LAST_NAME_Hint": "Please enter Last Name.",
+			"SPECIALIZATION": "Specialization",
+			"SPECIALIZATION_Hint": "Please enter Specialization.",
+			"PHONE": "Phone",
+			"PHONE_Hint": "Please enter Phone.",
+			"EMAIL": "Email",
+			"EMAIL_Hint": "Please enter Email.",
+			"PHOTO": "Photo",
+			"PHOTO_Hint": "Please enter Photo.",
+			"component_title": "Doctor Information"
+		}
+	},
+	"MID_doctormanagement": {
+		"MID_doctormanagement": {
+			"component_title": "DoctorManagement",
+			"tab_title1": "Doctor Information"
+		}
+	},
+	"MID_A_APPOINTMENT_BOOKING": {
+		"midappointmentMidAAppointmentBooking": {
+			"APPOINTMENT_ID": "Appointment Id",
+			"APPOINTMENT_ID_Hint": "Please enter Appointment Id.",
+			"PATIENT_ID": "Patient Id",
+			"PATIENT_ID_Hint": "Please enter Patient Id.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status.",
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id.",
+			"APPOINTMENT_DATE": "Appointment Date",
+			"APPOINTMENT_DATE_Hint": "Please enter Appointment Date.",
+			"START_TIME": "Start Time",
+			"START_TIME_Hint": "Please enter Start Time.",
+			"END_TIME": "End Time",
+			"END_TIME_Hint": "Please enter End Time.",
+			"REASON": "Reason",
+			"REASON_Hint": "Please enter Reason.",
+			"FEE": "Fee",
+			"FEE_Hint": "Please enter Fee.",
+			"component_title": "Appointment Booking"
+		}
+	},
+	"MID_appointmentbooking": {
+		"MID_appointmentbooking": {
+			"component_title": "AppointmentBooking",
+			"tab_title1": "Appointment Booking"
+		}
+	},
+	"MID_A_DOCTOR_LIST": {
+		"middoctorMidADoctorList": {
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id.",
+			"FIRST_NAME": "First Name",
+			"FIRST_NAME_Hint": "Please enter First Name.",
+			"LAST_NAME": "Last Name",
+			"LAST_NAME_Hint": "Please enter Last Name.",
+			"SPECIALIZATION": "Specialization",
+			"SPECIALIZATION_Hint": "Please enter Specialization.",
+			"PHONE": "Phone",
+			"PHONE_Hint": "Please enter Phone.",
+			"EMAIL": "Email",
+			"EMAIL_Hint": "Please enter Email.",
+			"PHOTO": "Photo",
+			"PHOTO_Hint": "Please enter Photo.",
+			"component_title": "Doctor List"
+		}
+	},
+	"MID_A_APPOINTMENTS_CALENDAR": {
+		"midappointmentMidAAppointmentsCalendar": {
+			"APPOINTMENT_ID": "Appointment Id",
+			"APPOINTMENT_ID_Hint": "Please enter Appointment Id.",
+			"PATIENT_ID": "Patient Id",
+			"PATIENT_ID_Hint": "Please enter Patient Id.",
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id.",
+			"APPOINTMENT_DATE": "Appointment Date",
+			"APPOINTMENT_DATE_Hint": "Please enter Appointment Date.",
+			"START_TIME": "Start Time",
+			"START_TIME_Hint": "Please enter Start Time.",
+			"END_TIME": "End Time",
+			"END_TIME_Hint": "Please enter End Time.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status.",
+			"REASON": "Reason",
+			"REASON_Hint": "Please enter Reason.",
+			"FEE": "Fee",
+			"FEE_Hint": "Please enter Fee.",
+			"component_title": "Appointments Calendar"
+		}
+	},
+	"mid_appointmentcalendar": {
+		"mid_appointmentcalendar": {
+			"component_title": "AppointmentCalendar",
+			"compsTitleID1": "Doctor List",
+			"compsTitleID2": "Appointments Calendar"
+		}
+	},
+	"MID_A_APPOINTMENTS_LIST": {
+		"midappointmentMidAAppointmentsList": {
+			"APPOINTMENT_ID": "Appointment Id",
+			"APPOINTMENT_ID_Hint": "Please enter Appointment Id.",
+			"BTN_VIEW": "Btn View",
+			"BTN_VIEW_Hint": "Please enter Btn View.",
+			"PATIENT_ID": "Patient Id",
+			"PATIENT_ID_Hint": "Please enter Patient Id.",
+			"BTN_CONFIRM": "Btn Confirm",
+			"BTN_CONFIRM_Hint": "Please enter Btn Confirm.",
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id.",
+			"BTN_CANCEL": "Btn Cancel",
+			"BTN_CANCEL_Hint": "Please enter Btn Cancel.",
+			"APPOINTMENT_DATE": "Appointment Date",
+			"APPOINTMENT_DATE_Hint": "Please enter Appointment Date.",
+			"BTN_RESCHEDULE": "Btn Reschedule",
+			"BTN_RESCHEDULE_Hint": "Please enter Btn Reschedule.",
+			"START_TIME": "Start Time",
+			"START_TIME_Hint": "Please enter Start Time.",
+			"END_TIME": "End Time",
+			"END_TIME_Hint": "Please enter End Time.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status.",
+			"REASON": "Reason",
+			"REASON_Hint": "Please enter Reason.",
+			"FEE": "Fee",
+			"FEE_Hint": "Please enter Fee.",
+			"component_title": "Appointments List"
+		}
+	},
+	"MID_A_APPOINTMENT_DETAILS": {
+		"midappointmentMidAAppointmentDetails": {
+			"APPOINTMENT_ID": "Appointment Id",
+			"APPOINTMENT_ID_Hint": "Please enter Appointment Id.",
+			"PATIENT_ID": "Patient Id",
+			"PATIENT_ID_Hint": "Please enter Patient Id.",
+			"DOCTOR_ID": "Doctor Id",
+			"DOCTOR_ID_Hint": "Please enter Doctor Id.",
+			"APPOINTMENT_DATE": "Appointment Date",
+			"APPOINTMENT_DATE_Hint": "Please enter Appointment Date.",
+			"START_TIME": "Start Time",
+			"START_TIME_Hint": "Please enter Start Time.",
+			"END_TIME": "End Time",
+			"END_TIME_Hint": "Please enter End Time.",
+			"STATUS": "Status",
+			"STATUS_Hint": "Please enter Status.",
+			"REASON": "Reason",
+			"REASON_Hint": "Please enter Reason.",
+			"FEE": "Fee",
+			"FEE_Hint": "Please enter Fee.",
+			"BTN_SEND_REMINDER": "Btn Send Reminder",
+			"BTN_SEND_REMINDER_Hint": "Please enter Btn Send Reminder.",
+			"component_title": "Appointment Details"
+		}
+	},
+	"mid_appointmentmanagement": {
+		"mid_appointmentmanagement": {
+			"component_title": "AppointmentManagement",
+			"compsTitleID1": "Appointments List",
+			"compsTitleID2": "Appointment Details"
+		}
 	}
 }

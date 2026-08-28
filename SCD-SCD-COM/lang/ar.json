@@ -1,0 +1,98 @@
+{
+	"SCD_EE_EXPRESSION_EDITOR": {
+		"scdexpressionEditorScdEeExpressionEditor": {
+			"EXPRESSION_EDITOR_ID": "Expression Editor Id",
+			"EXPRESSION_EDITOR_ID_Hint": "Please enter Expression Editor Id.",
+			"APPLICATION_ID": "Application Id",
+			"APPLICATION_ID_Hint": "Please enter Application Id.",
+			"AI_EXPRESSION": "Ai Expression",
+			"AI_EXPRESSION_Hint": "Please enter Ai Expression.",
+			"AI_RESPONSE": "Ai Response",
+			"AI_RESPONSE_Hint": "Please enter Ai Response.",
+			"SUBMIT": "Submit",
+			"SUBMIT_Hint": "Please enter Submit.",
+			"EXPRESSION": "Expression",
+			"EXPRESSION_Hint": "Please enter Expression.",
+			"IF_KEY": "If",
+			"IF_KEY_Hint": "If",
+			"LOGICAL_KEY": "Logical",
+			"LOGICAL_KEY_Hint": "Logical",
+			"RELATIONAL_KEY": "Relational",
+			"RELATIONAL_KEY_Hint": "Relational",
+			"ARITHMETIC_KEY": "Arithmetic",
+			"ARITHMETIC_KEY_Hint": "Arithmetic",
+			"BITWISE_KEY": "Bitwise Key",
+			"BITWISE_KEY_Hint": "Bitwise",
+			"FUNCTIONS_KEY": "Functions Key",
+			"FUNCTIONS_KEY_Hint": "Functions",
+			"TAGS_KEY": "Tags",
+			"TAGS_KEY_Hint": "Tags",
+			"ALARMS_KEY": "Alarms",
+			"ALARMS_KEY_Hint": "Alarms",
+			"LINE": "Line",
+			"LINE_Hint": "Please enter Line.",
+			"COLUMN": "Column",
+			"COLUMN_Hint": "Please enter Column.",
+			"OPEN_AI": "AI",
+			"OPEN_AI_Hint": "Please enter Open Ai.",
+			"SYNTAX_CHECK_KEY": "Syntax Check",
+			"SYNTAX_CHECK_KEY_Hint": "Please enter Syntax Check Key.",
+			"component_title": "Expression Editor"
+		}
+	},
+	"SCD_SCD_APPLICATION_FORM": {
+		"scdapplicationScdScdApplicationForm": {
+			"APPLICATION_NAME": "Application Name",
+			"APPLICATION_NAME_Hint": "Please enter Application Name.",
+			"HIDE_BUT": "",
+			"HIDE_BUT_Hint": "Please enter Hide But.",
+			"APPLICATION_ID": "Application Id",
+			"APPLICATION_ID_Hint": "Select application",
+			"DESCRIPTION": "Description",
+			"DESCRIPTION_Hint": "Please enter Description.",
+			"APP_LANGUAGE": "App Language",
+			"APP_LANGUAGE_Hint": "Please enter App Language.",
+			"component_title": "SCD APPLICATION FORM"
+		}
+	},
+	"SCD_SCD_APP_TREE_VIEW": {
+		"scdappTreeViewScdScdAppTreeView": {
+			"MENU_ID": "معرف القائمة",
+			"MENU_ID_Hint": "يرجى إدخال معرف القائمة.",
+			"APPLICATION_ID": "معرف التطبيق",
+			"APPLICATION_ID_Hint": "يرجى إدخال معرف الطلب.",
+			"MDI_ID": "Mdi Id",
+			"MDI_ID_Hint": "يرجى إدخال معرف MDI.",
+			"MAXIMIZED": "الأقصى",
+			"MAXIMIZED_Hint": "يرجى إدخال Maximized.",
+			"MENU_TYPE": "نوع القائمة",
+			"MENU_TYPE_Hint": "يرجى إدخال نوع القائمة.",
+			"MENU": "القائمة",
+			"MENU_Hint": "يرجى إدخال القائمة.",
+			"ITEM": "العنصر",
+			"ITEM_Hint": "يرجى إدخال العنصر.",
+			"LINE_NO": "رقم السطر",
+			"LINE_NO_Hint": "يرجى إدخال السطر رقم",
+			"ID": "الهوية التعريفية",
+			"ID_Hint": "يرجى إدخال بطاقة الهوية.",
+			"ICON": "الأيقونة",
+			"ICON_Hint": "يرجى إدخال الأيقونة.",
+			"component_title": "عرض شجرة تطبيق SCD"
+		}
+	},
+	"SCD_SCD_SHAPE_EXPRESSION_GRID": {
+		"scdshapeExpressionScdScdShapeExpressionGrid": {
+			"SHAPE_EXPRESSIONS": "Shape Expressions",
+			"SHAPE_EXPRESSIONS_Hint": "Please enter Shape Expressions.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"OPCUA_SERVER_ID": "Opcua Server Id",
+			"OPCUA_SERVER_ID_Hint": "Please enter Opcua Server Id.",
+			"TAG_ID": "Tag Id",
+			"TAG_ID_Hint": "Please enter Tag Id.",
+			"EXPRESSION_DATA": "Expression Data",
+			"EXPRESSION_DATA_Hint": "Please enter Expression Data.",
+			"component_title": "SCD SHAPE EXPRESSION GRID"
+		}
+	}
+}

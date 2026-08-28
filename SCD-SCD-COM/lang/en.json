@@ -29568,17 +29568,17 @@
 			"OVERFLOW_Hint": "Please enter Overflow.",
 			"FIELD_LENGTH": "Field Length",
 			"FIELD_LENGTH_Hint": "Please enter Field Length.",
-			"SHOW_DIGIT_GROUPING": "Show Digit Grouping",
+			"SHOW_DIGIT_GROUPING": "Show Grouping",
 			"SHOW_DIGIT_GROUPING_Hint": "Please enter Show Digit Grouping.",
 			"DECIMAL_PLACES": "Decimal Places",
 			"DECIMAL_PLACES_Hint": "Please enter Decimal Places.",
-			"DYNAMIC_DECIMAL_PLACES": "Dynamic Decimal Places",
+			"DYNAMIC_DECIMAL_PLACES": "Dynamic Places",
 			"DYNAMIC_DECIMAL_PLACES_Hint": "Please enter Dynamic Decimal Places.",
-			"FIXED_DECIMAL_PLACES": "Fixed Decimal Places",
+			"FIXED_DECIMAL_PLACES": "Fixed Places",
 			"FIXED_DECIMAL_PLACES_Hint": "Please enter Fixed Decimal Places.",
 			"JUSTIFICATION": "Justification",
 			"JUSTIFICATION_Hint": "Please enter Justification.",
-			"LEADING_CHARACTER": "Leading Character",
+			"LEADING_CHARACTER": "Leading",
 			"LEADING_CHARACTER_Hint": "Please enter Leading Character.",
 			"WIDTH": "Width",
 			"WIDTH_Hint": "Please enter Width.",
@@ -31554,6 +31554,21 @@
 			"FIELD_VALUE": "Field Value",
 			"FIELD_VALUE_Hint": "Please enter Field Value.",
 			"component_title": "SCD SHAPE DEFAULTS GRID"
+		}
+	},
+	"SCD_SCD_SHAPE_EXPRESSION_GRID": {
+		"scdshapeExpressionScdScdShapeExpressionGrid": {
+			"SHAPE_EXPRESSIONS": "Shape Expressions",
+			"SHAPE_EXPRESSIONS_Hint": "Please enter Shape Expressions.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"OPCUA_SERVER_ID": "Opcua Server Id",
+			"OPCUA_SERVER_ID_Hint": "Please enter Opcua Server Id.",
+			"TAG_ID": "Tag Id",
+			"TAG_ID_Hint": "Please enter Tag Id.",
+			"EXPRESSION_DATA": "Expression Data",
+			"EXPRESSION_DATA_Hint": "Please enter Expression Data.",
+			"component_title": "SCD SHAPE EXPRESSION GRID"
 		}
 	}
 }
