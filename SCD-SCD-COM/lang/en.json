@@ -28014,10 +28014,10 @@
 			"DISPLAY_ID_Hint": "Please enter Display Id.",
 			"APPLICATION_ID": "Application Id",
 			"APPLICATION_ID_Hint": "Please enter Application Id.",
-			"DISPLAY_DATA": "Display Data",
-			"DISPLAY_DATA_Hint": "Please enter Display Data.",
 			"DISPLAY_NAME": "Display Name",
 			"DISPLAY_NAME_Hint": "Please enter Display Name.",
+			"DISPLAY_DATA": "Display Data",
+			"DISPLAY_DATA_Hint": "Please enter Display Data.",
 			"component_title": "Display"
 		}
 	},
@@ -29634,7 +29634,7 @@
 		"scd_numeric_display_properties": {
 			"component_title": "Numeric Display Properties",
 			"compsTitleID1": "Common",
-			"compsTitleID2": "General"
+			"compsTitleID2": "General1"
 		}
 	},
 	"SCD_SIG_SHAPE_INPUT_GENERAL": {

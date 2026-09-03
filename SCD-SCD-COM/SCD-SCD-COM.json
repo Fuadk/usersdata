@@ -10036,20 +10036,20 @@
 		" WHERE  category_id = :category_id  AND  category = :category "
 	],
 	"GET_SCD_ICONS": [
-		" SELECT id ,  category ,  svg_name ,  icon_type ,  svg_name_animated ,  default_check ,  svg_content ,  kendoui_content ,  created_at ,  updated_at",
+		" SELECT id ,  category ,  svg_name ,  icon_type ,  kendoui_content ,  svg_name_animated ,  updated_at ,  created_at ,  default_check ,  svg_content",
 		" FROM SCD_ICONS ",
-		" WHERE id = :id"
+		" WHERE id = :id AND category = :category AND svg_name = :svg_name"
 	],
 	"GET_SCD_ICONS_QUERY": [
-		" SELECT id ,  category ,  svg_name ,  icon_type ,  svg_name_animated ,  default_check ,  svg_content ,  kendoui_content ,  created_at ,  updated_at",
+		" SELECT id ,  category ,  svg_name ,  icon_type ,  kendoui_content ,  svg_name_animated ,  updated_at ,  created_at ,  default_check ,  svg_content",
 		" FROM SCD_ICONS ",
 		" :_WHERE "
 	],
 	"INSERT_SCD_ICONS": [
 		" INSERT INTO SCD_ICONS ",
-		" ( category ,svg_name ,icon_type ,svg_name_animated ,default_check ,svg_content ,kendoui_content ,created_at ,updated_at  ) ",
+		" ( category ,svg_name ,icon_type ,kendoui_content ,svg_name_animated ,updated_at ,created_at ,default_check ,svg_content  ) ",
 		" VALUES ",
-		" ( :category ,:svg_name ,:icon_type ,:svg_name_animated ,:default_check ,:svg_content ,:kendoui_content ,:created_at ,:updated_at  ) "
+		" ( :category ,:svg_name ,:icon_type ,:kendoui_content ,:svg_name_animated ,:updated_at ,:created_at ,:default_check ,:svg_content  ) "
 	],
 	"UPDATE_SCD_ICONS": [
 		" UPDATE  SCD_ICONS ",
@@ -10057,17 +10057,17 @@
 		"  category = :category ",
 		",  svg_name = :svg_name ",
 		",  icon_type = :icon_type ",
+		",  kendoui_content = :kendoui_content ",
 		",  svg_name_animated = :svg_name_animated ",
+		",  updated_at = :updated_at ",
+		",  created_at = :created_at ",
 		",  default_check = :default_check ",
 		",  svg_content = :svg_content ",
-		",  kendoui_content = :kendoui_content ",
-		",  created_at = :created_at ",
-		",  updated_at = :updated_at ",
-		" WHERE  id = :id "
+		" WHERE  id = :id  AND  category = :category  AND  svg_name = :svg_name "
 	],
 	"DELETE_SCD_ICONS": [
 		" DELETE FROM SCD_ICONS ",
-		" WHERE  id = :id "
+		" WHERE  id = :id  AND  category = :category  AND  svg_name = :svg_name "
 	],
 	"GET_SCD_DIAGRAM_MENUS": [
 		" SELECT MENU_ID ,  MENU_TYPE ,  MENU ,  ITEM ,  LINE_NO ,  ID",
