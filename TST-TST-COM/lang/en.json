@@ -8627,5 +8627,28 @@
 			"compsTitleID1": "Appointments List",
 			"compsTitleID2": "Appointment Details"
 		}
+	},
+	"SCD1_GPS_GRID_PROPERTIES": {
+		"scd1gridPropertiesScd1GpsGridProperties": {
+			"GRID_PROP_ID": "Grid Prop Id",
+			"GRID_PROP_ID_Hint": "Please enter Grid Prop Id.",
+			"SHOW_GRID": "Show Grid",
+			"SHOW_GRID_Hint": "Please enter Show Grid.",
+			"SNAP_TO_GRID": "Snap To Grid",
+			"SNAP_TO_GRID_Hint": "Please enter Snap To Grid.",
+			"GRID_COLOR": "Grid Color",
+			"GRID_COLOR_Hint": "Please enter Grid Color.",
+			"HORIZONTAL_X": "Horizontal X",
+			"HORIZONTAL_X_Hint": "Please enter Horizontal X.",
+			"VERTICAL_X": "Vertical X",
+			"VERTICAL_X_Hint": "Please enter Vertical X.",
+			"component_title": "Grid Properties"
+		}
+	},
+	"SCD1_grid_properties_settings": {
+		"SCD1_grid_properties_settings": {
+			"component_title": "Grid Properties Settings",
+			"tab_title1": "Grid Properties"
+		}
 	}
 }

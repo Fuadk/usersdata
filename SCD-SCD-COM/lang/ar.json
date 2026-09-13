@@ -133,5 +133,22 @@
 			"INSERT_VARIABLE_Hint": "أدخل المتغير.",
 			"component_title": "الشاشة المشتركة"
 		}
+	},
+	"SCD_SCD_SHAPE_CONNECTION_FORM": {
+		"scdshapeConnectionScdScdShapeConnectionForm": {
+			"SHAPE_CONNECTION_ID": "Shape Connection Id",
+			"SHAPE_CONNECTION_ID_Hint": "Please enter Shape Connection Id.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"CONNECTION_ID": "Connection Id",
+			"CONNECTION_ID_Hint": "Please enter Connection Id.",
+			"CONNECTION_NAME": "Connection Name",
+			"CONNECTION_NAME_Hint": "Please enter Connection Name.",
+			"CONNECTION_ICON": "Connection Icon",
+			"CONNECTION_ICON_Hint": "Please enter Connection Icon.",
+			"CONNECTION_TAG_EXPRESSION": "Connection Tag Expression",
+			"CONNECTION_TAG_EXPRESSION_Hint": "Please enter Connection Tag Expression.",
+			"component_title": "SCD SHAPE CONNECTION FORM"
+		}
 	}
 }

@@ -29021,22 +29021,28 @@
 			"SHAPE_GENERAL_ID_Hint": "Please enter Shape General Id.",
 			"SHAPE_ID": "Shape Id",
 			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"LINE_STYLE": "Line Style",
+			"LINE_STYLE_Hint": "Please enter Line Style.",
+			"FORE_COLOR": "Fore Color",
+			"FORE_COLOR_Hint": "Please enter Fore Color.",
+			"LINE_WIDTH": "Line Width",
+			"LINE_WIDTH_Hint": "Please enter Line Width.",
 			"BORDER_STYLE": "Border Style",
 			"BORDER_STYLE_Hint": "Please enter Border Style.",
 			"BORDER_WIDTH": "Border Width",
 			"BORDER_WIDTH_Hint": "Please enter Border Width.",
-			"BACK_STYLE": "Back Style",
-			"BACK_STYLE_Hint": "Please enter Back Style.",
-			"PATTERN_STYLE": "Pattern Style",
-			"PATTERN_STYLE_Hint": "Please enter Pattern Style.",
 			"BORDER_USES_BACK_COLOR": "Border Uses Back Color",
 			"BORDER_USES_BACK_COLOR_Hint": "Please enter Border Uses Back Color.",
-			"PATTERN_COLOR": "Pattern Color",
-			"PATTERN_COLOR_Hint": "Please enter Pattern Color.",
-			"BACK_COLOR": "Back Color",
-			"BACK_COLOR_Hint": "Please enter Back Color.",
 			"BORDER_COLOR": "Border Color",
 			"BORDER_COLOR_Hint": "Please enter Border Color.",
+			"BACK_STYLE": "Back Style",
+			"BACK_STYLE_Hint": "Please enter Back Style.",
+			"BACK_COLOR": "Back Color",
+			"BACK_COLOR_Hint": "Please enter Back Color.",
+			"PATTERN_STYLE": "Pattern Style",
+			"PATTERN_STYLE_Hint": "Please enter Pattern Style.",
+			"PATTERN_COLOR": "Pattern Color",
+			"PATTERN_COLOR_Hint": "Please enter Pattern Color.",
 			"BLINK": "Blink",
 			"BLINK_Hint": "Please enter Blink.",
 			"component_title": "Shape General"
@@ -29054,6 +29060,12 @@
 			"SHAPE_GENERAL_ID_Hint": "Please enter Shape General Id.",
 			"SHAPE_ID": "Shape Id",
 			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"LINE_STYLE": "Line style",
+			"LINE_STYLE_Hint": "Please enter Line style.",
+			"FORE_COLOR": "Fore color",
+			"FORE_COLOR_Hint": "Please enter Fore color.",
+			"LINE_WIDTH": "Line width",
+			"LINE_WIDTH_Hint": "Please enter Line width.",
 			"BORDER_STYLE": "Border Style",
 			"BORDER_STYLE_Hint": "Please enter Border Style.",
 			"BORDER_WIDTH": "Border Width",
@@ -29461,20 +29473,20 @@
 		"scdshapeConnectionScdScShapeConnections": {
 			"SHAPE_CONNECTION_ID": "Shape Connection Id",
 			"SHAPE_CONNECTION_ID_Hint": "Please enter Shape Connection Id.",
-			"TAG_CONNECTION": "Tag Connection",
-			"TAG_CONNECTION_Hint": "Please enter Tag Connection.",
 			"SHAPE_ID": "Shape Id",
 			"SHAPE_ID_Hint": "Please enter Shape Id.",
-			"EXPRESSION_CONNECTION": "Expression Connection",
-			"EXPRESSION_CONNECTION_Hint": "Please enter Expression Connection.",
 			"CONNECTION_ID": "Connection Id",
 			"CONNECTION_ID_Hint": "Please enter Connection Id.",
 			"CONNECTION_NAME": "Connection Name",
 			"CONNECTION_NAME_Hint": "Please enter Connection Name.",
 			"CONNECTION_ICON": "Connection Icon",
 			"CONNECTION_ICON_Hint": "Please enter Connection Icon.",
-			"CONNECTION_TAG_EXPRESSION": "Connection Tag Expression",
+			"CONNECTION_TAG_EXPRESSION": "Tag/Expression",
 			"CONNECTION_TAG_EXPRESSION_Hint": "Please enter Connection Tag Expression.",
+			"TAG_CONNECTION": "Tag",
+			"TAG_CONNECTION_Hint": "Please enter Tag Connection.",
+			"EXPRESSION_CONNECTION": "Expression",
+			"EXPRESSION_CONNECTION_Hint": "Please enter Expression Connection.",
 			"component_title": "Shape Connections"
 		}
 	},
@@ -29634,7 +29646,7 @@
 		"scd_numeric_display_properties": {
 			"component_title": "Numeric Display Properties",
 			"compsTitleID1": "Common",
-			"compsTitleID2": "General1"
+			"compsTitleID2": "General"
 		}
 	},
 	"SCD_SIG_SHAPE_INPUT_GENERAL": {
@@ -29651,7 +29663,7 @@
 			"TAB_INDEX_Hint": "Please enter Tab Index.",
 			"SECURITY": "Security",
 			"SECURITY_Hint": "Please enter Security.",
-			"DISPLAY_ON_SCREEN_KEYBOARD": "Display On Screen Keyboard",
+			"DISPLAY_ON_SCREEN_KEYBOARD": "Screen Keyboard",
 			"DISPLAY_ON_SCREEN_KEYBOARD_Hint": "Please enter Display On Screen Keyboard.",
 			"CAPTION": "Caption",
 			"CAPTION_Hint": "Please enter Caption.",
@@ -29659,12 +29671,12 @@
 			"INSERT_VARIABLE_Hint": "Please enter Insert Variable.",
 			"CONTINUOUSLY_UPDATE": "Continuously Update",
 			"CONTINUOUSLY_UPDATE_Hint": "Please enter Continuously Update.",
-			"DISCARD_INPUT_AND_RESUME_UPDATING_WHEN_FOCUS_IS_LOST": "Discard Input And Resume Updating When Focus Is Lost",
-			"DISCARD_INPUT_AND_RESUME_UPDATING_WHEN_FOCUS_IS_LOST_Hint": "Please enter Discard Input And Resume Updating When Focus Is Lost.",
-			"CONFIGURE_ESIGNATURE_SIG": "Configure Signature",
-			"CONFIGURE_ESIGNATURE_SIG_Hint": "Please enter Configure Esignature Sig.",
-			"E_SIGNATURE_SETTINGS": "E Signature Settings",
+			"DISCARD_INPUT_AND_RESUME_UPDATING_WHEN_FOCUS_IS_LOST": "Discard Input",
+			"DISCARD_INPUT_AND_RESUME_UPDATING_WHEN_FOCUS_IS_LOST_Hint": "Discard Input And Resume Updating When Focus Is Lost.",
+			"E_SIGNATURE_SETTINGS": "",
 			"E_SIGNATURE_SETTINGS_Hint": "Please enter E Signature Settings.",
+			"CONFIGURE_ESIGNATURE_SIG": "Configure",
+			"CONFIGURE_ESIGNATURE_SIG_Hint": "Please enter Configure Esignature Sig.",
 			"component_title": "Shape Input General"
 		}
 	},
@@ -29690,17 +29702,17 @@
 			"OVERFLOW_Hint": "Please enter Overflow.",
 			"FIELD_LENGTH": "Field Length",
 			"FIELD_LENGTH_Hint": "Please enter Field Length.",
-			"SHOW_DIGIT_GROUPING": "Show Digit Grouping",
-			"SHOW_DIGIT_GROUPING_Hint": "Please enter Show Digit Grouping.",
+			"SHOW_DIGIT_GROUPING": "Digit Grouping",
+			"SHOW_DIGIT_GROUPING_Hint": "Show Digit Grouping.",
 			"DECIMAL_PLACES": "Decimal Places",
 			"DECIMAL_PLACES_Hint": "Please enter Decimal Places.",
 			"DYNAMIC_DECIMAL_PLACES": "Dynamic Decimal Places",
 			"DYNAMIC_DECIMAL_PLACES_Hint": "Please enter Dynamic Decimal Places.",
 			"FIXED_DECIMAL_PLACES": "Fixed Decimal Places",
 			"FIXED_DECIMAL_PLACES_Hint": "Please enter Fixed Decimal Places.",
-			"JUSTIFICATION": "Justification",
+			"JUSTIFICATION": "",
 			"JUSTIFICATION_Hint": "Please enter Justification.",
-			"LEADING_CHARACTER": "Leading Character",
+			"LEADING_CHARACTER": "",
 			"LEADING_CHARACTER_Hint": "Please enter Leading Character.",
 			"EXPRESSION": "Expression",
 			"EXPRESSION_Hint": "Please enter Expression.",
@@ -29708,7 +29720,7 @@
 			"TAGS1_Hint": "Please enter Tags1.",
 			"EXPRESSIONS": "Expressions",
 			"EXPRESSIONS_Hint": "Please enter Expressions.",
-			"EXPRESSION_TRUE_STATE": "Expression True State",
+			"EXPRESSION_TRUE_STATE": "Expr. True State",
 			"EXPRESSION_TRUE_STATE_Hint": "Please enter Expression True State.",
 			"TAGS2": "Tags2",
 			"TAGS2_Hint": "Please enter Tags2.",
@@ -29829,7 +29841,9 @@
 		"scd_multistate_indicator_properties": {
 			"component_title": "Multistate Indicator Properties",
 			"compsTitleID1": "Common",
-			"compsTitleID2": "General"
+			"compsTitleID2": "General",
+			"compsTitleID3": "States",
+			"compsTitleID4": "Connections"
 		}
 	},
 	"SCD_SSD_SYMBOL_STATE_DEFINITION": {
@@ -31338,6 +31352,8 @@
 			"LINE_NO_Hint": "Please enter Line No.",
 			"ID": "Id",
 			"ID_Hint": "Please enter Id.",
+			"ITEM_TITLE": "Item Title",
+			"ITEM_TITLE_Hint": "Please enter Item Title.",
 			"component_title": "SCD DIAGRAM MENUS GRID"
 		}
 	},
@@ -31569,6 +31585,46 @@
 			"EXPRESSION_DATA": "Expression Data",
 			"EXPRESSION_DATA_Hint": "Please enter Expression Data.",
 			"component_title": "SCD SHAPE EXPRESSION GRID"
+		}
+	},
+	"SCD_GPS_GRID_PROPERTIES": {
+		"scdgridPropertiesScdGpsGridProperties": {
+			"GRID_PROP_ID": "Grid Prop Id",
+			"GRID_PROP_ID_Hint": "Please enter Grid Prop Id.",
+			"SHOW_GRID": "Show Grid",
+			"SHOW_GRID_Hint": "Please enter Show Grid.",
+			"SNAP_TO_GRID": "Snap To Grid",
+			"SNAP_TO_GRID_Hint": "Please enter Snap To Grid.",
+			"GRID_COLOR": "Grid Color",
+			"GRID_COLOR_Hint": "Please enter Grid Color.",
+			"HORIZONTAL_X": "Horizontal (X)",
+			"HORIZONTAL_X_Hint": "Please enter Horizontal X.",
+			"VERTICAL_X": "Vertical (Y)",
+			"VERTICAL_X_Hint": "Please enter Vertical Y.",
+			"component_title": "Grid Properties"
+		}
+	},
+	"SCD_grid_properties_settings": {
+		"SCD_grid_properties_settings": {
+			"component_title": "Grid Properties Settings",
+			"tab_title1": "Grid Properties"
+		}
+	},
+	"SCD_SCD_SHAPE_CONNECTION_FORM": {
+		"scdshapeConnectionScdScdShapeConnectionForm": {
+			"SHAPE_CONNECTION_ID": "Shape Connection Id",
+			"SHAPE_CONNECTION_ID_Hint": "Please enter Shape Connection Id.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"CONNECTION_ID": "Connection Id",
+			"CONNECTION_ID_Hint": "Please enter Connection Id.",
+			"CONNECTION_NAME": "Connection Name",
+			"CONNECTION_NAME_Hint": "Please enter Connection Name.",
+			"CONNECTION_ICON": "Connection Icon",
+			"CONNECTION_ICON_Hint": "Please enter Connection Icon.",
+			"CONNECTION_TAG_EXPRESSION": "Connection Tag Expression",
+			"CONNECTION_TAG_EXPRESSION_Hint": "Please enter Connection Tag Expression.",
+			"component_title": "SCD SHAPE CONNECTION FORM"
 		}
 	}
 }
