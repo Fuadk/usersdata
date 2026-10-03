@@ -28985,6 +28985,8 @@
 			"TEXT_GENERAL_ID_Hint": "Please enter Text General Id.",
 			"SHAPE_ID": "Shape Id",
 			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"INSERT_VARIABLE": "Insert variable",
+			"INSERT_VARIABLE_Hint": "Please enter Insert variable.",
 			"TEXT_FIELD": "Text Field",
 			"TEXT_FIELD_Hint": "Please enter Text Field.",
 			"FONT_NAME": "Font Name",
@@ -31713,6 +31715,1449 @@
 			"compsTitleID1": "Common",
 			"compsTitleID2": "General",
 			"compsTitleID3": "Connections"
+		}
+	},
+	"SCD_AAESP_COMMON_SCREEN": {
+		"scdcommonScreenScdAaespCommonScreen": {
+			"component_title": "Common Screen"
+		}
+	},
+	"SCD_AAESP_COMMON_SCREEN_0": {
+		"scdcommonScreenScdAaespCommonScreen0": {
+			"component_title": "Common Screen Shapes"
+		}
+	},
+	"SCD_AAD_ALARM_APPEARANCE": {
+		"scdalarmAppearanceScdAadAlarmAppearance": {
+			"GENERAL_ID": "General Id",
+			"GENERAL_ID_Hint": "Please enter General Id.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"COLUMN_HEADINGS_DISPLAYED": "Column Headings Displayed",
+			"COLUMN_HEADINGS_DISPLAYED_Hint": "Please enter Column Headings Displayed.",
+			"HORIZONTAL_GRID_LINES_DISPLAYED": "Horizontal Grid Lines Displayed",
+			"HORIZONTAL_GRID_LINES_DISPLAYED_Hint": "Please enter Horizontal Grid Lines Displayed.",
+			"VERTICAL_GRID_LINES_DISPLAYED": "Vertical Grid Lines Displayed",
+			"VERTICAL_GRID_LINES_DISPLAYED_Hint": "Please enter Vertical Grid Lines Displayed.",
+			"HORIZONTAL_SCROLL_BAR": "Horizontal Scroll Bar",
+			"HORIZONTAL_SCROLL_BAR_Hint": "Please enter Horizontal Scroll Bar.",
+			"VERTICAL_SCROLL_BAR": "Vertical Scroll Bar",
+			"VERTICAL_SCROLL_BAR_Hint": "Please enter Vertical Scroll Bar.",
+			"DETAILS_PANE_DISPLAYED": "Details Pane Displayed",
+			"DETAILS_PANE_DISPLAYED_Hint": "Please enter Details Pane Displayed.",
+			"TOOLBAR_DISPLAYED": "Toolbar Displayed",
+			"TOOLBAR_DISPLAYED_Hint": "Please enter Toolbar Displayed.",
+			"STATUS_BAR_DISPLAYED": "Status Bar Displayed",
+			"STATUS_BAR_DISPLAYED_Hint": "Please enter Status Bar Displayed.",
+			"TOOLTIPS_DISPLAYED": "Tooltips Displayed",
+			"TOOLTIPS_DISPLAYED_Hint": "Please enter Tooltips Displayed.",
+			"ICON_STYLE": "Icon Style",
+			"ICON_STYLE_Hint": "Please enter Icon Style.",
+			"TEXT_COLOR_CH": "Text Color Ch",
+			"TEXT_COLOR_CH_Hint": "Please enter Text Color Ch.",
+			"BKG_COLOR_CH": "Bkg Color Ch",
+			"BKG_COLOR_CH_Hint": "Please enter Bkg Color Ch.",
+			"FONT_CH": "Font Ch",
+			"FONT_CH_Hint": "Please enter Font Ch.",
+			"SELECTION_FOREGROUND_COLOR": "Selection Foreground Color",
+			"SELECTION_FOREGROUND_COLOR_Hint": "Please enter Selection Foreground Color.",
+			"SELECTION_BACKGROUND_COLOR": "Selection Background Color",
+			"SELECTION_BACKGROUND_COLOR_Hint": "Please enter Selection Background Color.",
+			"FONT_RT": "Font Rt",
+			"FONT_RT_Hint": "Please enter Font Rt.",
+			"LINE_COLOR": "Line Color",
+			"LINE_COLOR_Hint": "Please enter Line Color.",
+			"BKG_COLOR_GRID": "Bkg Color Grid",
+			"BKG_COLOR_GRID_Hint": "Please enter Bkg Color Grid.",
+			"TEXT_COLOR_DP": "Text Color Dp",
+			"TEXT_COLOR_DP_Hint": "Please enter Text Color Dp.",
+			"BKG_COLOR_DP": "Bkg Color Dp",
+			"BKG_COLOR_DP_Hint": "Please enter Bkg Color Dp.",
+			"FONT_DP": "Font Dp",
+			"FONT_DP_Hint": "Please enter Font Dp.",
+			"HEIGHT_PERCENT": "Height Percent",
+			"HEIGHT_PERCENT_Hint": "Please enter Height Percent.",
+			"CONFIG_ALARM_STATUS_EXPLORER": "Config Alarm Status Explorer",
+			"CONFIG_ALARM_STATUS_EXPLORER_Hint": "Please enter Config Alarm Status Explorer.",
+			"DEFAULT_POINT_FONT": "Default Point Font",
+			"DEFAULT_POINT_FONT_Hint": "Please enter Default Point Font.",
+			"TEXT_COLOR_TOOLBAR": "Text Color Toolbar",
+			"TEXT_COLOR_TOOLBAR_Hint": "Please enter Text Color Toolbar.",
+			"BKG_COLOR_TOOLBAR": "Bkg Color Toolbar",
+			"BKG_COLOR_TOOLBAR_Hint": "Please enter Bkg Color Toolbar.",
+			"FONT_TOOLBAR": "Font Toolbar",
+			"FONT_TOOLBAR_Hint": "Please enter Font Toolbar.",
+			"ICON_SIZE_TOOLBAR": "Icon Size Toolbar",
+			"ICON_SIZE_TOOLBAR_Hint": "Please enter Icon Size Toolbar.",
+			"POSITION": "Position",
+			"POSITION_Hint": "Please enter Position.",
+			"FONT_STATUS_BAR": "Font Status Bar",
+			"FONT_STATUS_BAR_Hint": "Please enter Font Status Bar.",
+			"ICON_SIZE_STATUS_BAR": "Icon Size Status Bar",
+			"ICON_SIZE_STATUS_BAR_Hint": "Please enter Icon Size Status Bar.",
+			"component_title": "Alarm Appearance"
+		}
+	},
+	"SCD_AAD_ALARM_APPEARANCE_1": {
+		"scdalarmAppearanceScdAadAlarmAppearance1": {
+			"GENERAL_ID": "General Id",
+			"GENERAL_ID_Hint": "Please enter General Id.",
+			"COLUMN_HEADINGS_DISPLAYED": "Column Headings Displayed",
+			"COLUMN_HEADINGS_DISPLAYED_Hint": "Please enter Column Headings Displayed.",
+			"HORIZONTAL_GRID_LINES_DISPLAYED": "Horizontal Grid Lines Displayed",
+			"HORIZONTAL_GRID_LINES_DISPLAYED_Hint": "Please enter Horizontal Grid Lines Displayed.",
+			"VERTICAL_GRID_LINES_DISPLAYED": "Vertical Grid Lines Displayed",
+			"VERTICAL_GRID_LINES_DISPLAYED_Hint": "Please enter Vertical Grid Lines Displayed.",
+			"HORIZONTAL_SCROLL_BAR": "Horizontal Scroll Bar",
+			"HORIZONTAL_SCROLL_BAR_Hint": "Please enter Horizontal Scroll Bar.",
+			"VERTICAL_SCROLL_BAR": "Vertical Scroll Bar",
+			"VERTICAL_SCROLL_BAR_Hint": "Please enter Vertical Scroll Bar.",
+			"DETAILS_PANE_DISPLAYED": "Details Pane Displayed",
+			"DETAILS_PANE_DISPLAYED_Hint": "Please enter Details Pane Displayed.",
+			"TOOLBAR_DISPLAYED": "Toolbar Displayed",
+			"TOOLBAR_DISPLAYED_Hint": "Please enter Toolbar Displayed.",
+			"STATUS_BAR_DISPLAYED": "Status Bar Displayed",
+			"STATUS_BAR_DISPLAYED_Hint": "Please enter Status Bar Displayed.",
+			"TOOLTIPS_DISPLAYED": "Tooltips Displayed",
+			"TOOLTIPS_DISPLAYED_Hint": "Please enter Tooltips Displayed.",
+			"ICON_STYLE": "Icon Style",
+			"ICON_STYLE_Hint": "Please enter Icon Style.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"TEXT_COLOR_CH": "Text Color Ch",
+			"TEXT_COLOR_CH_Hint": "Please enter Text Color Ch.",
+			"BKG_COLOR_CH": "Bkg Color Ch",
+			"BKG_COLOR_CH_Hint": "Please enter Bkg Color Ch.",
+			"FONT_CH": "Font Ch",
+			"FONT_CH_Hint": "Please enter Font Ch.",
+			"SELECTION_FOREGROUND_COLOR": "Selection Foreground Color",
+			"SELECTION_FOREGROUND_COLOR_Hint": "Please enter Selection Foreground Color.",
+			"SELECTION_BACKGROUND_COLOR": "Selection Background Color",
+			"SELECTION_BACKGROUND_COLOR_Hint": "Please enter Selection Background Color.",
+			"FONT_RT": "Font Rt",
+			"FONT_RT_Hint": "Please enter Font Rt.",
+			"LINE_COLOR": "Line Color",
+			"LINE_COLOR_Hint": "Please enter Line Color.",
+			"BKG_COLOR_GRID": "Bkg Color Grid",
+			"BKG_COLOR_GRID_Hint": "Please enter Bkg Color Grid.",
+			"TEXT_COLOR_DP": "Text Color Dp",
+			"TEXT_COLOR_DP_Hint": "Please enter Text Color Dp.",
+			"BKG_COLOR_DP": "Bkg Color Dp",
+			"BKG_COLOR_DP_Hint": "Please enter Bkg Color Dp.",
+			"FONT_DP": "Font Dp",
+			"FONT_DP_Hint": "Please enter Font Dp.",
+			"HEIGHT_PERCENT": "Height Percent",
+			"HEIGHT_PERCENT_Hint": "Please enter Height Percent.",
+			"CONFIG_ALARM_STATUS_EXPLORER": "Config Alarm Status Explorer",
+			"CONFIG_ALARM_STATUS_EXPLORER_Hint": "Please enter Config Alarm Status Explorer.",
+			"DEFAULT_POINT_FONT": "Default Point Font",
+			"DEFAULT_POINT_FONT_Hint": "Please enter Default Point Font.",
+			"TEXT_COLOR_TOOLBAR": "Text Color Toolbar",
+			"TEXT_COLOR_TOOLBAR_Hint": "Please enter Text Color Toolbar.",
+			"BKG_COLOR_TOOLBAR": "Bkg Color Toolbar",
+			"BKG_COLOR_TOOLBAR_Hint": "Please enter Bkg Color Toolbar.",
+			"FONT_TOOLBAR": "Font Toolbar",
+			"FONT_TOOLBAR_Hint": "Please enter Font Toolbar.",
+			"ICON_SIZE_TOOLBAR": "Icon Size Toolbar",
+			"ICON_SIZE_TOOLBAR_Hint": "Please enter Icon Size Toolbar.",
+			"POSITION": "Position",
+			"POSITION_Hint": "Please enter Position.",
+			"FONT_STATUS_BAR": "Font Status Bar",
+			"FONT_STATUS_BAR_Hint": "Please enter Font Status Bar.",
+			"ICON_SIZE_STATUS_BAR": "Icon Size Status Bar",
+			"ICON_SIZE_STATUS_BAR_Hint": "Please enter Icon Size Status Bar.",
+			"component_title": "Alarm Appearance"
+		}
+	},
+	"SCD_AAESP_ALARM_SORT": {
+		"scdalarmSortScdAaespAlarmSort": {
+			"SORT_ID": "Sort Id",
+			"SORT_ID_Hint": "Please enter Sort Id.",
+			"SORT_BY_FIELD": "Sort By Field",
+			"SORT_BY_FIELD_Hint": "Please enter Sort By Field.",
+			"SORT_BY_FIELD_ASC_DESC": "Sort By Field Asc Desc",
+			"SORT_BY_FIELD_ASC_DESC_Hint": "Please enter Sort By Field Asc Desc.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"THEN_BY": "Then By",
+			"THEN_BY_Hint": "Please enter Then By.",
+			"THEN_BY_FIELD_ASC_DESC": "Then By Field Asc Desc",
+			"THEN_BY_FIELD_ASC_DESC_Hint": "Please enter Then By Field Asc Desc.",
+			"THEN_BY_2": "Then By 2",
+			"THEN_BY_2_Hint": "Please enter Then By 2.",
+			"THEN_BY_2_FIELD_ASC_DESC": "Then By 2 Field Asc Desc",
+			"THEN_BY_2_FIELD_ASC_DESC_Hint": "Please enter Then By 2 Field Asc Desc.",
+			"component_title": "Alarm Sort"
+		}
+	},
+	"SCD_AAESP_ALARM_SORT_0": {
+		"scdalarmSortScdAaespAlarmSort0": {
+			"SORT_ID": "Sort Id",
+			"SORT_ID_Hint": "Please enter Sort Id.",
+			"SORT_BY_FIELD": "Sort By Field",
+			"SORT_BY_FIELD_Hint": "Please enter Sort By Field.",
+			"SORT_BY_FIELD_ASC_DESC": "Sort By Field Asc Desc",
+			"SORT_BY_FIELD_ASC_DESC_Hint": "Please enter Sort By Field Asc Desc.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"THEN_BY": "Then By",
+			"THEN_BY_Hint": "Please enter Then By.",
+			"THEN_BY_FIELD_ASC_DESC": "Then By Field Asc Desc",
+			"THEN_BY_FIELD_ASC_DESC_Hint": "Please enter Then By Field Asc Desc.",
+			"THEN_BY_2": "Then By 2",
+			"THEN_BY_2_Hint": "Please enter Then By 2.",
+			"THEN_BY_2_FIELD_ASC_DESC": "Then By 2 Field Asc Desc",
+			"THEN_BY_2_FIELD_ASC_DESC_Hint": "Please enter Then By 2 Field Asc Desc.",
+			"component_title": "Alarm Sort Search Filters"
+		}
+	},
+	"SCD_ABD_ALARM_BEHAVIOR": {
+		"scdalarmBehaviorScdAbdAlarmBehavior": {
+			"BEHAVIOR_ID": "Behavior Id",
+			"BEHAVIOR_ID_Hint": "Please enter Behavior Id.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"ALLOW_COLUMNS_RESIZED": "Allow Columns Resized",
+			"ALLOW_COLUMNS_RESIZED_Hint": "Please enter Allow Columns Resized.",
+			"ALLOW_SORTING_CLICK_HEADINGS": "Allow Sorting Click Headings",
+			"ALLOW_SORTING_CLICK_HEADINGS_Hint": "Please enter Allow Sorting Click Headings.",
+			"DISPLAY_CONTEXT_MENU": "Display Context Menu",
+			"DISPLAY_CONTEXT_MENU_Hint": "Please enter Display Context Menu.",
+			"ROW_DOUBLE_CLICK_ACTION": "Row Double Click Action",
+			"ROW_DOUBLE_CLICK_ACTION_Hint": "Please enter Row Double Click Action.",
+			"ALLOW_DETAIL_PANE_HEIGHT_ADJUSTED": "Allow Detail Pane Height Adjusted",
+			"ALLOW_DETAIL_PANE_HEIGHT_ADJUSTED_Hint": "Please enter Allow Detail Pane Height Adjusted.",
+			"DISPLAY_ERRORS_OPERATOR_ACTION_DIALOG": "Display Errors Operator Action Dialog",
+			"DISPLAY_ERRORS_OPERATOR_ACTION_DIALOG_Hint": "Please enter Display Errors Operator Action Dialog.",
+			"SHOW_OUT_OF_SCOPE_ALARM_OCCURRENCE": "Show Out Of Scope Alarm Occurrence",
+			"SHOW_OUT_OF_SCOPE_ALARM_OCCURRENCE_Hint": "Please enter Show Out Of Scope Alarm Occurrence.",
+			"component_title": "Alarm Behavior"
+		}
+	},
+	"SCD_ACL_ALARM_COLUMNS": {
+		"scdalarmColumnsScdAclAlarmColumns": {
+			"COLUMN_ID": "Column Id",
+			"COLUMN_ID_Hint": "Please enter Column Id.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"ROW_ORDER": "Order",
+			"ROW_ORDER_Hint": "Please enter Row Order.",
+			"ALARM_TYPE": "Alarm Type",
+			"ALARM_TYPE_Hint": "Please enter Alarm Type.",
+			"ROW_TYPE": "Row Type",
+			"ROW_TYPE_Hint": "Please enter Row Type.",
+			"SHOW_COLUMN_BUTTON_PANEL": "Show",
+			"SHOW_COLUMN_BUTTON_PANEL_Hint": "Please enter Show Column Button Panel.",
+			"SHOW_COLUMN_FIELD": "Column",
+			"SHOW_COLUMN_FIELD_Hint": "Please enter Show Column Button Panel.",
+			"HEADING_TEXT": "Heading Text",
+			"HEADING_TEXT_Hint": "Please enter Heading Text.",
+			"WIDTH": "Width",
+			"WIDTH_Hint": "Please enter Width.",
+			"ALIGN": "Align",
+			"ALIGN_Hint": "Please enter Align.",
+			"FORMAT": "Format",
+			"FORMAT_Hint": "Please enter Format.",
+			"IMAGE_ICON": "",
+			"IMAGE_ICON_Hint": "Please enter Image Icon.",
+			"SAMPLE": "Sample",
+			"SAMPLE_Hint": "Please enter Sample.",
+			"TOOLTIP": "Tooltip",
+			"TOOLTIP_Hint": "Please enter Tooltip.",
+			"component_title": "Alarm Columns"
+		}
+	},
+	"SCD_ACL_ALARM_COLUMNS_0": {
+		"scdalarmColumnsScdAclAlarmColumns0": {
+			"COLUMN_ID": "Column Id",
+			"COLUMN_ID_Hint": "Please enter Column Id.",
+			"ALARM_TYPE": "Alarm Type",
+			"ALARM_TYPE_Hint": "Please enter Alarm Type.",
+			"ROW_TYPE": "Row Type",
+			"ROW_TYPE_Hint": "Please enter Row Type.",
+			"ROW_ORDER": "Row Order",
+			"ROW_ORDER_Hint": "Please enter Row Order.",
+			"SHOW_COLUMN_BUTTON_PANEL": "Show Column Button Panel",
+			"SHOW_COLUMN_BUTTON_PANEL_Hint": "Please enter Show Column Button Panel.",
+			"HEADING_TEXT": "Heading Text",
+			"HEADING_TEXT_Hint": "Please enter Heading Text.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"IMAGE_ICON": "Image Icon",
+			"IMAGE_ICON_Hint": "Please enter Image Icon.",
+			"WIDTH": "Width",
+			"WIDTH_Hint": "Please enter Width.",
+			"FORMAT": "Format",
+			"FORMAT_Hint": "Please enter Format.",
+			"ALIGN": "Align",
+			"ALIGN_Hint": "Please enter Align.",
+			"SAMPLE": "Sample",
+			"SAMPLE_Hint": "Please enter Sample.",
+			"TOOLTIP": "Tooltip",
+			"TOOLTIP_Hint": "Please enter Tooltip.",
+			"SHOW_COLUMN_FIELD": "Show column field",
+			"SHOW_COLUMN_FIELD_Hint": "Please enter Show column field.",
+			"component_title": "Alarm Columns"
+		}
+	},
+	"SCD_ACL_ALARM_COLUMNS_2": {
+		"scdalarmColumnsScdAclAlarmColumns2": {
+			"COLUMN_ID": "Column Id",
+			"COLUMN_ID_Hint": "Please enter Column Id.",
+			"ALARM_TYPE": "Alarm Type",
+			"ALARM_TYPE_Hint": "Please enter Alarm Type.",
+			"ROW_ORDER": "Row Order",
+			"ROW_ORDER_Hint": "Please enter Row Order.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"ROW_TYPE": "Row Type",
+			"ROW_TYPE_Hint": "Please enter Row Type.",
+			"SHOW_COLUMN_BUTTON_PANEL": "Show Column Button Panel",
+			"SHOW_COLUMN_BUTTON_PANEL_Hint": "Please enter Show Column Button Panel.",
+			"IMAGE_ICON": "Image Icon",
+			"IMAGE_ICON_Hint": "Please enter Image Icon.",
+			"HEADING_TEXT": "Heading Text",
+			"HEADING_TEXT_Hint": "Please enter Heading Text.",
+			"WIDTH": "Width",
+			"WIDTH_Hint": "Please enter Width.",
+			"ALIGN": "Align",
+			"ALIGN_Hint": "Please enter Align.",
+			"FORMAT": "Format",
+			"FORMAT_Hint": "Please enter Format.",
+			"SHOW_COLUMN_FIELD": "Show column field",
+			"SHOW_COLUMN_FIELD_Hint": "Please enter Show column field.",
+			"SAMPLE": "Sample",
+			"SAMPLE_Hint": "Please enter Sample.",
+			"TOOLTIP": "Tooltip",
+			"TOOLTIP_Hint": "Please enter Tooltip.",
+			"component_title": "Alarm Columns"
+		}
+	},
+	"SCD_ACO_ALARM_COLUMNS_OPTIONS": {
+		"scdalarmColumnsOptionsScdAcoAlarmColumnsOptions": {
+			"OPTION_ID": "Option Id",
+			"OPTION_ID_Hint": "Please enter Option Id.",
+			"APP_ID": "App Id",
+			"APP_ID_Hint": "Please enter App Id.",
+			"DISPLAY_ID": "Display Id",
+			"DISPLAY_ID_Hint": "Please enter Display Id.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"SAMPLE_OPTIONS": "Sample Options",
+			"SAMPLE_OPTIONS_Hint": "Please enter Sample Options.",
+			"component_title": "Alarm Columns Options"
+		}
+	},
+	"SCD_ACO_ALARM_COLUMNS_OPTIONS_1": {
+		"scdalarmColumnsOptionsScdAcoAlarmColumnsOptions1": {
+			"OPTION_ID": "Option Id",
+			"OPTION_ID_Hint": "Please enter Option Id.",
+			"APP_ID": "App Id",
+			"APP_ID_Hint": "Please enter App Id.",
+			"SAMPLE_OPTIONS": "Sample Options",
+			"SAMPLE_OPTIONS_Hint": "Please enter Sample Options.",
+			"DISPLAY_ID": "Display Id",
+			"DISPLAY_ID_Hint": "Please enter Display Id.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"component_title": "Alarm Columns Options"
+		}
+	},
+	"SCD_ADFC_ALARM_DISPLAY_FILTERS_CONDITIONS": {
+		"scdalarmDisplayFiltersConditionsScdAdfcAlarmDisplayFiltersConditions": {
+			"CONDITION_ID": "Condition Id",
+			"CONDITION_ID_Hint": "Please enter Condition Id.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"FILTER_ID": "Filter Id",
+			"FILTER_ID_Hint": "Please enter Filter Id.",
+			"CONDITION": "Condition",
+			"CONDITION_Hint": "Please enter Condition.",
+			"CONDITION_ORDER": "Condition Order",
+			"CONDITION_ORDER_Hint": "Please enter Condition Order.",
+			"BRACKET_OPEN": "Bracket Open",
+			"BRACKET_OPEN_Hint": "Please enter Bracket Open.",
+			"WHERE_FIELD": "Where Field",
+			"WHERE_FIELD_Hint": "Please enter Where Field.",
+			"EVENT_FIELD": "Event Field",
+			"EVENT_FIELD_Hint": "Please enter Event Field.",
+			"VALUE": "Value",
+			"VALUE_Hint": "Please enter Value.",
+			"BRACKET_CLOSE": "Bracket Close",
+			"BRACKET_CLOSE_Hint": "Please enter Bracket Close.",
+			"component_title": "Alarm Display Filters Conditions"
+		}
+	},
+	"SCD_ADFC_ALARM_DISPLAY_FILTERS_CONDITIONS_1": {
+		"scdalarmDisplayFiltersConditionsScdAdfcAlarmDisplayFiltersConditions1": {
+			"CONDITION_ID": "Condition Id",
+			"CONDITION_ID_Hint": "Please enter Condition Id.",
+			"CONDITION_ORDER": "Condition Order",
+			"CONDITION_ORDER_Hint": "Please enter Condition Order.",
+			"BRACKET_OPEN": "Bracket Open",
+			"BRACKET_OPEN_Hint": "Please enter Bracket Open.",
+			"CONDITION": "Condition",
+			"CONDITION_Hint": "Please enter Condition.",
+			"EVENT_FIELD": "Event Field",
+			"EVENT_FIELD_Hint": "Please enter Event Field.",
+			"VALUE": "Value",
+			"VALUE_Hint": "Please enter Value.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"WHERE_FIELD": "Where Field",
+			"WHERE_FIELD_Hint": "Please enter Where Field.",
+			"BRACKET_CLOSE": "Bracket Close",
+			"BRACKET_CLOSE_Hint": "Please enter Bracket Close.",
+			"FILTER_ID": "Filter Id",
+			"FILTER_ID_Hint": "Please enter Filter Id.",
+			"component_title": "Alarm Display Filters Conditions"
+		}
+	},
+	"SCD_ADFL_ALARM_DISPLAY_FILTERS": {
+		"scdalarmDisplayFiltersScdAdflAlarmDisplayFilters": {
+			"FILTER_ID": "Filter Id",
+			"FILTER_ID_Hint": "Please enter Filter Id.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"FILTER_NAME": "Filter Name",
+			"FILTER_NAME_Hint": "Please enter Filter Name.",
+			"WHERE_CLAUSE": "Where Clause",
+			"WHERE_CLAUSE_Hint": "Please enter Where Clause.",
+			"component_title": "Alarm Display Filters"
+		}
+	},
+	"SCD_ADFL_ALARM_DISPLAY_FILTERS_0": {
+		"scdalarmDisplayFiltersScdAdflAlarmDisplayFilters0": {
+			"FILTER_ID": "Filter Id",
+			"FILTER_ID_Hint": "Please enter Filter Id.",
+			"FILTER_NAME": "Filter Name",
+			"FILTER_NAME_Hint": "Please enter Filter Name.",
+			"WHERE_CLAUSE": "Where Clause",
+			"WHERE_CLAUSE_Hint": "Please enter Where Clause.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"component_title": "Alarm Display Filters"
+		}
+	},
+	"SCD_ADFL_ALARM_DISPLAY_FILTERS_3": {
+		"scdalarmDisplayFiltersScdAdflAlarmDisplayFilters3": {
+			"FILTER_ID": "Filter Id",
+			"FILTER_ID_Hint": "Please enter Filter Id.",
+			"FILTER_NAME": "Filter Name",
+			"FILTER_NAME_Hint": "Please enter Filter Name.",
+			"WHERE_CLAUSE": "Where Clause",
+			"WHERE_CLAUSE_Hint": "Please enter Where Clause.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"component_title": "Alarm Display Filters"
+		}
+	},
+	"SCD_ADFL_ALARM_DISPLAY_FILTERS_4": {
+		"scdalarmDisplayFiltersScdAdflAlarmDisplayFilters4": {
+			"FILTER_ID": "Filter Id",
+			"FILTER_ID_Hint": "Please enter Filter Id.",
+			"FILTER_NAME": "Filter Name",
+			"FILTER_NAME_Hint": "Please enter Filter Name.",
+			"WHERE_CLAUSE": "Where Clause",
+			"WHERE_CLAUSE_Hint": "Please enter Where Clause.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"component_title": "Alarm Display Filters"
+		}
+	},
+	"SCD_ADFS_ALARM_DISPLAY_FILTERS": {
+		"scdalarmDisplayFiltersScdAdfsAlarmDisplayFilters": {
+			"FILTER_ID": "Filter Id",
+			"FILTER_ID_Hint": "Please enter Filter Id.",
+			"FILTER_NAME": "Filter Name",
+			"FILTER_NAME_Hint": "Please enter Filter Name.",
+			"WHERE_CLAUSE": "Where Clause",
+			"WHERE_CLAUSE_Hint": "Please enter Where Clause.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"component_title": "Alarm Display Filters"
+		}
+	},
+	"SCD_ADFS_SEARCH_ALARM_DISPLAY_FILTERS": {
+		"scdalarmDisplayFiltersScdAdfsSearchAlarmDisplayFilters": {
+			"FILTER_ID": "Filter Id",
+			"FILTER_ID_Hint": "Please enter Filter Id.",
+			"FILTER_NAME": "Filter Name",
+			"FILTER_NAME_Hint": "Please enter Filter Name.",
+			"WHERE_CLAUSE": "Where Clause",
+			"WHERE_CLAUSE_Hint": "Please enter Where Clause.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"component_title": "Search Alarm Display Filters"
+		}
+	},
+	"SCD_AESD_ALARM_EVENT_SUBSCRIPTIONS": {
+		"scdalarmEventSubscriptionsScdAesdAlarmEventSubscriptions": {
+			"EVENT_ID": "Event Id",
+			"EVENT_ID_Hint": "Please enter Event Id.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"EVENT_NAME": "Event Name",
+			"EVENT_NAME_Hint": "Please enter Event Name.",
+			"PRIORITY": "Priority",
+			"PRIORITY_Hint": "Please enter Priority.",
+			"URGENT": "Urgent",
+			"URGENT_Hint": "Please enter Urgent.",
+			"HIGH": "High",
+			"HIGH_Hint": "Please enter High.",
+			"MEDIUM": "Medium",
+			"MEDIUM_Hint": "Please enter Medium.",
+			"LOW": "Low",
+			"LOW_Hint": "Please enter Low.",
+			"EVENT": "Event",
+			"EVENT_Hint": "Please enter Event.",
+			"SCOPES": "Scopes",
+			"SCOPES_Hint": "Please enter Scopes.",
+			"EVENT_SOURCE": "Event Source",
+			"EVENT_SOURCE_Hint": "Please enter Event Source.",
+			"component_title": "Alarm Event Subscriptions"
+		}
+	},
+	"SCD_AESD_ALARM_EVENT_SUBSCRIPTIONS_1": {
+		"scdalarmEventSubscriptionsScdAesdAlarmEventSubscriptions1": {
+			"EVENT_ID": "Event Id",
+			"EVENT_ID_Hint": "Please enter Event Id.",
+			"EVENT_NAME": "Event Name",
+			"EVENT_NAME_Hint": "Please enter Event Name.",
+			"PRIORITY": "Priority",
+			"PRIORITY_Hint": "Please enter Priority.",
+			"URGENT": "Urgent",
+			"URGENT_Hint": "Please enter Urgent.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"HIGH": "High",
+			"HIGH_Hint": "Please enter High.",
+			"MEDIUM": "Medium",
+			"MEDIUM_Hint": "Please enter Medium.",
+			"LOW": "Low",
+			"LOW_Hint": "Please enter Low.",
+			"EVENT": "Event",
+			"EVENT_Hint": "Please enter Event.",
+			"SCOPES": "Scopes",
+			"SCOPES_Hint": "Please enter Scopes.",
+			"EVENT_SOURCE": "Event Source",
+			"EVENT_SOURCE_Hint": "Please enter Event Source.",
+			"component_title": "Alarm Event Subscriptions Def"
+		}
+	},
+	"SCD_AESD_ALARM_EVENT_SUBSCRIPTIONS_3": {
+		"scdalarmEventSubscriptionsScdAesdAlarmEventSubscriptions3": {
+			"EVENT_ID": "Event Id",
+			"EVENT_ID_Hint": "Please enter Event Id.",
+			"EVENT_NAME": "Event Name",
+			"EVENT_NAME_Hint": "Please enter Event Name.",
+			"PRIORITY": "Priority",
+			"PRIORITY_Hint": "Please enter Priority.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"URGENT": "Urgent",
+			"URGENT_Hint": "Please enter Urgent.",
+			"HIGH": "High",
+			"HIGH_Hint": "Please enter High.",
+			"MEDIUM": "Medium",
+			"MEDIUM_Hint": "Please enter Medium.",
+			"LOW": "Low",
+			"LOW_Hint": "Please enter Low.",
+			"EVENT": "Event",
+			"EVENT_Hint": "Please enter Event.",
+			"SCOPES": "Scopes",
+			"SCOPES_Hint": "Please enter Scopes.",
+			"EVENT_SOURCE": "Event Source",
+			"EVENT_SOURCE_Hint": "Please enter Event Source.",
+			"component_title": "Alarm Event Subscriptions"
+		}
+	},
+	"SCD_AESL_ALARM_EVENT_SUBSCRIPTIONS_LIST": {
+		"scdalarmEventSubscriptionsScdAeslAlarmEventSubscriptionsList": {
+			"EVENT_ID": "",
+			"SHAPE_ID": "",
+			"EVENT_NAME": "",
+			"PRIORITY": "",
+			"URGENT": "",
+			"HIGH": "",
+			"MEDIUM": "",
+			"LOW": "",
+			"EVENT": "",
+			"SCOPES": "",
+			"EVENT_SOURCE": "",
+			"dummy": "Dummy",
+			"dummy_Hint": "Please enter Dummy.",
+			"component_title": "Alarm Event Subscriptions List"
+		}
+	},
+	"SCD_AESL_ALARM_EVENT_SUBSCRIPTIONS_LIST_3": {
+		"scdalarmEventSubscriptionsScdAeslAlarmEventSubscriptionsList3": {
+			"EVENT_ID": "",
+			"SHAPE_ID": "",
+			"EVENT_NAME": "",
+			"PRIORITY": "",
+			"URGENT": "",
+			"HIGH": "",
+			"MEDIUM": "",
+			"LOW": "",
+			"EVENT": "",
+			"SCOPES": "",
+			"EVENT_SOURCE": "",
+			"dummy": "Dummy",
+			"dummy_Hint": "Please enter Dummy.",
+			"component_title": "Alarm Event Subscriptions"
+		}
+	},
+	"SCD_AESS_ALARM_EVENT_SUBSCRIPTIONS": {
+		"scdalarmEventSubscriptionsScdAessAlarmEventSubscriptions": {
+			"EVENT_ID": "",
+			"SHAPE_ID": "",
+			"EVENT_NAME": "",
+			"PRIORITY": "",
+			"URGENT": "",
+			"HIGH": "",
+			"MEDIUM": "",
+			"LOW": "",
+			"EVENT": "",
+			"SCOPES": "",
+			"EVENT_SOURCE": "",
+			"dummy": "Dummy",
+			"dummy_Hint": "Please enter Dummy.",
+			"component_title": "Alarm Event Subscriptions"
+		}
+	},
+	"SCD_AESS_SEARCH_ALARM_EVENT_SUBSCRIPTIONS": {
+		"scdalarmEventSubscriptionsScdAessSearchAlarmEventSubscriptions": {
+			"EVENT_ID": "",
+			"SHAPE_ID": "",
+			"EVENT_NAME": "",
+			"PRIORITY": "",
+			"URGENT": "",
+			"HIGH": "",
+			"MEDIUM": "",
+			"LOW": "",
+			"EVENT": "",
+			"SCOPES": "",
+			"EVENT_SOURCE": "",
+			"dummy": "Dummy",
+			"dummy_Hint": "Please enter Dummy.",
+			"component_title": "Search Alarm Event Subscriptions"
+		}
+	},
+	"SCD_AGD_ALARM_GENERAL": {
+		"scdalarmGeneralScdAgdAlarmGeneral": {
+			"GENERAL_ID": "General Id",
+			"GENERAL_ID_Hint": "Please enter General Id.",
+			"APP_ID": "App Id",
+			"APP_ID_Hint": "Please enter App Id.",
+			"DISPLAY_ID": "Display Id",
+			"DISPLAY_ID_Hint": "Please enter Display Id.",
+			"TEXT_COLOR": "Text Color",
+			"TEXT_COLOR_Hint": "Please enter Text Color.",
+			"TEXT_COLOR_CH": "Text Color Ch",
+			"TEXT_COLOR_CH_Hint": "Please enter Text Color Ch.",
+			"BACKGROUND_COLOR_CH": "Background Color Ch",
+			"BACKGROUND_COLOR_CH_Hint": "Please enter Background Color Ch.",
+			"SELECTION_FOREGROUND_COLOR": "Selection Foreground Color",
+			"SELECTION_FOREGROUND_COLOR_Hint": "Please enter Selection Foreground Color.",
+			"SELECTION_BACKGROUND_COLOR": "Selection Background Color",
+			"SELECTION_BACKGROUND_COLOR_Hint": "Please enter Selection Background Color.",
+			"LINE_COLOR": "Line Color",
+			"LINE_COLOR_Hint": "Please enter Line Color.",
+			"BACKGROUND_COLOR_GRID": "Background Color Grid",
+			"BACKGROUND_COLOR_GRID_Hint": "Please enter Background Color Grid.",
+			"TEXT_COLOR_DP": "Text Color Dp",
+			"TEXT_COLOR_DP_Hint": "Please enter Text Color Dp.",
+			"BACKGROUND_COLOR_DP": "Background Color Dp",
+			"BACKGROUND_COLOR_DP_Hint": "Please enter Background Color Dp.",
+			"HEIGHT_PERCENT": "Height Percent",
+			"HEIGHT_PERCENT_Hint": "Please enter Height Percent.",
+			"DETAIL_POINT_FONT": "Detail Point Font",
+			"DETAIL_POINT_FONT_Hint": "Please enter Detail Point Font.",
+			"TEXT_FONT": "Text Font",
+			"TEXT_FONT_Hint": "Please enter Text Font.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"BACKGROUND_COLOR": "Background Color",
+			"BACKGROUND_COLOR_Hint": "Please enter Background Color.",
+			"SELECTED_ITEM_TEXT_COLOR": "Selected Item Text Color",
+			"SELECTED_ITEM_TEXT_COLOR_Hint": "Please enter Selected Item Text Color.",
+			"SELECTED_ITEM_BACKGROUND_COLOR": "Selected Item Background Color",
+			"SELECTED_ITEM_BACKGROUND_COLOR_Hint": "Please enter Selected Item Background Color.",
+			"FONT_AL": "Font Al",
+			"FONT_AL_Hint": "Please enter Font Al.",
+			"NUMBER_OF_ROWS": "Number Of Rows",
+			"NUMBER_OF_ROWS_Hint": "Please enter Number Of Rows.",
+			"ICON_STYLE": "Icon Style",
+			"ICON_STYLE_Hint": "Please enter Icon Style.",
+			"ROW_DOUBLE_CLICK_ACTION": "Row Double Click Action",
+			"ROW_DOUBLE_CLICK_ACTION_Hint": "Please enter Row Double Click Action.",
+			"FONT_SB": "Font Sb",
+			"FONT_SB_Hint": "Please enter Font Sb.",
+			"BUTTON_SIZE": "Button Size",
+			"BUTTON_SIZE_Hint": "Please enter Button Size.",
+			"SAMPLE": "Sample",
+			"SAMPLE_Hint": "Please enter Sample.",
+			"SHOW_TOOLTIPS": "Show Tooltips",
+			"SHOW_TOOLTIPS_Hint": "Please enter Show Tooltips.",
+			"HIDE_BAR": "Hide Bar",
+			"HIDE_BAR_Hint": "Please enter Hide Bar.",
+			"COMMAND": "Command",
+			"COMMAND_Hint": "Please enter Command.",
+			"COMMAND_BUTTON": "Command Button",
+			"COMMAND_BUTTON_Hint": "Please enter Command Button.",
+			"DISPLAY_ERROR_OPERATOR_ACTIONS_DIALOG": "Display Error Operator Actions Dialog",
+			"DISPLAY_ERROR_OPERATOR_ACTIONS_DIALOG_Hint": "Please enter Display Error Operator Actions Dialog.",
+			"MAINTAIN_SELECTION_FOCUS_LOST": "Maintain Selection Focus Lost",
+			"MAINTAIN_SELECTION_FOCUS_LOST_Hint": "Please enter Maintain Selection Focus Lost.",
+			"component_title": "Alarm General"
+		}
+	},
+	"SCD_AGD_ALARM_GENERAL_1": {
+		"scdalarmGeneralScdAgdAlarmGeneral1": {
+			"GENERAL_ID": "General Id",
+			"GENERAL_ID_Hint": "Please enter General Id.",
+			"APP_ID": "App Id",
+			"APP_ID_Hint": "Please enter App Id.",
+			"BACKGROUND_COLOR": "Background Color",
+			"BACKGROUND_COLOR_Hint": "Please enter Background Color.",
+			"DISPLAY_ID": "Display Id",
+			"DISPLAY_ID_Hint": "Please enter Display Id.",
+			"SELECTED_ITEM_TEXT_COLOR": "Selected Item Text Color",
+			"SELECTED_ITEM_TEXT_COLOR_Hint": "Please enter Selected Item Text Color.",
+			"TEXT_COLOR": "Text color",
+			"TEXT_COLOR_Hint": "Please enter Text color.",
+			"TEXT_COLOR_CH": "Text color ch",
+			"TEXT_COLOR_CH_Hint": "Please enter Text color ch.",
+			"BACKGROUND_COLOR_CH": "Background color ch",
+			"BACKGROUND_COLOR_CH_Hint": "Please enter Background color ch.",
+			"SELECTION_FOREGROUND_COLOR": "Selection foreground color",
+			"SELECTION_FOREGROUND_COLOR_Hint": "Please enter Selection foreground color.",
+			"SELECTION_BACKGROUND_COLOR": "Selection background color",
+			"SELECTION_BACKGROUND_COLOR_Hint": "Please enter Selection background color.",
+			"LINE_COLOR": "Line color",
+			"LINE_COLOR_Hint": "Please enter Line color.",
+			"BACKGROUND_COLOR_GRID": "Background color grid",
+			"BACKGROUND_COLOR_GRID_Hint": "Please enter Background color grid.",
+			"TEXT_COLOR_DP": "Text color dp",
+			"TEXT_COLOR_DP_Hint": "Please enter Text color dp.",
+			"BACKGROUND_COLOR_DP": "Background color dp",
+			"BACKGROUND_COLOR_DP_Hint": "Please enter Background color dp.",
+			"HEIGHT_PERCENT": "Height percent",
+			"HEIGHT_PERCENT_Hint": "Please enter Height percent.",
+			"DETAIL_POINT_FONT": "Detail point font",
+			"DETAIL_POINT_FONT_Hint": "Please enter Detail point font.",
+			"TEXT_FONT": "Text font",
+			"TEXT_FONT_Hint": "Please enter Text font.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"SELECTED_ITEM_BACKGROUND_COLOR": "Selected Item Background Color",
+			"SELECTED_ITEM_BACKGROUND_COLOR_Hint": "Please enter Selected Item Background Color.",
+			"FONT_AL": "Font Al",
+			"FONT_AL_Hint": "Please enter Font Al.",
+			"NUMBER_OF_ROWS": "Number Of Rows",
+			"NUMBER_OF_ROWS_Hint": "Please enter Number Of Rows.",
+			"ICON_STYLE": "Icon Style",
+			"ICON_STYLE_Hint": "Please enter Icon Style.",
+			"ROW_DOUBLE_CLICK_ACTION": "Row Double Click Action",
+			"ROW_DOUBLE_CLICK_ACTION_Hint": "Please enter Row Double Click Action.",
+			"FONT_SB": "Font Sb",
+			"FONT_SB_Hint": "Please enter Font Sb.",
+			"BUTTON_SIZE": "Button Size",
+			"BUTTON_SIZE_Hint": "Please enter Button Size.",
+			"SAMPLE": "Sample",
+			"SAMPLE_Hint": "Please enter Sample.",
+			"SHOW_TOOLTIPS": "Show Tooltips",
+			"SHOW_TOOLTIPS_Hint": "Please enter Show Tooltips.",
+			"HIDE_BAR": "Hide Bar",
+			"HIDE_BAR_Hint": "Please enter Hide Bar.",
+			"COMMAND": "Command",
+			"COMMAND_Hint": "Please enter Command.",
+			"COMMAND_BUTTON": "Command Button",
+			"COMMAND_BUTTON_Hint": "Please enter Command Button.",
+			"DISPLAY_ERROR_OPERATOR_ACTIONS_DIALOG": "Display Error Operator Actions Dialog",
+			"DISPLAY_ERROR_OPERATOR_ACTIONS_DIALOG_Hint": "Please enter Display Error Operator Actions Dialog.",
+			"MAINTAIN_SELECTION_FOCUS_LOST": "Maintain Selection Focus Lost",
+			"MAINTAIN_SELECTION_FOCUS_LOST_Hint": "Please enter Maintain Selection Focus Lost.",
+			"component_title": "Alarm General"
+		}
+	},
+	"SCD_ASD_ALARM_SORT": {
+		"scdalarmSortScdAsdAlarmSort": {
+			"SORT_ID": "Sort Id",
+			"SORT_ID_Hint": "Please enter Sort Id.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"SORT_BY_FIELD": "Sort By Field",
+			"SORT_BY_FIELD_Hint": "Please enter Sort By Field.",
+			"SORT_BY_FIELD_ASC_DESC": "Sort By Field Asc Desc",
+			"SORT_BY_FIELD_ASC_DESC_Hint": "Please enter Sort By Field Asc Desc.",
+			"THEN_BY": "Then By",
+			"THEN_BY_Hint": "Please enter Then By.",
+			"THEN_BY_FIELD_ASC_DESC": "Then By Field Asc Desc",
+			"THEN_BY_FIELD_ASC_DESC_Hint": "Please enter Then By Field Asc Desc.",
+			"THEN_BY_2": "Then By 2",
+			"THEN_BY_2_Hint": "Please enter Then By 2.",
+			"THEN_BY_2_FIELD_ASC_DESC": "Then By 2 Field Asc Desc",
+			"THEN_BY_2_FIELD_ASC_DESC_Hint": "Please enter Then By 2 Field Asc Desc.",
+			"component_title": "Alarm Sort"
+		}
+	},
+	"SCD_ASL_ALARM_STATES": {
+		"scdalarmStatesScdAslAlarmStates": {
+			"STATE_ID": "State Id",
+			"STATE_ID_Hint": "Please enter State Id.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"SHOW_EVENT_TYPE": "Show Event Type",
+			"SHOW_EVENT_TYPE_Hint": "Please enter Show Event Type.",
+			"TEXT_COLOR": "Text Color",
+			"TEXT_COLOR_Hint": "Please enter Text Color.",
+			"PRIORITY": "Priority",
+			"PRIORITY_Hint": "Please enter Priority.",
+			"BACKGROUND_COLOR": "Background Color",
+			"BACKGROUND_COLOR_Hint": "Please enter Background Color.",
+			"SAMPLE": "Sample",
+			"SAMPLE_Hint": "Please enter Sample.",
+			"BLINK": "Blink",
+			"BLINK_Hint": "Please enter Blink.",
+			"component_title": "Alarm States"
+		}
+	},
+	"SCD_ASL_ALARM_STATES_0": {
+		"scdalarmStatesScdAslAlarmStates0": {
+			"STATE_ID": "State Id",
+			"STATE_ID_Hint": "Please enter State Id.",
+			"SHOW_EVENT_TYPE": "Show Event Type",
+			"SHOW_EVENT_TYPE_Hint": "Please enter Show Event Type.",
+			"TEXT_COLOR": "Text Color",
+			"TEXT_COLOR_Hint": "Please enter Text Color.",
+			"PRIORITY": "Priority",
+			"PRIORITY_Hint": "Please enter Priority.",
+			"BACKGROUND_COLOR": "Background Color",
+			"BACKGROUND_COLOR_Hint": "Please enter Background Color.",
+			"SAMPLE": "Sample",
+			"SAMPLE_Hint": "Please enter Sample.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"BLINK": "Blink",
+			"BLINK_Hint": "Please enter Blink.",
+			"component_title": "Alarm States"
+		}
+	},
+	"SCD_ASL_ALARM_STATES_2": {
+		"scdalarmStatesScdAslAlarmStates2": {
+			"STATE_ID": "State Id",
+			"STATE_ID_Hint": "Please enter State Id.",
+			"PRIORITY": "Priority",
+			"PRIORITY_Hint": "Please enter Priority.",
+			"TEXT_COLOR": "Text Color",
+			"TEXT_COLOR_Hint": "Please enter Text Color.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"BACKGROUND_COLOR": "Background Color",
+			"BACKGROUND_COLOR_Hint": "Please enter Background Color.",
+			"SHOW_EVENT_TYPE": "Show Event Type",
+			"SHOW_EVENT_TYPE_Hint": "Please enter Show Event Type.",
+			"BLINK": "Blink",
+			"BLINK_Hint": "Please enter Blink.",
+			"SAMPLE": "Sample",
+			"SAMPLE_Hint": "Please enter Sample.",
+			"component_title": "Alarm States Overview"
+		}
+	},
+	"SCD_ASL_ALARM_STATES_4": {
+		"scdalarmStatesScdAslAlarmStates4": {
+			"STATE_ID": "State Id",
+			"STATE_ID_Hint": "Please enter State Id.",
+			"SHOW_EVENT_TYPE": "Show Event Type",
+			"SHOW_EVENT_TYPE_Hint": "Please enter Show Event Type.",
+			"TEXT_COLOR": "Text Color",
+			"TEXT_COLOR_Hint": "Please enter Text Color.",
+			"PRIORITY": "Priority",
+			"PRIORITY_Hint": "Please enter Priority.",
+			"BACKGROUND_COLOR": "Background Color",
+			"BACKGROUND_COLOR_Hint": "Please enter Background Color.",
+			"SAMPLE": "Sample",
+			"SAMPLE_Hint": "Please enter Sample.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"BLINK": "Blink",
+			"BLINK_Hint": "Please enter Blink.",
+			"component_title": "Alarm States"
+		}
+	},
+	"SCD_ASL_ALARM_STATES_5": {
+		"scdalarmStatesScdAslAlarmStates5": {
+			"STATE_ID": "State Id",
+			"STATE_ID_Hint": "Please enter State Id.",
+			"SHOW_EVENT_TYPE": "Show Event Type",
+			"SHOW_EVENT_TYPE_Hint": "Please enter Show Event Type.",
+			"PRIORITY": "Priority",
+			"PRIORITY_Hint": "Please enter Priority.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"TEXT_COLOR": "Text Color",
+			"TEXT_COLOR_Hint": "Please enter Text Color.",
+			"BACKGROUND_COLOR": "Background Color",
+			"BACKGROUND_COLOR_Hint": "Please enter Background Color.",
+			"BLINK": "Blink",
+			"BLINK_Hint": "Please enter Blink.",
+			"SAMPLE": "Sample",
+			"SAMPLE_Hint": "Please enter Sample.",
+			"component_title": "Alarm States"
+		}
+	},
+	"SCD_ASO_ALARM_STATES_OPTIONS": {
+		"scdalarmStatesOptionsScdAsoAlarmStatesOptions": {
+			"STATE_OPTION_ID": "State Option Id",
+			"STATE_OPTION_ID_Hint": "Please enter State Option Id.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"TEST_RATES": "Test Rates",
+			"TEST_RATES_Hint": "Please enter Test Rates.",
+			"BLINK_RATE": "Blink Rate",
+			"BLINK_RATE_Hint": "Please enter Blink Rate.",
+			"component_title": "Alarm States Options"
+		}
+	},
+	"SCD_ASO_ALARM_STATES_OPTIONS_1": {
+		"scdalarmStatesOptionsScdAsoAlarmStatesOptions1": {
+			"STATE_OPTION_ID": "State Option Id",
+			"STATE_OPTION_ID_Hint": "Please enter State Option Id.",
+			"TEST_RATES": "Test Rates",
+			"TEST_RATES_Hint": "Please enter Test Rates.",
+			"BLINK_RATE": "Blink Rate",
+			"BLINK_RATE_Hint": "Please enter Blink Rate.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"component_title": "Alarm States Options"
+		}
+	},
+	"SCD_ASS_ALARM_SORT_RESULTS": {
+		"scdalarmSortScdAssAlarmSortResults": {
+			"SORT_ID": "Sort Id",
+			"SORT_ID_Hint": "Please enter Sort Id.",
+			"SORT_BY_FIELD": "Sort By Field",
+			"SORT_BY_FIELD_Hint": "Please enter Sort By Field.",
+			"THEN_BY_FIELD_ASC_DESC": "Then By Field Asc Desc",
+			"THEN_BY_FIELD_ASC_DESC_Hint": "Please enter Then By Field Asc Desc.",
+			"SORT_BY_FIELD_ASC_DESC": "Sort By Field Asc Desc",
+			"SORT_BY_FIELD_ASC_DESC_Hint": "Please enter Sort By Field Asc Desc.",
+			"THEN_BY_2": "Then By 2",
+			"THEN_BY_2_Hint": "Please enter Then By 2.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"THEN_BY": "Then By",
+			"THEN_BY_Hint": "Please enter Then By.",
+			"THEN_BY_2_FIELD_ASC_DESC": "Then By 2 Field Asc Desc",
+			"THEN_BY_2_FIELD_ASC_DESC_Hint": "Please enter Then By 2 Field Asc Desc.",
+			"component_title": "Alarm Sort Results"
+		}
+	},
+	"SCD_ASS_SEARCH_ALARM_STATES": {
+		"scdalarmStatesScdAssSearchAlarmStates": {
+			"STATE_ID": "State Id",
+			"STATE_ID_Hint": "Please enter State Id.",
+			"SHOW_EVENT_TYPE": "Show Event Type",
+			"SHOW_EVENT_TYPE_Hint": "Please enter Show Event Type.",
+			"PRIORITY": "Priority",
+			"PRIORITY_Hint": "Please enter Priority.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"TEXT_COLOR": "Text Color",
+			"TEXT_COLOR_Hint": "Please enter Text Color.",
+			"BACKGROUND_COLOR": "Background Color",
+			"BACKGROUND_COLOR_Hint": "Please enter Background Color.",
+			"BLINK": "Blink",
+			"BLINK_Hint": "Please enter Blink.",
+			"SAMPLE": "Sample",
+			"SAMPLE_Hint": "Please enter Sample.",
+			"component_title": "Search Alarm States"
+		}
+	},
+	"SCD_alarm_appearance_definition": {
+		"SCD_alarm_appearance_definition": {
+			"component_title": "Alarm Appearance Definition",
+			"tab_title1": "Alarm Appearance"
+		}
+	},
+	"SCD_alarm_behavior_definition": {
+		"SCD_alarm_behavior_definition": {
+			"component_title": "Alarm Behavior Definition",
+			"tab_title1": "Alarm Behavior"
+		}
+	},
+	"SCD_alarm_columns_list": {
+		"SCD_alarm_columns_list": {
+			"component_title": "Alarm Columns List",
+			"tab_title1": "Alarm Columns"
+		}
+	},
+	"SCD_alarm_columns_options": {
+		"SCD_alarm_columns_options": {
+			"component_title": "Alarm Columns Options",
+			"tab_title1": "Alarm Columns Options"
+		}
+	},
+	"scd_alarm_columns_properties": {
+		"scd_alarm_columns_properties": {
+			"component_title": "Alarm Columns Properties",
+			"compsTitleID1": "Alarm Columns",
+			"compsTitleID2": "Alarm Columns Options"
+		}
+	},
+	"SCD_alarm_columns_search": {
+		"SCD_alarm_columns_search": {
+			"component_title": "Alarm Columns Search",
+			"tab_title1": "Alarm Columns"
+		}
+	},
+	"SCD_alarm_display_filters_conditions": {
+		"SCD_alarm_display_filters_conditions": {
+			"component_title": "Alarm Display Filters Conditions",
+			"tab_title1": "Alarm Display Filters Conditions"
+		}
+	},
+	"SCD_alarm_display_filters_list": {
+		"SCD_alarm_display_filters_list": {
+			"component_title": "Alarm Display Filters List",
+			"tab_title1": "Alarm Display Filters"
+		}
+	},
+	"scd_alarm_display_filters_properties": {
+		"scd_alarm_display_filters_properties": {
+			"component_title": "Alarm Display Filters Properties",
+			"compsTitleID1": "Alarm Display Filters",
+			"compsTitleID2": "Alarm Display Filters Conditions"
+		}
+	},
+	"scd_alarm_display_filters_search": {
+		"scd_alarm_display_filters_search": {
+			"component_title": "Alarm Display Filters Search",
+			"compsTitleID1": "Search Alarm Display Filters",
+			"compsTitleID2": "Alarm Display Filters"
+		}
+	},
+	"SCD_alarm_event_subscriptions_definition": {
+		"SCD_alarm_event_subscriptions_definition": {
+			"component_title": "Alarm Event Subscriptions Definition",
+			"tab_title1": "Alarm Event Subscriptions"
+		}
+	},
+	"SCD_alarm_event_subscriptions_list": {
+		"SCD_alarm_event_subscriptions_list": {
+			"component_title": "Alarm Event Subscriptions List",
+			"tab_title1": "Alarm Event Subscriptions List"
+		}
+	},
+	"scd_alarm_event_subscriptions_search": {
+		"scd_alarm_event_subscriptions_search": {
+			"component_title": "Alarm Event Subscriptions Search",
+			"compsTitleID1": "Search Alarm Event Subscriptions",
+			"compsTitleID2": "Alarm Event Subscriptions"
+		}
+	},
+	"SCD_alarm_general_definition": {
+		"SCD_alarm_general_definition": {
+			"component_title": "Alarm General Definition",
+			"tab_title1": "Alarm General"
+		}
+	},
+	"scd_alarm_general_viewer_properties": {
+		"scd_alarm_general_viewer_properties": {
+			"component_title": "Alarm General Viewer Properties",
+			"compsTitleID1": "Alarm General"
+		}
+	},
+	"SCD_alarm_sort_definition": {
+		"SCD_alarm_sort_definition": {
+			"component_title": "Alarm Sort Definition",
+			"tab_title1": "Alarm Sort"
+		}
+	},
+	"SCD_alarm_sort_search": {
+		"SCD_alarm_sort_search": {
+			"component_title": "Alarm Sort Search",
+			"tab_title1": "Alarm Sort Search Filters",
+			"tab_title2": "Alarm Sort Results"
+		}
+	},
+	"SCD_alarm_states_list": {
+		"SCD_alarm_states_list": {
+			"component_title": "Alarm States List",
+			"tab_title1": "Alarm States"
+		}
+	},
+	"SCD_alarm_states_options": {
+		"SCD_alarm_states_options": {
+			"component_title": "Alarm States Options",
+			"tab_title1": "Alarm States Options"
+		}
+	},
+	"scd_alarm_states_properties": {
+		"scd_alarm_states_properties": {
+			"component_title": "Alarm States Properties",
+			"compsTitleID1": "Alarm States",
+			"compsTitleID2": "Alarm States Options"
+		}
+	},
+	"SCD_alarm_states_search": {
+		"SCD_alarm_states_search": {
+			"component_title": "Alarm States Search",
+			"tab_title1": "Search Alarm States"
+		}
+	},
+	"scd_alarm_and_event_banner_properties": {
+		"scd_alarm_and_event_banner_properties": {
+			"component_title": "Alarm and Event Banner Properties",
+			"compsTitleID1": "Common",
+			"compsTitleID2": "General",
+			"compsTitleID3": "Columns",
+			"compsTitleID4": "Status Bar Panel",
+			"compsTitleID5": "Status Bar Button",
+			"compsTitleID6": "Event Subscriptions",
+			"compsTitleID7": "States",
+			"compsTitleID8": "Sort"
+		}
+	},
+	"scd_alarm_and_event_log_viewer_properties": {
+		"scd_alarm_and_event_log_viewer_properties": {
+			"component_title": "Alarm and Event Log Viewer Properties",
+			"compsTitleID1": "Common",
+			"compsTitleID2": "General",
+			"compsTitleID3": "Columns",
+			"compsTitleID4": "Toolvar",
+			"compsTitleID5": "Display Filters",
+			"compsTitleID6": "States",
+			"compsTitleID7": "Sort"
+		}
+	},
+	"scd_alarm_and_event_summary_properties": {
+		"scd_alarm_and_event_summary_properties": {
+			"component_title": "Alarm and Event Summary Properties",
+			"compsTitleID1": "Common",
+			"compsTitleID2": "Appearance",
+			"compsTitleID3": "Columns",
+			"compsTitleID4": "Event Subscriptions",
+			"compsTitleID5": "Display Filters",
+			"compsTitleID6": "Sort",
+			"compsTitleID7": "States",
+			"compsTitleID8": "Behavior"
+		}
+	},
+	"SCD_AOD_SHAPE_SUMMARY": {
+		"scdcommonScreenScdAodShapeSummary": {
+			"component_title": "Shape Summary"
+		}
+	},
+	"scd_alarm_event_subscriptions_properties": {
+		"scd_alarm_event_subscriptions_properties": {
+			"component_title": "Alarm Event Subscriptions Properties",
+			"compsTitleID1": "Alarm Event Subscriptions List",
+			"compsTitleID2": "Alarm Event Subscriptions Def"
+		}
+	},
+	"scd_alarm_status_explorer": {
+		"scd_alarm_status_explorer": {
+			"component_title": "Alarm Status Explorer",
+			"compsTitleID1": "Common",
+			"compsTitleID2": "General"
+		}
+	},
+	"SCD_SCD_ALARM_GENERAL_LOG_VIEWER_FORMDIVS": {
+		"scdalarmGeneralLogViewerScdScdAlarmGeneralLogViewerFormdivs": {
+			"GENERAL_ID": "General Id",
+			"GENERAL_ID_Hint": "Please enter General Id.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"SELECT_LOG": "Select Log",
+			"SELECT_LOG_Hint": "Please enter Select Log.",
+			"TEXT_COLOR": "Text Color",
+			"TEXT_COLOR_Hint": "Please enter Text Color.",
+			"BACKGROUND_COLOR": "Background Color",
+			"BACKGROUND_COLOR_Hint": "Please enter Background Color.",
+			"TEXT_COLOR_CH": "Text Color Ch",
+			"TEXT_COLOR_CH_Hint": "Please enter Text Color Ch.",
+			"BACKGROUND_COLOR_CH": "Background Color Ch",
+			"BACKGROUND_COLOR_CH_Hint": "Please enter Background Color Ch.",
+			"SELECTION_FOREGROUND_COLOR": "Selection Foreground Color",
+			"SELECTION_FOREGROUND_COLOR_Hint": "Please enter Selection Foreground Color.",
+			"SELECTION_BACKGROUND_COLOR": "Selection Background Color",
+			"SELECTION_BACKGROUND_COLOR_Hint": "Please enter Selection Background Color.",
+			"LINE_COLOR": "Line Color",
+			"LINE_COLOR_Hint": "Please enter Line Color.",
+			"BACKGROUND_COLOR_GRID": "Background Color Grid",
+			"BACKGROUND_COLOR_GRID_Hint": "Please enter Background Color Grid.",
+			"TEXT_COLOR_DP": "Text Color Dp",
+			"TEXT_COLOR_DP_Hint": "Please enter Text Color Dp.",
+			"BACKGROUND_COLOR_DP": "Background Color Dp",
+			"BACKGROUND_COLOR_DP_Hint": "Please enter Background Color Dp.",
+			"HEIGHT_PERCENT": "Height Percent",
+			"HEIGHT_PERCENT_Hint": "Please enter Height Percent.",
+			"DETAIL_POINT_FONT": "Detail Point Font",
+			"DETAIL_POINT_FONT_Hint": "Please enter Detail Point Font.",
+			"TEXT_FONT": "Text Font",
+			"TEXT_FONT_Hint": "Please enter Text Font.",
+			"DISPLAY_REPORT_ON_STARTUP": "Display Report On Startup",
+			"DISPLAY_REPORT_ON_STARTUP_Hint": "Please enter Display Report On Startup.",
+			"ALLOW_DETAILS_APNE_TO_BE_ADJUSTED": "Allow Details Apne To Be Adjusted",
+			"ALLOW_DETAILS_APNE_TO_BE_ADJUSTED_Hint": "Please enter Allow Details Apne To Be Adjusted.",
+			"HORIZONTAL_GRID_LINES": "Horizontal Grid Lines",
+			"HORIZONTAL_GRID_LINES_Hint": "Please enter Horizontal Grid Lines.",
+			"VERTICA_GRIDLINES": "Vertical Gridlines",
+			"VERTICA_GRIDLINES_Hint": "Please enter Vertica Gridlines.",
+			"TOOLBAR": "Toolbar",
+			"TOOLBAR_Hint": "Please enter Toolbar.",
+			"DETAIL_PANS": "Detail Pans",
+			"DETAIL_PANS_Hint": "Please enter Detail Pans.",
+			"STATUS_BAR": "Status Bar",
+			"STATUS_BAR_Hint": "Please enter Status Bar.",
+			"TOOLTIPS": "Tooltips",
+			"TOOLTIPS_Hint": "Please enter Tooltips.",
+			"ICON_STYLE": "Icon Style",
+			"ICON_STYLE_Hint": "Please enter Icon Style.",
+			"component_title": "SCD ALARM GENERAL LOG VIEWER FORMDIVS"
+		}
+	},
+	"SCD_SCD_ALARM_GENERAL_STTUS_EXPLORER_FORM": {
+		"scdalarmGeneralSttusExplorerScdScdAlarmGeneralSttusExplorerForm": {
+			"GENERAL_ID": "General Id",
+			"GENERAL_ID_Hint": "Please enter General Id.",
+			"APP_ID": "App Id",
+			"APP_ID_Hint": "Please enter App Id.",
+			"DISPLAY_ID": "Display Id",
+			"DISPLAY_ID_Hint": "Please enter Display Id.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"TEXT_COLOR": "Text Color",
+			"TEXT_COLOR_Hint": "Please enter Text Color.",
+			"BACKGROUND_COLOR": "Background Color",
+			"BACKGROUND_COLOR_Hint": "Please enter Background Color.",
+			"LIST_BACKGROUD_COLOR": "List Backgroud Color",
+			"LIST_BACKGROUD_COLOR_Hint": "Please enter List Backgroud Color.",
+			"FONT": "Font",
+			"FONT_Hint": "Please enter Font.",
+			"ROOT_AREA": "Root Area",
+			"ROOT_AREA_Hint": "Please enter Root Area.",
+			"SOURCE_FILE_NAME": "Source File Name",
+			"SOURCE_FILE_NAME_Hint": "Please enter Source File Name.",
+			"SOURCE_FILE_STATUS": "Source File Status",
+			"SOURCE_FILE_STATUS_Hint": "Please enter Source File Status.",
+			"SHOW_TOOLBARS": "Show Toolbars",
+			"SHOW_TOOLBARS_Hint": "Please enter Show Toolbars.",
+			"SHOW_ENABLE_AND_DISABLE_BUTTONS": "Show Enable And Disable Buttons",
+			"SHOW_ENABLE_AND_DISABLE_BUTTONS_Hint": "Please enter Show Enable And Disable Buttons.",
+			"SHOW_UNSUPRESS_AND_SUPRESS_BUTTONS": "Show Unsupress And Supress Buttons",
+			"SHOW_UNSUPRESS_AND_SUPRESS_BUTTONS_Hint": "Please enter Show Unsupress And Supress Buttons.",
+			"SHOW_UNSHELVE_AND_SHELVE_BUTTONS": "Show Unshelve And Shelve Buttons",
+			"SHOW_UNSHELVE_AND_SHELVE_BUTTONS_Hint": "Please enter Show Unshelve And Shelve Buttons.",
+			"SHOW_DETAILS_BUTTON": "Show Details Button",
+			"SHOW_DETAILS_BUTTON_Hint": "Please enter Show Details Button.",
+			"SHOW_HELP_BUTTON": "Show Help Button",
+			"SHOW_HELP_BUTTON_Hint": "Please enter Show Help Button.",
+			"SHOW_AREA_TREE": "Show Area Tree",
+			"SHOW_AREA_TREE_Hint": "Please enter Show Area Tree.",
+			"PANEL_WIDTH": "Panel Width",
+			"PANEL_WIDTH_Hint": "Please enter Panel Width.",
+			"DISPLAY_ERRORS_IN_DIALOG": "Display Errors In Dialog",
+			"DISPLAY_ERRORS_IN_DIALOG_Hint": "Please enter Display Errors In Dialog.",
+			"ICON_STYLE": "Icon Style",
+			"ICON_STYLE_Hint": "Please enter Icon Style.",
+			"SHOW_TIME_STAMPE": "Show Time Stampe",
+			"SHOW_TIME_STAMPE_Hint": "Please enter Show Time Stampe.",
+			"component_title": "SCD ALARM GENERAL STTUS EXPLORER FORM"
+		}
+	},
+	"SCD_SCD_ALARM_GENERAL_STATUS_EXPLORER_FORM": {
+		"scdalarmGeneralStatusExplorerScdScdAlarmGeneralStatusExplorerForm": {
+			"GENERAL_ID": "General Id",
+			"GENERAL_ID_Hint": "Please enter General Id.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"TEXT_COLOR": "Text Color",
+			"TEXT_COLOR_Hint": "Please enter Text Color.",
+			"BACKGROUND_COLOR": "Background Color",
+			"BACKGROUND_COLOR_Hint": "Please enter Background Color.",
+			"LIST_BACKGROUD_COLOR": "List Backgroud Color",
+			"LIST_BACKGROUD_COLOR_Hint": "Please enter List Backgroud Color.",
+			"FONT": "Font",
+			"FONT_Hint": "Please enter Font.",
+			"ROOT_AREA": "Root Area",
+			"ROOT_AREA_Hint": "Please enter Root Area.",
+			"SOURCE_FILE_NAME": "Source File Name",
+			"SOURCE_FILE_NAME_Hint": "Please enter Source File Name.",
+			"SOURCE_FILE_STATUS": "Source File Status",
+			"SOURCE_FILE_STATUS_Hint": "Please enter Source File Status.",
+			"SHOW_TOOLBARS": "Show Toolbars",
+			"SHOW_TOOLBARS_Hint": "Please enter Show Toolbars.",
+			"SHOW_ENABLE_AND_DISABLE_BUTTONS": "Show Enable And Disable Buttons",
+			"SHOW_ENABLE_AND_DISABLE_BUTTONS_Hint": "Please enter Show Enable And Disable Buttons.",
+			"SHOW_UNSUPRESS_AND_SUPRESS_BUTTONS": "Show Unsupress And Supress Buttons",
+			"SHOW_UNSUPRESS_AND_SUPRESS_BUTTONS_Hint": "Please enter Show Unsupress And Supress Buttons.",
+			"SHOW_UNSHELVE_AND_SHELVE_BUTTONS": "Show Unshelve And Shelve Buttons",
+			"SHOW_UNSHELVE_AND_SHELVE_BUTTONS_Hint": "Please enter Show Unshelve And Shelve Buttons.",
+			"SHOW_DETAILS_BUTTON": "Show Details Button",
+			"SHOW_DETAILS_BUTTON_Hint": "Please enter Show Details Button.",
+			"SHOW_HELP_BUTTON": "Show Help Button",
+			"SHOW_HELP_BUTTON_Hint": "Please enter Show Help Button.",
+			"SHOW_AREA_TREE": "Show Area Tree",
+			"SHOW_AREA_TREE_Hint": "Please enter Show Area Tree.",
+			"PANEL_WIDTH": "Panel Width",
+			"PANEL_WIDTH_Hint": "Please enter Panel Width.",
+			"DISPLAY_ERRORS_IN_DIALOG": "Display Errors In Dialog",
+			"DISPLAY_ERRORS_IN_DIALOG_Hint": "Please enter Display Errors In Dialog.",
+			"ICON_STYLE": "Icon Style",
+			"ICON_STYLE_Hint": "Please enter Icon Style.",
+			"SHOW_TIME_STAMPE": "Show Time Stampe",
+			"SHOW_TIME_STAMPE_Hint": "Please enter Show Time Stampe.",
+			"component_title": "SCD ALARM GENERAL STATUS EXPLORER FORM"
+		}
+	},
+	"SCD_SCD_ALARM_GENERAL_BANNER": {
+		"scdalarmGeneralBannerScdScdAlarmGeneralBanner": {
+			"GENERAL_ID": "General Id",
+			"GENERAL_ID_Hint": "Please enter General Id.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"BACKGROUND_COLOR": "Background Color",
+			"BACKGROUND_COLOR_Hint": "Please enter Background Color.",
+			"SELECTED_ITEM_TEXT_COLOR": "Selected Item Text Color",
+			"SELECTED_ITEM_TEXT_COLOR_Hint": "Please enter Selected Item Text Color.",
+			"SELECTED_ITEM_BACKGROUND_COLOR": "Selected Item Background Color",
+			"SELECTED_ITEM_BACKGROUND_COLOR_Hint": "Please enter Selected Item Background Color.",
+			"FONT_AL": "Font Al",
+			"FONT_AL_Hint": "Please enter Font Al.",
+			"NUMBER_OF_ROWS": "Number Of Rows",
+			"NUMBER_OF_ROWS_Hint": "Please enter Number Of Rows.",
+			"ICON_STYLE": "Icon Style",
+			"ICON_STYLE_Hint": "Please enter Icon Style.",
+			"ROW_DOUBLE_CLICK_ACTION": "Row Double Click Action",
+			"ROW_DOUBLE_CLICK_ACTION_Hint": "Please enter Row Double Click Action.",
+			"FONT_SB": "Font Sb",
+			"FONT_SB_Hint": "Please enter Font Sb.",
+			"BUTTON_SIZE": "Button Size",
+			"BUTTON_SIZE_Hint": "Please enter Button Size.",
+			"SAMPLE": "Sample",
+			"SAMPLE_Hint": "Please enter Sample.",
+			"SHOW_TOOLTIPS": "Show Tooltips",
+			"SHOW_TOOLTIPS_Hint": "Please enter Show Tooltips.",
+			"HIDE_BAR": "Hide Bar",
+			"HIDE_BAR_Hint": "Please enter Hide Bar.",
+			"COMMAND": "Command",
+			"COMMAND_Hint": "Please enter Command.",
+			"COMMAND_BUTTON": "Command Button",
+			"COMMAND_BUTTON_Hint": "Please enter Command Button.",
+			"DISPLAY_ERROR_OPERATOR_ACTIONS_DIALOG": "Display Error Operator Actions Dialog",
+			"DISPLAY_ERROR_OPERATOR_ACTIONS_DIALOG_Hint": "Please enter Display Error Operator Actions Dialog.",
+			"MAINTAIN_SELECTION_FOCUS_LOST": "Maintain Selection Focus Lost",
+			"MAINTAIN_SELECTION_FOCUS_LOST_Hint": "Please enter Maintain Selection Focus Lost.",
+			"component_title": "SCD ALARM GENERAL BANNER"
+		}
+	},
+	"SCD_SCD_ALARM_COLUMNS_FORM": {
+		"scdalarmColumnsScdScdAlarmColumnsForm": {
+			"COLUMN_ID": "Column Id",
+			"COLUMN_ID_Hint": "Please enter Column Id.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"ALARM_TYPE": "Alarm Type",
+			"ALARM_TYPE_Hint": "Please enter Alarm Type.",
+			"ROW_ORDER": "Row Order",
+			"ROW_ORDER_Hint": "Please enter Row Order.",
+			"ROW_TYPE": "Row Type",
+			"ROW_TYPE_Hint": "Please enter Row Type.",
+			"SHOW_COLUMN_BUTTON_PANEL": "Show Column Button Panel",
+			"SHOW_COLUMN_BUTTON_PANEL_Hint": "Please enter Show Column Button Panel.",
+			"IMAGE_ICON": "Image Icon",
+			"IMAGE_ICON_Hint": "Please enter Image Icon.",
+			"HEADING_TEXT": "Heading Text",
+			"HEADING_TEXT_Hint": "Please enter Heading Text.",
+			"WIDTH": "Width",
+			"WIDTH_Hint": "Please enter Width.",
+			"ALIGN": "Align",
+			"ALIGN_Hint": "Please enter Align.",
+			"FORMAT": "Format",
+			"FORMAT_Hint": "Please enter Format.",
+			"SAMPLE": "Sample",
+			"SAMPLE_Hint": "Please enter Sample.",
+			"TOOLTIP": "Tooltip",
+			"TOOLTIP_Hint": "Please enter Tooltip.",
+			"SHOW_COLUMN_FIELD": "Show Column Field",
+			"SHOW_COLUMN_FIELD_Hint": "Please enter Show Column Field.",
+			"component_title": "SCD ALARM COLUMNS FORM"
+		}
+	},
+	"SCD_status_bar_def": {
+		"SCD_status_bar_def": {
+			"component_title": "",
+			"tab_title1": "Status Bar Panel",
+			"tab_title2": "Status Bar Button"
+		}
+	},
+	"scd_status_bar_def": {
+		"scd_status_bar_def": {
+			"component_title": "",
+			"compsTitleID1": "Status Bar Panel",
+			"compsTitleID2": "Status Bar Button"
+		}
+	},
+	"SCD_SCD_ALARM_EVENT_SUBSCRIPTIONS_GRID": {
+		"scdalarmEventSubscriptionsScdScdAlarmEventSubscriptionsGrid": {
+			"EVENT_ID": "Event Id",
+			"EVENT_ID_Hint": "Please enter Event Id.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"EVENT_NAME": "Event Name",
+			"EVENT_NAME_Hint": "Please enter Event Name.",
+			"PRIORITY": "Priority",
+			"PRIORITY_Hint": "Please enter Priority.",
+			"URGENT": "Urgent",
+			"URGENT_Hint": "Please enter Urgent.",
+			"HIGH": "High",
+			"HIGH_Hint": "Please enter High.",
+			"MEDIUM": "Medium",
+			"MEDIUM_Hint": "Please enter Medium.",
+			"LOW": "Low",
+			"LOW_Hint": "Please enter Low.",
+			"EVENT": "Event",
+			"EVENT_Hint": "Please enter Event.",
+			"SCOPES": "Scopes",
+			"SCOPES_Hint": "Please enter Scopes.",
+			"EVENT_SOURCE": "Event Source",
+			"EVENT_SOURCE_Hint": "Please enter Event Source.",
+			"dummy": "Dummy",
+			"dummy_Hint": "Please enter Dummy.",
+			"component_title": "SCD ALARM EVENT SUBSCRIPTIONS GRID"
+		}
+	},
+	"SCD_SCD_ALARM_EVENT_SUBSCRIPTIONS_FORM": {
+		"scdalarmEventSubscriptionsScdScdAlarmEventSubscriptionsForm": {
+			"EVENT_ID": "Event Id",
+			"EVENT_ID_Hint": "Please enter Event Id.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"EVENT_NAME": "Event Name",
+			"EVENT_NAME_Hint": "Please enter Event Name.",
+			"PRIORITY": "Priority",
+			"PRIORITY_Hint": "Please enter Priority.",
+			"URGENT": "Urgent",
+			"URGENT_Hint": "Please enter Urgent.",
+			"HIGH": "High",
+			"HIGH_Hint": "Please enter High.",
+			"MEDIUM": "Medium",
+			"MEDIUM_Hint": "Please enter Medium.",
+			"LOW": "Low",
+			"LOW_Hint": "Please enter Low.",
+			"EVENT": "Event",
+			"EVENT_Hint": "Please enter Event.",
+			"SCOPES": "Scopes",
+			"SCOPES_Hint": "Please enter Scopes.",
+			"EVENT_SOURCE": "Event Source",
+			"EVENT_SOURCE_Hint": "Please enter Event Source.",
+			"dummy": "Dummy",
+			"dummy_Hint": "Please enter Dummy.",
+			"component_title": "SCD ALARM EVENT SUBSCRIPTIONS FORM"
 		}
 	}
 }
