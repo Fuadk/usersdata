@@ -547,5 +547,116 @@
 			"dummy_Hint": "Please enter Dummy.",
 			"component_title": "SCD ALARM EVENT SUBSCRIPTIONS FORM"
 		}
+	},
+	"SCD_SCD_ALARM_STATES": {
+		"scdalarmStatesScdScdAlarmStates": {
+			"STATE_ID": "State Id",
+			"STATE_ID_Hint": "Please enter State Id.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"SHOW_EVENT_TYPE": "Show",
+			"SHOW_EVENT_TYPE_Hint": "Please enter Show Event Type.",
+			"IMAGE_ICON": "",
+			"IMAGE_ICON_Hint": "Please enter Image Icon.",
+			"EVENT_TYPE": "Event Type",
+			"EVENT_TYPE_Hint": "Please enter Event Type.",
+			"PRIORITY": "Priority",
+			"PRIORITY_Hint": "Please enter Priority.",
+			"TEXT_COLOR": "Text",
+			"TEXT_COLOR_Hint": "Please enter Text Color.",
+			"BACKGROUND_COLOR": "Back ground",
+			"BACKGROUND_COLOR_Hint": "Please enter Background Color.",
+			"BLINK": "Blink",
+			"BLINK_Hint": "Please enter Blink.",
+			"SOUND": "Sound",
+			"SOUND_Hint": "Please enter Sound.",
+			"SAMPLE": "Sample",
+			"SAMPLE_Hint": "Please enter Sample.",
+			"component_title": "SCD ALARM STATES"
+		}
+	},
+	"SCD_SCD_ALARM_STATES_FORM": {
+		"scdalarmStatesScdScdAlarmStatesForm": {
+			"STATE_ID": "State Id",
+			"STATE_ID_Hint": "Please enter State Id.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"SHOW_EVENT_TYPE": "Show Event Type",
+			"SHOW_EVENT_TYPE_Hint": "Please enter Show Event Type.",
+			"PRIORITY": "Priority",
+			"PRIORITY_Hint": "Please enter Priority.",
+			"TEXT_COLOR": "Text Color",
+			"TEXT_COLOR_Hint": "Please enter Text Color.",
+			"BACKGROUND_COLOR": "Background Color",
+			"BACKGROUND_COLOR_Hint": "Please enter Background Color.",
+			"BLINK": "Blink",
+			"BLINK_Hint": "Please enter Blink.",
+			"SAMPLE": "Sample",
+			"SAMPLE_Hint": "Please enter Sample.",
+			"SOUND": "Sound",
+			"SOUND_Hint": "Please enter Sound.",
+			"IMAGE_ICON": "Image Icon",
+			"IMAGE_ICON_Hint": "Please enter Image Icon.",
+			"EVENT_TYPE": "Event Type",
+			"EVENT_TYPE_Hint": "Please enter Event Type.",
+			"component_title": "SCD ALARM STATES FORM"
+		}
+	},
+	"SCD_SCD_ALARM_STATES_OPTIONS": {
+		"scdalarmStatesOptionsScdScdAlarmStatesOptions": {
+			"STATE_OPTION_ID": "State Option Id",
+			"STATE_OPTION_ID_Hint": "Please enter State Option Id.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"TEST_RATES": "Test Rates",
+			"TEST_RATES_Hint": "Please enter Test Rates.",
+			"BLINK_RATE": "Blink Rate",
+			"BLINK_RATE_Hint": "Please enter Blink Rate.",
+			"CONFIGURE_SOUND": "Configure Sound",
+			"CONFIGURE_SOUND_Hint": "Please enter Configure Sound.",
+			"component_title": "SCD ALARM STATES OPTIONS"
+		}
+	},
+	"SCD_SCD_ALARM_SORT": {
+		"scdalarmSortScdScdAlarmSort": {
+			"SORT_ID": "Sort Id",
+			"SORT_ID_Hint": "Please enter Sort Id.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"SORT_BY_FIELD": "Sort By Field",
+			"SORT_BY_FIELD_Hint": "Please enter Sort By Field.",
+			"SORT_BY_FIELD_ASC_DESC": "Sort By Field Asc Desc",
+			"SORT_BY_FIELD_ASC_DESC_Hint": "Please enter Sort By Field Asc Desc.",
+			"THEN_BY": "Then By",
+			"THEN_BY_Hint": "Please enter Then By.",
+			"THEN_BY_FIELD_ASC_DESC": "Then By Field Asc Desc",
+			"THEN_BY_FIELD_ASC_DESC_Hint": "Please enter Then By Field Asc Desc.",
+			"THEN_BY_2": "Then By 2",
+			"THEN_BY_2_Hint": "Please enter Then By 2.",
+			"THEN_BY_2_FIELD_ASC_DESC": "Then By 2 Field Asc Desc",
+			"THEN_BY_2_FIELD_ASC_DESC_Hint": "Please enter Then By 2 Field Asc Desc.",
+			"component_title": "SCD ALARM SORT"
+		}
+	},
+	"SCD_SCD_ALARM_SORT_FORM": {
+		"scdalarmSortScdScdAlarmSortForm": {
+			"SORT_ID": "Sort Id",
+			"SORT_ID_Hint": "Please enter Sort Id.",
+			"SHAPE_ID": "Shape Id",
+			"SHAPE_ID_Hint": "Please enter Shape Id.",
+			"SORT_BY_FIELD": "Sort By Field",
+			"SORT_BY_FIELD_Hint": "Please enter Sort By Field.",
+			"SORT_BY_FIELD_ASC_DESC": "Sort By Field Asc Desc",
+			"SORT_BY_FIELD_ASC_DESC_Hint": "Please enter Sort By Field Asc Desc.",
+			"THEN_BY": "Then By",
+			"THEN_BY_Hint": "Please enter Then By.",
+			"THEN_BY_FIELD_ASC_DESC": "Then By Field Asc Desc",
+			"THEN_BY_FIELD_ASC_DESC_Hint": "Please enter Then By Field Asc Desc.",
+			"THEN_BY_2_FIELD_ASC_DESC": "Then By 2 Field Asc Desc",
+			"THEN_BY_2_FIELD_ASC_DESC_Hint": "Please enter Then By 2 Field Asc Desc.",
+			"THEN_BY_2": "Then By 2",
+			"THEN_BY_2_Hint": "Please enter Then By 2.",
+			"component_title": "SCD ALARM SORT FORM"
+		}
 	}
 }
